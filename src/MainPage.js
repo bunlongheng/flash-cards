@@ -1,7 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import shapesData from './data/shapes.json'
-import planetsData from './data/planets.json'
-import animalsData from './data/animals.json'
 
 import './MainPage.css' // Import the CSS file for custom styling
 
@@ -11,14 +8,7 @@ const MainPage = ({ type }) => {
 	const excludedFields = ['id', 'name', 'color']
 
 	useEffect(() => {
-		let jsonData
-		if (type === 'shapes') {
-			jsonData = shapesData
-		} else if (type === 'planets') {
-			jsonData = planetsData
-		} else if (type === 'animals') {
-			jsonData = animalsData
-		}
+		const jsonData = require(`./data/${type}.json`)
 		setData(jsonData)
 	}, [type])
 
