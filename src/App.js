@@ -27,10 +27,9 @@ function Details({ item, handleClose }) {
 	const containerStyle = {
 		backgroundColor: `rgba(${item.color}, 0.8)`
 	}
-	
 
 	return (
-		<div className="item-details-container border rounded" style={containerStyle}>
+		<div className="item-details-container border rounded" style={containerStyle} onClick={handleClose}>
 			<div className="item-details text-center rounded">
 				<img src={imageUrl} alt={item.name} className="img-thumbnail mb-3" style={{ width: '200px', height: '200px' }} />
 				<h2 className="mb-3">{item.name}</h2>
@@ -59,7 +58,6 @@ function App() {
 		event.stopPropagation();
 		setSelectedItem(null);
 	  };
-
 
 	return (
 		<div className="app">
