@@ -1,0 +1,82 @@
+[
+	{
+		"name": "Lion",
+		"color": "#FF0000",
+		"legs": 4
+	},
+	{
+		"name": "Elephant",
+		"color": "#808080",
+		"legs": 4
+	},
+	{
+		"name": "Tiger",
+		"color": "#FFA500",
+		"legs": 4
+	},
+	{
+		"name": "Giraffe",
+		"color": "#FFD700",
+		"legs": 4
+	},
+	{
+		"name": "Penguin",
+		"color": "#000000",
+		"legs": 2
+	},
+	{
+		"name": "Kangaroo",
+		"color": "#C0C0C0",
+		"legs": 2
+	},
+	{
+		"name": "Snake",
+		"color": "#00FF00",
+		"legs": 0
+	},
+	{
+		"name": "Spider",
+		"color": "#800080",
+		"legs": 8
+	},
+	{
+		"name": "Gorilla",
+		"color": "#4B0082",
+		"legs": 2
+	},
+	{
+		"name": "Crocodile",
+		"color": "#006400",
+		"legs": 4
+	},
+	{
+		"name": "Horse",
+		"color": "#FF4500",
+		"legs": 4
+	},
+	{
+		"name": "Dolphin",
+		"color": "#1E90FF",
+		"legs": 0
+	},
+	{
+		"name": "Ostrich",
+		"color": "#FF69B4",
+		"legs": 2
+	},
+	{
+		"name": "Toucan",
+		"color": "#FFD700",
+		"legs": 2
+	},
+	{
+		"name": "Chimpanzee",
+		"color": "#654321",
+		"legs": 2
+	},
+	{
+		"name": "Shark",
+		"color": "#0000FF",
+		"legs": 0
+	}
+]

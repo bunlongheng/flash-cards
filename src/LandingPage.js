@@ -54,15 +54,22 @@ const LandingPage = () => {
 				<div style={linkContainerStyle}>
 					<Link to="/shapes" style={linkStyle}>
 						<div style={thumbnailStyle}>
-							<img src={`${publicUrl}/images/shapes.png`} alt="Shapes" style={imageStyle} />
+							<img src={`${publicUrl}/images/shapes.png`} alt="shapes" style={imageStyle} />
 						</div>
-						<div>Shapes</div>
+						<div>shapes</div>
 					</Link>
 					<Link to="/planets" style={linkStyle}>
 						<div style={thumbnailStyle}>
-							<img src={`${publicUrl}/images/planets.png`} alt="Planets" style={imageStyle} />
+							<img src={`${publicUrl}/images/planets.png`} alt="planets" style={imageStyle} />
 						</div>
-						<div>Planets</div>
+						<div>planets</div>
+					</Link>
+
+					<Link to="/animals" style={linkStyle}>
+						<div style={thumbnailStyle}>
+							<img src={`${publicUrl}/images/animals.png`} alt="animals" style={imageStyle} />
+						</div>
+						<div>animals</div>
 					</Link>
 				</div>
 			</div>
