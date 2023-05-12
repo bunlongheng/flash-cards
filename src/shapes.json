@@ -1,0 +1,82 @@
+[
+	{
+		"id": 1,
+		"type": "shapes",
+		"name": "Triangle",
+		"color": "red",
+		"image": "https://source.unsplash.com/300x300/?",
+		"sides": 3
+	},
+	{
+		"id": 2,
+		"type": "shapes",
+		"name": "Square",
+		"color": "blue",
+		"image": "https://source.unsplash.com/300x300/?",
+		"sides": 4
+	},
+	{
+		"id": 3,
+		"type": "shapes",
+		"name": "Pentagon",
+		"color": "green",
+		"image": "https://source.unsplash.com/300x300/?",
+		"sides": 5
+	},
+	{
+		"id": 4,
+		"type": "shapes",
+		"name": "Hexagon",
+		"color": "orange",
+		"image": "https://source.unsplash.com/300x300/?",
+		"sides": 6
+	},
+	{
+		"id": 5,
+		"type": "shapes",
+		"name": "Heptagon",
+		"color": "purple",
+		"image": "https://source.unsplash.com/300x300/?",
+		"sides": 7
+	},
+	{
+		"id": 6,
+		"type": "shapes",
+		"name": "Octagon",
+		"color": "yellow",
+		"image": "https://source.unsplash.com/300x300/?",
+		"sides": 8
+	},
+	{
+		"id": 7,
+		"type": "shapes",
+		"name": "Nonagon",
+		"color": "pink",
+		"image": "https://source.unsplash.com/300x300/?",
+		"sides": 9
+	},
+	{
+		"id": 8,
+		"type": "shapes",
+		"name": "Decagon",
+		"color": "brown",
+		"image": "https://source.unsplash.com/300x300/?",
+		"sides": 10
+	},
+	{
+		"id": 9,
+		"type": "shapes",
+		"name": "Dodecagon",
+		"color": "black",
+		"image": "https://source.unsplash.com/300x300/?",
+		"sides": 12
+	},
+	{
+		"id": 10,
+		"type": "shapes",
+		"name": "Ellipse",
+		"color": "gray",
+		"image": "https://source.unsplash.com/300x300/?",
+		"sides": "infinite"
+	}
+]
