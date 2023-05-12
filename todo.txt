@@ -1,0 +1,7 @@
+- show support routes in the main page (table)
+- shapes, planets, animals, numbers, alphabets, day of weeks, seasons, months, triangles, pologons
+- title <= route 
+- fast deploy to bheng?
+- use color for : border, glow, backgroundColor
+- dynamic fields - no close buttons 
+- mobile friendly 

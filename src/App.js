@@ -4,25 +4,25 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 function Thumbnail({ item, onItemClick }) {
 	const handleClick = () => {
-    const utterance = new SpeechSynthesisUtterance(item.name);
-    speechSynthesis.speak(utterance);
-    onItemClick(item);
-  };
-
-	const imageUrl = `https://source.unsplash.com/300x300/?shape,${item.image}?${item.name}`
-
+	  const utterance = new SpeechSynthesisUtterance(item.name);
+	  speechSynthesis.speak(utterance);
+	  onItemClick(item);
+	};
+  
+	const imageUrl = `https://source.unsplash.com/300x300/?shape,${item.image}?${item.name}`;
+  
 	return (
-		<div className="col-sm-4 col-md-3 col-lg-2 mb-4">
-			<div className="thumbnail text-center" onClick={handleClick}>
-				<img src={imageUrl} alt={item.name} className="img-thumbnail" />
-				<div className="name mt-2">{item.name}</div>
-			</div>
+		<div className="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 mb-4">
+		<div className="thumbnail text-center" onClick={handleClick}>
+		  <img src={imageUrl} alt={item.name} className="img-thumbnail" />
+		  <div className="name mt-2">{item.name}</div>
 		</div>
-	)
-}
-
+	  </div>
+	);
+  }
+  
 function Details({ item, handleClose }) {
-	const imageUrl = `https://source.unsplash.com/300x300/?${item.image}?${item.name}`
+	const imageUrl = `https://source.unsplash.com/300x300/?shape,${item.image}?${item.name}`
 
 	const containerStyle = {
 		backgroundColor: `rgba(${item.color}, 0.8)`
@@ -38,9 +38,6 @@ function Details({ item, handleClose }) {
 						<p>Color: {item.color}</p>
 						<p>Number of sides: {item.sides}</p>
 					</div>
-					<button className="btn btn-primary mt-3" onClick={handleClose}>
-						Close
-					</button>
 				</div>
 			</div>
 		</div>
@@ -49,6 +46,7 @@ function Details({ item, handleClose }) {
 
 function App() {
 	const [selectedItem, setSelectedItem] = useState(null)
+	const imageUrl = `https://source.unsplash.com/300x300/?shape`;
 
 	const handleItemClick = (item) => {
 		setSelectedItem(item)
