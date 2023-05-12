@@ -35,7 +35,7 @@ function Details({ item, handleClose }) {
 		backgroundColor: `rgba(${hexToRgb(item.color)}, 0.1)`
 	}
 
-	const excludedFields = ['id', 'name']
+	const excludedFields = ['id', 'name', 'color']
 
 	return (
 		<div className="item-details-container border rounded" style={containerStyle} onClick={handleClose}>
