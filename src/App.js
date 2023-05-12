@@ -9,7 +9,7 @@ function Thumbnail({ item, onItemClick }) {
     onItemClick(item);
   };
 
-	const imageUrl = `https://source.unsplash.com/300x300/?${item.image}?${item.name}`
+	const imageUrl = `https://source.unsplash.com/300x300/?shape,${item.image}?${item.name}`
 
 	return (
 		<div className="col-sm-4 col-md-3 col-lg-2 mb-4">
@@ -61,7 +61,9 @@ function App() {
 
 	return (
 		<div className="app">
-			<h1 className="text-center">Shapes</h1>
+			<h1 className="text-center mb-4" style={{ padding: '50px', margin: '50px' }}>
+        Shapes
+      </h1>
 			<div className="item-list container">
 				<div className="row">
 					{shapes.map((item) => (

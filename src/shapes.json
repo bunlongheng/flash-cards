@@ -1,70 +1,60 @@
 [
 	{
 		"id": 1,
-		"type": "shapes",
 		"name": "Triangle",
 		"color": "red",
 		"sides": 3
 	},
 	{
 		"id": 2,
-		"type": "shapes",
 		"name": "Square",
 		"color": "blue",
 		"sides": 4
 	},
 	{
 		"id": 3,
-		"type": "shapes",
 		"name": "Pentagon",
 		"color": "green",
 		"sides": 5
 	},
 	{
 		"id": 4,
-		"type": "shapes",
 		"name": "Hexagon",
 		"color": "orange",
 		"sides": 6
 	},
 	{
 		"id": 5,
-		"type": "shapes",
 		"name": "Heptagon",
 		"color": "purple",
 		"sides": 7
 	},
 	{
 		"id": 6,
-		"type": "shapes",
 		"name": "Octagon",
 		"color": "yellow",
 		"sides": 8
 	},
 	{
 		"id": 7,
-		"type": "shapes",
 		"name": "Nonagon",
 		"color": "pink",
 		"sides": 9
 	},
 	{
 		"id": 8,
-		"type": "shapes",
 		"name": "Decagon",
 		"color": "brown",
 		"sides": 10
 	},
 	{
 		"id": 9,
-		"type": "shapes",
 		"name": "Dodecagon",
 		"color": "black",
 		"sides": 12
 	},
 	{
 		"id": 10,
-		"type": "shapes",
 		"name": "Ellipse",
 		"color": "gray",
 		"sides": "infinite"
