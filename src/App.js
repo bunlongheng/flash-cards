@@ -1,17 +1,15 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import LandingPage from './LandingPage'
-
-import ShapesPage from './pages/shapes'
-import PlanetsPage from './pages/planets'
+import MainPage from './MainPage'
 
 const App = () => {
 	return (
 		<Router>
 			<Routes>
 				<Route path="/" element={<LandingPage />} />
-				<Route path="/shapes" element={<ShapesPage />} />
-				<Route path="/planets" element={<PlanetsPage />} />
+				<Route path="/shapes" element={<MainPage type="shapes" />} />
+				<Route path="/planets" element={<MainPage type="planets" />} />
 			</Routes>
 		</Router>
 	)
