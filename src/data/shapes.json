@@ -1,62 +1,102 @@
 [
 	{
-		"id": 1,
-		"name": "Triangle",
+		"name": "Circle",
 		"color": "#FF0000",
+		"sides": 0
+	},
+	{
+		"name": "Heart",
+		"color": "#00FF00",
+		"sides": 0
+	},
+	{
+		"name": "Oval",
+		"color": "#FFFF00",
+		"sides": 0
+	},
+	{
+		"name": "Semi Circle",
+		"color": "#000000",
+		"sides": 0
+	},
+	{
+		"name": "Cone",
+		"color": "#800080",
+		"sides": 0
+	},
+	{
+		"name": "Triangle",
+		"color": "#FFA500",
 		"sides": 3
 	},
 	{
-		"id": 2,
 		"name": "Square",
-		"color": "#0000FF",
+		"color": "#FF0000",
 		"sides": 4
 	},
 	{
-		"id": 3,
+		"name": "Rectangle",
+		"color": "#A52A2A",
+		"sides": 4
+	},
+	{
+		"name": "Rhombus",
+		"color": "#FF1493",
+		"sides": 4
+	},
+	{
+		"name": "Trapezoid",
+		"color": "#00FF00",
+		"sides": 4
+	},
+	{
 		"name": "Pentagon",
+		"color": "#FFC0CB",
+		"sides": 5
+	},
+	{
+		"name": "Triangular Prism",
 		"color": "#00FF00",
 		"sides": 5
 	},
 	{
-		"id": 4,
-		"name": "Hexagon",
-		"color": "#FFA500",
+		"name": "Cube",
+		"color": "#FFFF00",
 		"sides": 6
 	},
 	{
-		"id": 5,
+		"name": "Cuboid",
+		"color": "#FFC0CB",
+		"sides": 6
+	},
+	{
 		"name": "Heptagon",
-		"color": "#800080",
+		"color": "#FFA500",
 		"sides": 7
 	},
 	{
-		"id": 6,
 		"name": "Octagon",
-		"color": "#FFFF00",
+		"color": "#800080",
 		"sides": 8
 	},
 	{
-		"id": 7,
-		"name": "Nonagon",
-		"color": "#FFC0CB",
-		"sides": 9
+		"name": "Hexagonal Prism",
+		"color": "#FF1493",
+		"sides": 8
 	},
 	{
-		"id": 8,
 		"name": "Decagon",
-		"color": "#A52A2A",
+		"color": "#0000FF",
 		"sides": 10
 	},
 	{
-		"id": 9,
-		"name": "Undecagon",
-		"color": "#FF1493",
-		"sides": 11
+		"name": "Pentagonal Prism",
+		"color": "#000000",
+		"sides": 10
 	},
 	{
-		"id": 10,
-		"name": "Dodecagon",
-		"color": "#000000",
-		"sides": 12
+		"name": "Pyramid",
+		"color": "#FF0000",
+		"sides": 0
 	}
 ]

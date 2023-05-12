@@ -18,9 +18,8 @@ const MainPage = ({ type }) => {
 		setData(jsonData)
 	}, [type])
 
-	const getTitle = () => {
-		const routeName = type.charAt(0).toUpperCase() + type.slice(1)
-		return `${routeName} Page`
+	const getPageName = () => {
+		return type.charAt(0).toUpperCase() + type.slice(1)
 	}
 
 	const handleClick = (item) => {
@@ -31,12 +30,12 @@ const MainPage = ({ type }) => {
 	return (
 		<div className="app" style={{ overflowX: 'hidden' }}>
 			<h1 className="text-center mb-4" style={{ padding: '50px', margin: '50px' }}>
-				{getTitle()}
+				{getPageName()}
 			</h1>
 			<div className="thumbnails-container">
 				{data.map((item) => (
 					<div key={item.id} className="thumbnail" onClick={() => handleClick(item)}>
-						<img src={`/images/planets/${item.name.toLowerCase()}.png`} alt={item.name} />
+						<img src={`/images/${type}/${item.name.toLowerCase()}.png`} alt={item.name} />
 						<div className="thumbnail-details">
 							<h3>{item.name}</h3>
 							{Object.entries(item).map(([key, value]) => {
