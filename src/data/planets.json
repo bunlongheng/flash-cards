@@ -1,0 +1,50 @@
+[
+	{
+		"id": 1,
+		"name": "Mercury",
+		"color": "#D4AF37",
+		"moons": 0
+	},
+	{
+		"id": 2,
+		"name": "Venus",
+		"color": "#F1C40F",
+		"moons": 0
+	},
+	{
+		"id": 3,
+		"name": "Earth",
+		"color": "#1ABC9C",
+		"moons": 1
+	},
+	{
+		"id": 4,
+		"name": "Mars",
+		"color": "#E74C3C",
+		"moons": 2
+	},
+	{
+		"id": 5,
+		"name": "Jupiter",
+		"color": "#F39C12",
+		"moons": 79
+	},
+	{
+		"id": 6,
+		"name": "Saturn",
+		"color": "#FF9800",
+		"moons": 82
+	},
+	{
+		"id": 7,
+		"name": "Uranus",
+		"color": "#9B59B6",
+		"moons": 27
+	},
+	{
+		"id": 8,
+		"name": "Neptune",
+		"color": "#2980B9",
+		"moons": 14
+	}
+]
