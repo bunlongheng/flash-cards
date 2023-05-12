@@ -28,16 +28,24 @@ function Details({ item, handleClose }) {
 		backgroundColor: `rgba(${item.color}, 0.8)`
 	}
 
+	const excludedFields = ['id', 'name','color'];
+
 	return (
 		<div className="item-details-container border rounded" style={containerStyle} onClick={handleClose}>
 			<div className="item-details text-center rounded">
 				<img src={imageUrl} alt={item.name} className="img-thumbnail mb-3" style={{ width: '200px', height: '200px' }} />
 				<h2 className="mb-3">{item.name}</h2>
 				<div className="d-flex flex-column justify-content-between align-items-center">
-					<div>
-						<p>Color: {item.color}</p>
-						<p>Number of sides: {item.sides}</p>
-					</div>
+				{Object.keys(item).map((key) => {
+            if (!excludedFields.includes(key)) {
+              return (
+                <p key={key}>
+                  {key}: {item[key]}
+                </p>
+              );
+            }
+            return null;
+          })}
 				</div>
 			</div>
 		</div>
@@ -46,7 +54,6 @@ function Details({ item, handleClose }) {
 
 function App() {
 	const [selectedItem, setSelectedItem] = useState(null)
-	const imageUrl = `https://source.unsplash.com/300x300/?shape`;
 
 	const handleItemClick = (item) => {
 		setSelectedItem(item)
