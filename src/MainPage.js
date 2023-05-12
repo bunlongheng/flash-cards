@@ -18,14 +18,8 @@ const MainPage = ({ type }) => {
 	}, [type])
 
 	const getTitle = () => {
-		switch (type) {
-			case 'shapes':
-				return 'Shapes Page'
-			case 'planets':
-				return 'Planets Page'
-			default:
-				return 'Shapes and Planets'
-		}
+		const routeName = type.charAt(0).toUpperCase() + type.slice(1)
+		return `${routeName} Page`
 	}
 
 	return (
