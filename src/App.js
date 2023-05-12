@@ -4,12 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 function Thumbnail({ item, onItemClick }) {
 	const handleClick = () => {
-		const utterance = new SpeechSynthesisUtterance(item.name);
-		speechSynthesis.speak(utterance);
-		onItemClick(item);
-	  };
+    const utterance = new SpeechSynthesisUtterance(item.name);
+    speechSynthesis.speak(utterance);
+    onItemClick(item);
+  };
 
-	const imageUrl = `${item.image}?${item.name}`
+	const imageUrl = `https://source.unsplash.com/300x300/?${item.image}?${item.name}`
 
 	return (
 		<div className="col-sm-4 col-md-3 col-lg-2 mb-4">
@@ -22,10 +22,8 @@ function Thumbnail({ item, onItemClick }) {
 }
 
 function Details({ item, handleClose }) {
-	// Construct a new image URL that includes the item name
 	const imageUrl = `${item.image}?${item.name}`
 
-	// Set the background color to the item color
 	const containerStyle = {
 		backgroundColor: `rgba(${item.color}, 0.8)`
 	}
