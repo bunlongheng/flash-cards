@@ -23,6 +23,11 @@ const MainPage = ({ type }) => {
 		return `${routeName} Page`
 	}
 
+	const handleClick = (item) => {
+		const utterance = new SpeechSynthesisUtterance(item.name)
+		speechSynthesis.speak(utterance)
+	}
+
 	return (
 		<div className="app" style={{ overflowX: 'hidden' }}>
 			<h1 className="text-center mb-4" style={{ padding: '50px', margin: '50px' }}>
@@ -30,7 +35,7 @@ const MainPage = ({ type }) => {
 			</h1>
 			<div className="thumbnails-container">
 				{data.map((item) => (
-					<div key={item.id} className="thumbnail">
+					<div key={item.id} className="thumbnail" onClick={() => handleClick(item)}>
 						<img src={`/images/planets/${item.name.toLowerCase()}.png`} alt={item.name} />
 						<div className="thumbnail-details">
 							<h3>{item.name}</h3>
