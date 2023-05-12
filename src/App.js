@@ -22,7 +22,7 @@ function Thumbnail({ item, onItemClick }) {
 }
 
 function Details({ item, handleClose }) {
-	const imageUrl = `${item.image}?${item.name}`
+	const imageUrl = `https://source.unsplash.com/300x300/?${item.image}?${item.name}`
 
 	const containerStyle = {
 		backgroundColor: `rgba(${item.color}, 0.8)`
