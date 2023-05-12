@@ -1,0 +1,26 @@
+.thumbnails-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+}
+
+.thumbnail {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 200px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.thumbnail img {
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+}
+
+.thumbnail-details {
+	text-align: center;
+}

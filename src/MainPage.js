@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import shapesData from './data/shapes.json'
 import planetsData from './data/planets.json'
+import './MainPage.css' // Import the CSS file for custom styling
 
 const MainPage = ({ type }) => {
 	const [data, setData] = useState([])
@@ -23,23 +24,30 @@ const MainPage = ({ type }) => {
 	}
 
 	return (
-		<div>
-			<h1>{getTitle()}</h1>
-			{data.map((item) => (
-				<div key={item.id}>
-					<h3>{item.name}</h3>
-					{Object.entries(item).map(([key, value]) => {
-						if (!excludedFields.includes(key)) {
-							return (
-								<p key={key}>
-									{key}: {value}
-								</p>
-							)
-						}
-						return null
-					})}
-				</div>
-			))}
+		<div className="app" style={{ overflowX: 'hidden' }}>
+			<h1 className="text-center mb-4" style={{ padding: '50px', margin: '50px' }}>
+				{getTitle()}
+			</h1>
+			<div className="thumbnails-container">
+				{data.map((item) => (
+					<div key={item.id} className="thumbnail">
+						<img src={`/images/planets/${item.name.toLowerCase()}.png`} alt={item.name} />
+						<div className="thumbnail-details">
+							<h3>{item.name}</h3>
+							{Object.entries(item).map(([key, value]) => {
+								if (!excludedFields.includes(key)) {
+									return (
+										<p key={key}>
+											{key}: {value}
+										</p>
+									)
+								}
+								return null
+							})}
+						</div>
+					</div>
+				))}
+			</div>
 		</div>
 	)
 }
