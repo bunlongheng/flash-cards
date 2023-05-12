@@ -27,6 +27,7 @@ function Details({ item, handleClose }) {
 	const containerStyle = {
 		backgroundColor: `rgba(${item.color}, 0.8)`
 	}
+	
 
 	return (
 		<div className="item-details-container border rounded" style={containerStyle}>
@@ -54,9 +55,12 @@ function App() {
 		setSelectedItem(item)
 	}
 
-	const handleClose = () => {
-		setSelectedItem(null)
-	}
+	const handleClose = (event) => {
+		event.stopPropagation();
+		setSelectedItem(null);
+	  };
+
+
 	return (
 		<div className="app">
 			<h1 className="text-center">Shapes</h1>
@@ -69,7 +73,7 @@ function App() {
 			</div>
 			{selectedItem && (
 				<div className="selected-item-details">
-					<Details item={selectedItem} />
+					<Details item={selectedItem} handleClose={handleClose} />
 				</div>
 			)}
 		</div>
