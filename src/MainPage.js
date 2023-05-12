@@ -42,6 +42,8 @@ const MainPage = ({ type }) => {
 				{data.map((item) => (
 					<div key={item.id} className="thumbnail" onClick={() => handleClick(item)}>
 						<img src={`https://source.unsplash.com/300x300/?${item.name}?${type}`} alt={item.name} />
+						<img src={`/images/${type}/${item.name.toLowerCase()}.png`} alt={item.name} />
+
 						<div className="thumbnail-details">
 							<h3>{item.name}</h3>
 							{Object.entries(item).map(([key, value]) => {
