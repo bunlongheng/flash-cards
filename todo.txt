@@ -3,3 +3,9 @@
 - title <= route 
 - fast deploy to bheng?
 - use color for : border, glow
+
+
+
+Can you pls help write my readme.md? use emoji on headers
+
+https://bitbucket.org/bunlongheng/flash-cards/src/main/
