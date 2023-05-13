@@ -21,7 +21,13 @@ const MainPage = ({ type }) => {
 		speechSynthesis.speak(utterance)
 	}
 
-	// const imageUrl = `/images/${type}/${item.name.toLowerCase()}.png`
+	const getImageSource = (item) => {
+		if (type === 'animals') {
+			return `https://source.unsplash.com/300x300/?${item.name}`
+		}
+
+		return `/images/${item.name.toLowerCase()}.png`
+	}
 
 	return (
 		<div className="app" style={{ overflowX: 'hidden' }}>
@@ -31,7 +37,7 @@ const MainPage = ({ type }) => {
 			<div className="thumbnails-container">
 				{data.map((item) => (
 					<div key={item.id} className="thumbnail" onClick={() => handleClick(item)}>
-						{type === 'animals' ? <img src={`https://source.unsplash.com/300x300/?${item.name}`} alt={item.name} /> : <img src={`/images/${type}/${item.name.toLowerCase()}.png`} alt={item.name} />}
+						<img src={getImageSource(item)} alt={item.name} />
 
 						<div className="thumbnail-details">
 							<h3>{item.name}</h3>
