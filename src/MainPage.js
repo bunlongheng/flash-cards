@@ -40,7 +40,7 @@ const MainPage = ({ type }) => {
 						<img src={getImageSource(item)} alt={item.name} />
 
 						<div className="thumbnail-details">
-							<h3>{item.name}</h3>
+							<h6>{item.name}</h6>
 							{Object.entries(item).map(([key, value]) => {
 								if (!excludedFields.includes(key)) {
 									return (
