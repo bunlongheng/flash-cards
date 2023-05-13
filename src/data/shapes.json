@@ -55,6 +55,21 @@
 		"sides": 5
 	},
 	{
+		"name": "Sphere",
+		"color": "#FFC0CB",
+		"sides": 6
+	},
+	{
+		"name": "Cylinder",
+		"color": "#FFC0CB",
+		"sides": 6
+	},
+	{
+		"name": "Hexagon",
+		"color": "#FFC0CB",
+		"sides": 6
+	},
+	{
 		"name": "Triangular Prism",
 		"color": "#00FF00",
 		"sides": 5

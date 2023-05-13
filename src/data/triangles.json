@@ -1,26 +1,32 @@
 [
 	{
-		"name": "Equilateral",
-		"color": "#FF0000"
+		"name": "equilateral",
+		"color": "#FF0000",
+		"Hint": "An equilateral triangle has three equal sides."
 	},
 	{
-		"name": "Isosceles",
-		"color": "#00FF00"
+		"name": "isosceles",
+		"color": "#00FF00",
+		"Hint": "An isosceles triangle has two equal sides."
 	},
 	{
-		"name": "Scalene",
-		"color": "#0000FF"
+		"name": "scalene",
+		"color": "#0000FF",
+		"Hint": "A scalene triangle has no equal sides."
 	},
 	{
-		"name": "Right",
-		"color": "#FFFF00"
+		"name": "right",
+		"color": "#FFFF00",
+		"Hint": "A right triangle has one 90-degree angle."
 	},
 	{
-		"name": "Obtuse",
-		"color": "#FF00FF"
+		"name": "obtuse",
+		"color": "#FF00FF",
+		"Hint": "An obtuse triangle has one angle greater than 90 degrees."
 	},
 	{
-		"name": "Acute",
-		"color": "#00FFFF"
+		"name": "acute",
+		"color": "#00FFFF",
+		"Hint": "An acute triangle has all angles less than 90 degrees."
 	}
 ]
