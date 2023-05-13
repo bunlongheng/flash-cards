@@ -1,0 +1,92 @@
+[
+	{
+		"name": "Triangle",
+		"sides": 3,
+		"color": "#FF0000"
+	},
+	{
+		"name": "Quadrilateral",
+		"sides": 4,
+		"color": "#00FF00"
+	},
+	{
+		"name": "Pentagon",
+		"sides": 5,
+		"color": "#0000FF"
+	},
+	{
+		"name": "Hexagon",
+		"sides": 6,
+		"color": "#FFFF00"
+	},
+	{
+		"name": "Heptagon",
+		"sides": 7,
+		"color": "#FF00FF"
+	},
+	{
+		"name": "Octagon",
+		"sides": 8,
+		"color": "#00FFFF"
+	},
+	{
+		"name": "Nonagon",
+		"sides": 9,
+		"color": "#FF4500"
+	},
+	{
+		"name": "Decagon",
+		"sides": 10,
+		"color": "#800080"
+	},
+	{
+		"name": "Undecagon",
+		"sides": 11,
+		"color": "#008080"
+	},
+	{
+		"name": "Dodecagon",
+		"sides": 12,
+		"color": "#800000"
+	},
+	{
+		"name": "Tridecagon",
+		"sides": 13,
+		"color": "#008000"
+	},
+	{
+		"name": "Tetradecagon",
+		"sides": 14,
+		"color": "#000080"
+	},
+	{
+		"name": "Pentadecagon",
+		"sides": 15,
+		"color": "#FFA500"
+	},
+	{
+		"name": "Hexadecagon",
+		"sides": 16,
+		"color": "#A52A2A"
+	},
+	{
+		"name": "Heptadecagon",
+		"sides": 17,
+		"color": "#4B0082"
+	},
+	{
+		"name": "Octadecagon",
+		"sides": 18,
+		"color": "#6A5ACD"
+	},
+	{
+		"name": "Enneadecagon",
+		"sides": 19,
+		"color": "#FF69B4"
+	},
+	{
+		"name": "Icosagon",
+		"sides": 20,
+		"color": "#00CED1"
+	}
+]

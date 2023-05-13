@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Equilateral",
+		"color": "#FF0000"
+	},
+	{
+		"name": "Isosceles",
+		"color": "#00FF00"
+	},
+	{
+		"name": "Scalene",
+		"color": "#0000FF"
+	},
+	{
+		"name": "Right",
+		"color": "#FFFF00"
+	},
+	{
+		"name": "Obtuse",
+		"color": "#FF00FF"
+	},
+	{
+		"name": "Acute",
+		"color": "#00FFFF"
+	}
+]
