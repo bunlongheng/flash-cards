@@ -1,9 +1,8 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 const LandingPage = () => {
 	const landingPageStyle = {
-		// backgroundImage: "url('https://source.unsplash.com/featured/?dark,abstract')",
 		background: 'linear-gradient(135deg, #000000 0%, #333333 50%)',
 		backgroundSize: 'cover',
 		backgroundPosition: 'center',
@@ -26,9 +25,8 @@ const LandingPage = () => {
 		alignItems: 'center',
 		margin: '0 1rem',
 		textDecoration: 'none',
-		color: 'inherit',
-		textAlign: 'center',
-		color: 'white'
+		color: 'white',
+		textAlign: 'center'
 	}
 
 	const thumbnailStyle = {
@@ -46,31 +44,34 @@ const LandingPage = () => {
 		objectFit: 'cover'
 	}
 
-	const publicUrl = process.env.PUBLIC_URL
+	const [jsonFiles, setJsonFiles] = useState([])
+
+	useEffect(() => {
+		const fetchData = async () => {
+			try {
+				const response = await fetch('/api/jsons') // Replace with your API endpoint
+				const jsonFilesData = await response.json()
+				setJsonFiles(jsonFilesData)
+			} catch (error) {
+				console.error('Error fetching JSON files:', error)
+			}
+		}
+
+		fetchData()
+	}, [])
 
 	return (
 		<div style={landingPageStyle}>
 			<div className="container">
 				<div style={linkContainerStyle}>
-					<Link to="/shapes" style={linkStyle}>
-						<div style={thumbnailStyle}>
-							<img src={`${publicUrl}/images/shapes.png`} alt="shapes" style={imageStyle} />
-						</div>
-						<div>shapes</div>
-					</Link>
-					<Link to="/planets" style={linkStyle}>
-						<div style={thumbnailStyle}>
-							<img src={`${publicUrl}/images/planets.png`} alt="planets" style={imageStyle} />
-						</div>
-						<div>planets</div>
-					</Link>
-
-					<Link to="/animals" style={linkStyle}>
-						<div style={thumbnailStyle}>
-							<img src={`${publicUrl}/images/animals.png`} alt="animals" style={imageStyle} />
-						</div>
-						<div>animals</div>
-					</Link>
+					{jsonFiles.map((data, index) => (
+						<Link key={index} to={`/${data.name}`} style={linkStyle}>
+							<div style={thumbnailStyle}>
+								<img src={`${process.env.PUBLIC_URL}/images/${data.name}.png`} alt={data.name} style={imageStyle} />
+							</div>
+							<div>{data.name}</div>
+						</Link>
+					))}
 				</div>
 			</div>
 		</div>
