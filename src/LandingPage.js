@@ -2,12 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './LandingPage.css'
 
-import { useDotenv } from 'react-dotenv'
-
 const LandingPage = () => {
-	const { process } = useDotenv()
-
-	const typesString = process.env.TYPES || ''
+	const typesString = process.env.REACT_APP_TYPES || ''
 	const typesArray = typesString.split(',')
 
 	return (
