@@ -4,6 +4,7 @@ import './MainPage.css' // Import the CSS file for custom styling
 
 const MainPage = ({ type }) => {
 	const [data, setData] = useState([])
+	const [isSpeaking, setIsSpeaking] = useState(false)
 
 	const excludedFields = ['id', 'name', 'color']
 
@@ -17,8 +18,17 @@ const MainPage = ({ type }) => {
 	}
 
 	const handleClick = (item) => {
-		const utterance = new SpeechSynthesisUtterance(item.name)
-		speechSynthesis.speak(utterance)
+		if (!isSpeaking) {
+			const utterance = new SpeechSynthesisUtterance(item.name)
+			setIsSpeaking(true)
+
+			utterance.onend = () => {
+				setIsSpeaking(false)
+			}
+
+			speechSynthesis.cancel() // Clear the speech synthesis queue
+			speechSynthesis.speak(utterance)
+		}
 	}
 
 	const getImageSource = (item) => {
@@ -36,7 +46,7 @@ const MainPage = ({ type }) => {
 			</h1>
 			<div className="thumbnails-container">
 				{data.map((item) => (
-					<div key={item.id} className="thumbnail" onClick={() => handleClick(item)}>
+					<div key={item.id} className={`thumbnail ${isSpeaking ? 'disabled' : ''}`} onClick={() => handleClick(item)}>
 						<img src={getImageSource(item)} alt={item.name} />
 
 						<div className="thumbnail-details">
