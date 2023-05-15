@@ -1,0 +1,12 @@
+[
+	{ "name": "Ten", "value": 10 },
+	{ "name": "Twenty", "value": 20 },
+	{ "name": "Thirty", "value": 30 },
+	{ "name": "Forty", "value": 40 },
+	{ "name": "Fifty", "value": 50 },
+	{ "name": "Sixty", "value": 60 },
+	{ "name": "Seventy", "value": 70 },
+	{ "name": "Eighty", "value": 80 },
+	{ "name": "Ninety", "value": 90 },
+	{ "name": "Hundred", "value": 100 }
+]

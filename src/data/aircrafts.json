@@ -1,0 +1,52 @@
+[
+	{
+		"name": "Airplane",
+		"color": "#FF0000",
+		"hint": "A fixed-wing aircraft that is propelled forward by thrust from jet engines or propellers."
+	},
+	{
+		"name": "Helicopter",
+		"color": "#FFA500",
+		"hint": "A rotorcraft that is capable of vertical takeoff and landing, and hover in place."
+	},
+	{
+		"name": "Glider",
+		"color": "#008000",
+		"hint": "A fixed-wing aircraft that is designed to fly without an engine and relies on wind currents for lift."
+	},
+	{
+		"name": "Blimp",
+		"color": "#FFFF00",
+		"hint": "A lighter-than-air aircraft that has a non-rigid structure and can be propelled and steered."
+	},
+	{
+		"name": "Hot Air Balloon",
+		"color": "#0000FF",
+		"hint": "A lighter-than-air aircraft that uses heated air to generate lift and is propelled by wind."
+	},
+	{
+		"name": "Gliders",
+		"color": "#FF1493",
+		"hint": "A fixed-wing aircraft similar to a glider but designed to carry passengers."
+	},
+	{
+		"name": "Jet Fighter",
+		"color": "#800080",
+		"hint": "A high-speed military aircraft designed for air-to-air combat and ground-attack missions."
+	},
+	{
+		"name": "Cargo Plane",
+		"color": "#228B22",
+		"hint": "An aircraft designed to transport goods and freight over long distances."
+	},
+	{
+		"name": "Seaplane",
+		"color": "#FFD700",
+		"hint": "An aircraft that can take off and land on both land and water."
+	},
+	{
+		"name": "Drone",
+		"color": "#008080",
+		"hint": "An unmanned aircraft operated remotely or autonomously."
+	}
+]

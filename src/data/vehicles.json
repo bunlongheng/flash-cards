@@ -1,0 +1,52 @@
+[
+	{
+		"name": "Car",
+		"color": "#FF0000",
+		"hint": "A motor vehicle with four wheels used for transportation."
+	},
+	{
+		"name": "Motorcycle",
+		"color": "#FFA500",
+		"hint": "A two-wheeled vehicle powered by an engine."
+	},
+	{
+		"name": "Truck",
+		"color": "#008000",
+		"hint": "A large vehicle used for transporting goods or materials."
+	},
+	{
+		"name": "Bus",
+		"color": "#FFFF00",
+		"hint": "A large vehicle used for transporting passengers, typically along a fixed route."
+	},
+	{
+		"name": "Bicycle",
+		"color": "#0000FF",
+		"hint": "A human-powered vehicle with two wheels."
+	},
+	{
+		"name": "Scooter",
+		"color": "#FF1493",
+		"hint": "A two-wheeled vehicle with a step-through frame and a platform for the rider's feet."
+	},
+	{
+		"name": "Van",
+		"color": "#800080",
+		"hint": "A large enclosed vehicle used for transporting goods or people."
+	},
+	{
+		"name": "RV (Recreational Vehicle)",
+		"color": "#228B22",
+		"hint": "A motor vehicle or trailer equipped with living quarters for recreational purposes."
+	},
+	{
+		"name": "Train",
+		"color": "#FFD700",
+		"hint": "A connected series of vehicles that run on tracks and transport passengers or cargo."
+	},
+	{
+		"name": "Boat",
+		"color": "#008080",
+		"hint": "A watercraft used for transportation or recreational activities on water."
+	}
+]

@@ -1,0 +1,52 @@
+[
+	{
+		"name": "Cow",
+		"color": "#FF0000",
+		"hint": "A large domesticated mammal raised for milk, meat, or draft purposes."
+	},
+	{
+		"name": "Sheep",
+		"color": "#FFA500",
+		"hint": "A domesticated ruminant mammal valued for its wool and meat."
+	},
+	{
+		"name": "Pig",
+		"color": "#FFFF00",
+		"hint": "A domesticated omnivorous mammal raised for meat."
+	},
+	{
+		"name": "Chicken",
+		"color": "#00FF00",
+		"hint": "A domesticated bird primarily raised for its meat and eggs."
+	},
+	{
+		"name": "Horse",
+		"color": "#0000FF",
+		"hint": "A large hoofed mammal used for riding, racing, and work purposes."
+	},
+	{
+		"name": "Goat",
+		"color": "#FF1493",
+		"hint": "A sure-footed mammal often raised for milk, meat, and fiber production."
+	},
+	{
+		"name": "Duck",
+		"color": "#800080",
+		"hint": "A waterfowl with broad bills and webbed feet, often raised for meat and eggs."
+	},
+	{
+		"name": "Turkey",
+		"color": "#228B22",
+		"hint": "A large poultry bird often raised for its meat, particularly during holidays."
+	},
+	{
+		"name": "Donkey",
+		"color": "#FFD700",
+		"hint": "A domesticated mammal known for its strength and used for work purposes."
+	},
+	{
+		"name": "Rabbit",
+		"color": "#008080",
+		"hint": "A small mammal often raised for its meat and fur."
+	}
+]

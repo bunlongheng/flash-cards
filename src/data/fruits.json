@@ -1,0 +1,52 @@
+[
+	{
+		"name": "Apple",
+		"color": "#FF0000",
+		"hint": "A round fruit with a red or green skin and a crisp texture."
+	},
+	{
+		"name": "Banana",
+		"color": "#FFFF00",
+		"hint": "A long, curved fruit with a yellow skin and a soft, sweet flesh."
+	},
+	{
+		"name": "Orange",
+		"color": "#FFA500",
+		"hint": "A citrus fruit with a bright orange skin and juicy segments."
+	},
+	{
+		"name": "Grapes",
+		"color": "#800080",
+		"hint": "Small, round fruit that grows in clusters and comes in various colors."
+	},
+	{
+		"name": "Strawberry",
+		"color": "#FF1493",
+		"hint": "A small, red fruit with seeds on the outside and a sweet taste."
+	},
+	{
+		"name": "Watermelon",
+		"color": "#008000",
+		"hint": "A large, juicy fruit with a green rind and red or pink flesh."
+	},
+	{
+		"name": "Pineapple",
+		"color": "#FFD700",
+		"hint": "A tropical fruit with a spiky, rough skin and a sweet, tangy taste."
+	},
+	{
+		"name": "Mango",
+		"color": "#FF4500",
+		"hint": "A juicy fruit with a golden-yellow skin and a sweet, tropical flavor."
+	},
+	{
+		"name": "Kiwi",
+		"color": "#8FBC8F",
+		"hint": "A small, brown fruit with a fuzzy skin and bright green flesh."
+	},
+	{
+		"name": "Blueberry",
+		"color": "#4169E1",
+		"hint": "Small, round berries with a dark blue color and a sweet-tart taste."
+	}
+]

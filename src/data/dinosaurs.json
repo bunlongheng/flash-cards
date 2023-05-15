@@ -1,0 +1,52 @@
+[
+	{
+		"name": "Tyrannosaurus Rex",
+		"color": "#FF0000",
+		"hint": "One of the largest carnivorous dinosaurs with sharp teeth and tiny arms."
+	},
+	{
+		"name": "Velociraptor",
+		"color": "#00FF00",
+		"hint": "A small and fast carnivorous dinosaur known for its intelligence and sharp claws."
+	},
+	{
+		"name": "Triceratops",
+		"color": "#0000FF",
+		"hint": "A large herbivorous dinosaur with a frilled head and three horns on its face."
+	},
+	{
+		"name": "Stegosaurus",
+		"color": "#FFFF00",
+		"hint": "A herbivorous dinosaur with plates on its back and spikes on its tail."
+	},
+	{
+		"name": "Brachiosaurus",
+		"color": "#FF00FF",
+		"hint": "One of the largest dinosaurs with a long neck and a small head."
+	},
+	{
+		"name": "Ankylosaurus",
+		"color": "#00FFFF",
+		"hint": "A heavily armored herbivorous dinosaur with a clubbed tail for defense."
+	},
+	{
+		"name": "Pteranodon",
+		"color": "#800080",
+		"hint": "A flying reptile with a wingspan of up to 30 feet."
+	},
+	{
+		"name": "Parasaurolophus",
+		"color": "#008000",
+		"hint": "A duck-billed dinosaur with a long crest on its head."
+	},
+	{
+		"name": "Diplodocus",
+		"color": "#800000",
+		"hint": "A long-necked herbivorous dinosaur with a whip-like tail."
+	},
+	{
+		"name": "Allosaurus",
+		"color": "#FFA500",
+		"hint": "A large carnivorous dinosaur with sharp teeth and clawed hands."
+	}
+]

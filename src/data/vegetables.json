@@ -1,0 +1,52 @@
+[
+	{
+		"name": "Carrot",
+		"color": "#FFA500",
+		"hint": "A root vegetable with an orange color and a crunchy texture."
+	},
+	{
+		"name": "Broccoli",
+		"color": "#008000",
+		"hint": "A green vegetable with a tree-like appearance and a mild, earthy taste."
+	},
+	{
+		"name": "Tomato",
+		"color": "#FF0000",
+		"hint": "A red or yellow fruit commonly used as a vegetable in cooking."
+	},
+	{
+		"name": "Spinach",
+		"color": "#228B22",
+		"hint": "A leafy green vegetable with a slightly bitter taste and high nutritional value."
+	},
+	{
+		"name": "Cucumber",
+		"color": "#00FF00",
+		"hint": "A long, green vegetable with a refreshing taste and a high water content."
+	},
+	{
+		"name": "Bell Pepper",
+		"color": "#FF1493",
+		"hint": "A sweet or spicy fruit with a crunchy texture, available in various colors."
+	},
+	{
+		"name": "Eggplant",
+		"color": "#800080",
+		"hint": "A purple or white vegetable with a smooth, shiny skin and a meaty texture."
+	},
+	{
+		"name": "Zucchini",
+		"color": "#008080",
+		"hint": "A green summer squash with a mild flavor and a versatile culinary use."
+	},
+	{
+		"name": "Potato",
+		"color": "#FFD700",
+		"hint": "An underground tuber with a starchy texture and a wide range of culinary uses."
+	},
+	{
+		"name": "Onion",
+		"color": "#FF4500",
+		"hint": "A bulb vegetable with a pungent aroma and a savory flavor used in various dishes."
+	}
+]
