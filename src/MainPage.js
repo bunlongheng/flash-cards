@@ -6,7 +6,6 @@ import './MainPage.css'
 const MainPage = ({ type }) => {
   const [data, setData] = useState([])
   const [isSpeaking, setIsSpeaking] = useState(false)
-  const [clickedItemId, setClickedItemId] = useState(null)
 
   const excludedFields = ['id', 'name', 'color']
 
