@@ -33,12 +33,20 @@ const MainPage = ({ type }) => {
     }
   }
 
-  const getImageSource = item => {
-    if (type === 'animals') {
-      return `https://source.unsplash.com/300x300/?${item.name}`
+  const getImage = item => {
+    const localImageTypes = [
+      'animals',
+      'planets',
+      'shapes',
+      'polygons',
+      'triangles',
+    ]
+
+    if (localImageTypes.includes(type)) {
+      return `/images/${item.name.toLowerCase()}.png`
     }
 
-    return `/images/${item.name.toLowerCase()}.png`
+    return `https://source.unsplash.com/300x300/?${item.name}`
   }
 
   return (
@@ -61,7 +69,7 @@ const MainPage = ({ type }) => {
             onClick={() => handleClick(item)}
           >
             <img
-              src={getImageSource(item)}
+              src={getImage(item)}
               alt={item.name}
               draggable="false"
               onDragStart={e => e.preventDefault()}
