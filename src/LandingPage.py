@@ -1,3 +1,4 @@
+# Python Script - Update .env File with JSON File Names
 import os
 data_dir = "src/data"
 json_files = os.listdir(data_dir)

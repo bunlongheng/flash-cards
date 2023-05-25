@@ -79,11 +79,7 @@ const MainPage = ({ type }) => {
               <h6>{item.name}</h6>
               {Object.entries(item).map(([key, value]) => {
                 if (!excludedFields.includes(key)) {
-                  return (
-                    <p key={key}>
-                      {key}: {value}
-                    </p>
-                  )
+                  return <p key={key}>{/* {key}: {value} */}</p>
                 }
                 return null
               })}
