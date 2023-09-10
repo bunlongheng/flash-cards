@@ -1,82 +1,106 @@
 [
-	{
-		"name": "Lion",
-		"color": "#FF0000",
-		"legs": 4
-	},
-	{
-		"name": "Elephant",
-		"color": "#808080",
-		"legs": 4
-	},
-	{
-		"name": "Tiger",
-		"color": "#FFA500",
-		"legs": 4
-	},
-	{
-		"name": "Giraffe",
-		"color": "#FFD700",
-		"legs": 4
-	},
-	{
-		"name": "Penguin",
-		"color": "#000000",
-		"legs": 2
-	},
-	{
-		"name": "Kangaroo",
-		"color": "#C0C0C0",
-		"legs": 2
-	},
-	{
-		"name": "Snake",
-		"color": "#00FF00",
-		"legs": 0
-	},
-	{
-		"name": "Spider",
-		"color": "#800080",
-		"legs": 8
-	},
-	{
-		"name": "Gorilla",
-		"color": "#4B0082",
-		"legs": 2
-	},
-	{
-		"name": "Crocodile",
-		"color": "#006400",
-		"legs": 4
-	},
-	{
-		"name": "Horse",
-		"color": "#FF4500",
-		"legs": 4
-	},
-	{
-		"name": "Dolphin",
-		"color": "#1E90FF",
-		"legs": 0
-	},
-	{
-		"name": "Ostrich",
-		"color": "#FF69B4",
-		"legs": 2
-	},
-	{
-		"name": "Toucan",
-		"color": "#FFD700",
-		"legs": 2
-	},
-	{
-		"name": "Chimpanzee",
-		"color": "#654321",
-		"legs": 2
-	},
-	{
-		"name": "Shark",
-		"color": "#0000FF",
-		"legs": 0
-	}
+    {
+        "name": "Alligator",
+        "description": "A large reptile known for its long snout and sharp teeth, often found in freshwater habitats."
+    },
+    {
+        "name": "Bear",
+        "description": "A large, omnivorous mammal with a heavy build and thick fur."
+    },
+    {
+        "name": "Cheetah",
+        "description": "A fast-running big cat known for its distinctive black spots."
+    },
+    {
+        "name": "Dolphin",
+        "description": "A highly intelligent marine mammal known for its playful behavior."
+    },
+    {
+        "name": "Elephant",
+        "description": "A large herbivorous mammal known for its long trunk and tusks."
+    },
+    {
+        "name": "Fox",
+        "description": "A small to medium-sized carnivorous mammal with a bushy tail."
+    },
+    {
+        "name": "Giraffe",
+        "description": "A tall herbivorous mammal with a long neck and distinctive spotted coat."
+    },
+    {
+        "name": "Hippopotamus",
+        "description": "A large, mostly herbivorous mammal known for its large mouth and teeth."
+    },
+    {
+        "name": "Iguana",
+        "description": "A reptile known for its long tail and often vibrant colors."
+    },
+    {
+        "name": "Jaguar",
+        "description": "A big cat known for its powerful build and distinctive rosette spots."
+    },
+    {
+        "name": "Kangaroo",
+        "description": "A marsupial with strong hind legs, known for hopping and carrying young in a pouch."
+    },
+    {
+        "name": "Lion",
+        "description": "A large carnivorous big cat known for its majestic mane (in males)."
+    },
+    {
+        "name": "Moose",
+        "description": "A large herbivorous mammal with broad, palmate antlers."
+    },
+    {
+        "name": "Nightingale",
+        "description": "A small, songbird known for its melodious nocturnal singing."
+    },
+    {
+        "name": "Ostrich",
+        "description": "A large, flightless bird known for its long legs and speed on land."
+    },
+    {
+        "name": "Penguin",
+        "description": "A flightless bird found in cold regions, known for its waddling gait."
+    },
+    {
+        "name": "Quokka",
+        "description": "A small marsupial known for its friendly and smiling appearance."
+    },
+    {
+        "name": "Raccoon",
+        "description": "A medium-sized omnivorous mammal known for its mask-like face."
+    },
+    {
+        "name": "Sloth",
+        "description": "A slow-moving, arboreal mammal known for its laid-back lifestyle."
+    },
+    {
+        "name": "Tiger",
+        "description": "A large, carnivorous big cat known for its striking orange coat with black stripes."
+    },
+    {
+        "name": "Uakari",
+        "description": "A small, red-faced monkey found in South America."
+    },
+    {
+        "name": "Vulture",
+        "description": "A scavenging bird known for its bald head and powerful beak."
+    },
+    {
+        "name": "Walrus",
+        "description": "A large marine mammal known for its long tusks and blubber."
+    },
+    {
+        "name": "X-ray Tetra",
+        "description": "A small, translucent fish known for its see-through appearance."
+    },
+    {
+        "name": "Yak",
+        "description": "A large, domesticated mammal known for its long, shaggy hair."
+    },
+    {
+        "name": "Zebra",
+        "description": "A large herbivorous mammal known for its black and white striped coat."
+    }
 ]
