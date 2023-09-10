@@ -1,0 +1,185 @@
+[
+    {
+        "name": "Aluminum",
+        "symbol": "Al",
+        "atomicNumber": 13,
+        "atomicWeight": 26.9815,
+        "description": "A lightweight, silvery-white metal commonly used in various industries."
+    },
+    {
+        "name": "Boron",
+        "symbol": "B",
+        "atomicNumber": 5,
+        "atomicWeight": 10.81,
+        "description": "A chemical element with diverse applications, including as borax and boric acid."
+    },
+    {
+        "name": "Carbon",
+        "symbol": "C",
+        "atomicNumber": 6,
+        "atomicWeight": 12.011,
+        "description": "The fundamental building block of organic compounds and the basis of life on Earth."
+    },
+    {
+        "name": "Dysprosium",
+        "symbol": "Dy",
+        "atomicNumber": 66,
+        "atomicWeight": 162.5,
+        "description": "A rare-earth element with various uses in high-strength alloys."
+    },
+    {
+        "name": "Einsteinium",
+        "symbol": "Es",
+        "atomicNumber": 99,
+        "atomicWeight": 252,
+        "description": "A synthetic element named after Albert Einstein."
+    },
+    {
+        "name": "Fluorine",
+        "symbol": "F",
+        "atomicNumber": 9,
+        "atomicWeight": 18.998,
+        "description": "A highly reactive halogen gas used in various applications."
+    },
+    {
+        "name": "Gold",
+        "symbol": "Au",
+        "atomicNumber": 79,
+        "atomicWeight": 196.967,
+        "description": "A precious metal known for its beauty and value."
+    },
+    {
+        "name": "Hydrogen",
+        "symbol": "H",
+        "atomicNumber": 1,
+        "atomicWeight": 1.008,
+        "description": "The lightest and most abundant element in the universe."
+    },
+    {
+        "name": "Iodine",
+        "symbol": "I",
+        "atomicNumber": 53,
+        "atomicWeight": 126.904,
+        "description": "A halogen element used in various applications, including medicine."
+    },
+    {
+        "name": "Jodium",
+        "symbol": "J",
+        "atomicNumber": 84,
+        "atomicWeight": 208.98,
+        "description": "A synthetic element named with the Dutch name for iodine."
+    },
+    {
+        "name": "Krypton",
+        "symbol": "Kr",
+        "atomicNumber": 36,
+        "atomicWeight": 83.798,
+        "description": "A noble gas used in lighting and lasers."
+    },
+    {
+        "name": "Lithium",
+        "symbol": "Li",
+        "atomicNumber": 3,
+        "atomicWeight": 6.94,
+        "description": "A lightweight alkali metal used in batteries and other applications."
+    },
+    {
+        "name": "Manganese",
+        "symbol": "Mn",
+        "atomicNumber": 25,
+        "atomicWeight": 54.938,
+        "description": "A transition metal used in steel production."
+    },
+    {
+        "name": "Neon",
+        "symbol": "Ne",
+        "atomicNumber": 10,
+        "atomicWeight": 20.18,
+        "description": "A noble gas known for its use in neon signs."
+    },
+    {
+        "name": "Oxygen",
+        "symbol": "O",
+        "atomicNumber": 8,
+        "atomicWeight": 15.999,
+        "description": "A life-sustaining element essential for respiration."
+    },
+    {
+        "name": "Phosphorus",
+        "symbol": "P",
+        "atomicNumber": 15,
+        "atomicWeight": 30.974,
+        "description": "A non-metallic element important for life and industry."
+    },
+    {
+        "name": "Quicksilver",
+        "symbol": "Qk",
+        "atomicNumber": 80,
+        "atomicWeight": 200.59,
+        "description": "A historical name for mercury, a heavy metal."
+    },
+    {
+        "name": "Radium",
+        "symbol": "Ra",
+        "atomicNumber": 88,
+        "atomicWeight": 226,
+        "description": "A radioactive element discovered by Marie Curie."
+    },
+    {
+        "name": "Sulfur",
+        "symbol": "S",
+        "atomicNumber": 16,
+        "atomicWeight": 32.06,
+        "description": "A non-metallic element with various industrial uses."
+    },
+    {
+        "name": "Titanium",
+        "symbol": "Ti",
+        "atomicNumber": 22,
+        "atomicWeight": 47.867,
+        "description": "A strong, lightweight metal used in aerospace and medical implants."
+    },
+    {
+        "name": "Uranium",
+        "symbol": "U",
+        "atomicNumber": 92,
+        "atomicWeight": 238.03,
+        "description": "A radioactive element used in nuclear reactors."
+    },
+    {
+        "name": "Vanadium",
+        "symbol": "V",
+        "atomicNumber": 23,
+        "atomicWeight": 50.942,
+        "description": "A transition metal with various industrial applications."
+    },
+    {
+        "name": "Wolfram",
+        "symbol": "W",
+        "atomicNumber": 74,
+        "atomicWeight": 183.84,
+        "description": "A metal also known as tungsten, used in high-temperature applications."
+    },
+    {
+        "name": "Xenon",
+        "symbol": "Xe",
+        "atomicNumber": 54,
+
+        "atomicWeight": 131.29,
+        "description": "A noble gas used in lighting and medical imaging."
+    },
+    {
+        "name": "Yttrium",
+        "symbol": "Y",
+        "atomicNumber": 39,
+        "atomicWeight": 88.906,
+        "description": "A transition metal used in various applications."
+    },
+    {
+        "name": "Zinc",
+        "symbol": "Zn",
+        "atomicNumber": 30,
+        "atomicWeight": 65.38,
+        "description": "A metallic element commonly used in alloys and as a dietary supplement."
+    }
+]

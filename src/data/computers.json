@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Alt",
+        "description": "The Alt key on a keyboard, often used for alternate functions."
+    },
+    {
+        "name": "Backspace",
+        "description": "The Backspace key, used to delete the character to the left of the cursor."
+    },
+    {
+        "name": "Caps Lock",
+        "description": "The Caps Lock key, used to toggle capitalization of letters."
+    },
+    {
+        "name": "Delete",
+        "description": "The Delete key, used to delete the character to the right of the cursor."
+    },
+    {
+        "name": "Enter",
+        "description": "The Enter key, used to confirm a command or input a new line."
+    },
+    {
+        "name": "Function (Fn)",
+        "description": "The Function (Fn) key, used to access special functions on laptops and some keyboards."
+    },
+    {
+        "name": "Ctrl",
+        "description": "The Control key, often used in combination with other keys for shortcuts."
+    },
+    {
+        "name": "Escape (Esc)",
+        "description": "The Escape key, used to cancel or exit a function or operation."
+    },
+    {
+        "name": "Home",
+        "description": "The Home key, used to move the cursor to the beginning of a line or document."
+    },
+    {
+        "name": "Insert",
+        "description": "The Insert key, used to toggle between insert and overwrite modes in text editing."
+    },
+    {
+        "name": "J",
+        "description": "The 'J' key on a keyboard, representing the letter 'J'."
+    },
+    {
+        "name": "K",
+        "description": "The 'K' key on a keyboard, representing the letter 'K'."
+    },
+    {
+        "name": "L",
+        "description": "The 'L' key on a keyboard, representing the letter 'L'."
+    },
+    {
+        "name": "M",
+        "description": "The 'M' key on a keyboard, representing the letter 'M'."
+    },
+    {
+        "name": "N",
+        "description": "The 'N' key on a keyboard, representing the letter 'N'."
+    },
+    {
+        "name": "O",
+        "description": "The 'O' key on a keyboard, representing the letter 'O'."
+    },
+    {
+        "name": "P",
+        "description": "The 'P' key on a keyboard, representing the letter 'P'."
+    },
+    {
+        "name": "Q",
+        "description": "The 'Q' key on a keyboard, representing the letter 'Q'."
+    },
+    {
+        "name": "R",
+        "description": "The 'R' key on a keyboard, representing the letter 'R'."
+    },
+    {
+        "name": "S",
+        "description": "The 'S' key on a keyboard, representing the letter 'S'."
+    },
+    {
+        "name": "T",
+        "description": "The 'T' key on a keyboard, representing the letter 'T'."
+    },
+    {
+        "name": "U",
+        "description": "The 'U' key on a keyboard, representing the letter 'U'."
+    },
+    {
+        "name": "V",
+        "description": "The 'V' key on a keyboard, representing the letter 'V'."
+    },
+    {
+        "name": "W",
+        "description": "The 'W' key on a keyboard, representing the letter 'W'."
+    },
+    {
+        "name": "X",
+        "description": "The 'X' key on a keyboard, representing the letter 'X'."
+    },
+    {
+        "name": "Y",
+        "description": "The 'Y' key on a keyboard, representing the letter 'Y'."
+    },
+    {
+        "name": "Z",
+        "description": "The 'Z' key on a keyboard, representing the letter 'Z'."
+    }
+]

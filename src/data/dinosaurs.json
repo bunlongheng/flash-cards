@@ -1,52 +1,106 @@
 [
-	{
-		"name": "Tyrannosaurus Rex",
-		"color": "#FF0000",
-		"hint": "One of the largest carnivorous dinosaurs with sharp teeth and tiny arms."
-	},
-	{
-		"name": "Velociraptor",
-		"color": "#00FF00",
-		"hint": "A small and fast carnivorous dinosaur known for its intelligence and sharp claws."
-	},
-	{
-		"name": "Triceratops",
-		"color": "#0000FF",
-		"hint": "A large herbivorous dinosaur with a frilled head and three horns on its face."
-	},
-	{
-		"name": "Stegosaurus",
-		"color": "#FFFF00",
-		"hint": "A herbivorous dinosaur with plates on its back and spikes on its tail."
-	},
-	{
-		"name": "Brachiosaurus",
-		"color": "#FF00FF",
-		"hint": "One of the largest dinosaurs with a long neck and a small head."
-	},
-	{
-		"name": "Ankylosaurus",
-		"color": "#00FFFF",
-		"hint": "A heavily armored herbivorous dinosaur with a clubbed tail for defense."
-	},
-	{
-		"name": "Pteranodon",
-		"color": "#800080",
-		"hint": "A flying reptile with a wingspan of up to 30 feet."
-	},
-	{
-		"name": "Parasaurolophus",
-		"color": "#008000",
-		"hint": "A duck-billed dinosaur with a long crest on its head."
-	},
-	{
-		"name": "Diplodocus",
-		"color": "#800000",
-		"hint": "A long-necked herbivorous dinosaur with a whip-like tail."
-	},
-	{
-		"name": "Allosaurus",
-		"color": "#FFA500",
-		"hint": "A large carnivorous dinosaur with sharp teeth and clawed hands."
-	}
+    {
+        "name": "Allosaurus",
+        "description": "A large carnivorous dinosaur known for its sharp teeth and bipedal stance."
+    },
+    {
+        "name": "Brachiosaurus",
+        "description": "A massive, long-necked herbivorous dinosaur with a tall body and relatively short tail."
+    },
+    {
+        "name": "Compsognathus",
+        "description": "A small, bipedal dinosaur with sharp teeth, known for its agility."
+    },
+    {
+        "name": "Diplodocus",
+        "description": "A large, long-necked dinosaur with a whip-like tail and a plant-eating diet."
+    },
+    {
+        "name": "Eoraptor",
+        "description": "One of the earliest known dinosaurs, a small, bipedal predator."
+    },
+    {
+        "name": "Futalognkosaurus",
+        "description": "A giant, long-necked dinosaur with a lengthy name."
+    },
+    {
+        "name": "Gallimimus",
+        "description": "A fast-running, ostrich-like dinosaur known for its speed."
+    },
+    {
+        "name": "Hypsilophodon",
+        "description": "A small, herbivorous dinosaur with a beak-like mouth and a bipedal stance."
+    },
+    {
+        "name": "Iguanodon",
+        "description": "A herbivorous dinosaur with a thumb spike, known for its ability to walk on both two and four legs."
+    },
+    {
+        "name": "Juravenator",
+        "description": "A small, carnivorous dinosaur from the Late Jurassic period."
+    },
+    {
+        "name": "Kosmoceratops",
+        "description": "A horned dinosaur with an elaborate frill and facial features."
+    },
+    {
+        "name": "Lambeosaurus",
+        "description": "A duck-billed dinosaur known for its distinctive crest."
+    },
+    {
+        "name": "Megalosaurus",
+        "description": "One of the first dinosaurs to be named and described, a large carnivorous dinosaur."
+    },
+    {
+        "name": "Nanotyrannus",
+        "description": "A smaller relative of Tyrannosaurus rex, known for its sharp teeth."
+    },
+    {
+        "name": "Oviraptor",
+        "description": "A dinosaur with a controversial name that means 'egg thief.'"
+    },
+    {
+        "name": "Parasaurolophus",
+        "description": "A duck-billed dinosaur with a long, hollow crest on its head."
+    },
+    {
+        "name": "Quetzalcoatlus",
+        "description": "One of the largest flying reptiles, not a dinosaur, but often associated with them."
+    },
+    {
+        "name": "Raptors",
+        "description": "A group of small to medium-sized, carnivorous dinosaurs known for their intelligence."
+    },
+    {
+        "name": "Stegosaurus",
+        "description": "A herbivorous dinosaur known for its double row of bony plates and spikes."
+    },
+    {
+        "name": "Triceratops",
+        "description": "A large, herbivorous dinosaur with three facial horns and a frill."
+    },
+    {
+        "name": "Utahraptor",
+        "description": "A large, predatory dinosaur known for its sharp claws."
+    },
+    {
+        "name": "Velociraptor",
+        "description": "A small, predatory dinosaur with a sickle-shaped claw on each foot."
+    },
+    {
+        "name": "Wuerhosaurus",
+        "description": "A type of stegosaurid dinosaur."
+    },
+    {
+        "name": "Xenoceratops",
+        "description": "A dinosaur with a name that means 'alien horned face.'"
+    },
+    {
+        "name": "Yi",
+        "description": "A small, feathered dinosaur from the Early Jurassic period."
+    },
+    {
+        "name": "Zephyrosaurus",
+        "description": "A small, herbivorous dinosaur with a lightweight build."
+    }
 ]

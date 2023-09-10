@@ -1,0 +1,42 @@
+[
+    {
+        "name": "North",
+        "description": "The direction towards the top of a map or compass.",
+        "abbreviation": "N"
+    },
+    {
+        "name": "North-East",
+        "description": "The direction midway between north and east.",
+        "abbreviation": "NE"
+    },
+    {
+        "name": "East",
+        "description": "The direction towards the right side of a map or compass.",
+        "abbreviation": "E"
+    },
+    {
+        "name": "South-East",
+        "description": "The direction midway between south and east.",
+        "abbreviation": "SE"
+    },
+    {
+        "name": "South",
+        "description": "The direction towards the bottom of a map or compass.",
+        "abbreviation": "S"
+    },
+    {
+        "name": "South-West",
+        "description": "The direction midway between south and west.",
+        "abbreviation": "SW"
+    },
+    {
+        "name": "West",
+        "description": "The direction towards the left side of a map or compass.",
+        "abbreviation": "W"
+    },
+    {
+        "name": "North-West",
+        "description": "The direction midway between north and west.",
+        "abbreviation": "NW"
+    }
+]
