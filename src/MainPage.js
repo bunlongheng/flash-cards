@@ -6,19 +6,16 @@ import "./MainPage.css";
 const MainPage = ({ type }) => {
     const [data, setData] = useState([]);
     const [isSpeaking, setIsSpeaking] = useState(false);
-    const [currentIndex, setCurrentIndex] = useState(0);
 
     const excludedFields = ["id", "name", "color"];
 
-    const types = process.env.REACT_APP_TYPES.split(",");
-
     useEffect(() => {
-        const jsonData = require(`./data/${types[currentIndex]}.json`);
+        const jsonData = require(`./data/${type}.json`);
         setData(jsonData);
-    }, [currentIndex]);
+    }, [type]);
 
     const getPageName = () => {
-        return types[currentIndex].charAt(0).toUpperCase() + types[currentIndex].slice(1);
+        return type.charAt(0).toUpperCase() + type.slice(1);
     };
 
     const handleClick = item => {
@@ -38,33 +35,18 @@ const MainPage = ({ type }) => {
     const getImage = item => {
         const localImageTypes = ["planets", "shapes", "polygons", "triangles"];
 
-        if (localImageTypes.includes(types[currentIndex])) {
+        if (localImageTypes.includes(type)) {
             return `/images/${item.name.toLowerCase()}.png`;
         }
 
         return `https://source.unsplash.com/300x300/?${item.name}`;
     };
 
-    const handlePrevClick = () => {
-        setCurrentIndex(prevIndex => (prevIndex - 1 + types.length) % types.length);
-    };
-
-    const handleNextClick = () => {
-        setCurrentIndex(prevIndex => (prevIndex + 1) % types.length);
-    };
-
-    const prevType = types[(currentIndex - 1 + types.length) % types.length];
-    const nextType = types[(currentIndex + 1) % types.length];
-
     return (
         <div className="app" style={{ overflowX: "hidden" }}>
-            <div className="navigation-buttons">
-                <Link to="/" className="home-link">
-                    Home
-                </Link>
-                <Link onClick={handlePrevClick}>Previous</Link>
-                <Link onClick={handleNextClick}>Next</Link>
-            </div>
+            <Link to="/" className="home-link">
+                Go back
+            </Link>
 
             <h1 className="text-center mb-4" style={{ padding: "50px", margin: "50px" }}>
                 {getPageName()}
