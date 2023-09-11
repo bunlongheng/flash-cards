@@ -36,7 +36,7 @@ const MainPage = ({ type }) => {
         const localImageTypes = ["planets", "shapes", "polygons", "triangles"];
 
         if (localImageTypes.includes(type)) {
-            return `/images/${item.name.toLowerCase()}.png`;
+            return `/images/${type}/${item.name.toLowerCase()}.png`;
         }
 
         return `https://source.unsplash.com/300x300/?${item.name}`;
