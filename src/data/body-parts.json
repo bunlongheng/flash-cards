@@ -1,6 +1,3 @@
-Certainly, here's the updated JSON list with "Chest" replaced by "Chin":
-
-```json
 [
     {
         "name": "Arm",
@@ -133,6 +130,3 @@ Certainly, here's the updated JSON list with "Chest" replaced by "Chin":
         "hint": "The cheekbone, a facial bone that forms the prominence of the cheek."
     }
 ]
-```
-
-Now, "Chin" is included in the list instead of "Chest."
