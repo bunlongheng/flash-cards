@@ -1,0 +1,132 @@
+[
+    {
+        "name": "Arm",
+        "color": "#FF0000",
+        "hint": "One of the upper limbs of the human body, extending from the shoulder to the hand."
+    },
+    {
+        "name": "Belly",
+        "color": "#800080",
+        "hint": "The front part of the body between the chest and the pelvis, housing vital organs."
+    },
+    {
+        "name": "Chest",
+        "color": "#FFFF00",
+        "hint": "The front part of the body between the neck and the abdomen, housing vital organs."
+    },
+    {
+        "name": "Dermis",
+        "color": "#FFA07A",
+        "hint": "The thick layer of skin beneath the epidermis, containing blood vessels and nerves."
+    },
+    {
+        "name": "Ear",
+        "color": "#008000",
+        "hint": "The sensory organ for hearing and balance located on the sides of the head."
+    },
+    {
+        "name": "Foot",
+        "color": "#0000FF",
+        "hint": "The lower extremity of the leg, used for walking and standing."
+    },
+    {
+        "name": "Gut",
+        "color": "#8B4513",
+        "hint": "The digestive tract or intestines, responsible for processing food."
+    },
+    {
+        "name": "Hair",
+        "color": "#FFA500",
+        "hint": "Filamentous structures on the scalp and body, composed of keratin."
+    },
+    {
+        "name": "Iris",
+        "color": "#00FFFF",
+        "hint": "The colored part of the eye that controls the size of the pupil."
+    },
+    {
+        "name": "Jaw",
+        "color": "#FFFFE0",
+        "hint": "The bone structure that supports the teeth and forms the lower part of the face."
+    },
+    {
+        "name": "Knee",
+        "color": "#800000",
+        "hint": "The joint connecting the thigh bone to the lower leg, allowing bending."
+    },
+    {
+        "name": "Lung",
+        "color": "#90EE90",
+        "hint": "The respiratory organ responsible for oxygenating the blood."
+    },
+    {
+        "name": "Mouth",
+        "color": "#FFD700",
+        "hint": "The opening through which food is consumed and speech is produced."
+    },
+    {
+        "name": "Nail",
+        "color": "#D2691E",
+        "hint": "A hard, protective covering at the tips of fingers and toes."
+    },
+    {
+        "name": "Ovary",
+        "color": "#FF69B4",
+        "hint": "The female reproductive organ that produces eggs."
+    },
+    {
+        "name": "Palm",
+        "color": "#FF6347",
+        "hint": "The inner surface of the hand, between the wrist and fingers."
+    },
+    {
+        "name": "Quadriceps",
+        "color": "#4B0082",
+        "hint": "A group of muscles at the front of the thigh."
+    },
+    {
+        "name": "Rib",
+        "color": "#A0522D",
+        "hint": "A curved bone that forms part of the vertebral skeleton and protects the chest cavity."
+    },
+    {
+        "name": "Spine",
+        "color": "#006400",
+        "hint": "The flexible column of bones (vertebrae) that supports the body and protects the spinal cord."
+    },
+    {
+        "name": "Tooth",
+        "color": "#FFFFFF",
+        "hint": "A hard, calcified structure in the mouth used for biting and chewing."
+    },
+    {
+        "name": "Uvula",
+        "color": "#FF1493",
+        "hint": "A fleshy extension at the back of the soft palate in the throat."
+    },
+    {
+        "name": "Vein",
+        "color": "#8A2BE2",
+        "hint": "A blood vessel that carries deoxygenated blood back to the heart."
+    },
+    {
+        "name": "Wrist",
+        "color": "#00FF00",
+        "hint": "The joint between the hand and forearm."
+    },
+    {
+        "name": "Xiphoid Process",
+        "color": "#7FFF00",
+        "hint": "A small, cartilaginous extension at the lower end of the sternum (breastbone)."
+    },
+    {
+        "name": "Yolk Sac",
+        "color": "#FFD700",
+        "hint": "A membranous sac in the embryo that provides nourishment."
+    },
+    {
+        "name": "Zygomatic Bone",
+        "color": "#40E0D0",
+        "hint": "A facial bone that forms the cheekbone and the lateral wall of the eye socket."
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Asteroid",
+        "description": "Small rocky objects that orbit the Sun, found primarily in the asteroid belt."
+    },
+    {
+        "name": "Black Hole",
+        "description": "A region in space where the gravitational pull is so strong that nothing, not even light, can escape."
+    },
+    {
+        "name": "Comet",
+        "description": "Icy celestial objects that develop tails when they approach the Sun."
+    },
+    {
+        "name": "Dwarf Planet",
+        "description": "Celestial bodies that orbit the Sun but are not large enough to be considered full-fledged planets."
+    },
+    {
+        "name": "Exoplanet",
+        "description": "Planets that orbit stars outside our solar system."
+    },
+    {
+        "name": "Galaxy",
+        "description": "Vast systems of stars, gas, dust, and dark matter held together by gravity."
+    },
+    {
+        "name": "Hubble Space Telescope",
+        "description": "A space telescope that has provided stunning images and valuable data about the universe."
+    },
+    {
+        "name": "Interstellar",
+        "description": "Relating to the space between stars or the journey between star systems."
+    },
+    {
+        "name": "Jupiter",
+        "description": "The largest planet in our solar system, known for its massive size and swirling storms."
+    },
+    {
+        "name": "Kuiper Belt",
+        "description": "A region beyond Neptune in our solar system containing many small icy bodies."
+    },
+    {
+        "name": "Light-Year",
+        "description": "The distance that light travels in one year, often used to measure cosmic distances."
+    },
+    {
+        "name": "Mars",
+        "description": "The fourth planet from the Sun, often referred to as the 'Red Planet.'"
+    },
+    {
+        "name": "Neutron Star",
+        "description": "The collapsed core of a massive star, incredibly dense and primarily composed of neutrons."
+    },
+    {
+        "name": "Orbit",
+        "description": "The path that an object, such as a planet or moon, follows as it revolves around another object in space."
+    },
+    {
+        "name": "Pulsar",
+        "description": "A highly magnetized, rotating neutron star that emits beams of electromagnetic radiation."
+    },
+    {
+        "name": "Quasar",
+        "description": "Extremely bright and distant objects in the universe, powered by supermassive black holes."
+    },
+    {
+        "name": "Red Dwarf",
+        "description": "Small and cool stars that are the most common type of star in the universe."
+    },
+    {
+        "name": "Supernova",
+        "description": "The explosive death of a massive star, resulting in a bright burst of energy."
+    },
+    {
+        "name": "Telescope",
+        "description": "An optical instrument that gathers and magnifies distant objects, used for observing celestial bodies."
+    },
+    {
+        "name": "Uranus",
+        "description": "The seventh planet from the Sun, known for its tilted axis and unique blue-green color."
+    },
+    {
+        "name": "Venus",
+        "description": "The second planet from the Sun, often called Earth's 'sister planet.'"
+    },
+    {
+        "name": "White Dwarf",
+        "description": "The remaining core of a star after it has exhausted its nuclear fuel."
+    },
+    {
+        "name": "X-Ray Astronomy",
+        "description": "The study of the universe using X-ray emissions from celestial objects."
+    },
+    {
+        "name": "Yuri Gagarin",
+        "description": "The first human to travel into space, a Soviet astronaut."
+    },
+    {
+        "name": "Zodiac",
+        "description": "A belt of constellations through which the Sun, Moon, and planets appear to move across the sky."
+    }
+]

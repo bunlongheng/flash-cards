@@ -1,0 +1,111 @@
+[
+    {
+      "name": "African Elephant",
+      "color": "#696969",
+      "hint": "The largest land animal, known for its long trunk and large ears."
+    },
+    {
+      "name": "Buffalo",
+      "color": "#8B4513",
+      "hint": "A large herbivore with curved horns, often found in groups."
+    },
+    {
+      "name": "Cheetah",
+      "color": "#FFA500",
+      "hint": "The fastest land animal, known for its spotted coat and speed."
+    },
+    {
+      "name": "Dolphin",
+      "color": "#0000FF",
+      "hint": "A marine mammal known for its intelligence and playful behavior."
+    },
+    {
+      "name": "Elephant Seal",
+      "color": "#4682B4",
+      "hint": "A large seal species known for its enormous size and trunk-like nose."
+    },
+    {
+      "name": "Flamingo",
+      "color": "#FFC0CB",
+      "hint": "A wading bird with long legs and a distinctive pink coloration."
+    },
+    {
+      "name": "Giraffe",
+      "color": "#FFD700",
+      "hint": "A tall, long-necked herbivore with a spotted coat and ossicones on its head."
+    },
+    {
+      "name": "Hippopotamus",
+      "color": "#4B0082",
+      "hint": "A large, semi-aquatic mammal known for its massive size and aquatic habits."
+    },
+    {
+      "name": "Iguana",
+      "color": "#008000",
+      "hint": "A large, herbivorous lizard found in tropical regions."
+    },
+    {
+      "name": "Jaguar",
+      "color": "#FF4500",
+      "hint": "A large cat with a distinctive spotted coat, known for its strength and agility."
+    },
+    {
+      "name": "Kangaroo",
+      "color": "#800000",
+      "hint": "A marsupial known for its powerful hind legs and pouch for carrying young."
+    },
+    {
+      "name": "Lion",
+      "color": "#FF0000",
+      "hint": "A large carnivorous cat known for its majestic mane and social behavior."
+    },
+    {
+      "name": "Meerkat",
+      "color": "#8A2BE2",
+      "hint": "A small, social mongoose known for its upright posture and vigilance."
+    },
+    {
+      "name": "Nile Crocodile",
+      "color": "#006400",
+      "hint": "A large, predatory reptile found in African rivers and swamps."
+    },
+    {
+      "name": "Ostrich",
+      "color": "#FF1493",
+      "hint": "A flightless bird known for its long legs and fast running speed."
+    },
+    {
+      "name": "Panda",
+      "color": "#FFFFFF",
+      "hint": "A large bear with distinctive black and white fur, native to China."
+    },
+    {
+      "name": "Quokka",
+      "color": "#87CEEB",
+      "hint": "A small herbivorous marsupial known for its friendly and smiling appearance."
+    },
+    {
+      "name": "Rhinoceros",
+      "color": "#A52A2A",
+      "hint": "A large, herbivorous mammal known for its thick skin and horn(s) on its snout."
+    },
+    {
+      "name": "Sloth",
+      "color": "#556B2F",
+      "hint": "A slow-moving, arboreal mammal known for its leisurely lifestyle."
+    },
+    {
+      "name": "Tiger",
+      "color": "#FFA07A",
+      "hint": "A large carnivorous cat with distinctive orange fur and black stripes."
+    },
+    {
+      "name": "Uakari",
+      "color": "#E9967A",
+      "hint": "A red-faced monkey found in South American rainforests."
+    },
+    {
+      "name": "Vulture",
+      "color": "#2E8B57",
+      "hint":
+  
