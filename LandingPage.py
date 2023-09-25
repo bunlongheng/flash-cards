@@ -10,3 +10,6 @@ with open(env_file, "w") as file:
     file.write(f"REACT_APP_TYPES={names_str}\n")
 
 print("Script has finished running and updated the .env file.")
+
+
+# //open this in finder : /Users/hengb01/Sites/flash-cards/public/images/types

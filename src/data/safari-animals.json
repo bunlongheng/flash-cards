@@ -1,111 +1,102 @@
 [
     {
-      "name": "African Elephant",
-      "color": "#696969",
-      "hint": "The largest land animal, known for its long trunk and large ears."
+        "name": "Asteroid",
+        "description": "Small rocky objects that orbit the Sun, found primarily in the asteroid belt."
     },
     {
-      "name": "Buffalo",
-      "color": "#8B4513",
-      "hint": "A large herbivore with curved horns, often found in groups."
+        "name": "Black Hole",
+        "description": "A region in space where the gravitational pull is so strong that nothing, not even light, can escape."
     },
     {
-      "name": "Cheetah",
-      "color": "#FFA500",
-      "hint": "The fastest land animal, known for its spotted coat and speed."
+        "name": "Comet",
+        "description": "Icy celestial objects that develop tails when they approach the Sun."
     },
     {
-      "name": "Dolphin",
-      "color": "#0000FF",
-      "hint": "A marine mammal known for its intelligence and playful behavior."
+        "name": "Dwarf Planet",
+        "description": "Celestial bodies that orbit the Sun but are not large enough to be considered full-fledged planets."
     },
     {
-      "name": "Elephant Seal",
-      "color": "#4682B4",
-      "hint": "A large seal species known for its enormous size and trunk-like nose."
+        "name": "Exoplanet",
+        "description": "Planets that orbit stars outside our solar system."
     },
     {
-      "name": "Flamingo",
-      "color": "#FFC0CB",
-      "hint": "A wading bird with long legs and a distinctive pink coloration."
+        "name": "Galaxy",
+        "description": "Vast systems of stars, gas, dust, and dark matter held together by gravity."
     },
     {
-      "name": "Giraffe",
-      "color": "#FFD700",
-      "hint": "A tall, long-necked herbivore with a spotted coat and ossicones on its head."
+        "name": "Hubble Space Telescope",
+        "description": "A space telescope that has provided stunning images and valuable data about the universe."
     },
     {
-      "name": "Hippopotamus",
-      "color": "#4B0082",
-      "hint": "A large, semi-aquatic mammal known for its massive size and aquatic habits."
+        "name": "Interstellar",
+        "description": "Relating to the space between stars or the journey between star systems."
     },
     {
-      "name": "Iguana",
-      "color": "#008000",
-      "hint": "A large, herbivorous lizard found in tropical regions."
+        "name": "Jupiter",
+        "description": "The largest planet in our solar system, known for its massive size and swirling storms."
     },
     {
-      "name": "Jaguar",
-      "color": "#FF4500",
-      "hint": "A large cat with a distinctive spotted coat, known for its strength and agility."
+        "name": "Kuiper Belt",
+        "description": "A region beyond Neptune in our solar system containing many small icy bodies."
     },
     {
-      "name": "Kangaroo",
-      "color": "#800000",
-      "hint": "A marsupial known for its powerful hind legs and pouch for carrying young."
+        "name": "Light-Year",
+        "description": "The distance that light travels in one year, often used to measure cosmic distances."
     },
     {
-      "name": "Lion",
-      "color": "#FF0000",
-      "hint": "A large carnivorous cat known for its majestic mane and social behavior."
+        "name": "Mars",
+        "description": "The fourth planet from the Sun, often referred to as the 'Red Planet.'"
     },
     {
-      "name": "Meerkat",
-      "color": "#8A2BE2",
-      "hint": "A small, social mongoose known for its upright posture and vigilance."
+        "name": "Neutron Star",
+        "description": "The collapsed core of a massive star, incredibly dense and primarily composed of neutrons."
     },
     {
-      "name": "Nile Crocodile",
-      "color": "#006400",
-      "hint": "A large, predatory reptile found in African rivers and swamps."
+        "name": "Orbit",
+        "description": "The path that an object, such as a planet or moon, follows as it revolves around another object in space."
     },
     {
-      "name": "Ostrich",
-      "color": "#FF1493",
-      "hint": "A flightless bird known for its long legs and fast running speed."
+        "name": "Pulsar",
+        "description": "A highly magnetized, rotating neutron star that emits beams of electromagnetic radiation."
     },
     {
-      "name": "Panda",
-      "color": "#FFFFFF",
-      "hint": "A large bear with distinctive black and white fur, native to China."
+        "name": "Quasar",
+        "description": "Extremely bright and distant objects in the universe, powered by supermassive black holes."
     },
     {
-      "name": "Quokka",
-      "color": "#87CEEB",
-      "hint": "A small herbivorous marsupial known for its friendly and smiling appearance."
+        "name": "Red Dwarf",
+        "description": "Small and cool stars that are the most common type of star in the universe."
     },
     {
-      "name": "Rhinoceros",
-      "color": "#A52A2A",
-      "hint": "A large, herbivorous mammal known for its thick skin and horn(s) on its snout."
+        "name": "Supernova",
+        "description": "The explosive death of a massive star, resulting in a bright burst of energy."
     },
     {
-      "name": "Sloth",
-      "color": "#556B2F",
-      "hint": "A slow-moving, arboreal mammal known for its leisurely lifestyle."
+        "name": "Telescope",
+        "description": "An optical instrument that gathers and magnifies distant objects, used for observing celestial bodies."
     },
     {
-      "name": "Tiger",
-      "color": "#FFA07A",
-      "hint": "A large carnivorous cat with distinctive orange fur and black stripes."
+        "name": "Uranus",
+        "description": "The seventh planet from the Sun, known for its tilted axis and unique blue-green color."
     },
     {
-      "name": "Uakari",
-      "color": "#E9967A",
-      "hint": "A red-faced monkey found in South American rainforests."
+        "name": "Venus",
+        "description": "The second planet from the Sun, often called Earth's 'sister planet.'"
     },
     {
-      "name": "Vulture",
-      "color": "#2E8B57",
-      "hint":
-  
+        "name": "White Dwarf",
+        "description": "The remaining core of a star after it has exhausted its nuclear fuel."
+    },
+    {
+        "name": "X-Ray Astronomy",
+        "description": "The study of the universe using X-ray emissions from celestial objects."
+    },
+    {
+        "name": "Yuri Gagarin",
+        "description": "The first human to travel into space, a Soviet astronaut."
+    },
+    {
+        "name": "Zodiac",
+        "description": "A belt of constellations through which the Sun, Moon, and planets appear to move across the sky."
+    }
+]
