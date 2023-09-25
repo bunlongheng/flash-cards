@@ -44,8 +44,8 @@ const Category = ({ type }) => {
 
     return (
         <div className="app" style={{ overflowX: "hidden" }}>
-            <Link to="/" className="home-link">
-                Go back
+            <Link to="/" className="home-link fixed-top">
+                Go Home
             </Link>
 
             <h1 className="text-center mb-4" style={{ padding: "50px", margin: "50px" }}>
