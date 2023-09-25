@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./LandingPage.css";
+import "./Categories.css";
 
-const LandingPage = () => {
+const Categories = () => {
     const typesString = process.env.REACT_APP_TYPES || "";
     const typesArray = typesString.split(",");
 
@@ -24,4 +24,4 @@ const LandingPage = () => {
     );
 };
 
-export default LandingPage;
+export default Categories;

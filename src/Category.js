@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-import "./MainPage.css";
+import "./Category.css";
 
-const MainPage = ({ type }) => {
+const Category = ({ type }) => {
     const [data, setData] = useState([]);
     const [isSpeaking, setIsSpeaking] = useState(false);
 
@@ -71,4 +71,4 @@ const MainPage = ({ type }) => {
     );
 };
 
-export default MainPage;
+export default Category;
