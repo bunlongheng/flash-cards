@@ -14,8 +14,15 @@ const Category = ({ type }) => {
         setData(jsonData);
     }, [type]);
 
-    const getPageName = () => {
-        return type.charAt(0).toUpperCase() + type.slice(1);
+    const getPageName = type => {
+        if (type && type.includes("-")) {
+            return type
+                .split("-")
+                .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                .join(" ");
+        } else if (type) {
+            return type.charAt(0).toUpperCase() + type.slice(1);
+        }
     };
 
     const handleClick = item => {
@@ -49,7 +56,7 @@ const Category = ({ type }) => {
             </Link>
 
             <h1 className="text-center mb-4" style={{ padding: "50px", margin: "50px" }}>
-                {getPageName()}
+                {getPageName(type)}
             </h1>
             <div className="thumbnails-container">
                 {data.map(item => (
