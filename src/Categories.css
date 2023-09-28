@@ -6,8 +6,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
-
 .link-container {
     display: flex;
     justify-content: center;
