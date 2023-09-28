@@ -1,0 +1,197 @@
+[
+    {
+        "name": "Bath Towel",
+        "color": "#FFFFFF",
+        "hint": "A large towel used for drying the body after a bath or shower."
+    },
+    {
+        "name": "Toothbrush",
+        "color": "#000000",
+        "hint": "A tool used for brushing teeth to maintain oral hygiene."
+    },
+    {
+        "name": "Shampoo",
+        "color": "#000080",
+        "hint": "A liquid or gel used for cleaning and conditioning hair."
+    },
+    {
+        "name": "Soap Dispenser",
+        "color": "#008000",
+        "hint": "A container for dispensing liquid soap for handwashing."
+    },
+    {
+        "name": "Shower Curtain",
+        "color": "#800080",
+        "hint": "A curtain that hangs in the shower area to prevent water splashing."
+    },
+    {
+        "name": "Toilet Paper",
+        "color": "#FFFF00",
+        "hint": "A paper product used for personal hygiene after using the toilet."
+    },
+    {
+        "name": "Razor",
+        "color": "#FFA500",
+        "hint": "A tool for shaving facial or body hair."
+    },
+    {
+        "name": "Bathroom Mat",
+        "color": "#FF4500",
+        "hint": "A mat placed on the bathroom floor to absorb water and prevent slipping."
+    },
+    {
+        "name": "Faucet",
+        "color": "#A9A9A9",
+        "hint": "A device for controlling the flow of water in sinks and showers."
+    },
+    {
+        "name": "Towel Rack",
+        "color": "#964B00",
+        "hint": "A fixture for hanging towels to keep them dry and organized."
+    },
+    {
+        "name": "Mirror",
+        "color": "#808080",
+        "hint": "A reflective surface used for personal grooming and checking appearance."
+    },
+    {
+        "name": "Hair Dryer",
+        "color": "#FF1493",
+        "hint": "An electrical appliance for drying hair quickly."
+    },
+    {
+        "name": "Toilet Brush",
+        "color": "#4B0082",
+        "hint": "A brush used for cleaning the inside of a toilet bowl."
+    },
+    {
+        "name": "Cotton Swabs",
+        "color": "#FFFF99",
+        "hint": "Small sticks with cotton tips used for various personal care tasks."
+    },
+    {
+        "name": "Shower Head",
+        "color": "#2E8B57",
+        "hint": "A device that sprays water for showering."
+    },
+    {
+        "name": "Tissue Box",
+        "color": "#CD853F",
+        "hint": "A box containing tissues for use in the bathroom."
+    },
+    {
+        "name": "Sink",
+        "color": "#1E90FF",
+        "hint": "A basin used for washing hands and face."
+    },
+    {
+        "name": "Mouthwash",
+        "color": "#228B22",
+        "hint": "A liquid used for rinsing and freshening the mouth."
+    },
+    {
+        "name": "Toilet Seat",
+        "color": "#8A2BE2",
+        "hint": "The hinged seat on a toilet bowl for sitting."
+    },
+    {
+        "name": "Cabinet",
+        "color": "#800000",
+        "hint": "A storage unit for toiletries and bathroom supplies."
+    },
+    {
+        "name": "Towel Hook",
+        "color": "#00FF00",
+        "hint": "A hook for hanging towels and robes in the bathroom."
+    },
+    {
+        "name": "Bath Sponge",
+        "color": "#8B4513",
+        "hint": "A soft sponge used for applying soap and washing the body."
+    },
+    {
+        "name": "Plunger",
+        "color": "#FF6347",
+        "hint": "A tool used for unclogging toilets and drains."
+    },
+    {
+        "name": "Hand Sanitizer",
+        "color": "#2E8B57",
+        "hint": "A gel or liquid used for hand disinfection."
+    },
+    {
+        "name": "Tumbler",
+        "color": "#32CD32",
+        "hint": "A small cup used for rinsing the mouth or holding toothbrushes."
+    },
+    {
+        "name": "Bathrobe",
+        "color": "#9932CC",
+        "hint": "A comfortable garment worn after bathing."
+    },
+    {
+        "name": "Scale",
+        "color": "#800080",
+        "hint": "A device for measuring body weight."
+    },
+    {
+        "name": "Shower Caddy",
+        "color": "#008B8B",
+        "hint": "A container used to organize shower and bath products."
+    },
+    {
+        "name": "Candles",
+        "color": "#FF4500",
+        "hint": "Small candles used for adding ambiance in the bathroom."
+    },
+    {
+        "name": "Towel Ring",
+        "color": "#808000",
+        "hint": "A ring-shaped fixture for hanging hand towels."
+    },
+    {
+        "name": "Electric Toothbrush",
+        "color": "#FF6347",
+        "hint": "An automated toothbrush for efficient teeth cleaning."
+    },
+    {
+        "name": "Tissue Dispenser",
+        "color": "#008080",
+        "hint": "A container for easy dispensing of tissues."
+    },
+    {
+        "name": "Hairbrush",
+        "color": "#800000",
+        "hint": "A tool for brushing and styling hair."
+    },
+    {
+        "name": "Towel Warmer",
+        "color": "#4682B4",
+        "hint": "A device for heating and warming towels for a luxurious feel."
+    },
+    {
+        "name": "Toilet Paper Holder",
+        "color": "#000080",
+        "hint": "A fixture for holding and dispensing rolls of toilet paper."
+    },
+    {
+        "name": "Shower Radio",
+        "color": "#0000FF",
+        "hint": "A waterproof radio for entertainment while showering."
+    },
+    {
+        "name": "Bath Mat",
+        "color": "#1E90FF",
+        "hint": "A non-slip mat placed in the bathtub or shower for safety."
+    },
+    {
+        "name": "Towel Stand",
+        "color": "#FFA500",
+        "hint": "A freestanding rack for holding and displaying towels."
+    },
+    {
+        "name": "Cotton Balls",
+        "color": "#2E8B57",
+        "hint": "Soft balls of cotton used for various cosmetic and hygiene purposes."
+    }
+]

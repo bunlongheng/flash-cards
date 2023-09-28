@@ -1,0 +1,202 @@
+[
+    {
+        "name": "Tent",
+        "color": "#008000",
+        "hint": "A portable shelter used for camping and outdoor sleeping."
+    },
+    {
+        "name": "Sleeping Bag",
+        "color": "#000080",
+        "hint": "A insulated bag for sleeping in while camping."
+    },
+    {
+        "name": "Campfire Grill",
+        "color": "#A0522D",
+        "hint": "A grill used for cooking food over a campfire."
+    },
+    {
+        "name": "Flashlight",
+        "color": "#FFFF00",
+        "hint": "A portable light source for illuminating the campsite at night."
+    },
+    {
+        "name": "Backpack",
+        "color": "#228B22",
+        "hint": "A bag for carrying camping gear, food, and supplies."
+    },
+    {
+        "name": "Camp Chair",
+        "color": "#FFA500",
+        "hint": "A portable chair for sitting around the campsite."
+    },
+    {
+        "name": "Camping Stove",
+        "color": "#CD853F",
+        "hint": "A portable stove for cooking meals while camping."
+    },
+    {
+        "name": "Cooler",
+        "color": "#1E90FF",
+        "hint": "An insulated container for keeping food and drinks cold."
+    },
+    {
+        "name": "Hiking Boots",
+        "color": "#FF1493",
+        "hint": "Sturdy boots designed for hiking and outdoor activities."
+    },
+    {
+        "name": "Pocket Knife",
+        "color": "#808000",
+        "hint": "A multi-purpose folding knife for various camping tasks."
+    },
+    {
+        "name": "Water Bottle",
+        "color": "#008B8B",
+        "hint": "A container for carrying and drinking water while hiking."
+    },
+    {
+        "name": "Camp Axe",
+        "color": "#FF6347",
+        "hint": "A small axe used for chopping wood for the campfire."
+    },
+    {
+        "name": "Camping Pot Set",
+        "color": "#32CD32",
+        "hint": "A set of pots and pans for cooking meals in the wilderness."
+    },
+    {
+        "name": "First Aid Kit",
+        "color": "#800000",
+        "hint": "A kit containing medical supplies for treating minor injuries."
+    },
+    {
+        "name": "Compass",
+        "color": "#FFFF99",
+        "hint": "A navigational tool for finding directions in the wilderness."
+    },
+    {
+        "name": "Insect Repellent",
+        "color": "#800080",
+        "hint": "A substance to deter insects and bugs while camping."
+    },
+    {
+        "name": "Camp Tarp",
+        "color": "#964B00",
+        "hint": "A waterproof tarp used for shelter and ground protection."
+    },
+    {
+        "name": "Camping Table",
+        "color": "#2E8B57",
+        "hint": "A portable table for cooking and dining at the campsite."
+    },
+    {
+        "name": "Camp Mugs",
+        "color": "#CD853F",
+        "hint": "Mugs for drinking hot beverages around the campfire."
+    },
+    {
+        "name": "Headlamp",
+        "color": "#1E90FF",
+        "hint": "A hands-free flashlight worn on the head for nighttime activities."
+    },
+    {
+        "name": "Camp Hammock",
+        "color": "#FF4500",
+        "hint": "A portable hammock for relaxing and sleeping in the outdoors."
+    },
+    {
+        "name": "Camp Utensil Set",
+        "color": "#808000",
+        "hint": "A set of utensils for eating meals while camping."
+    },
+    {
+        "name": "Campfire Starter Kit",
+        "color": "#32CD32",
+        "hint": "Materials for easily starting a campfire, such as firewood and kindling."
+    },
+    {
+        "name": "Tent Pegs",
+        "color": "#FF6347",
+        "hint": "Metal or plastic pegs used to secure the tent to the ground."
+    },
+    {
+        "name": "Camping Pillow",
+        "color": "#FFFF99",
+        "hint": "A compact pillow for sleeping comfortably in a sleeping bag."
+    },
+    {
+        "name": "Folding Shovel",
+        "color": "#FFA500",
+        "hint": "A compact shovel for digging and various campsite tasks."
+    },
+    {
+        "name": "Campfire Tripod",
+        "color": "#000080",
+        "hint": "A tripod for suspending a pot or pan over the campfire."
+    },
+    {
+        "name": "Solar Charger",
+        "color": "#008B8B",
+        "hint": "A device for charging electronic devices using solar energy."
+    },
+    {
+        "name": "Camp Broom",
+        "color": "#FF4500",
+        "hint": "A small broom for keeping the campsite clean and free of debris."
+    },
+    {
+        "name": "Camp Shower",
+        "color": "#228B22",
+        "hint": "A portable bag for heating and dispensing water for showers."
+    },
+    {
+        "name": "Camp Griddle",
+        "color": "#CD853F",
+        "hint": "A flat cooking surface for preparing pancakes and other foods."
+    },
+    {
+        "name": "Camp Tableware",
+        "color": "#800000",
+        "hint": "Dishes, bowls, and utensils for serving meals while camping."
+    },
+    {
+        "name": "Survival Whistle",
+        "color": "#FFFF00",
+        "hint": "A whistle with various survival features for emergencies."
+    },
+    {
+        "name": "Campfire Gloves",
+        "color": "#2E8B57",
+        "hint": "Heat-resistant gloves for handling hot cookware and campfire logs."
+    },
+    {
+        "name": "Camp Cot",
+        "color": "#964B00",
+        "hint": "A portable folding bed for elevated sleeping in the tent."
+    },
+    {
+        "name": "Camp Lantern",
+        "color": "#FFA500",
+        "hint": "A portable light source for illuminating the campsite."
+    },
+    {
+        "name": "Bear Canister",
+        "color": "#FF1493",
+        "hint": "A container for safely storing food to prevent bear encounters."
+    },
+    {
+        "name": "Water Purifier",
+        "color": "#808000",
+        "hint": "A device for purifying natural water sources for drinking."
+    },
+    {
+        "name": "Campfire Roasting Sticks",
+        "color": "#32CD32",
+        "hint": "Sticks used for roasting marshmallows and other campfire treats."
+    },
+    {
+        "name": "Camp Cookware Set",
+        "color": "#800080",
+        "hint": "A set of pots, pans, and utensils for campsite cooking."
+    }
+]

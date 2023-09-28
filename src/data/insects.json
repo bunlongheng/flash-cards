@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Ant",
+        "color": "#FF0000",
+        "hint": "A small insect known for its strong teamwork and social behavior."
+    },
+    {
+        "name": "Bee",
+        "color": "#FFFF00",
+        "hint": "A flying insect that plays a vital role in pollination and honey production."
+    },
+    {
+        "name": "Cicada",
+        "color": "#008080",
+        "hint": "A noisy insect known for its distinctive buzzing sound during the summer."
+    },
+    {
+        "name": "Dragonfly",
+        "color": "#00FF00",
+        "hint": "A colorful insect with transparent wings that is an agile predator."
+    },
+    {
+        "name": "Earwig",
+        "color": "#000000",
+        "hint": "A nocturnal insect with pincers on its abdomen."
+    },
+    {
+        "name": "Firefly",
+        "color": "#FFD700",
+        "hint": "An insect that produces light through bioluminescence."
+    },
+    {
+        "name": "Grasshopper",
+        "color": "#008000",
+        "hint": "A jumping insect known for its powerful hind legs."
+    },
+    {
+        "name": "Hornet",
+        "color": "#FFA500",
+        "hint": "A stinging insect with a painful venomous sting."
+    },
+    {
+        "name": "Ladybug",
+        "color": "#FF1493",
+        "hint": "A small, spotted insect considered a symbol of good luck."
+    },
+    {
+        "name": "Mantis",
+        "color": "#800080",
+        "hint": "A predatory insect known for its distinctive posture and hunting skills."
+    },
+    {
+        "name": "Mosquito",
+        "color": "#0000FF",
+        "hint": "A small flying insect known for transmitting diseases."
+    },
+    {
+        "name": "Nymph",
+        "color": "#6B8E23",
+        "hint": "A juvenile form of certain insects like dragonflies and mayflies."
+    },
+    {
+        "name": "Owl Butterfly",
+        "color": "#483D8B",
+        "hint": "A butterfly known for its large, owl-like eye patterns on its wings."
+    },
+    {
+        "name": "Praying Mantis",
+        "color": "#2E8B57",
+        "hint": "A type of mantis known for its appearance of 'praying' with folded forelimbs."
+    },
+    {
+        "name": "Queen Bee",
+        "color": "#800000",
+        "hint": "The reproductive female bee in a hive responsible for laying eggs."
+    },
+    {
+        "name": "Roach",
+        "color": "#B22222",
+        "hint": "A common household pest insect often associated with unsanitary conditions."
+    },
+    {
+        "name": "Scorpion",
+        "color": "#A0522D",
+        "hint": "An arachnid with a segmented tail ending in a venomous stinger."
+    },
+    {
+        "name": "Termite",
+        "color": "#8B4513",
+        "hint": "A social insect that can cause significant damage to wooden structures."
+    },
+    {
+        "name": "Ulysses Butterfly",
+        "color": "#1E90FF",
+        "hint": "A striking blue butterfly known for its iridescent wings."
+    },
+    {
+        "name": "Viceroy Butterfly",
+        "color": "#228B22",
+        "hint": "A butterfly that mimics the appearance of the toxic monarch butterfly."
+    },
+    {
+        "name": "Wasp",
+        "color": "#FF4500",
+        "hint": "A flying insect known for its sting and often found near sugary foods."
+    },
+    {
+        "name": "Xerces Blue Butterfly",
+        "color": "#4682B4",
+        "hint": "An extinct butterfly species native to California."
+    },
+    {
+        "name": "Yellow Jacket",
+        "color": "#FFFF99",
+        "hint": "A type of wasp known for its yellow and black coloration."
+    },
+    {
+        "name": "Zebra Longwing Butterfly",
+        "color": "#000080",
+        "hint": "A black and white striped butterfly with a unique appearance."
+    }
+]

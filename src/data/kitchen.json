@@ -1,0 +1,217 @@
+[
+    {
+        "name": "Apron",
+        "color": "#FF4500",
+        "hint": "A protective garment worn while cooking to prevent stains on clothing."
+    },
+    {
+        "name": "Blender",
+        "color": "#00FF00",
+        "hint": "A kitchen appliance used to blend, mix, or puree ingredients."
+    },
+    {
+        "name": "Coffee Maker",
+        "color": "#964B00",
+        "hint": "An appliance that brews coffee by passing hot water through ground coffee beans."
+    },
+    {
+        "name": "Dish Rack",
+        "color": "#A9A9A9",
+        "hint": "A device used for drying washed dishes and utensils."
+    },
+    {
+        "name": "Egg Beater",
+        "color": "#FFD700",
+        "hint": "A hand-cranked tool for beating eggs or mixing ingredients."
+    },
+    {
+        "name": "Frying Pan",
+        "color": "#FF0000",
+        "hint": "A flat-bottomed pan with sloping sides used for frying and sautéing."
+    },
+    {
+        "name": "Garlic Press",
+        "color": "#800000",
+        "hint": "A kitchen tool designed to crush garlic cloves quickly and easily."
+    },
+    {
+        "name": "Grater",
+        "color": "#FFFF00",
+        "hint": "A kitchen utensil with sharp perforations used for shredding food."
+    },
+    {
+        "name": "Knife Set",
+        "color": "#000000",
+        "hint": "A collection of knives of various types used for cutting and chopping."
+    },
+    {
+        "name": "Ladle",
+        "color": "#1E90FF",
+        "hint": "A long-handled utensil with a deep bowl, used for serving soups and stews."
+    },
+    {
+        "name": "Measuring Cup",
+        "color": "#FF1493",
+        "hint": "A container with graduated markings for measuring liquids or dry ingredients."
+    },
+    {
+        "name": "Napkin Holder",
+        "color": "#228B22",
+        "hint": "A decorative item used for holding napkins on the dining table."
+    },
+    {
+        "name": "Oven Mitt",
+        "color": "#800080",
+        "hint": "A padded glove or mitten used to protect hands when handling hot cookware."
+    },
+    {
+        "name": "Peeler",
+        "color": "#FF69B4",
+        "hint": "A tool for removing the outer skin or peel of fruits and vegetables."
+    },
+    {
+        "name": "Quiche Dish",
+        "color": "#FF6347",
+        "hint": "A shallow, round baking dish often used for making quiches."
+    },
+    {
+        "name": "Rolling Pin",
+        "color": "#8A2BE2",
+        "hint": "A cylindrical tool used for rolling out dough for baking."
+    },
+    {
+        "name": "Salt Shaker",
+        "color": "#FFFF99",
+        "hint": "A container with small holes for dispensing salt onto food."
+    },
+    {
+        "name": "Teapot",
+        "color": "#FFA500",
+        "hint": "A vessel with a spout and handle for steeping and serving tea."
+    },
+    {
+        "name": "Utensil Holder",
+        "color": "#2E8B57",
+        "hint": "A container for storing kitchen utensils like spatulas and spoons."
+    },
+    {
+        "name": "Vegetable Peeler",
+        "color": "#9932CC",
+        "hint": "A specialized peeler for removing the skin from vegetables."
+    },
+    {
+        "name": "Wine Opener",
+        "color": "#800000",
+        "hint": "A tool for opening wine bottles by removing the cork."
+    },
+    {
+        "name": "Yogurt Maker",
+        "color": "#FF69B4",
+        "hint": "An appliance used to ferment milk into yogurt."
+    },
+    {
+        "name": "Zester",
+        "color": "#008000",
+        "hint": "A tool for grating the outer peel of citrus fruits for flavor."
+    },
+    {
+        "name": "Baking Sheet",
+        "color": "#CD853F",
+        "hint": "A flat, rectangular pan used for baking cookies and pastries."
+    },
+    {
+        "name": "Can Opener",
+        "color": "#000080",
+        "hint": "A device for opening sealed metal cans."
+    },
+    {
+        "name": "Dish Soap Dispenser",
+        "color": "#0000FF",
+        "hint": "A container for dispensing liquid dish soap for washing dishes."
+    },
+    {
+        "name": "Egg Timer",
+        "color": "#FF8C00",
+        "hint": "A timer used for accurately boiling eggs to desired doneness."
+    },
+    {
+        "name": "Food Processor",
+        "color": "#4B0082",
+        "hint": "An electric appliance used for chopping, blending, and pureeing food."
+    },
+    {
+        "name": "Glass Tumbler",
+        "color": "#008B8B",
+        "hint": "A drinking glass made of glass, often used for beverages."
+    },
+    {
+        "name": "Herb Grinder",
+        "color": "#800080",
+        "hint": "A tool for grinding dried herbs and spices for cooking."
+    },
+    {
+        "name": "Ice Cube Tray",
+        "color": "#ADD8E6",
+        "hint": "A tray with compartments for freezing water into ice cubes."
+    },
+    {
+        "name": "Juicer",
+        "color": "#FF6347",
+        "hint": "An appliance used to extract juice from fruits and vegetables."
+    },
+    {
+        "name": "Knife Sharpener",
+        "color": "#808000",
+        "hint": "A tool for sharpening the blades of knives for efficient cutting."
+    },
+    {
+        "name": "Lemon Squeezer",
+        "color": "#FFFF00",
+        "hint": "A handheld device for extracting juice from lemons and other citrus fruits."
+    },
+    {
+        "name": "Microwave Oven",
+        "color": "#FF4500",
+        "hint": "An appliance for quickly heating and cooking food using microwaves."
+    },
+    {
+        "name": "Noodle Strainer",
+        "color": "#FFA07A",
+        "hint": "A sieve-like utensil used for draining cooked noodles."
+    },
+    {
+        "name": "Oven Thermometer",
+        "color": "#00FF00",
+        "hint": "A device for measuring the temperature inside an oven."
+    },
+    {
+        "name": "Pizza Cutter",
+        "color": "#FFD700",
+        "hint": "A tool with a circular blade for slicing pizza into portions."
+    },
+    {
+        "name": "Rice Cooker",
+        "color": "#8B4513",
+        "hint": "An appliance for cooking rice automatically to perfection."
+    },
+    {
+        "name": "Salad Spinner",
+        "color": "#2E8B57",
+        "hint": "A kitchen tool used to wash and remove excess water from salad greens."
+    },
+    {
+        "name": "Toaster",
+        "color": "#FFA500",
+        "hint": "An appliance for toasting slices of bread."
+    },
+    {
+        "name": "Vegetable Steamer",
+        "color": "#32CD32",
+        "hint": "A device for steaming vegetables to retain their nutrients."
+    },
+    {
+        "name": "Whisk",
+        "color": "#800000",
+        "hint": "A kitchen utensil with a handle and loops used for whipping and mixing."
+    }
+]

@@ -7,7 +7,7 @@ const Categories = () => {
     const typesArray = typesString.split(",");
 
     return (
-        <div className="categories-page bg-dark text-light">
+        <div className="landing-page bg-dark text-light">
             <div className="container">
                 <div className="d-flex flex-wrap justify-content-center mt-4">
                     {typesArray.map((data, index) => (
