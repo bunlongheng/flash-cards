@@ -49,6 +49,17 @@ const Category = ({ type }) => {
         return `https://source.unsplash.com/300x300/?${item.name}`;
     };
 
+    const getRandomColor = () => {
+        const letters = "0123456789ABCDEF";
+        let color = "rgba(";
+        for (let i = 0; i < 3; i++) {
+            const component = Math.floor(Math.random() * 256);
+            color += `${component},`;
+        }
+        color += "0.4)"; // Set opacity to 0.6
+        return color;
+    };
+
     return (
         <div className="app" style={{ overflowX: "hidden" }}>
             <Link to="/" className="home-link fixed-top">
@@ -60,7 +71,7 @@ const Category = ({ type }) => {
             </h1>
             <div className="thumbnails-container">
                 {data.map(item => (
-                    <div key={item.id} className={`thumbnail ${isSpeaking}`} onClick={() => handleClick(item)}>
+                    <div key={item.id} className={`thumbnail ${isSpeaking}`} onClick={() => handleClick(item)} style={{ backgroundColor: item.color || getRandomColor() }}>
                         <img src={getImage(item)} alt={item.name} draggable="false" onDragStart={e => e.preventDefault()} onContextMenu={e => e.preventDefault()} onSelect={e => e.preventDefault()} />
                         <div className={`thumbnail-details ${isSpeaking}`}>
                             <h6>{item.name}</h6>

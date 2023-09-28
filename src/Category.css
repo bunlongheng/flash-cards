@@ -19,6 +19,9 @@
 
 .thumbnail-details h6 {
     margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .thumbnail img {
