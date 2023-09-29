@@ -71,8 +71,9 @@ const Category = ({ type }) => {
             </h1>
             <div className="thumbnails-container">
                 {data.map(item => (
-                    <div key={item.id} className={`thumbnail ${isSpeaking}`} onClick={() => handleClick(item)} style={{ backgroundColor: item.color || getRandomColor() }}>
-                        <img src={getImage(item)} alt={item.name} draggable="false" onDragStart={e => e.preventDefault()} onContextMenu={e => e.preventDefault()} onSelect={e => e.preventDefault()} />
+                    <div key={item.id} className={`thumbnail ${isSpeaking}`} onClick={() => handleClick(item)} style={{ backgroundColor: getRandomColor() }}>
+                        {/* <img src={getImage(item)} alt={item.name} draggable="false" onDragStart={e => e.preventDefault()} onContextMenu={e => e.preventDefault()} onSelect={e => e.preventDefault()} /> */}
+                        <div className="name-initial">{item.name.charAt(0)}</div>
                         <div className={`thumbnail-details ${isSpeaking}`}>
                             <h6>{item.name}</h6>
                             {Object.entries(item).map(([key, value]) => {
