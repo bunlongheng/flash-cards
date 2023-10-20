@@ -7,8 +7,6 @@ const Category = ({ type }) => {
     const [data, setData] = useState([]);
     const [isSpeaking, setIsSpeaking] = useState(false);
 
-    const excludedFields = ["id", "name", "color"];
-
     useEffect(() => {
         const jsonData = require(`./data/${type}.json`);
         setData(jsonData);
@@ -51,18 +49,19 @@ const Category = ({ type }) => {
             <h1 className="text-center mb-4" style={{ padding: "50px", margin: "50px" }}>
                 {getPageName(type)}
             </h1>
-            <div className="thumbnails-container">
+            <div className="thumbnails-container" style={{ display: "flex", flexWrap: "wrap" }}>
                 {data.map(item => (
-                    <div key={item.id} className={`thumbnail ${isSpeaking}`} onClick={() => handleClick(item)} style={{ backgroundColor: getRandomColor() }}>
+                    <div
+                        key={item.id}
+                        className={`thumbnail ${isSpeaking}`}
+                        onClick={() => handleClick(item)}
+                        style={{
+                            backgroundColor: getRandomColor(),
+                        }}
+                    >
                         <div className="name-initial">{item.name.charAt(0)}</div>
                         <div className={`thumbnail-details ${isSpeaking}`}>
                             <h6>{item.name}</h6>
-                            {Object.entries(item).map(([key, value]) => {
-                                if (!excludedFields.includes(key)) {
-                                    return <p key={key}>{/* {key}: {value} */}</p>;
-                                }
-                                return null;
-                            })}
                         </div>
                     </div>
                 ))}
