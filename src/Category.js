@@ -39,16 +39,6 @@ const Category = ({ type }) => {
         }
     };
 
-    const getImage = item => {
-        const localImageTypes = ["planets", "shapes", "polygons", "triangles"];
-
-        if (localImageTypes.includes(type)) {
-            return `/images/${type}/${item.name.toLowerCase()}.png`;
-        }
-
-        return `https://source.unsplash.com/300x300/?${item.name}`;
-    };
-
     const getRandomColor = () => {
         const letters = "0123456789ABCDEF";
         let color = "rgba(";
@@ -72,7 +62,6 @@ const Category = ({ type }) => {
             <div className="thumbnails-container">
                 {data.map(item => (
                     <div key={item.id} className={`thumbnail ${isSpeaking}`} onClick={() => handleClick(item)} style={{ backgroundColor: getRandomColor() }}>
-                        {/* <img src={getImage(item)} alt={item.name} draggable="false" onDragStart={e => e.preventDefault()} onContextMenu={e => e.preventDefault()} onSelect={e => e.preventDefault()} /> */}
                         <div className="name-initial">{item.name.charAt(0)}</div>
                         <div className={`thumbnail-details ${isSpeaking}`}>
                             <h6>{item.name}</h6>
