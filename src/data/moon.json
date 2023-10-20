@@ -1,0 +1,112 @@
+Certainly! Here's a JSON representation of 26 moons, from A to Z, with their names:
+
+```json
+[
+    {
+        "name": "Ariel",
+        "type": "Moon"
+    },
+    {
+        "name": "Bianca",
+        "type": "Moon"
+    },
+    {
+        "name": "Callisto",
+        "type": "Moon"
+    },
+    {
+        "name": "Dione",
+        "type": "Moon"
+    },
+    {
+        "name": "Enceladus",
+        "type": "Moon"
+    },
+    {
+        "name": "Ferdinand",
+        "type": "Moon"
+    },
+    {
+        "name": "Ganymede",
+        "type": "Moon"
+    },
+    {
+        "name": "Hydra",
+        "type": "Moon"
+    },
+    {
+        "name": "Io",
+        "type": "Moon"
+    },
+    {
+        "name": "Janus",
+        "type": "Moon"
+    },
+    {
+        "name": "Kiviuq",
+        "type": "Moon"
+    },
+    {
+        "name": "Larissa",
+        "type": "Moon"
+    },
+    {
+        "name": "Miranda",
+        "type": "Moon"
+    },
+    {
+        "name": "Nereid",
+        "type": "Moon"
+    },
+    {
+        "name": "Oberon",
+        "type": "Moon"
+    },
+    {
+        "name": "Phoebe",
+        "type": "Moon"
+    },
+    {
+        "name": "Quaoar",
+        "type": "Moon"
+    },
+    {
+        "name": "Rhea",
+        "type": "Moon"
+    },
+    {
+        "name": "Selene",
+        "type": "Moon"
+    },
+    {
+        "name": "Titan",
+        "type": "Moon"
+    },
+    {
+        "name": "Umbriel",
+        "type": "Moon"
+    },
+    {
+        "name": "Voyager 1",
+        "type": "Moon"
+    },
+    {
+        "name": "Weywot",
+        "type": "Moon"
+    },
+    {
+        "name": "Xin",
+        "type": "Moon"
+    },
+    {
+        "name": "Ymir",
+        "type": "Moon"
+    },
+    {
+        "name": "Zephyr",
+        "type": "Moon"
+    }
+]
+```
+
+These are 26 moon names from A to Z, each categorized as a "Moon" in JSON format.

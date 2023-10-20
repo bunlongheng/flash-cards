@@ -1,0 +1,132 @@
+[
+    {
+        "name": "Andromeda",
+        "type": "Star",
+        "color": "#FFD700"
+    },
+    {
+        "name": "Betelgeuse",
+        "type": "Star",
+        "color": "#FF4500"
+    },
+    {
+        "name": "Canopus",
+        "type": "Star",
+        "color": "#FFFFFF"
+    },
+    {
+        "name": "Deneb",
+        "type": "Star",
+        "color": "#ADD8E6"
+    },
+    {
+        "name": "Epsilon Eridani",
+        "type": "Star",
+        "color": "#00CED1"
+    },
+    {
+        "name": "Fomalhaut",
+        "type": "Star",
+        "color": "#000080"
+    },
+    {
+        "name": "Gacrux",
+        "type": "Star",
+        "color": "#DC143C"
+    },
+    {
+        "name": "Hadar",
+        "type": "Star",
+        "color": "#FF69B4"
+    },
+    {
+        "name": "Izar",
+        "type": "Star",
+        "color": "#FF6347"
+    },
+    {
+        "name": "Jabhat al Akrab",
+        "type": "Star",
+        "color": "#8B4513"
+    },
+    {
+        "name": "Kaus Australis",
+        "type": "Star",
+        "color": "#008000"
+    },
+    {
+        "name": "Lalande 21185",
+        "type": "Star",
+        "color": "#B8860B"
+    },
+    {
+        "name": "Markab",
+        "type": "Star",
+        "color": "#FF8C00"
+    },
+    {
+        "name": "Nunki",
+        "type": "Star",
+        "color": "#800080"
+    },
+    {
+        "name": "Oberon",
+        "type": "Star",
+        "color": "#9400D3"
+    },
+    {
+        "name": "Pollux",
+        "type": "Star",
+        "color": "#FF1493"
+    },
+    {
+        "name": "QY Aurigae",
+        "type": "Star",
+        "color": "#FF69B4"
+    },
+    {
+        "name": "Regulus",
+        "type": "Star",
+        "color": "#FFD700"
+    },
+    {
+        "name": "Sirius",
+        "type": "Star",
+        "color": "#00FFFF"
+    },
+    {
+        "name": "Toliman",
+        "type": "Star",
+        "color": "#00CED1"
+    },
+    {
+        "name": "Urania",
+        "type": "Star",
+        "color": "#A9A9A9"
+    },
+    {
+        "name": "Vega",
+        "type": "Star",
+        "color": "#A52A2A"
+    },
+    {
+        "name": "Wolf 359",
+        "type": "Star",
+        "color": "#FF4500"
+    },
+    {
+        "name": "Xuange",
+        "type": "Star",
+        "color": "#FF8C00"
+    },
+    {
+        "name": "Yed Prior",
+        "type": "Star",
+        "color": "#FFD700"
+    },
+    {
+        "name": "Zubenelgenubi",
+        "type": "Star",
+        "color": "#FF6347"
+    }
+]
