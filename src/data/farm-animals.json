@@ -1,52 +1,137 @@
 [
-	{
-		"name": "Cow",
-		"color": "#FF0000",
-		"hint": "A large domesticated mammal raised for milk, meat, or draft purposes."
-	},
-	{
-		"name": "Sheep",
-		"color": "#FFA500",
-		"hint": "A domesticated ruminant mammal valued for its wool and meat."
-	},
-	{
-		"name": "Pig",
-		"color": "#FFFF00",
-		"hint": "A domesticated omnivorous mammal raised for meat."
-	},
-	{
-		"name": "Chicken",
-		"color": "#00FF00",
-		"hint": "A domesticated bird primarily raised for its meat and eggs."
-	},
-	{
-		"name": "Horse",
-		"color": "#0000FF",
-		"hint": "A large hoofed mammal used for riding, racing, and work purposes."
-	},
-	{
-		"name": "Goat",
-		"color": "#FF1493",
-		"hint": "A sure-footed mammal often raised for milk, meat, and fiber production."
-	},
-	{
-		"name": "Duck",
-		"color": "#800080",
-		"hint": "A waterfowl with broad bills and webbed feet, often raised for meat and eggs."
-	},
-	{
-		"name": "Turkey",
-		"color": "#228B22",
-		"hint": "A large poultry bird often raised for its meat, particularly during holidays."
-	},
-	{
-		"name": "Donkey",
-		"color": "#FFD700",
-		"hint": "A domesticated mammal known for its strength and used for work purposes."
-	},
-	{
-		"name": "Rabbit",
-		"color": "#008080",
-		"hint": "A small mammal often raised for its meat and fur."
-	}
+    {
+        "name": "Cow",
+        "color": "#FF4500",
+        "hint": "A large domesticated bovine animal, often raised for milk and meat."
+    },
+    {
+        "name": "Duck",
+        "color": "#006400",
+        "hint": "A waterfowl with webbed feet, known for its quacking sound."
+    },
+    {
+        "name": "Goat",
+        "color": "#DAA520",
+        "hint": "A small domesticated ruminant mammal, raised for milk and meat."
+    },
+    {
+        "name": "Horse",
+        "color": "#A0522D",
+        "hint": "A strong and fast-running domesticated animal, often used for transportation."
+    },
+    {
+        "name": "Lamb",
+        "color": "#F5DEB3",
+        "hint": "A young sheep, known for its tender meat."
+    },
+    {
+        "name": "Pig",
+        "color": "#FFC0CB",
+        "hint": "A domesticated omnivorous mammal, raised for its pork."
+    },
+    {
+        "name": "Rabbit",
+        "color": "#D2691E",
+        "hint": "A small burrowing mammal known for its long ears and hopping gait."
+    },
+    {
+        "name": "Sheep",
+        "color": "#FFFFFF",
+        "hint": "A domesticated ruminant mammal raised for its wool and meat."
+    },
+    {
+        "name": "Turkey",
+        "color": "#8B4513",
+        "hint": "A large bird raised for its meat, especially during Thanksgiving."
+    },
+    {
+        "name": "Alpaca",
+        "color": "#F0E68C",
+        "hint": "A domesticated South American camelid known for its soft fleece."
+    },
+    {
+        "name": "Bull",
+        "color": "#FF0000",
+        "hint": "An adult male of the domesticated cattle, often used for breeding."
+    },
+    {
+        "name": "Chicken",
+        "color": "#FFD700",
+        "hint": "A domesticated bird raised for its meat and eggs."
+    },
+    {
+        "name": "Donkey",
+        "color": "#A9A9A9",
+        "hint": "A domesticated equine animal known for its braying sound."
+    },
+    {
+        "name": "Emu",
+        "color": "#00CED1",
+        "hint": "A large flightless bird native to Australia."
+    },
+    {
+        "name": "Gander",
+        "color": "#0000FF",
+        "hint": "A male goose, known for its distinctive honking."
+    },
+    {
+        "name": "Hen",
+        "color": "#FFA500",
+        "hint": "A female chicken, typically used for laying eggs."
+    },
+    {
+        "name": "Iguana",
+        "color": "#228B22",
+        "hint": "A reptile with scales and a long tail, not typically a farm animal."
+    },
+    {
+        "name": "Jackrabbit",
+        "color": "#8B008B",
+        "hint": "A large hare known for its long ears and powerful hind legs."
+    },
+    {
+        "name": "Kangaroo",
+        "color": "#D2691E",
+        "hint": "A marsupial known for its powerful hind legs and hopping."
+    },
+    {
+        "name": "Llama",
+        "color": "#800080",
+        "hint": "A domesticated South American camelid often used as a pack animal."
+    },
+    {
+        "name": "Mule",
+        "color": "#808080",
+        "hint": "A hybrid offspring of a male donkey and a female horse."
+    },
+    {
+        "name": "Nanny Goat",
+        "color": "#FF1493",
+        "hint": "A female goat, often raised for milk production."
+    },
+    {
+        "name": "Ostrich",
+        "color": "#FF6347",
+        "hint": "A large flightless bird known for its long neck and legs."
+    },
+    {
+        "name": "Pony",
+        "color": "#800000",
+        "hint": "A small horse breed, often favored by children."
+    },
+    {
+        "name": "Rooster",
+        "color": "#FF0000",
+        "hint": "A male chicken known for its crowing at dawn."
+    },
+    {
+        "name": "Sheepdog",
+        "color": "#008080",
+        "hint": "A breed of dog known for herding and guarding sheep."
+    },
+    {
+        "name": "Turkey Vulture",
+        "color": "#5F9EA0",
+        "hint": "A large bird known for scavenging and feeding on carrion."
+    }
 ]
