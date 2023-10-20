@@ -27,15 +27,8 @@ const Category = ({ type }) => {
 
     const handleClick = item => {
         if (!isSpeaking) {
-            const utterance = new SpeechSynthesisUtterance(item.name);
+            speechSynthesis.speak(new SpeechSynthesisUtterance(item.name));
             setIsSpeaking(true);
-
-            utterance.onend = () => {
-                setIsSpeaking(false);
-            };
-
-            speechSynthesis.cancel();
-            speechSynthesis.speak(utterance);
         }
     };
 
