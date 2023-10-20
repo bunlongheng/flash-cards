@@ -5,7 +5,6 @@ import "./Category.css";
 
 const Category = ({ type }) => {
     const [data, setData] = useState([]);
-    const [isSpeaking, setIsSpeaking] = useState(false);
 
     useEffect(() => {
         const jsonData = require(`./data/${type}.json`);
@@ -24,10 +23,7 @@ const Category = ({ type }) => {
     };
 
     const handleClick = item => {
-        if (!isSpeaking) {
-            speechSynthesis.speak(new SpeechSynthesisUtterance(item.name));
-            setIsSpeaking(true);
-        }
+        speechSynthesis.speak(new SpeechSynthesisUtterance(item.name));
     };
 
     const getRandomColor = () => {
@@ -53,14 +49,14 @@ const Category = ({ type }) => {
                 {data.map(item => (
                     <div
                         key={item.id}
-                        className={`thumbnail ${isSpeaking}`}
+                        className="thumbnail"
                         onClick={() => handleClick(item)}
                         style={{
                             backgroundColor: getRandomColor(),
                         }}
                     >
                         <div className="name-initial">{item.name.charAt(0)}</div>
-                        <div className={`thumbnail-details ${isSpeaking}`}>
+                        <div className={`thumbnail-details`}>
                             <h6>{item.name}</h6>
                         </div>
                     </div>

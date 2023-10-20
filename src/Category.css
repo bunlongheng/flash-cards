@@ -76,6 +76,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        gap: 5px;
     }
 
     .thumbnail {
@@ -86,6 +87,7 @@
         transition: background-color 0.3s;
         width: 100px;
         height: 100px;
+        border-radius: 0px;
     }
 
     .thumbnail-details h6 {
