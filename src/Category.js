@@ -40,7 +40,6 @@ const Category = ({ type }) => {
     };
 
     const getRandomColor = () => {
-        const letters = "0123456789ABCDEF";
         let color = "rgba(";
         for (let i = 0; i < 3; i++) {
             const component = Math.floor(Math.random() * 256);
