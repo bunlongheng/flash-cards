@@ -27,7 +27,7 @@ const Categories = () => {
             <div className="sliding-text">
                 <span className="background-text">👋🏽 Hi! Norden!</span>
                 &nbsp;----&nbsp;
-                <img src={`/images/${randomItem}.png`} alt={randomItem} height={30} />
+                <img src={`/images/transportations/${randomItem}.png`} alt={randomItem} height={30} />
             </div>
 
             <div className="container">

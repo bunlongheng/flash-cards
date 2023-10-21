@@ -47,8 +47,8 @@
     color: white;
     padding: 10px;
     white-space: nowrap;
-    animation: slideInOut 10s forwards;
-    background-color: transparent; /* Set the background color to transparent */
+    animation: slideInOut 30s forwards;
+    background-color: transparent;
     border: none;
 }
 
