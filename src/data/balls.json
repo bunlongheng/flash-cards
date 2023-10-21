@@ -40,13 +40,18 @@
         "hint": "An oval-shaped ball used in the sport of rugby, typically brown or black."
     },
     {
-        "name": "Ping Pong Ball",
-        "color": "#FF0000",
-        "hint": "A small ball used in the sport of table tennis, typically white or orange."
-    },
-    {
         "name": "Bowling Ball",
         "color": "#000000",
         "hint": "A heavy ball used in the sport of bowling, typically with finger holes."
+    },
+    {
+        "name": "Beach Ball",
+        "color": "#000000",
+        "hint": "A Beach ball."
+    },
+    {
+        "name": "Football",
+        "color": "#FF4500",
+        "hint": "A prolate spheroid ball used in the sport of American football, typically brown or team-colored."
     }
 ]
