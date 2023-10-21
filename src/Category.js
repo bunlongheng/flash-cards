@@ -26,13 +26,21 @@ const Category = ({ type }) => {
         speechSynthesis.speak(new SpeechSynthesisUtterance(item.name));
     };
 
-    const getRandomColor = () => {
+    const getColor = (item, opacity = 0.6) => {
+        if (item.color) {
+            const hexColor = item.color;
+            const red = parseInt(hexColor.slice(1, 3), 16);
+            const green = parseInt(hexColor.slice(3, 5), 16);
+            const blue = parseInt(hexColor.slice(5, 7), 16);
+            return `rgba(${red}, ${green}, ${blue}, ${(opacity = 0.6)})`;
+        }
+
         let color = "rgba(";
         for (let i = 0; i < 3; i++) {
             const component = Math.floor(Math.random() * 256);
             color += `${component},`;
         }
-        color += "0.4)"; // Set opacity to 0.6
+        color += `${opacity})`;
         return color;
     };
 
@@ -52,7 +60,7 @@ const Category = ({ type }) => {
                         className="thumbnail"
                         onClick={() => handleClick(item)}
                         style={{
-                            backgroundColor: item.color,
+                            backgroundColor: getColor(item),
                         }}
                     >
                         <div className="name-initial">{item.name.charAt(0)}</div>
