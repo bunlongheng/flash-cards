@@ -9,7 +9,8 @@ const Categories = () => {
     return (
         <div className="categories-page bg-dark text-light">
             <div className="sliding-text">
-                👋🏽 Welcome Back! Norden! &nbsp;----&nbsp;
+                <span className="background-text">👋🏽 Welcome Back! Norden!</span>
+                &nbsp;----&nbsp;
                 <img src="/images/helicopter.png" alt="aircraft" height={30} />
             </div>
 

@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Soccer Ball",
+        "color": "#FFFFFF",
+        "hint": "A round ball used in the sport of soccer, typically black and white."
+    },
+    {
+        "name": "Basketball",
+        "color": "#FFA500",
+        "hint": "A round ball used in the sport of basketball, typically orange with black lines."
+    },
+    {
+        "name": "Ping Pong Ball",
+        "color": "#FFD700",
+        "hint": "A small ball used in the sport of table tennis, typically white or orange."
+    },
+    {
+        "name": "Baseball",
+        "color": "#FF0000",
+        "hint": "A round ball used in the sport of baseball, typically white with red stitching."
+    },
+    {
+        "name": "Volleyball",
+        "color": "#FFFF00",
+        "hint": "A round ball used in the sport of volleyball, typically white or colored."
+    },
+    {
+        "name": "Golf Ball",
+        "color": "#FFFFFF",
+        "hint": "A small ball used in the sport of golf, typically white with dimples."
+    },
+    {
+        "name": "Cricket Ball",
+        "color": "#FF4500",
+        "hint": "A hard ball used in the sport of cricket, typically red or white."
+    },
+    {
+        "name": "Rugby Ball",
+        "color": "#008000",
+        "hint": "An oval-shaped ball used in the sport of rugby, typically brown or black."
+    },
+    {
+        "name": "Ping Pong Ball",
+        "color": "#FF0000",
+        "hint": "A small ball used in the sport of table tennis, typically white or orange."
+    },
+    {
+        "name": "Bowling Ball",
+        "color": "#000000",
+        "hint": "A heavy ball used in the sport of bowling, typically with finger holes."
+    }
+]

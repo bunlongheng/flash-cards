@@ -1,0 +1,132 @@
+[
+    {
+        "name": "Apple Pie",
+        "color": "#FF5733",
+        "hint": "A classic American dessert made with apples, sugar, and spices, typically baked in a pie crust."
+    },
+    {
+        "name": "Brownie",
+        "color": "#8B4513",
+        "hint": "A dense and chewy chocolate dessert square, often containing nuts or other additions."
+    },
+    {
+        "name": "Cheesecake",
+        "color": "#FFFF00",
+        "hint": "A rich and creamy dessert made with a crust, cream cheese, sugar, and various toppings or flavors."
+    },
+    {
+        "name": "Doughnut",
+        "color": "#FFD700",
+        "hint": "A round, deep-fried pastry usually with a hole in the center, often glazed or powdered with sugar."
+    },
+    {
+        "name": "Eclair",
+        "color": "#8B4513",
+        "hint": "A long, thin pastry filled with cream and typically topped with chocolate icing."
+    },
+    {
+        "name": "Fudge",
+        "color": "#8B0000",
+        "hint": "A sweet confection made from sugar, butter, and milk, often flavored with chocolate or other ingredients."
+    },
+    {
+        "name": "Gelato",
+        "color": "#87CEEB",
+        "hint": "Italian-style ice cream that is creamier and denser than regular ice cream."
+    },
+    {
+        "name": "Hot Chocolate",
+        "color": "#8B4513",
+        "hint": "A warm, sweet beverage made with cocoa powder and milk, often topped with whipped cream or marshmallows."
+    },
+    {
+        "name": "Ice Cream",
+        "color": "#87CEEB",
+        "hint": "A frozen dessert made from dairy products, often flavored and sweetened."
+    },
+    {
+        "name": "Jellybean",
+        "color": "#FFC0CB",
+        "hint": "Small, bean-shaped candies with a soft, gel-like interior and a hard candy shell."
+    },
+    {
+        "name": "Krispy Kreme",
+        "color": "#FF6347",
+        "hint": "A popular brand of doughnuts known for their light and fluffy texture."
+    },
+    {
+        "name": "Lollipop",
+        "color": "#FF69B4",
+        "hint": "A sweet treat consisting of hard candy on a stick, often brightly colored."
+    },
+    {
+        "name": "Macaron",
+        "color": "#FFD700",
+        "hint": "A delicate French confection made of meringue and almond meal, often with a filling."
+    },
+    {
+        "name": "Nougat",
+        "color": "#FFFF00",
+        "hint": "A chewy confection made from sugar or honey, nuts, and sometimes candied fruit."
+    },
+    {
+        "name": "Oreo",
+        "color": "#000000",
+        "hint": "A popular sandwich cookie consisting of two chocolate wafers with a sweet cream filling."
+    },
+    {
+        "name": "Pancake",
+        "color": "#FFD700",
+        "hint": "A flat, round cake made from batter and cooked on a griddle, often served with syrup or toppings."
+    },
+    {
+        "name": "Quick Bread",
+        "color": "#8B4513",
+        "hint": "A type of bread that is quick to make because it doesn't require yeast to rise."
+    },
+    {
+        "name": "Red Velvet Cake",
+        "color": "#FF5733",
+        "hint": "A moist and tender cake with a distinctive red color, often layered and frosted with cream cheese icing."
+    },
+    {
+        "name": "Sorbet",
+        "color": "#87CEEB",
+        "hint": "A frozen dessert made from fruit puree or juice, sugar, and water, typically dairy-free."
+    },
+    {
+        "name": "Tiramisu",
+        "color": "#8B4513",
+        "hint": "An Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cheese, often dusted with cocoa powder."
+    },
+    {
+        "name": "Ube Cake",
+        "color": "#8A2BE2",
+        "hint": "A Filipino dessert made with purple yam, often used in cakes, pastries, and ice cream."
+    },
+    {
+        "name": "Vanilla Cake",
+        "color": "#FFD700",
+        "hint": "A sweet dessert cake with a vanilla flavor, often frosted and decorated."
+    },
+    {
+        "name": "Waffle",
+        "color": "#FFA500",
+        "hint": "A batter-based dish cooked in a grid pattern, often served with syrup or toppings."
+    },
+    {
+        "name": "Xiao Long Bao",
+        "color": "#FF4500",
+        "hint": "A type of Chinese steamed bun filled with soup and meat or seafood, often enjoyed as a dim sum dish."
+    },
+    {
+        "name": "Yogurt Parfait",
+        "color": "#87CEEB",
+        "hint": "A layered dessert made with yogurt, granola, and fruit, often served in a glass or jar."
+    },
+    {
+        "name": "Zebra Cake",
+        "color": "#FFD700",
+        "hint": "A cake with a visually striking pattern resembling a zebra's stripes, often made with chocolate and vanilla batters."
+    }
+]
