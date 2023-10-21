@@ -11,10 +11,10 @@ const Categories = () => {
 
     const [randomItem, setRandomItem] = useState("");
 
-    const getRandomItem = () => {
+    const getRandomItem = useCallback(() => {
         const randomIndex = Math.floor(Math.random() * transportationTypesArray.length);
         return transportationTypesArray[randomIndex];
-    };
+    }, [transportationTypesArray]);
 
     useEffect(() => {
         console.log(transportationTypesArray);
