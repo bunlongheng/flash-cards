@@ -38,3 +38,23 @@
     height: 100%;
     object-fit: cover;
 }
+
+.sliding-text {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    white-space: nowrap;
+    animation: slideInOut 20s forwards;
+}
+
+@keyframes slideInOut {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100vw);
+    }
+}
