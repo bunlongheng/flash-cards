@@ -47,7 +47,7 @@
     color: white;
     padding: 10px;
     white-space: nowrap;
-    animation: slideInOut 30s forwards;
+    animation: slideInOut 20s forwards;
     background-color: transparent;
     border: none;
 }
@@ -59,4 +59,10 @@
     100% {
         transform: translateX(100vw);
     }
+}
+
+.background-text {
+    background-color: black;
+    border: 1px solid white;
+    padding: 0 20px;
 }
