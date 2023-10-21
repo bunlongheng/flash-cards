@@ -47,7 +47,7 @@
     color: white;
     padding: 10px;
     white-space: nowrap;
-    animation: slideInOut 20s forwards;
+    animation: slideInOut 10s forwards;
 }
 
 @keyframes slideInOut {

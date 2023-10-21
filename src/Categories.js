@@ -8,7 +8,11 @@ const Categories = () => {
 
     return (
         <div className="categories-page bg-dark text-light">
-            <div className="sliding-text">👋🏽 Welcome Back! Norden!</div>
+            <div className="sliding-text">
+                👋🏽 Welcome Back! Norden! &nbsp;----&nbsp;
+                <img src="/images/helicopter.png" alt="aircraft" height={30} />
+            </div>
+
             <div className="container">
                 <div className="d-flex flex-wrap justify-content-center mt-4">
                     {typesArray.map((data, index) => (
