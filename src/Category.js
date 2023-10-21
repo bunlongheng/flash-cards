@@ -31,9 +31,6 @@ const Category = ({ type }) => {
 
         const clickedThumbnail = document.getElementById(`${thumbnailId}`);
         if (clickedThumbnail) {
-            const classList = Array.from(clickedThumbnail.classList);
-            // console.log(`Classes of clicked element: ${classList.join(", ")}`);
-
             if (!clickedThumbnail.classList.contains("disabled")) {
                 speechSynthesis.speak(new SpeechSynthesisUtterance(item.name));
                 clickedThumbnail.classList.add("disabled");
