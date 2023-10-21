@@ -5,7 +5,7 @@ import "./Category.css";
 
 const Category = ({ type }) => {
     const [data, setData] = useState([]);
-    const [isThumbnailsDisabled, setIsThumbnailsDisabled] = useState(false); // Add state variable
+    const [clickedItemName, setClickedItemName] = useState("");
 
     useEffect(() => {
         const jsonData = require(`./data/${type}.json`);
@@ -27,10 +27,12 @@ const Category = ({ type }) => {
         const thumbnailId = item.name.replace(/\s+/g, "-").toLowerCase();
         // console.log(`Clicked thumbnailId: ${thumbnailId}`);
 
+        setClickedItemName(item.name);
+
         const clickedThumbnail = document.getElementById(`${thumbnailId}`);
         if (clickedThumbnail) {
             const classList = Array.from(clickedThumbnail.classList);
-            console.log(`Classes of clicked element: ${classList.join(", ")}`);
+            // console.log(`Classes of clicked element: ${classList.join(", ")}`);
 
             if (!clickedThumbnail.classList.contains("disabled")) {
                 speechSynthesis.speak(new SpeechSynthesisUtterance(item.name));
@@ -65,6 +67,8 @@ const Category = ({ type }) => {
 
             <h1 className="text-center mb-4" style={{ padding: "50px", margin: "50px" }}>
                 {getPageName(type)}
+
+                {clickedItemName && <p>"{clickedItemName}"</p>}
             </h1>
             <div className={`thumbnails-container`}>
                 {data.map((item, index) => (
