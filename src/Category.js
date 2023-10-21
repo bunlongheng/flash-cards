@@ -66,10 +66,14 @@ const Category = ({ type }) => {
                     Home
                 </Link>
                 <span className="breadcrumb-divider">/</span>
-                <span className="current-page">{getPageName(type)}</span>
+
+                <span className="current-page">
+                    <img src={`/images/types/${getPageName(type)}.png`} alt="Icon" className="icon" width="20" /> {getPageName(type)}
+                </span>
+
                 <span className="float-right selected">
                     <a href={`https://www.google.com/images?q=${encodeURIComponent(clickedItemName)}`} target="_blank" rel="noopener noreferrer">
-                        {clickedItemName}
+                        "{clickedItemName}"
                     </a>
                 </span>
             </nav>
