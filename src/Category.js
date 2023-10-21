@@ -57,7 +57,7 @@ const Category = ({ type }) => {
     };
 
     return (
-        <div className="app" style={{ overflowX: "hidden" }}>
+        <div className="category-page" style={{ overflowX: "hidden" }}>
             <nav className="breadcrumbs">
                 <Link to="/" className="home-link">
                     Home
