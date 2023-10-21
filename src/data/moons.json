@@ -1,6 +1,3 @@
-Certainly! Here's a JSON representation of 26 moons, from A to Z, with their names:
-
-```json
 [
     {
         "name": "Ariel",
@@ -107,6 +104,3 @@ Certainly! Here's a JSON representation of 26 moons, from A to Z, with their nam
         "type": "Moon"
     }
 ]
-```
-
-These are 26 moon names from A to Z, each categorized as a "Moon" in JSON format.

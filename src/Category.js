@@ -52,7 +52,7 @@ const Category = ({ type }) => {
                         className="thumbnail"
                         onClick={() => handleClick(item)}
                         style={{
-                            backgroundColor: getRandomColor(),
+                            backgroundColor: item.color,
                         }}
                     >
                         <div className="name-initial">{item.name.charAt(0)}</div>
