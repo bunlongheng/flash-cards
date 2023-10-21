@@ -65,7 +65,7 @@ const Category = ({ type }) => {
                 <span className="breadcrumb-divider">/</span>
 
                 <span className="current-page">
-                    <img src={`/images/types/${getPageName(type)}.png`} alt="Icon" className="icon" width="20" /> {getPageName(type)}
+                    <img src={`/images/types/${type}.png`} alt="Icon" className="icon" width="20" /> {getPageName(type)}
                 </span>
 
                 <span className="float-right selected">
