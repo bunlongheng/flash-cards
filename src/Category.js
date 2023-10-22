@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useHistory } from "react";
 import { Link } from "react-router-dom";
 
 import "./Category.css";
@@ -38,6 +38,10 @@ const Category = ({ type }) => {
         }
     };
 
+    const goHome = () => {
+        window.location.href = "/";
+    };
+
     const getColor = (item, opacity = 0.6) => {
         if (item.color) {
             const hexColor = item.color;
@@ -62,9 +66,12 @@ const Category = ({ type }) => {
                 <Link to="/" className="home-link">
                     Go Home
                 </Link>
-                <span className="breadcrumb-divider"> &nbsp; &nbsp; &nbsp; / &nbsp; &nbsp; &nbsp;</span>
+                <span onClick={() => goHome()} className="breadcrumb-divider">
+                    {" "}
+                    &nbsp; &nbsp; &nbsp; / &nbsp; &nbsp; &nbsp;
+                </span>
 
-                <span className="current-page">
+                <span onClick={() => goHome()} className="current-page">
                     <img src={`/images/types/${type}.png`} alt="Icon" className="icon" width="20" /> {getPageName(type)}
                 </span>
 
