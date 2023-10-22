@@ -60,9 +60,9 @@ const Category = ({ type }) => {
         <div className="category-page" style={{ overflowX: "hidden" }}>
             <nav className="breadcrumbs">
                 <Link to="/" className="home-link">
-                    Home
+                    Go Home
                 </Link>
-                <span className="breadcrumb-divider">/</span>
+                <span className="breadcrumb-divider"> &nbsp; &nbsp; &nbsp; / &nbsp; &nbsp; &nbsp;</span>
 
                 <span className="current-page">
                     <img src={`/images/types/${type}.png`} alt="Icon" className="icon" width="20" /> {getPageName(type)}
