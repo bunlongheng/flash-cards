@@ -25,6 +25,7 @@ const Category = ({ type }) => {
     };
 
     const handleClick = item => {
+        setSlideText("");
         const thumbnailId = item.name.replace(/\s+/g, "-").toLowerCase();
         // console.log(`Clicked thumbnailId: ${thumbnailId}`);
 
