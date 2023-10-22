@@ -6,6 +6,7 @@ import "./Category.css";
 const Category = ({ type }) => {
     const [data, setData] = useState([]);
     const [clickedItemName, setClickedItemName] = useState("");
+    const [slideText, setSlideText] = useState("");
 
     useEffect(() => {
         const jsonData = require(`./data/${type}.json`);
@@ -34,6 +35,8 @@ const Category = ({ type }) => {
             if (!clickedThumbnail.classList.contains("disabled")) {
                 speechSynthesis.speak(new SpeechSynthesisUtterance(item.name));
                 clickedThumbnail.classList.add("disabled");
+                // setSlideText(item.name);
+                setSlideText(" 🎈 ");
             }
         }
     };
@@ -100,6 +103,12 @@ const Category = ({ type }) => {
                     </div>
                 ))}
             </div>
+
+            {slideText && (
+                <div className="slide-up">
+                    <p>{slideText}</p>
+                </div>
+            )}
         </div>
     );
 };
