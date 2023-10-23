@@ -27,15 +27,17 @@ const Category = ({ type }) => {
     const handleClick = item => {
         setSlideText("");
         const thumbnailId = item.name.replace(/\s+/g, "-").toLowerCase();
-        
+
         setClickedItemName(item.name);
-    
+
         const clickedThumbnail = document.getElementById(`${thumbnailId}`);
         if (clickedThumbnail) {
             if (!clickedThumbnail.classList.contains("disabled")) {
                 speechSynthesis.speak(new SpeechSynthesisUtterance(item.name));
                 clickedThumbnail.classList.add("disabled");
-    
+
+                console.log(clickedThumbnail.classList);
+
                 switch (clickedThumbnail.classList.length) {
                     case 1:
                         setSlideText("🎈");
@@ -56,16 +58,13 @@ const Category = ({ type }) => {
                         setSlideText("🎖️");
                         break;
                     default:
-                        setSlideText("");  
+                        setSlideText("");
                         break;
                 }
             }
         }
-    }
-    
-    # Colorful Report
-    print("Code execution completed without errors.")
-    
+    };
+
     const goHome = () => {
         window.location.href = "/";
     };
