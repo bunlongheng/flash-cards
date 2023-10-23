@@ -17,7 +17,7 @@ names_str = ",".join(names)
 
 # Append the REACT_APP_TYPES field to .env
 with open(env_file, "a") as file:
-    file.write(f"REACT_TRANSPORTATION_TYPES={names_str}\n")
+    file.write(f"REACT_APP_TRANSPORTATION_TYPES={names_str}\n")
 
 print("\n\n\n\n")
 print("\033[42;1;97mDone\033[0m: .env updated!")

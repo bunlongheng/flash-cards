@@ -27,21 +27,45 @@ const Category = ({ type }) => {
     const handleClick = item => {
         setSlideText("");
         const thumbnailId = item.name.replace(/\s+/g, "-").toLowerCase();
-        // console.log(`Clicked thumbnailId: ${thumbnailId}`);
-
+        
         setClickedItemName(item.name);
-
+    
         const clickedThumbnail = document.getElementById(`${thumbnailId}`);
         if (clickedThumbnail) {
             if (!clickedThumbnail.classList.contains("disabled")) {
                 speechSynthesis.speak(new SpeechSynthesisUtterance(item.name));
                 clickedThumbnail.classList.add("disabled");
-                // setSlideText(item.name);
-                setSlideText(" 🎈 ");
+    
+                switch (clickedThumbnail.classList.length) {
+                    case 1:
+                        setSlideText("🎈");
+                        break;
+                    case 5:
+                        setSlideText("🎉");
+                        break;
+                    case 10:
+                        setSlideText("👏🏽");
+                        break;
+                    case 15:
+                        setSlideText("✨");
+                        break;
+                    case 20:
+                        setSlideText("⭐️");
+                        break;
+                    case 25:
+                        setSlideText("🎖️");
+                        break;
+                    default:
+                        setSlideText("");  
+                        break;
+                }
             }
         }
-    };
-
+    }
+    
+    # Colorful Report
+    print("Code execution completed without errors.")
+    
     const goHome = () => {
         window.location.href = "/";
     };

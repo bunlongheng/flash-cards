@@ -1,132 +1,106 @@
 [
     {
         "name": "Arm",
-        "color": "#FF5733",
-        "hint": "A limb of the human body, extending from the shoulder to the hand."
+        "color": "#FF5733"
     },
     {
         "name": "Brain",
-        "color": "#9933FF",
-        "hint": "The organ in the head responsible for cognitive functions and consciousness."
+        "color": "#9933FF"
     },
     {
         "name": "Chin",
-        "color": "#FF5733",
-        "hint": "The protruding part of the lower face, below the mouth."
+        "color": "#FF5733"
     },
     {
         "name": "Dermis",
-        "color": "#FFA500",
-        "hint": "The middle layer of skin, containing blood vessels, hair follicles, and sweat glands."
+        "color": "#FFA500"
     },
     {
         "name": "Elbow",
-        "color": "#FF5733",
-        "hint": "The joint connecting the forearm to the upper arm."
+        "color": "#FF5733"
     },
     {
         "name": "Foot",
-        "color": "#FF5733",
-        "hint": "The lower extremity of the leg, used for walking and standing."
+        "color": "#FF5733"
     },
     {
         "name": "Gut",
-        "color": "#FFA500",
-        "hint": "The alimentary canal or digestive tract in the body."
+        "color": "#FFA500"
     },
     {
         "name": "Hair",
-        "color": "#000000",
-        "hint": "The filamentous structures that grow from the skin, primarily composed of keratin."
+        "color": "#000000"
     },
     {
         "name": "Iris",
-        "color": "#3399FF",
-        "hint": "The colored part of the eye that surrounds the pupil."
+        "color": "#3399FF"
     },
     {
         "name": "Jaw",
-        "color": "#FF5733",
-        "hint": "The bony structure that forms the mouth and holds the teeth."
+        "color": "#FF5733"
     },
     {
         "name": "Kidney",
-        "color": "#FFA500",
-        "hint": "A vital organ responsible for filtering blood and producing urine."
+        "color": "#FFA500"
     },
     {
         "name": "Lung",
-        "color": "#3399FF",
-        "hint": "The respiratory organ in the chest responsible for oxygenating blood."
+        "color": "#3399FF"
     },
     {
         "name": "Mouth",
-        "color": "#FF5733",
-        "hint": "The opening in the face through which food and words are spoken."
+        "color": "#FF5733"
     },
     {
         "name": "Nail",
-        "color": "#FFA500",
-        "hint": "The hardened covering on the tips of fingers and toes."
+        "color": "#FFA500"
     },
     {
         "name": "Ovary",
-        "color": "#FF5733",
-        "hint": "A female reproductive organ that produces eggs."
+        "color": "#FF5733"
     },
     {
         "name": "Pancreas",
-        "color": "#FFA500",
-        "hint": "An organ that produces enzymes and hormones, including insulin."
+        "color": "#FFA500"
     },
     {
         "name": "Quadriceps",
-        "color": "#FF5733",
-        "hint": "A group of muscles at the front of the thigh."
+        "color": "#FF5733"
     },
     {
         "name": "Rib",
-        "color": "#FF5733",
-        "hint": "A curved bone that forms the chest wall and protects internal organs."
+        "color": "#FF5733"
     },
     {
         "name": "Spine",
-        "color": "#9933FF",
-        "hint": "The vertebral column, providing support and protection for the spinal cord."
+        "color": "#9933FF"
     },
     {
         "name": "Thigh",
-        "color": "#FF5733",
-        "hint": "The upper part of the leg, between the hip and the knee."
+        "color": "#FF5733"
     },
     {
         "name": "Ulna",
-        "color": "#FF5733",
-        "hint": "The inner and longer bone of the forearm."
+        "color": "#FF5733"
     },
     {
         "name": "Vein",
-        "color": "#3399FF",
-        "hint": "A blood vessel that carries blood back to the heart."
+        "color": "#3399FF"
     },
     {
         "name": "Wrist",
-        "color": "#FF5733",
-        "hint": "The joint connecting the hand to the forearm."
+        "color": "#FF5733"
     },
     {
         "name": "Xiphoid Process",
-        "color": "#FF5733",
-        "hint": "A small, cartilaginous extension at the lower end of the sternum."
+        "color": "#FF5733"
     },
     {
         "name": "Yolk Sac",
-        "color": "#FFFF00",
-        "hint": "A membranous sac containing nutrients for a developing embryo."
+        "color": "#FFFF00"
     },
     {
         "name": "Zygomatic Bone",
-        "color": "#FF5733",
-        "hint": "The cheekbone, a facial bone that forms the prominence of the cheek."
+        "color": "#FF5733"
     }
 ]
