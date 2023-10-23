@@ -8,11 +8,30 @@ const Category = ({ type }) => {
     const [clickedItemName, setClickedItemName] = useState("");
     const [clickedItems, setClickedItems] = useState([]);
     const [slideText, setSlideText] = useState("");
+    const [celebrate, setCelebrate] = useState(false);
 
     useEffect(() => {
         const jsonData = require(`./data/${type}.json`);
         setData(jsonData);
     }, [type]);
+
+    useEffect(() => {
+        if (celebrate && clickedItems.length > 0 && data.length === clickedItems.length) {
+            const audio = new Audio("/sounds/ta-da.mp3");
+            audio.onloadeddata = () => {
+                audio.play();
+            };
+            setCelebrate(false); // Reset celebrate state
+        }
+    }, [celebrate, clickedItems.length, data.length]);
+
+    useEffect(() => {
+        const milestones = [5, 10, 15, 20, 25];
+        if (milestones.includes(clickedItems.length)) {
+            const audio = new Audio("/sounds/ta-da.mp3");
+            audio.play();
+        }
+    }, [clickedItems.length]);
 
     const getPageName = type => {
         if (type && type.includes("-")) {
@@ -145,6 +164,12 @@ const Category = ({ type }) => {
             {slideText && (
                 <div className="slide-up">
                     <p>{slideText}</p>
+                </div>
+            )}
+
+            {data.length === clickedItems.length && (
+                <div className="achievement-container">
+                    <img src="/images/1.gif" alt="achievement" className="achievement" />
                 </div>
             )}
         </div>
