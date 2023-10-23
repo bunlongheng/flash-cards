@@ -1,52 +1,102 @@
 [
-	{
-		"name": "Car",
-		"color": "#FF0000",
-		"hint": "A motor vehicle with four wheels used for transportation."
-	},
-	{
-		"name": "Motorcycle",
-		"color": "#FFA500",
-		"hint": "A two-wheeled vehicle powered by an engine."
-	},
-	{
-		"name": "Truck",
-		"color": "#008000",
-		"hint": "A large vehicle used for transporting goods or materials."
-	},
-	{
-		"name": "Bus",
-		"color": "#FFFF00",
-		"hint": "A large vehicle used for transporting passengers, typically along a fixed route."
-	},
-	{
-		"name": "Bicycle",
-		"color": "#0000FF",
-		"hint": "A human-powered vehicle with two wheels."
-	},
-	{
-		"name": "Scooter",
-		"color": "#FF1493",
-		"hint": "A two-wheeled vehicle with a step-through frame and a platform for the rider's feet."
-	},
-	{
-		"name": "Van",
-		"color": "#800080",
-		"hint": "A large enclosed vehicle used for transporting goods or people."
-	},
-	{
-		"name": "RV (Recreational Vehicle)",
-		"color": "#228B22",
-		"hint": "A motor vehicle or trailer equipped with living quarters for recreational purposes."
-	},
-	{
-		"name": "Train",
-		"color": "#FFD700",
-		"hint": "A connected series of vehicles that run on tracks and transport passengers or cargo."
-	},
-	{
-		"name": "Boat",
-		"color": "#008080",
-		"hint": "A watercraft used for transportation or recreational activities on water."
-	}
+    {
+        "name": "Airplane",
+        "color": "#FF0000"
+    },
+    {
+        "name": "Bicycle",
+        "color": "#FFD700"
+    },
+    {
+        "name": "Car",
+        "color": "#DAA520"
+    },
+    {
+        "name": "Drone",
+        "color": "#8B4513"
+    },
+    {
+        "name": "Electric Scooter",
+        "color": "#228B22"
+    },
+    {
+        "name": "Ferry",
+        "color": "#FF4500"
+    },
+    {
+        "name": "Golf Cart",
+        "color": "#696969"
+    },
+    {
+        "name": "Hoverboard",
+        "color": "#00FFFF"
+    },
+    {
+        "name": "Jet Ski",
+        "color": "#FF69B4"
+    },
+    {
+        "name": "Kayak",
+        "color": "#2E8B57"
+    },
+    {
+        "name": "Limousine",
+        "color": "#000000"
+    },
+    {
+        "name": "Motorcycle",
+        "color": "#A0522D"
+    },
+    {
+        "name": "Narrowboat",
+        "color": "#6495ED"
+    },
+    {
+        "name": "Ox Cart",
+        "color": "#008080"
+    },
+    {
+        "name": "Pickup Truck",
+        "color": "#00008B"
+    },
+    {
+        "name": "Quad Bike",
+        "color": "#BC8F8F"
+    },
+    {
+        "name": "Rickshaw",
+        "color": "#FF6347"
+    },
+    {
+        "name": "Scooter",
+        "color": "#5F9EA0"
+    },
+    {
+        "name": "Train",
+        "color": "#556B2F"
+    },
+    {
+        "name": "Unicycle",
+        "color": "#8A2BE2"
+    },
+    {
+        "name": "Van",
+        "color": "#FFDEAD"
+    },
+    {
+        "name": "Wagon",
+        "color": "#CD5C5C"
+    },
+    {
+        "name": "Xebec",
+        "color": "#F0E68C"
+    },
+    {
+        "name": "Yacht",
+        "color": "#ADD8E6"
+    },
+    {
+        "name": "Zeppelin",
+        "color": "#B0E0E6"
+    }
 ]

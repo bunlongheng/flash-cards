@@ -1,0 +1,106 @@
+[
+    {
+        "name": "Asian Pear",
+        "color": "#F0E68C"
+    },
+    {
+        "name": "Banana",
+        "color": "#FFD700"
+    },
+    {
+        "name": "Chiku (Sapodilla)",
+        "color": "#8B4513"
+    },
+    {
+        "name": "Dragon Fruit",
+        "color": "#FF69B4"
+    },
+    {
+        "name": "Elderberry",
+        "color": "#6B8E23"
+    },
+    {
+        "name": "Durian",
+        "color": "#FF8C00"
+    },
+    {
+        "name": "Guava",
+        "color": "#FF4500"
+    },
+    {
+        "name": "Honeydew Melon",
+        "color": "#F0FFF0"
+    },
+    {
+        "name": "Ice Cream Bean",
+        "color": "#DA70D6"
+    },
+    {
+        "name": "Jackfruit",
+        "color": "#FFD700"
+    },
+    {
+        "name": "Kumquat",
+        "color": "#FFA500"
+    },
+    {
+        "name": "Lychee",
+        "color": "#FF69B4"
+    },
+    {
+        "name": "Mango",
+        "color": "#FFA500"
+    },
+    {
+        "name": "Nectarine",
+        "color": "#FFA500"
+    },
+    {
+        "name": "Olive",
+        "color": "#808000"
+    },
+    {
+        "name": "Papaya",
+        "color": "#FF4500"
+    },
+    {
+        "name": "Quince",
+        "color": "#FFD700"
+    },
+    {
+        "name": "Rambutan",
+        "color": "#FF69B4"
+    },
+    {
+        "name": "Star Fruit",
+        "color": "#FFFF00"
+    },
+    {
+        "name": "Tamarind",
+        "color": "#8B4513"
+    },
+    {
+        "name": "Ugli Fruit",
+        "color": "#FF8C00"
+    },
+    {
+        "name": "Vanilla",
+        "color": "#F5DEB3"
+    },
+    {
+        "name": "Watermelon",
+        "color": "#FF69B4"
+    },
+    {
+        "name": "Xigua",
+        "color": "#FF69B4"
+    },
+    {
+        "name": "Youngberry",
+        "color": "#8B4513"
+    },
+    {
+        "name": "Zucchini",
+        "color": "#228B22"
+    }
+]

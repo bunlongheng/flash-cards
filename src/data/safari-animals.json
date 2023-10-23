@@ -1,132 +1,106 @@
 [
     {
         "name": "Antelope",
-        "color": "#F08080",
-        "hint": "A graceful herbivore known for its slender legs and distinctive horns."
+        "color": "#F08080"
     },
     {
         "name": "Buffalo",
-        "color": "#8B4513",
-        "hint": "A massive mammal with shaggy fur and large, curving horns."
+        "color": "#8B4513"
     },
     {
         "name": "Cheetah",
-        "color": "#FFD700",
-        "hint": "A spotted big cat known for its incredible speed and agility."
+        "color": "#FFD700"
     },
     {
         "name": "Dolphin",
-        "color": "#87CEEB",
-        "hint": "A highly intelligent marine mammal known for its playful nature."
+        "color": "#87CEEB"
     },
     {
         "name": "Elephant",
-        "color": "#A0522D",
-        "hint": "A giant land animal with a long trunk and tusks."
+        "color": "#A0522D"
     },
     {
         "name": "Flamingo",
-        "color": "#FF1493",
-        "hint": "A tall, pink wading bird known for its distinctive curved bill."
+        "color": "#FF1493"
     },
     {
         "name": "Giraffe",
-        "color": "#FF4500",
-        "hint": "A long-necked herbivore with a spotted coat and unique pattern."
+        "color": "#FF4500"
     },
     {
         "name": "Hippopotamus",
-        "color": "#008080",
-        "hint": "A large, water-loving mammal known for its massive jaws and teeth."
+        "color": "#008080"
     },
     {
         "name": "Iguana",
-        "color": "#228B22",
-        "hint": "A reptile with scales and a long tail, often found in tropical regions."
+        "color": "#228B22"
     },
     {
         "name": "Jaguar",
-        "color": "#B22222",
-        "hint": "A powerful big cat with a distinctive rosette pattern on its fur."
+        "color": "#B22222"
     },
     {
         "name": "Kangaroo",
-        "color": "#DAA520",
-        "hint": "A marsupial known for its powerful hind legs and pouch for carrying young."
+        "color": "#DAA520"
     },
     {
         "name": "Lion",
-        "color": "#FF8C00",
-        "hint": "A majestic big cat known as the 'King of the Jungle.'"
+        "color": "#FF8C00"
     },
     {
         "name": "Monkey",
-        "color": "#FF69B4",
-        "hint": "An intelligent primate known for its playful and mischievous behavior."
+        "color": "#FF69B4"
     },
     {
         "name": "Nile Crocodile",
-        "color": "#556B2F",
-        "hint": "A large reptile found in African rivers, known for its powerful jaws."
+        "color": "#556B2F"
     },
     {
         "name": "Ostrich",
-        "color": "#FF6347",
-        "hint": "A flightless bird with long legs and a distinctive neck."
+        "color": "#FF6347"
     },
     {
         "name": "Panda",
-        "color": "#32CD32",
-        "hint": "A black and white bear native to China, known for its peaceful demeanor."
+        "color": "#32CD32"
     },
     {
         "name": "Quokka",
-        "color": "#FFD700",
-        "hint": "A small marsupial with a friendly and smiling appearance."
+        "color": "#FFD700"
     },
     {
         "name": "Rhinoceros",
-        "color": "#CD853F",
-        "hint": "A massive herbivore with thick skin and one or two horns on its snout."
+        "color": "#CD853F"
     },
     {
         "name": "Sloth",
-        "color": "#A9A9A9",
-        "hint": "A slow-moving mammal known for hanging from trees in tropical forests."
+        "color": "#A9A9A9"
     },
     {
         "name": "Tiger",
-        "color": "#FF4500",
-        "hint": "A large, striped cat known for its strength and beauty."
+        "color": "#FF4500"
     },
     {
         "name": "Uakari",
-        "color": "#FF69B4",
-        "hint": "A bright red-faced monkey found in South America."
+        "color": "#FF69B4"
     },
     {
         "name": "Vulture",
-        "color": "#000000",
-        "hint": "A scavenging bird known for feeding on carrion."
+        "color": "#000000"
     },
     {
         "name": "Walrus",
-        "color": "#8B4513",
-        "hint": "A large marine mammal with long tusks and a thick blubber layer."
+        "color": "#8B4513"
     },
     {
         "name": "X-ray Tetra",
-        "color": "#FFD700",
-        "hint": "A small fish known for its translucent body and red markings."
+        "color": "#FFD700"
     },
     {
         "name": "Yak",
-        "color": "#A0522D",
-        "hint": "A domesticated bovine animal with long hair, native to the Himalayas."
+        "color": "#A0522D"
     },
     {
         "name": "Zebra",
-        "color": "#FFFFFF",
-        "hint": "A black and white striped herbivore found in African grasslands."
+        "color": "#FFFFFF"
     }
 ]
