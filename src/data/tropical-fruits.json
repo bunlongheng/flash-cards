@@ -8,7 +8,7 @@
         "color": "#FFD700"
     },
     {
-        "name": "Chiku (Sapodilla)",
+        "name": "Custard Apple",
         "color": "#8B4513"
     },
     {
@@ -16,8 +16,8 @@
         "color": "#FF69B4"
     },
     {
-        "name": "Elderberry",
-        "color": "#6B8E23"
+        "name": "Egg Fruit",
+        "color": "#FFD700"
     },
     {
         "name": "Durian",
@@ -48,8 +48,8 @@
         "color": "#FF69B4"
     },
     {
-        "name": "Mango",
-        "color": "#FFA500"
+        "name": "Mangosteen",
+        "color": "#8B4513"
     },
     {
         "name": "Nectarine",
@@ -72,7 +72,7 @@
         "color": "#FF69B4"
     },
     {
-        "name": "Star Fruit",
+        "name": "Star Apple",
         "color": "#FFFF00"
     },
     {
@@ -88,8 +88,8 @@
         "color": "#F5DEB3"
     },
     {
-        "name": "Watermelon",
-        "color": "#FF69B4"
+        "name": "Wood Apple",
+        "color": "#F5DEB3"
     },
     {
         "name": "Xigua",
