@@ -13,7 +13,7 @@
     },
     {
         "name": "Drone",
-        "color": "#32CD32"
+        "color": "#696969"
     },
     {
         "name": "E-Reader",
@@ -29,7 +29,7 @@
     },
     {
         "name": "Headphones",
-        "color": "#4B0082"
+        "color": "#696969"
     },
     {
         "name": "iPhone",
@@ -45,11 +45,11 @@
     },
     {
         "name": "Laptop",
-        "color": "#ADD8E6"
+        "color": "#000000"
     },
     {
         "name": "Microphone",
-        "color": "#800080"
+        "color": "#cccccc"
     },
     {
         "name": "Nintendo Switch",
