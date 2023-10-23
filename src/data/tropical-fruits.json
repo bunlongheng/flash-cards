@@ -21,7 +21,7 @@
     },
     {
         "name": "Durian",
-        "color": "#FF8C00"
+        "color": "#FFD700"
     },
     {
         "name": "Guava",
@@ -33,7 +33,7 @@
     },
     {
         "name": "Ice Cream Bean",
-        "color": "#DA70D6"
+        "color": "#75C60B"
     },
     {
         "name": "Jackfruit",
@@ -45,11 +45,11 @@
     },
     {
         "name": "Lychee",
-        "color": "#FF69B4"
+        "color": "#D8515A"
     },
     {
         "name": "Mangosteen",
-        "color": "#8B4513"
+        "color": "#D8515A"
     },
     {
         "name": "Nectarine",
@@ -93,11 +93,11 @@
     },
     {
         "name": "Xigua",
-        "color": "#FF69B4"
+        "color": "#FFD700"
     },
     {
         "name": "Youngberry",
-        "color": "#8B4513"
+        "color": "#180F0F"
     },
     {
         "name": "Zucchini",
