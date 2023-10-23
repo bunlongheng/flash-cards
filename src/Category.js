@@ -36,7 +36,10 @@ const Category = ({ type }) => {
             speechSynthesis.speak(new SpeechSynthesisUtterance(item.name));
             clickedThumbnail.classList.add("disabled");
 
-            switch (clickedItems.length) {
+            setClickedItems(prev => [...prev, thumbnailId]);
+            console.log(clickedItems);
+
+            switch (clickedItems.length + 1) {
                 case 1:
                     setSlideText("🎈");
                     break;
@@ -59,8 +62,6 @@ const Category = ({ type }) => {
                     setSlideText("");
                     break;
             }
-
-            setClickedItems(prevClickedItems => [...prevClickedItems, thumbnailId]);
         }
     };
 
