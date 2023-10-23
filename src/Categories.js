@@ -17,7 +17,6 @@ const Categories = () => {
     }, [transportationTypesArray]);
 
     useEffect(() => {
-        console.log(transportationTypesArray);
         const newItem = getRandomItem();
         setRandomItem(newItem);
     }, [getRandomItem, transportationTypesArray]);

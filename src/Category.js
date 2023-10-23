@@ -6,6 +6,7 @@ import "./Category.css";
 const Category = ({ type }) => {
     const [data, setData] = useState([]);
     const [clickedItemName, setClickedItemName] = useState("");
+    const [clickedItems, setClickedItems] = useState([]);
     const [slideText, setSlideText] = useState("");
 
     useEffect(() => {
@@ -27,41 +28,39 @@ const Category = ({ type }) => {
     const handleClick = item => {
         setSlideText("");
         const thumbnailId = item.name.replace(/\s+/g, "-").toLowerCase();
+        const clickedThumbnail = document.getElementById(`${thumbnailId}`);
 
         setClickedItemName(item.name);
 
-        const clickedThumbnail = document.getElementById(`${thumbnailId}`);
-        if (clickedThumbnail) {
-            if (!clickedThumbnail.classList.contains("disabled")) {
-                speechSynthesis.speak(new SpeechSynthesisUtterance(item.name));
-                clickedThumbnail.classList.add("disabled");
+        if (!clickedThumbnail.classList.contains("disabled")) {
+            speechSynthesis.speak(new SpeechSynthesisUtterance(item.name));
+            clickedThumbnail.classList.add("disabled");
 
-                console.log(clickedThumbnail.classList);
-
-                switch (clickedThumbnail.classList.length) {
-                    case 1:
-                        setSlideText("🎈");
-                        break;
-                    case 5:
-                        setSlideText("🎉");
-                        break;
-                    case 10:
-                        setSlideText("👏🏽");
-                        break;
-                    case 15:
-                        setSlideText("✨");
-                        break;
-                    case 20:
-                        setSlideText("⭐️");
-                        break;
-                    case 25:
-                        setSlideText("🎖️");
-                        break;
-                    default:
-                        setSlideText("");
-                        break;
-                }
+            switch (clickedItems.length) {
+                case 1:
+                    setSlideText("🎈");
+                    break;
+                case 5:
+                    setSlideText("🎉");
+                    break;
+                case 10:
+                    setSlideText("👏🏽");
+                    break;
+                case 15:
+                    setSlideText("✨");
+                    break;
+                case 20:
+                    setSlideText("⭐️");
+                    break;
+                case 25:
+                    setSlideText("🎖️");
+                    break;
+                default:
+                    setSlideText("");
+                    break;
             }
+
+            setClickedItems(prevClickedItems => [...prevClickedItems, thumbnailId]);
         }
     };
 
