@@ -1,0 +1,106 @@
+[
+    {
+        "name": "Adjustable Wrench",
+        "color": "#FFA07A"
+    },
+    {
+        "name": "Bolt Cutter",
+        "color": "#F0E68C"
+    },
+    {
+        "name": "Claw Hammer",
+        "color": "#B22222"
+    },
+    {
+        "name": "Drill",
+        "color": "#20B2AA"
+    },
+    {
+        "name": "End Nippers",
+        "color": "#4682B4"
+    },
+    {
+        "name": "Folding Knife",
+        "color": "#32CD32"
+    },
+    {
+        "name": "Glue Gun",
+        "color": "#FF4500"
+    },
+    {
+        "name": "Hacksaw",
+        "color": "#696969"
+    },
+    {
+        "name": "Impact Driver",
+        "color": "#B8860B"
+    },
+    {
+        "name": "Jack Plane",
+        "color": "#9932CC"
+    },
+    {
+        "name": "Knee Kicker",
+        "color": "#FFD700"
+    },
+    {
+        "name": "Level",
+        "color": "#00FF00"
+    },
+    {
+        "name": "Mallet",
+        "color": "#8B008B"
+    },
+    {
+        "name": "Nail Gun",
+        "color": "#556B2F"
+    },
+    {
+        "name": "Oil Filter Wrench",
+        "color": "#FFDAB9"
+    },
+    {
+        "name": "Pipe Wrench",
+        "color": "#FF69B4"
+    },
+    {
+        "name": "Quick Clamp",
+        "color": "#4B0082"
+    },
+    {
+        "name": "Rivet Gun",
+        "color": "#FF4500"
+    },
+    {
+        "name": "Screwdriver",
+        "color": "#2E8B57"
+    },
+    {
+        "name": "Tape Measure",
+        "color": "#DAA520"
+    },
+    {
+        "name": "Utility Knife",
+        "color": "#FF6347"
+    },
+    {
+        "name": "Vise",
+        "color": "#40E0D0"
+    },
+    {
+        "name": "Wire Stripper",
+        "color": "#ADFF2F"
+    },
+    {
+        "name": "X-Acto Knife",
+        "color": "#FFB6C1"
+    },
+    {
+        "name": "Yardstick",
+        "color": "#DB7093"
+    },
+    {
+        "name": "Zinc Coated Nails",
+        "color": "#EE82EE"
+    }
+]

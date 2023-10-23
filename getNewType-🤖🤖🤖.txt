@@ -3,11 +3,9 @@ Give me 26 vegetables - A-Z in these format .json
 [
 	{
 		"name": "Carrot",
-		"color": "#FFA500",
-		"hint": "A root vegetable with an orange color and a crunchy texture."
+		"color": "#FFA500"
 	},
 	{
 		"name": "Broccoli",
-		"color": "#008000",
-		"hint": "A green vegetable with a tree-like appearance and a mild, earthy taste."
+		"color": "#008000"
 	}, ...

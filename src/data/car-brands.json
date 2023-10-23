@@ -1,0 +1,106 @@
+[
+    {
+        "name": "Audi",
+        "color": "#000000"
+    },
+    {
+        "name": "BMW",
+        "color": "#0000FF"
+    },
+    {
+        "name": "Chevrolet",
+        "color": "#FF4500"
+    },
+    {
+        "name": "Dodge",
+        "color": "#FFD700"
+    },
+    {
+        "name": "Elon",
+        "color": "#7FFF00"
+    },
+    {
+        "name": "Ferrari",
+        "color": "#FF0000"
+    },
+    {
+        "name": "GMC",
+        "color": "#2E8B57"
+    },
+    {
+        "name": "Honda",
+        "color": "#9400D3"
+    },
+    {
+        "name": "Infiniti",
+        "color": "#B22222"
+    },
+    {
+        "name": "Jaguar",
+        "color": "#006400"
+    },
+    {
+        "name": "Kia",
+        "color": "#FFA500"
+    },
+    {
+        "name": "Lamborghini",
+        "color": "#8B4513"
+    },
+    {
+        "name": "Maserati",
+        "color": "#4682B4"
+    },
+    {
+        "name": "Nissan",
+        "color": "#6A5ACD"
+    },
+    {
+        "name": "Opel",
+        "color": "#DAA520"
+    },
+    {
+        "name": "Porsche",
+        "color": "#FF4500"
+    },
+    {
+        "name": "Qoros",
+        "color": "#000000"
+    },
+    {
+        "name": "Renault",
+        "color": "#C0C0C0"
+    },
+    {
+        "name": "Subaru",
+        "color": "#A52A2A"
+    },
+    {
+        "name": "Tesla",
+        "color": "#FF69B4"
+    },
+    {
+        "name": "Urus",
+        "color": "#32CD32"
+    },
+    {
+        "name": "Volkswagen",
+        "color": "#8B0000"
+    },
+    {
+        "name": "Wuling",
+        "color": "#0000FF"
+    },
+    {
+        "name": "Xpeng",
+        "color": "#FFFFFF"
+    },
+    {
+        "name": "Yamaha",
+        "color": "#4B0082"
+    },
+    {
+        "name": "Zotye",
+        "color": "#ADD8E6"
+    }
+]

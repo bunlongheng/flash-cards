@@ -1,0 +1,106 @@
+[
+    {
+        "name": "AirPods",
+        "color": "#FFFFFF"
+    },
+    {
+        "name": "Bluetooth Speaker",
+        "color": "#0000FF"
+    },
+    {
+        "name": "Camcorder",
+        "color": "#8B0000"
+    },
+    {
+        "name": "Drone",
+        "color": "#32CD32"
+    },
+    {
+        "name": "E-Reader",
+        "color": "#FFD700"
+    },
+    {
+        "name": "Fitness Tracker",
+        "color": "#FF69B4"
+    },
+    {
+        "name": "Graphics Tablet",
+        "color": "#A52A2A"
+    },
+    {
+        "name": "Headphones",
+        "color": "#4B0082"
+    },
+    {
+        "name": "iPhone",
+        "color": "#C0C0C0"
+    },
+    {
+        "name": "Joystick",
+        "color": "#FFA500"
+    },
+    {
+        "name": "Kindle",
+        "color": "#808080"
+    },
+    {
+        "name": "Laptop",
+        "color": "#ADD8E6"
+    },
+    {
+        "name": "Microphone",
+        "color": "#800080"
+    },
+    {
+        "name": "Nintendo Switch",
+        "color": "#FF0000"
+    },
+    {
+        "name": "Oculus Rift",
+        "color": "#000000"
+    },
+    {
+        "name": "Projector",
+        "color": "#FF4500"
+    },
+    {
+        "name": "Qi Charger",
+        "color": "#DAA520"
+    },
+    {
+        "name": "Robot Vacuum",
+        "color": "#2E8B57"
+    },
+    {
+        "name": "Smartwatch",
+        "color": "#6A5ACD"
+    },
+    {
+        "name": "Tablet",
+        "color": "#4682B4"
+    },
+    {
+        "name": "USB Drive",
+        "color": "#8B4513"
+    },
+    {
+        "name": "VR Headset",
+        "color": "#228B22"
+    },
+    {
+        "name": "Webcam",
+        "color": "#7FFF00"
+    },
+    {
+        "name": "Xbox",
+        "color": "#006400"
+    },
+    {
+        "name": "Yoga Laptop",
+        "color": "#B22222"
+    },
+    {
+        "name": "Zoom Lens",
+        "color": "#9400D3"
+    }
+]
