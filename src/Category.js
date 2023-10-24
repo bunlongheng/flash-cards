@@ -69,13 +69,13 @@ const Category = ({ type }) => {
             }
         }
 
-        // if ((clickCounts[item.id] || 0) === 5) {
-        //     window.open(`https://www.google.com/images?q=${encodeURIComponent(item.name)}`, "_blank");
-        //     setClickCounts(prevClickCounts => ({
-        //         ...prevClickCounts,
-        //         [item.id]: 0,
-        //     }));
-        // }
+        if ((clickCounts[item.id] || 0) === 5) {
+            window.open(`https://www.google.com/images?q=${encodeURIComponent(item.name)}`, "_blank");
+            setClickCounts(prevClickCounts => ({
+                ...prevClickCounts,
+                [item.id]: 0,
+            }));
+        }
     };
 
     //https://pixabay.com/sound-effects/search/celebration/
