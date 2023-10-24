@@ -1,4 +1,4 @@
-export function playAudioAndNavigateHome(clickedItemsLength, dataLength, goHomeCallback) {
+export function playAudio(clickedItemsLength, dataLength, goHomeCallback) {
     if (clickedItemsLength > 0 && dataLength === clickedItemsLength) {
         const audio2 = new Audio("/sounds/crowd2.mp3");
         audio2.onloadeddata = () => {

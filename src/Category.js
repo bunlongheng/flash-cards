@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { getColor } from "./utility/colorUtils.js";
 import { playAudio } from "./utility/audioUtils.js";
+import { getPageName, goHome } from "./utility/pageUtils.js";
 
 import "./Category.css";
 
@@ -20,17 +21,6 @@ const Category = ({ type }) => {
     useEffect(() => {
         playAudio(clickedItems.length, data.length, goHome);
     }, [clickedItems.length, data.length]);
-
-    const getPageName = type => {
-        if (type && type.includes("-")) {
-            return type
-                .split("-")
-                .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-                .join(" ");
-        } else if (type) {
-            return type.charAt(0).toUpperCase() + type.slice(1);
-        }
-    };
 
     const handleClick = item => {
         setSlideText("");
@@ -89,10 +79,6 @@ const Category = ({ type }) => {
     };
 
     //https://pixabay.com/sound-effects/search/celebration/
-
-    const goHome = () => {
-        window.location.href = "/";
-    };
 
     return (
         <div className="category-page" style={{ overflowX: "hidden" }}>
