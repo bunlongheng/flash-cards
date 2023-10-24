@@ -1,0 +1,33 @@
+export function playAudioBasedOnMilestone(clickedItemsLength) {
+    const milestones = [1, 5, 10, 15, 20, 25];
+    if (milestones.includes(clickedItemsLength)) {
+        let audioSrc = "";
+        switch (clickedItemsLength) {
+            case 1:
+                audioSrc = "/sounds/1.mp3";
+                break;
+            case 5:
+                audioSrc = "/sounds/2.mp3";
+                break;
+            case 10:
+                audioSrc = "/sounds/3.mp3";
+                break;
+            case 15:
+                audioSrc = "/sounds/4.mp3";
+                break;
+            case 20:
+                audioSrc = "/sounds/5.mp3";
+                break;
+            case 25:
+                audioSrc = "/sounds/6.mp3";
+                break;
+            default:
+                break;
+        }
+
+        if (audioSrc) {
+            const audio = new Audio(audioSrc);
+            audio.play();
+        }
+    }
+}

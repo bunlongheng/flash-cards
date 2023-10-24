@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { getColor } from "./utility/getColor.js";
+import { playAudioBasedOnMilestone } from "./utility/playAudioBasedOnMilestone.js";
 
 import "./Category.css";
 
@@ -8,6 +10,7 @@ const Category = ({ type }) => {
     const [clickedItemName, setClickedItemName] = useState("");
     const [clickedItems, setClickedItems] = useState([]);
     const [slideText, setSlideText] = useState("");
+    const [clickCounts, setClickCounts] = useState({});
 
     useEffect(() => {
         const jsonData = require(`./data/${type}.json`);
@@ -31,37 +34,7 @@ const Category = ({ type }) => {
     }, [clickedItems.length, data.length]);
 
     useEffect(() => {
-        const milestones = [1, 5, 10, 15, 20, 25];
-        if (milestones.includes(clickedItems.length)) {
-            let audioSrc = "";
-            switch (clickedItems.length) {
-                case 1:
-                    audioSrc = "/sounds/1.mp3";
-                    break;
-                case 5:
-                    audioSrc = "/sounds/2.mp3";
-                    break;
-                case 10:
-                    audioSrc = "/sounds/3.mp3";
-                    break;
-                case 15:
-                    audioSrc = "/sounds/4.mp3";
-                    break;
-                case 20:
-                    audioSrc = "/sounds/5.mp3";
-                    break;
-                case 25:
-                    audioSrc = "/sounds/6.mp3";
-                    break;
-                default:
-                    break;
-            }
-
-            if (audioSrc) {
-                const audio = new Audio(audioSrc);
-                audio.play();
-            }
-        }
+        playAudioBasedOnMilestone(clickedItems.length); // Call the function here
     }, [clickedItems.length]);
 
     const getPageName = type => {
@@ -89,6 +62,14 @@ const Category = ({ type }) => {
             setClickedItems(prev => [...prev, thumbnailId]);
             console.log(clickedItems);
 
+            // Update clickCounts for this item
+            setClickCounts(prevClickCounts => ({
+                ...prevClickCounts,
+                [item.id]: (prevClickCounts[item.id] || 0) + 1,
+            }));
+
+            console.log(clickCounts);
+
             switch (clickedItems.length + 1) {
                 case 1:
                     setSlideText("🎈");
@@ -113,44 +94,20 @@ const Category = ({ type }) => {
                     break;
             }
         }
+
+        // if ((clickCounts[item.id] || 0) === 5) {
+        //     window.open(`https://www.google.com/images?q=${encodeURIComponent(item.name)}`, "_blank");
+        //     setClickCounts(prevClickCounts => ({
+        //         ...prevClickCounts,
+        //         [item.id]: 0,
+        //     }));
+        // }
     };
 
     //https://pixabay.com/sound-effects/search/celebration/
 
     const goHome = () => {
         window.location.href = "/";
-    };
-
-    const getColor = (item, opacity = 0.6) => {
-        if (item.color) {
-            const hexColor = item.color;
-            let red = parseInt(hexColor.slice(1, 3), 16);
-            let green = parseInt(hexColor.slice(3, 5), 16);
-            let blue = parseInt(hexColor.slice(5, 7), 16);
-
-            // Check if the color is too dark (close to black)
-            if (red + green + blue < 100) {
-                // If it's too dark, adjust the color
-                red = Math.floor(Math.random() * 256);
-                green = Math.floor(Math.random() * 256);
-                blue = Math.floor(Math.random() * 256);
-            }
-
-            return `rgba(${red}, ${green}, ${blue}, ${opacity})`;
-        }
-
-        let color = "rgba(";
-        let red, green, blue;
-
-        // Generate random RGB values while avoiding black
-        do {
-            red = Math.floor(Math.random() * 256);
-            green = Math.floor(Math.random() * 256);
-            blue = Math.floor(Math.random() * 256);
-        } while (red + green + blue < 100); // Ensure it's not too dark
-
-        color += `${red}, ${green}, ${blue}, ${opacity})`;
-        return color;
     };
 
     return (
@@ -180,7 +137,7 @@ const Category = ({ type }) => {
                     <div
                         key={index}
                         id={`${item.name.replace(/\s+/g, "-").toLowerCase()}`}
-                        className={`thumbnail`}
+                        className="thumbnail"
                         onClick={() => handleClick(item)}
                         style={{
                             backgroundColor: getColor(item),
