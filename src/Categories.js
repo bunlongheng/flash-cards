@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import "./Categories.css";
 
 const Categories = () => {
-    const appTypesString = process.env.REACT_APP_TYPES || "";
-    const appTypesArray = appTypesString.split(",");
+    const categoriesStr = process.env.REACT_APP_CATEGORIES || "";
+    const categories = categoriesStr.split(",");
 
     const transportationTypesString = process.env.REACT_APP_TRANSPORTATION_TYPES || "";
     const transportationTypesArray = transportationTypesString.split(",");
@@ -21,6 +21,10 @@ const Categories = () => {
         setRandomItem(newItem);
     }, [getRandomItem, transportationTypesArray]);
 
+    const speak = data => {
+        speechSynthesis.speak(new SpeechSynthesisUtterance(data));
+    };
+
     return (
         <div className="categories-page bg-dark text-light">
             <div className="sliding-text">
@@ -31,12 +35,12 @@ const Categories = () => {
 
             <div className="container">
                 <div className="d-flex flex-wrap justify-content-center mt-4">
-                    {appTypesArray.map((data, index) => (
-                        <Link key={index} to={`/${data}`} className="link-style text-decoration-none text-light m-2">
+                    {categories.map((category, index) => (
+                        <Link key={index} to={`/${category}`} className="link-style text-decoration-none text-light m-2" onClick={() => speak(category)}>
                             <div className="thumbnail-style border border-secondary rounded p-3">
-                                <img src={`${process.env.PUBLIC_URL}/images/types/${data}.png`} alt={data} className="image-style" />
+                                <img src={`${process.env.PUBLIC_URL}/images/types/${category}.png`} alt={category} className="image-style" />
                             </div>
-                            <div className="mt-2">{data}</div>
+                            <div className="mt-2">{category}</div>
                         </Link>
                     ))}
                 </div>

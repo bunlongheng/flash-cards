@@ -6,7 +6,7 @@ import Category from "./Category";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const typesString = process.env.REACT_APP_TYPES || "";
+const typesString = process.env.REACT_APP_CATEGORIES || "";
 const typesArray = typesString.split(",");
 
 const App = () => {
