@@ -16,18 +16,51 @@ const Category = ({ type }) => {
 
     useEffect(() => {
         if (clickedItems.length > 0 && data.length === clickedItems.length) {
-            const audio = new Audio("/sounds/ta-da.mp3");
+            const audio2 = new Audio("/sounds/crowd2.mp3");
+            audio2.onloadeddata = () => {
+                audio2.play();
+            };
+
+            const audio = new Audio("/sounds/done.mp3");
             audio.onloadeddata = () => {
                 audio.play();
             };
+
+            setTimeout(goHome, 5000);
         }
     }, [clickedItems.length, data.length]);
 
     useEffect(() => {
-        const milestones = [5, 10, 15, 20, 25];
+        const milestones = [1, 5, 10, 15, 20, 25];
         if (milestones.includes(clickedItems.length)) {
-            const audio = new Audio("/sounds/ta-da.mp3");
-            audio.play();
+            let audioSrc = "";
+            switch (clickedItems.length) {
+                case 1:
+                    audioSrc = "/sounds/1.mp3";
+                    break;
+                case 5:
+                    audioSrc = "/sounds/2.mp3";
+                    break;
+                case 10:
+                    audioSrc = "/sounds/3.mp3";
+                    break;
+                case 15:
+                    audioSrc = "/sounds/4.mp3";
+                    break;
+                case 20:
+                    audioSrc = "/sounds/5.mp3";
+                    break;
+                case 25:
+                    audioSrc = "/sounds/6.mp3";
+                    break;
+                default:
+                    break;
+            }
+
+            if (audioSrc) {
+                const audio = new Audio(audioSrc);
+                audio.play();
+            }
         }
     }, [clickedItems.length]);
 
@@ -61,10 +94,10 @@ const Category = ({ type }) => {
                     setSlideText("🎈");
                     break;
                 case 5:
-                    setSlideText("🎉");
+                    setSlideText("♥️");
                     break;
                 case 10:
-                    setSlideText("👏🏽");
+                    setSlideText("🎁");
                     break;
                 case 15:
                     setSlideText("✨");
@@ -81,6 +114,8 @@ const Category = ({ type }) => {
             }
         }
     };
+
+    //https://pixabay.com/sound-effects/search/celebration/
 
     const goHome = () => {
         window.location.href = "/";
