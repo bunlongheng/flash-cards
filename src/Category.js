@@ -21,10 +21,10 @@ const Category = ({ type }) => {
                 audio2.play();
             };
 
-            const audio = new Audio("/sounds/done.mp3");
-            audio.onloadeddata = () => {
-                audio.play();
-            };
+            // const audio = new Audio("/sounds/done.mp3");
+            // audio.onloadeddata = () => {
+            //     audio.play();
+            // };
 
             setTimeout(goHome, 5000);
         }
