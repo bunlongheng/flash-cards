@@ -1,4 +1,18 @@
-export function playAudioBasedOnMilestone(clickedItemsLength) {
+export function playAudioAndNavigateHome(clickedItemsLength, dataLength, goHomeCallback) {
+    if (clickedItemsLength > 0 && dataLength === clickedItemsLength) {
+        const audio2 = new Audio("/sounds/crowd2.mp3");
+        audio2.onloadeddata = () => {
+            audio2.play();
+        };
+
+        const audio = new Audio("/sounds/done.mp3");
+        audio.onloadeddata = () => {
+            audio.play();
+        };
+
+        setTimeout(goHomeCallback, 5000);
+    }
+
     const milestones = [1, 5, 10, 15, 20, 25];
     if (milestones.includes(clickedItemsLength)) {
         let audioSrc = "";

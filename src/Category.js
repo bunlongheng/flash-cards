@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { getColor } from "./utility/getColor.js";
-import { playAudioBasedOnMilestone } from "./utility/playAudioBasedOnMilestone.js";
+import { getColor } from "./utility/colorUtils.js";
+import { playAudio } from "./utility/audioUtils.js";
 
 import "./Category.css";
 
@@ -18,24 +18,8 @@ const Category = ({ type }) => {
     }, [type]);
 
     useEffect(() => {
-        if (clickedItems.length > 0 && data.length === clickedItems.length) {
-            const audio2 = new Audio("/sounds/crowd2.mp3");
-            audio2.onloadeddata = () => {
-                audio2.play();
-            };
-
-            const audio = new Audio("/sounds/done.mp3");
-            audio.onloadeddata = () => {
-                audio.play();
-            };
-
-            setTimeout(goHome, 5000);
-        }
+        playAudio(clickedItems.length, data.length, goHome);
     }, [clickedItems.length, data.length]);
-
-    useEffect(() => {
-        playAudioBasedOnMilestone(clickedItems.length); // Call the function here
-    }, [clickedItems.length]);
 
     const getPageName = type => {
         if (type && type.includes("-")) {
