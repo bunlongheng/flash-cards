@@ -8,6 +8,7 @@
     align-items: center;
     min-height: 100vh;
 }
+
 .link-container {
     display: flex;
     justify-content: center;
@@ -37,6 +38,13 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.c-name {
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .sliding-text {

@@ -40,7 +40,7 @@ const Categories = () => {
                             <div className="thumbnail-style border border-secondary rounded p-3">
                                 <img src={`${process.env.PUBLIC_URL}/images/types/${category}.png`} alt={category} className="image-style" />
                             </div>
-                            <div className="mt-2">{category}</div>
+                            <div className="c-name mt-2">{category}</div>
                         </Link>
                     ))}
                 </div>
