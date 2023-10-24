@@ -8,7 +8,6 @@ const Category = ({ type }) => {
     const [clickedItemName, setClickedItemName] = useState("");
     const [clickedItems, setClickedItems] = useState([]);
     const [slideText, setSlideText] = useState("");
-    const [celebrate, setCelebrate] = useState(false);
 
     useEffect(() => {
         const jsonData = require(`./data/${type}.json`);
@@ -16,14 +15,13 @@ const Category = ({ type }) => {
     }, [type]);
 
     useEffect(() => {
-        if (celebrate && clickedItems.length > 0 && data.length === clickedItems.length) {
+        if (clickedItems.length > 0 && data.length === clickedItems.length) {
             const audio = new Audio("/sounds/ta-da.mp3");
             audio.onloadeddata = () => {
                 audio.play();
             };
-            setCelebrate(false); // Reset celebrate state
         }
-    }, [celebrate, clickedItems.length, data.length]);
+    }, [clickedItems.length, data.length]);
 
     useEffect(() => {
         const milestones = [5, 10, 15, 20, 25];
