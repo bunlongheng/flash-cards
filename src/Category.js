@@ -94,7 +94,7 @@ const Category = ({ type }) => {
                     setSlideText("🎈");
                     break;
                 case 5:
-                    setSlideText("♥️");
+                    setSlideText("🪄");
                     break;
                 case 10:
                     setSlideText("🎁");
