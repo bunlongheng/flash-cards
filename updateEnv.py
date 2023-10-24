@@ -3,7 +3,8 @@ import os
 data_dir = "src/data"
 json_files = os.listdir(data_dir)
 names = [os.path.splitext(file)[0] for file in json_files]
-names_str = ",".join(names)
+sorted_names = sorted(names)  # Sort the names alphabetically
+names_str = ",".join(sorted_names)
 env_file = ".env"
 
 # Open the .env file in write mode to overwrite it
