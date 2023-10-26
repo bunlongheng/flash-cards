@@ -1,106 +1,80 @@
 [
     {
-        "name": "Allosaurus",
-        "description": "A large carnivorous dinosaur known for its sharp teeth and bipedal stance."
+        "name": "Ankylosaurus"
     },
     {
-        "name": "Brachiosaurus",
-        "description": "A massive, long-necked herbivorous dinosaur with a tall body and relatively short tail."
+        "name": "Brachiosaurus"
     },
     {
-        "name": "Compsognathus",
-        "description": "A small, bipedal dinosaur with sharp teeth, known for its agility."
+        "name": "Compsognathus"
     },
     {
-        "name": "Diplodocus",
-        "description": "A large, long-necked dinosaur with a whip-like tail and a plant-eating diet."
+        "name": "Diplodocus"
     },
     {
-        "name": "Eoraptor",
-        "description": "One of the earliest known dinosaurs, a small, bipedal predator."
+        "name": "Edmontosaurus"
     },
     {
-        "name": "Futalognkosaurus",
-        "description": "A giant, long-necked dinosaur with a lengthy name."
+        "name": "Fukuiraptor"
     },
     {
-        "name": "Gallimimus",
-        "description": "A fast-running, ostrich-like dinosaur known for its speed."
+        "name": "Gallimimus"
     },
     {
-        "name": "Hypsilophodon",
-        "description": "A small, herbivorous dinosaur with a beak-like mouth and a bipedal stance."
+        "name": "Hypsilophodon"
     },
     {
-        "name": "Iguanodon",
-        "description": "A herbivorous dinosaur with a thumb spike, known for its ability to walk on both two and four legs."
+        "name": "Iguanodon"
     },
     {
-        "name": "Juravenator",
-        "description": "A small, carnivorous dinosaur from the Late Jurassic period."
+        "name": "Juravenator"
     },
     {
-        "name": "Kosmoceratops",
-        "description": "A horned dinosaur with an elaborate frill and facial features."
+        "name": "Kosmoceratops"
     },
     {
-        "name": "Lambeosaurus",
-        "description": "A duck-billed dinosaur known for its distinctive crest."
+        "name": "Lambeosaurus"
     },
     {
-        "name": "Megalosaurus",
-        "description": "One of the first dinosaurs to be named and described, a large carnivorous dinosaur."
+        "name": "Mosasaurus"
     },
     {
-        "name": "Nanotyrannus",
-        "description": "A smaller relative of Tyrannosaurus rex, known for its sharp teeth."
+        "name": "Nanotyrannus"
     },
     {
-        "name": "Oviraptor",
-        "description": "A dinosaur with a controversial name that means 'egg thief.'"
+        "name": "Oviraptor"
     },
     {
-        "name": "Parasaurolophus",
-        "description": "A duck-billed dinosaur with a long, hollow crest on its head."
+        "name": "Parasaurolophus"
     },
     {
-        "name": "Quetzalcoatlus",
-        "description": "One of the largest flying reptiles, not a dinosaur, but often associated with them."
+        "name": "Quetzalcoatlus"
     },
     {
-        "name": "Raptors",
-        "description": "A group of small to medium-sized, carnivorous dinosaurs known for their intelligence."
+        "name": "Raptors"
     },
     {
-        "name": "Stegosaurus",
-        "description": "A herbivorous dinosaur known for its double row of bony plates and spikes."
+        "name": "Stegosaurus"
     },
     {
-        "name": "Triceratops",
-        "description": "A large, herbivorous dinosaur with three facial horns and a frill."
+        "name": "Triceratops"
     },
     {
-        "name": "Utahraptor",
-        "description": "A large, predatory dinosaur known for its sharp claws."
+        "name": "Utahraptor"
     },
     {
-        "name": "Velociraptor",
-        "description": "A small, predatory dinosaur with a sickle-shaped claw on each foot."
+        "name": "Velociraptor"
     },
     {
-        "name": "Wuerhosaurus",
-        "description": "A type of stegosaurid dinosaur."
+        "name": "Wooly Mammoths"
     },
     {
-        "name": "Xenoceratops",
-        "description": "A dinosaur with a name that means 'alien horned face.'"
+        "name": "Xenoceratops"
     },
     {
-        "name": "Yi",
-        "description": "A small, feathered dinosaur from the Early Jurassic period."
+        "name": "Yangchuanosaurus"
     },
     {
-        "name": "Zephyrosaurus",
-        "description": "A small, herbivorous dinosaur with a lightweight build."
+        "name": "Zephyrosaurus"
     }
 ]
