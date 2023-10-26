@@ -1,106 +1,80 @@
 [
     {
-        "name": "AirPods",
-        "color": "#FFFFFF"
+        "name": "AirPods"
     },
     {
-        "name": "Bluetooth Speaker",
-        "color": "#0000FF"
+        "name": "Bluetooth Speaker"
     },
     {
-        "name": "Camcorder",
-        "color": "#8B0000"
+        "name": "Camcorder"
     },
     {
-        "name": "Drone",
-        "color": "#696969"
+        "name": "Drone"
     },
     {
-        "name": "E-Reader",
-        "color": "#FFD700"
+        "name": "E-Reader"
     },
     {
-        "name": "Fitness Tracker",
-        "color": "#FF69B4"
+        "name": "Fitness Tracker"
     },
     {
-        "name": "Graphics Tablet",
-        "color": "#A52A2A"
+        "name": "Graphics Tablet"
     },
     {
-        "name": "Headphones",
-        "color": "#696969"
+        "name": "Headphones"
     },
     {
-        "name": "iPhone",
-        "color": "#C0C0C0"
+        "name": "iPhone"
     },
     {
-        "name": "Joystick",
-        "color": "#FFA500"
+        "name": "Joystick"
     },
     {
-        "name": "Kindle",
-        "color": "#808080"
+        "name": "Kindle"
     },
     {
-        "name": "Laptop",
-        "color": "#000000"
+        "name": "Laptop"
     },
     {
-        "name": "Microphone",
-        "color": "#cccccc"
+        "name": "Microphone"
     },
     {
-        "name": "Nintendo Switch",
-        "color": "#FF0000"
+        "name": "Nintendo Switch"
     },
     {
-        "name": "Oculus Rift",
-        "color": "#000000"
+        "name": "Oculus Rift"
     },
     {
-        "name": "Projector",
-        "color": "#FF4500"
+        "name": "Projector"
     },
     {
-        "name": "Qi Charger",
-        "color": "#DAA520"
+        "name": "Qi Charger"
     },
     {
-        "name": "Robot Vacuum",
-        "color": "#2E8B57"
+        "name": "Robot Vacuum"
     },
     {
-        "name": "Smartwatch",
-        "color": "#6A5ACD"
+        "name": "Smartwatch"
     },
     {
-        "name": "Tablet",
-        "color": "#4682B4"
+        "name": "Tablet"
     },
     {
-        "name": "USB Drive",
-        "color": "#8B4513"
+        "name": "USB Drive"
     },
     {
-        "name": "VR Headset",
-        "color": "#228B22"
+        "name": "VR Headset"
     },
     {
-        "name": "Webcam",
-        "color": "#7FFF00"
+        "name": "Webcam"
     },
     {
-        "name": "Xbox",
-        "color": "#006400"
+        "name": "Xbox"
     },
     {
-        "name": "Yoga Laptop",
-        "color": "#B22222"
+        "name": "Yoga Laptop"
     },
     {
-        "name": "Zoom Lens",
-        "color": "#9400D3"
+        "name": "Zoom Lens"
     }
 ]
