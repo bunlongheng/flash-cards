@@ -1,132 +1,80 @@
 [
     {
-        "name": "Albatross",
-        "color": "#F0F8FF",
-        "hint": "Large seabirds known for their long wingspan and oceanic flights."
+        "name": "Albatross"
     },
     {
-        "name": "Blue Jay",
-        "color": "#0000FF",
-        "hint": "Small, blue and white birds known for their distinctive crest."
+        "name": "Blue Jay"
     },
     {
-        "name": "Canary",
-        "color": "#FFFF00",
-        "hint": "Small songbirds often kept as pets, known for their melodious singing."
+        "name": "Canary"
     },
     {
-        "name": "Duck",
-        "color": "#FFD700",
-        "hint": "Waterfowl with webbed feet and waterproof feathers, found in ponds and lakes."
+        "name": "Duck"
     },
     {
-        "name": "Eagle",
-        "color": "#FFA500",
-        "hint": "Large birds of prey known for their keen eyesight and powerful talons."
+        "name": "Eagle"
     },
     {
-        "name": "Flamingo",
-        "color": "#FF69B4",
-        "hint": "Tall wading birds with pink plumage and long, slender legs."
+        "name": "Flamingo"
     },
     {
-        "name": "Gull",
-        "color": "#00CED1",
-        "hint": "Seabirds with white plumage and long wings, often seen near coastlines."
+        "name": "Gull"
     },
     {
-        "name": "Hawk",
-        "color": "#8A2BE2",
-        "hint": "Birds of prey with sharp beaks and excellent hunting skills."
+        "name": "Hawk"
     },
     {
-        "name": "Ibis",
-        "color": "#DEB887",
-        "hint": "Long-legged wading birds with curved bills, often found in wetlands."
+        "name": "Ibis"
     },
     {
-        "name": "Jay",
-        "color": "#32CD32",
-        "hint": "Medium-sized songbirds with colorful plumage and noisy calls."
+        "name": "Jay"
     },
     {
-        "name": "Kestrel",
-        "color": "#FF4500",
-        "hint": "Small falcons known for their hovering flight and hunting abilities."
+        "name": "Kestrel"
     },
     {
-        "name": "Lark",
-        "color": "#FFFFE0",
-        "hint": "Small songbirds known for their melodious morning songs."
+        "name": "Lark"
     },
     {
-        "name": "Magpie",
-        "color": "#008080",
-        "hint": "Birds with black and white plumage known for their thieving behavior."
+        "name": "Magpie"
     },
     {
-        "name": "Nightingale",
-        "color": "#800080",
-        "hint": "Small, melodious songbirds known for their beautiful nighttime singing."
+        "name": "Nightingale"
     },
     {
-        "name": "Ostrich",
-        "color": "#FA8072",
-        "hint": "Large, flightless birds with long necks and powerful legs."
+        "name": "Ostrich"
     },
     {
-        "name": "Peacock",
-        "color": "#0D98BA",
-        "hint": "Colorful birds known for their extravagant and iridescent plumage."
+        "name": "Peacock"
     },
     {
-        "name": "Quail",
-        "color": "#A0522D",
-        "hint": "Small game birds often hunted for their meat and eggs."
+        "name": "Quail"
     },
     {
-        "name": "Robin",
-        "color": "#FF6347",
-        "hint": "Small birds with orange-red breasts known for their cheerful songs."
+        "name": "Robin"
     },
     {
-        "name": "Sparrow",
-        "color": "#D2B48C",
-        "hint": "Small, common birds often found in urban areas."
+        "name": "Sparrow"
     },
     {
-        "name": "Toucan",
-        "color": "#FFD700",
-        "hint": "Colorful birds with large, colorful bills found in tropical forests."
+        "name": "Toucan"
     },
     {
-        "name": "Umbrellabird",
-        "color": "#4B0082",
-        "hint": "Birds with unique umbrella-like crests on their heads."
+        "name": "Umbrellabird"
     },
     {
-        "name": "Vulture",
-        "color": "#2E8B57",
-        "hint": "Scavenging birds known for feeding on carrion."
+        "name": "Vulture"
     },
     {
-        "name": "Woodpecker",
-        "color": "#8B4513",
-        "hint": "Birds with strong bills used for drilling into trees in search of insects."
+        "name": "Woodpecker"
     },
     {
-        "name": "Xenops",
-        "color": "#556B2F",
-        "hint": "Small, insect-eating birds found in tropical forests."
+        "name": "Xenops"
     },
     {
-        "name": "Yellow Warbler",
-        "color": "#FFFF00",
-        "hint": "Small, yellow songbirds known for their cheerful appearance."
+        "name": "Yellow Warbler"
     },
     {
-        "name": "Zebra Dove",
-        "color": "#000000",
-        "hint": "Small, gray birds with black and white stripes on their necks."
+        "name": "Zebra Dove"
     }
 ]

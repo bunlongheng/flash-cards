@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { getColor } from "./utility/colorUtils.js";
+import { getColor, getRandomColor } from "./utility/colorUtils.js";
 import { playAudio } from "./utility/audioUtils.js";
 import { getPageName, goHome } from "./utility/pageUtils.js";
 
@@ -15,20 +15,19 @@ const Category = ({ type }) => {
 
     useEffect(() => {
         const jsonData = require(`./data/${type}.json`);
+
+        jsonData.forEach(item => {
+            if (!item.color) {
+                item.color = getRandomColor();
+            }
+        });
+
         setData(jsonData);
     }, [type]);
 
     useEffect(() => {
         playAudio(clickedItems.length, data.length, goHome);
     }, [clickedItems.length, data.length]);
-
-    // useEffect(() => {
-    //     const item = Object.keys(clickCounts).find(key => clickCounts[key] > 4);
-    //     if (item) {
-    //         window.open(`https://www.google.com/images?q=${encodeURIComponent(clickedItemName)}`, "_blank");
-    //         setClickCounts(prev => ({ ...prev, [item]: 0 }));
-    //     }
-    // }, [clickCounts]);
 
     const handleClick = item => {
         setSlideText("");
@@ -111,7 +110,7 @@ const Category = ({ type }) => {
                         className="thumbnail"
                         onClick={() => handleClick(item)}
                         style={{
-                            backgroundColor: getColor(item),
+                            backgroundColor: item.color,
                         }}
                     >
                         <div className="name-initial">{item.name.charAt(0)}</div>

@@ -1,106 +1,80 @@
 [
     {
-        "name": "Arm",
-        "color": "#FF5733"
+        "name": "Arm"
     },
     {
-        "name": "Brain",
-        "color": "#9933FF"
+        "name": "Belly"
     },
     {
-        "name": "Chin",
-        "color": "#FF5733"
+        "name": "Chin"
     },
     {
-        "name": "Dermis",
-        "color": "#FFA500"
+        "name": "Dermis"
     },
     {
-        "name": "Elbow",
-        "color": "#FF5733"
+        "name": "Elbow"
     },
     {
-        "name": "Foot",
-        "color": "#FF5733"
+        "name": "Foot"
     },
     {
-        "name": "Gut",
-        "color": "#FFA500"
+        "name": "Gut"
     },
     {
-        "name": "Hair",
-        "color": "#000000"
+        "name": "Hair"
     },
     {
-        "name": "Iris",
-        "color": "#3399FF"
+        "name": "Iris"
     },
     {
-        "name": "Jaw",
-        "color": "#FF5733"
+        "name": "Jaw"
     },
     {
-        "name": "Kidney",
-        "color": "#FFA500"
+        "name": "Kidney"
     },
     {
-        "name": "Lung",
-        "color": "#3399FF"
+        "name": "Lung"
     },
     {
-        "name": "Mouth",
-        "color": "#FF5733"
+        "name": "Mouth"
     },
     {
-        "name": "Nail",
-        "color": "#FFA500"
+        "name": "Nail"
     },
     {
-        "name": "Ovary",
-        "color": "#FF5733"
+        "name": "Ovary"
     },
     {
-        "name": "Pancreas",
-        "color": "#FFA500"
+        "name": "Pancreas"
     },
     {
-        "name": "Quadriceps",
-        "color": "#FF5733"
+        "name": "Quadriceps"
     },
     {
-        "name": "Rib",
-        "color": "#FF5733"
+        "name": "Rib"
     },
     {
-        "name": "Spine",
-        "color": "#9933FF"
+        "name": "Spine"
     },
     {
-        "name": "Thigh",
-        "color": "#FF5733"
+        "name": "Thigh"
     },
     {
-        "name": "Ulna",
-        "color": "#FF5733"
+        "name": "Ulna"
     },
     {
-        "name": "Vein",
-        "color": "#3399FF"
+        "name": "Vein"
     },
     {
-        "name": "Wrist",
-        "color": "#FF5733"
+        "name": "Wrist"
     },
     {
-        "name": "Xiphoid Process",
-        "color": "#FF5733"
+        "name": "Xiphoid Process"
     },
     {
-        "name": "Yolk Sac",
-        "color": "#FFFF00"
+        "name": "Yawn"
     },
     {
-        "name": "Zygomatic Bone",
-        "color": "#FF5733"
+        "name": "Zygomatic Bone"
     }
 ]
