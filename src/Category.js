@@ -121,8 +121,8 @@ const Category = ({ type }) => {
                         onClick={() => handleClick(item)}
                         style={{
                             backgroundColor: item.color,
-                            backgroundImage: `url(${getImage(item)})`, // Set the background image here
-                            backgroundSize: "cover", // You can adjust the size as needed
+                            backgroundImage: `url(${getImage(item)})`,
+                            backgroundSize: "cover",
                         }}
                     >
                         <div className="name-initial">{item.name.charAt(0)}</div>
