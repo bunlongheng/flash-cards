@@ -1,42 +1,42 @@
 [
-	{
-		"name": "Mercury",
-		"color": "#D4AF37",
-		"moons": 0
-	},
-	{
-		"name": "Venus",
-		"color": "#F1C40F",
-		"moons": 0
-	},
-	{
-		"name": "Earth",
-		"color": "#1ABC9C",
-		"moons": 1
-	},
-	{
-		"name": "Mars",
-		"color": "#E74C3C",
-		"moons": 2
-	},
-	{
-		"name": "Jupiter",
-		"color": "#F39C12",
-		"moons": 79
-	},
-	{
-		"name": "Saturn",
-		"color": "#FF9800",
-		"moons": 82
-	},
-	{
-		"name": "Uranus",
-		"color": "#9B59B6",
-		"moons": 27
-	},
-	{
-		"name": "Neptune",
-		"color": "#2980B9",
-		"moons": 14
-	}
+    {
+        "name": "Mercury",
+        "color": "#e6e6e6",
+        "moons": 0
+    },
+    {
+        "name": "Venus",
+        "color": "#F1C40F",
+        "moons": 0
+    },
+    {
+        "name": "Earth",
+        "color": "#537431",
+        "moons": 1
+    },
+    {
+        "name": "Mars",
+        "color": "#E74C3C",
+        "moons": 2
+    },
+    {
+        "name": "Jupiter",
+        "color": "#F39C12",
+        "moons": 79
+    },
+    {
+        "name": "Saturn",
+        "color": "#FF9800",
+        "moons": 82
+    },
+    {
+        "name": "Uranus",
+        "color": "#B4F4F3",
+        "moons": 27
+    },
+    {
+        "name": "Neptune",
+        "color": "#2980B9",
+        "moons": 14
+    }
 ]

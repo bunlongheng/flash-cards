@@ -1,57 +1,35 @@
 [
     {
-        "name": "Soccer Ball",
-        "color": "#FFFFFF",
-        "hint": "A round ball used in the sport of soccer, typically black and white."
+        "name": "Soccer Ball"
     },
     {
-        "name": "Basketball",
-        "color": "#FFA500",
-        "hint": "A round ball used in the sport of basketball, typically orange with black lines."
+        "name": "Basketball"
     },
     {
-        "name": "Ping Pong Ball",
-        "color": "#FFD700",
-        "hint": "A small ball used in the sport of table tennis, typically white or orange."
+        "name": "Ping Pong Ball"
     },
     {
-        "name": "Baseball",
-        "color": "#FF0000",
-        "hint": "A round ball used in the sport of baseball, typically white with red stitching."
+        "name": "Baseball"
     },
     {
-        "name": "Volleyball",
-        "color": "#FFFF00",
-        "hint": "A round ball used in the sport of volleyball, typically white or colored."
+        "name": "Volleyball"
     },
     {
-        "name": "Golf Ball",
-        "color": "#FFFFFF",
-        "hint": "A small ball used in the sport of golf, typically white with dimples."
+        "name": "Golf Ball"
     },
     {
-        "name": "Cricket Ball",
-        "color": "#FF4500",
-        "hint": "A hard ball used in the sport of cricket, typically red or white."
+        "name": "Cricket Ball"
     },
     {
-        "name": "Rugby Ball",
-        "color": "#008000",
-        "hint": "An oval-shaped ball used in the sport of rugby, typically brown or black."
+        "name": "Rugby Ball"
     },
     {
-        "name": "Bowling Ball",
-        "color": "#000000",
-        "hint": "A heavy ball used in the sport of bowling, typically with finger holes."
+        "name": "Bowling Ball"
     },
     {
-        "name": "Beach Ball",
-        "color": "#000000",
-        "hint": "A Beach ball."
+        "name": "Beach Ball"
     },
     {
-        "name": "Football",
-        "color": "#FF4500",
-        "hint": "A prolate spheroid ball used in the sport of American football, typically brown or team-colored."
+        "name": "Football"
     }
 ]
