@@ -80,6 +80,16 @@ const Category = ({ type }) => {
         }
     };
 
+    const getImage = item => {
+        const localImageTypes = ["planets", "shapes", "polygons", "triangles"];
+
+        if (localImageTypes.includes(type)) {
+            return `/images/${type}/${item.name.toLowerCase()}.png`;
+        }
+
+        return `https://source.unsplash.com/300x300/?${item.name}`;
+    };
+
     return (
         <div className="category-page" style={{ overflowX: "hidden" }}>
             <nav className="breadcrumbs">
@@ -111,6 +121,8 @@ const Category = ({ type }) => {
                         onClick={() => handleClick(item)}
                         style={{
                             backgroundColor: item.color,
+                            backgroundImage: `url(${getImage(item)})`, // Set the background image here
+                            backgroundSize: "cover", // You can adjust the size as needed
                         }}
                     >
                         <div className="name-initial">{item.name.charAt(0)}</div>
