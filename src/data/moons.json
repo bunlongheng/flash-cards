@@ -1,106 +1,80 @@
 [
     {
-        "name": "Ariel",
-        "type": "Moon"
+        "name": "Ariel"
     },
     {
-        "name": "Bianca",
-        "type": "Moon"
+        "name": "Bianca"
     },
     {
-        "name": "Callisto",
-        "type": "Moon"
+        "name": "Callisto"
     },
     {
-        "name": "Dione",
-        "type": "Moon"
+        "name": "Dione"
     },
     {
-        "name": "Enceladus",
-        "type": "Moon"
+        "name": "Enceladus"
     },
     {
-        "name": "Ferdinand",
-        "type": "Moon"
+        "name": "Ferdinand"
     },
     {
-        "name": "Ganymede",
-        "type": "Moon"
+        "name": "Ganymede"
     },
     {
-        "name": "Hydra",
-        "type": "Moon"
+        "name": "Hydra"
     },
     {
-        "name": "Io",
-        "type": "Moon"
+        "name": "Io"
     },
     {
-        "name": "Janus",
-        "type": "Moon"
+        "name": "Janus"
     },
     {
-        "name": "Kiviuq",
-        "type": "Moon"
+        "name": "Kiviuq"
     },
     {
-        "name": "Larissa",
-        "type": "Moon"
+        "name": "Larissa"
     },
     {
-        "name": "Miranda",
-        "type": "Moon"
+        "name": "Miranda"
     },
     {
-        "name": "Nereid",
-        "type": "Moon"
+        "name": "Nereid"
     },
     {
-        "name": "Oberon",
-        "type": "Moon"
+        "name": "Oberon"
     },
     {
-        "name": "Phoebe",
-        "type": "Moon"
+        "name": "Phoebe"
     },
     {
-        "name": "Quaoar",
-        "type": "Moon"
+        "name": "Quaoar"
     },
     {
-        "name": "Rhea",
-        "type": "Moon"
+        "name": "Rhea"
     },
     {
-        "name": "Selene",
-        "type": "Moon"
+        "name": "Selene"
     },
     {
-        "name": "Titan",
-        "type": "Moon"
+        "name": "Titan"
     },
     {
-        "name": "Umbriel",
-        "type": "Moon"
+        "name": "Umbriel"
     },
     {
-        "name": "Voyager 1",
-        "type": "Moon"
+        "name": "Voyager 1"
     },
     {
-        "name": "Weywot",
-        "type": "Moon"
+        "name": "Weywot"
     },
     {
-        "name": "Xin",
-        "type": "Moon"
+        "name": "Xin"
     },
     {
-        "name": "Ymir",
-        "type": "Moon"
+        "name": "Ymir"
     },
     {
-        "name": "Zephyr",
-        "type": "Moon"
+        "name": "Zephyr"
     }
 ]
