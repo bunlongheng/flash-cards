@@ -87,7 +87,7 @@ const Category = ({ type }) => {
             return `/images/${type}/${item.name.toLowerCase()}.png`;
         }
 
-        return `https://source.unsplash.com/300x300/?${item.name}`;
+        return `https://source.unsplash.com/300x300/?${encodeURIComponent(item.name)}`;
     };
 
     return (
