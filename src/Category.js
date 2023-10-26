@@ -22,6 +22,14 @@ const Category = ({ type }) => {
         playAudio(clickedItems.length, data.length, goHome);
     }, [clickedItems.length, data.length]);
 
+    // useEffect(() => {
+    //     const item = Object.keys(clickCounts).find(key => clickCounts[key] > 4);
+    //     if (item) {
+    //         window.open(`https://www.google.com/images?q=${encodeURIComponent(clickedItemName)}`, "_blank");
+    //         setClickCounts(prev => ({ ...prev, [item]: 0 }));
+    //     }
+    // }, [clickCounts]);
+
     const handleClick = item => {
         setSlideText("");
         const thumbnailId = item.name.replace(/\s+/g, "-").toLowerCase();
@@ -29,20 +37,23 @@ const Category = ({ type }) => {
 
         setClickedItemName(item.name);
 
+        // Update clickCounts for this item
+        setClickCounts(prevClickCounts => ({
+            ...prevClickCounts,
+            [item.id]: (prevClickCounts[item.id] || 0) + 1,
+        }));
+
+        if (clickCounts > 4) {
+            window.open(`https://www.google.com/images?q=${encodeURIComponent(clickedItemName)}`, "_blank");
+            setClickCounts(prev => ({ ...prev, [item]: 0 }));
+        }
+
         if (!clickedThumbnail.classList.contains("disabled")) {
             speechSynthesis.speak(new SpeechSynthesisUtterance(item.name));
             clickedThumbnail.classList.add("disabled");
 
             setClickedItems(prev => [...prev, thumbnailId]);
             console.log(clickedItems);
-
-            // Update clickCounts for this item
-            setClickCounts(prevClickCounts => ({
-                ...prevClickCounts,
-                [item.id]: (prevClickCounts[item.id] || 0) + 1,
-            }));
-
-            console.log(clickCounts);
 
             switch (clickedItems.length + 1) {
                 case 1:
@@ -68,17 +79,7 @@ const Category = ({ type }) => {
                     break;
             }
         }
-
-        // if ((clickCounts[item.id] || 0) === 5) {
-        //     window.open(`https://www.google.com/images?q=${encodeURIComponent(item.name)}`, "_blank");
-        //     setClickCounts(prevClickCounts => ({
-        //         ...prevClickCounts,
-        //         [item.id]: 0,
-        //     }));
-        // }
     };
-
-    //https://pixabay.com/sound-effects/search/celebration/
 
     return (
         <div className="category-page" style={{ overflowX: "hidden" }}>
