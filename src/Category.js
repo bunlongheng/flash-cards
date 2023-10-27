@@ -80,6 +80,7 @@ const Category = ({ type }) => {
         }
     };
 
+    // eslint-disable-next-line
     const getImage = item => {
         const localImageTypes = ["planets", "shapes", "polygons", "triangles"];
 
