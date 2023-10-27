@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { getRandomColor } from "./utility/colorUtils.js";
 import { playAudio } from "./utility/audioUtils.js";
 import { getPageName, goHome } from "./utility/pageUtils.js";
+//import { getImage } from "./utility/imageUtils.js";
 
 import "./Category.css";
 
@@ -80,17 +81,6 @@ const Category = ({ type }) => {
         }
     };
 
-    // eslint-disable-next-line
-    const getImage = item => {
-        const localImageTypes = ["planets", "shapes", "polygons", "triangles"];
-
-        if (localImageTypes.includes(type)) {
-            return `/images/${type}/${item.name.toLowerCase()}.png`;
-        }
-
-        return `https://source.unsplash.com/300x300/?${encodeURIComponent(item.name)}`;
-    };
-
     return (
         <div className="category-page" style={{ overflowX: "hidden" }}>
             <nav className="breadcrumbs">
@@ -122,7 +112,7 @@ const Category = ({ type }) => {
                         onClick={() => handleClick(item)}
                         style={{
                             backgroundColor: item.color,
-                            // backgroundImage: `url(${getImage(item)})`,
+                            //backgroundImage: `url(${getImage(item)})`,
                             backgroundSize: "cover",
                         }}
                     >

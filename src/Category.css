@@ -31,16 +31,6 @@
     transform: translateY(0);
 }
 
-.thumbnail:after {
-    content: "";
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    width: calc(100% - 4px);
-    height: 50%;
-    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.1));
-}
-
 .thumbnail.disabled {
     opacity: 0.4;
     border: 1px solid black;
@@ -50,7 +40,6 @@
 
 .name-initial {
     font-size: 5em;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .thumbnail img {
@@ -64,7 +53,6 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     max-width: 100px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .thumbnail-details h6 {
