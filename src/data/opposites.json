@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Happy / Sad"
+    },
+    {
+        "name": "Funny / Serious"
+    },
+    {
+        "name": "Cute / Ugly"
+    },
+    {
+        "name": "Brave / Scared"
+    },
+    {
+        "name": "Smart / Dumb"
+    },
+    {
+        "name": "Kind / Mean"
+    },
+    {
+        "name": "Silly / Serious"
+    },
+    {
+        "name": "Loud / Quiet"
+    },
+    {
+        "name": "Big / Small"
+    },
+    {
+        "name": "Fast / Slow"
+    },
+    {
+        "name": "Strong / Weak"
+    },
+    {
+        "name": "Tall / Short"
+    },
+    {
+        "name": "Sweet / Sour"
+    },
+    {
+        "name": "Hot / Cold"
+    },
+    {
+        "name": "Bright / Dark"
+    },
+    {
+        "name": "Colorful / Plain"
+    },
+    {
+        "name": "Bumpy / Smooth"
+    },
+    {
+        "name": "Young / Old"
+    },
+    {
+        "name": "Clean / Dirty"
+    },
+    {
+        "name": "Good / Bad"
+    },
+    {
+        "name": "Beautiful / Ugly"
+    },
+    {
+        "name": "Big / Tiny"
+    },
+    {
+        "name": "Hard / Soft"
+    },
+    {
+        "name": "Simple / Complex"
+    }
+]

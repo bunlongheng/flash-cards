@@ -3,9 +3,25 @@ Give me 26 vegetables - A-Z in these format .json
 [
 	{
 		"name": "Carrot",
-		"color": "#FFA500"
 	},
 	{
 		"name": "Broccoli",
-		"color": "#008000"
+	}, ...
+
+
+
+
+
+
+
+
+
+Give me top 20 - reptail in these format .json
+
+[
+	{
+		"name": "Snake",
+	},
+	{
+		"name": "Lizzard",
 	}, ...
