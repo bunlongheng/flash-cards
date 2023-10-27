@@ -121,7 +121,7 @@ const Category = ({ type }) => {
                         onClick={() => handleClick(item)}
                         style={{
                             backgroundColor: item.color,
-                            backgroundImage: `url(${getImage(item)})`,
+                            // backgroundImage: `url(${getImage(item)})`,
                             backgroundSize: "cover",
                         }}
                     >
