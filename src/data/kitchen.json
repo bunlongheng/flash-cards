@@ -1,174 +1,131 @@
 [
     {
-        "name": "Apron",
-        "color": "#FF4500"
+        "name": "Apron"
     },
     {
-        "name": "Blender",
-        "color": "#00FF00"
+        "name": "Blender"
     },
     {
-        "name": "Coffee Maker",
-        "color": "#964B00"
+        "name": "Coffee Maker"
     },
     {
-        "name": "Dish Rack",
-        "color": "#A9A9A9"
+        "name": "Dish Rack"
     },
     {
-        "name": "Egg Beater",
-        "color": "#FFD700"
+        "name": "Egg Beater"
     },
     {
-        "name": "Frying Pan",
-        "color": "#FF0000"
+        "name": "Frying Pan"
     },
     {
-        "name": "Garlic Press",
-        "color": "#800000"
+        "name": "Garlic Press"
     },
     {
-        "name": "Grater",
-        "color": "#FFFF00"
+        "name": "Grater"
     },
     {
-        "name": "Knife Set",
-        "color": "#000000"
+        "name": "Knife Set"
     },
     {
-        "name": "Ladle",
-        "color": "#1E90FF"
+        "name": "Ladle"
     },
     {
-        "name": "Measuring Cup",
-        "color": "#FF1493"
+        "name": "Measuring Cup"
     },
     {
-        "name": "Napkin Holder",
-        "color": "#228B22"
+        "name": "Napkin Holder"
     },
     {
-        "name": "Oven Mitt",
-        "color": "#800080"
+        "name": "Oven Mitt"
     },
     {
-        "name": "Peeler",
-        "color": "#FF69B4"
+        "name": "Peeler"
     },
     {
-        "name": "Quiche Dish",
-        "color": "#FF6347"
+        "name": "Quiche Dish"
     },
     {
-        "name": "Rolling Pin",
-        "color": "#8A2BE2"
+        "name": "Rolling Pin"
     },
     {
-        "name": "Salt Shaker",
-        "color": "#FFFF99"
+        "name": "Salt Shaker"
     },
     {
-        "name": "Teapot",
-        "color": "#FFA500"
+        "name": "Teapot"
     },
     {
-        "name": "Utensil Holder",
-        "color": "#2E8B57"
+        "name": "Utensil Holder"
     },
     {
-        "name": "Vegetable Peeler",
-        "color": "#9932CC"
+        "name": "Vegetable Peeler"
     },
     {
-        "name": "Wine Opener",
-        "color": "#800000"
+        "name": "Wine Opener"
     },
     {
-        "name": "Yogurt Maker",
-        "color": "#FF69B4"
+        "name": "Yogurt Maker"
     },
     {
-        "name": "Zester",
-        "color": "#008000"
+        "name": "Zester"
     },
     {
-        "name": "Baking Sheet",
-        "color": "#CD853F"
+        "name": "Baking Sheet"
     },
     {
-        "name": "Can Opener",
-        "color": "#000080"
+        "name": "Can Opener"
     },
     {
-        "name": "Dish Soap Dispenser",
-        "color": "#0000FF"
+        "name": "Dish Soap Dispenser"
     },
     {
-        "name": "Egg Timer",
-        "color": "#FF8C00"
+        "name": "Egg Timer"
     },
     {
-        "name": "Food Processor",
-        "color": "#4B0082"
+        "name": "Food Processor"
     },
     {
-        "name": "Glass Tumbler",
-        "color": "#008B8B"
+        "name": "Glass Tumbler"
     },
     {
-        "name": "Herb Grinder",
-        "color": "#800080"
+        "name": "Herb Grinder"
     },
     {
-        "name": "Ice Cube Tray",
-        "color": "#ADD8E6"
+        "name": "Ice Cube Tray"
     },
     {
-        "name": "Juicer",
-        "color": "#FF6347"
+        "name": "Juicer"
     },
     {
-        "name": "Knife Sharpener",
-        "color": "#808000"
+        "name": "Knife Sharpener"
     },
     {
-        "name": "Lemon Squeezer",
-        "color": "#FFFF00"
+        "name": "Lemon Squeezer"
     },
     {
-        "name": "Microwave Oven",
-        "color": "#FF4500"
+        "name": "Microwave Oven"
     },
     {
-        "name": "Noodle Strainer",
-        "color": "#FFA07A"
+        "name": "Noodle Strainer"
     },
     {
-        "name": "Oven Thermometer",
-        "color": "#00FF00"
+        "name": "Oven Thermometer"
     },
     {
-        "name": "Pizza Cutter",
-        "color": "#FFD700"
+        "name": "Pizza Cutter"
     },
     {
-        "name": "Rice Cooker",
-        "color": "#8B4513"
+        "name": "Rice Cooker"
     },
     {
-        "name": "Salad Spinner",
-        "color": "#2E8B57"
+        "name": "Salad Spinner"
     },
     {
-        "name": "Toaster",
-        "color": "#FFA500"
+        "name": "Toaster"
     },
     {
-        "name": "Vegetable Steamer",
-        "color": "#32CD32"
+        "name": "Vegetable Steamer"
     },
     {
-        "name": "Whisk",
-        "color": "#800000"
+        "name": "Whisk"
     }
 ]

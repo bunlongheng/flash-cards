@@ -1,132 +1,106 @@
 [
     {
         "name": "Arugula",
-        "color": "#8B4513",
         "hint": "A leafy green vegetable with a peppery flavor, often used in salads."
     },
     {
         "name": "Broccoli",
-        "color": "#008000",
         "hint": "A green vegetable with a tree-like appearance and a mild, earthy taste."
     },
     {
         "name": "Carrot",
-        "color": "#FFA500",
         "hint": "A root vegetable with an orange color and a crunchy texture."
     },
     {
         "name": "Daikon",
-        "color": "#d8dde6",
         "hint": "A mild-flavored, white radish often used in Asian cuisine."
     },
     {
         "name": "Eggplant",
-        "color": "#800080",
         "hint": "A purple or black-skinned vegetable with a mild, creamy flesh."
     },
     {
         "name": "Fennel",
-        "color": "#008000",
         "hint": "A bulbous vegetable with a licorice-like flavor, often used in salads."
     },
     {
         "name": "Garlic",
-        "color": "#d8dde6",
         "hint": "A pungent bulb used for flavoring various dishes and sauces."
     },
     {
         "name": "Horseradish",
-        "color": "#B22222",
         "hint": "A pungent root vegetable often used as a condiment or seasoning."
     },
     {
         "name": "Iceberg Lettuce",
-        "color": "#87CEEB",
         "hint": "A type of lettuce with crispy, pale green leaves, often used in salads."
     },
     {
-        "name": "Jalapeño Pepper",
-        "color": "#FF4500",
+        "name": "Jalape\u00f1o Pepper",
         "hint": "A spicy green chili pepper often used in Mexican cuisine."
     },
     {
         "name": "Kale",
-        "color": "#228B22",
         "hint": "A leafy green vegetable known for its nutrient density and earthy flavor."
     },
     {
         "name": "Leek",
-        "color": "#008080",
         "hint": "A mild-flavored, onion-like vegetable often used in soups and stews."
     },
     {
         "name": "Mushroom",
-        "color": "#800000",
         "hint": "A fungi with various shapes and flavors, used in a wide range of dishes."
     },
     {
         "name": "Napa Cabbage",
-        "color": "#7FFF00",
         "hint": "A type of Chinese cabbage with crisp, pale green leaves."
     },
     {
         "name": "Olive",
-        "color": "#808000",
         "hint": "A small fruit used for making olive oil and as a snack or ingredient."
     },
     {
         "name": "Pea",
-        "color": "#00FF00",
         "hint": "A small, round green vegetable often used in salads and side dishes."
     },
     {
         "name": "Quinoa",
-        "color": "#FFD700",
         "hint": "A grain-like seed known for its high protein content and nutty flavor."
     },
     {
         "name": "Radish",
-        "color": "#FF5733",
         "hint": "A crisp, peppery root vegetable often used in salads and garnishes."
     },
     {
         "name": "Spinach",
-        "color": "#4B0082",
         "hint": "A dark green leafy vegetable rich in iron and commonly used in salads."
     },
     {
         "name": "Tomato",
-        "color": "#FF6347",
         "hint": "A red or yellow fruit often used as a vegetable in cooking."
     },
     {
         "name": "Urad Bean",
-        "color": "#800020",
         "hint": "A type of bean used in Indian cuisine, especially in dals and curries."
     },
     {
         "name": "Vidalia Onion",
-        "color": "#FFD700",
         "hint": "A sweet, mild onion variety often used in salads and for grilling."
     },
     {
         "name": "Watercress",
-        "color": "#00FF7F",
         "hint": "A peppery, aquatic plant often used in salads and as a garnish."
     },
     {
         "name": "Xigua (Watermelon)",
-        "color": "#FF69B4",
         "hint": "A juicy, sweet fruit often enjoyed in the summertime."
     },
     {
         "name": "Yellow Squash",
-        "color": "#FFFF00",
         "hint": "A summer squash with yellow skin and a mild, slightly sweet flavor."
     },
     {
         "name": "Zucchini",
-        "color": "#008000",
         "hint": "A summer squash often used in savory dishes and for making zoodles."
     }
 ]

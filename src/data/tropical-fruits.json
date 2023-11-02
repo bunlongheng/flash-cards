@@ -1,106 +1,80 @@
 [
     {
-        "name": "Asian Pear",
-        "color": "#F0E68C"
+        "name": "Asian Pear"
     },
     {
-        "name": "Banana",
-        "color": "#FFD700"
+        "name": "Banana"
     },
     {
-        "name": "Custard Apple",
-        "color": "#8B4513"
+        "name": "Custard Apple"
     },
     {
-        "name": "Dragon Fruit",
-        "color": "#FF69B4"
+        "name": "Dragon Fruit"
     },
     {
-        "name": "Egg Fruit",
-        "color": "#FFD700"
+        "name": "Egg Fruit"
     },
     {
-        "name": "Durian",
-        "color": "#FFD700"
+        "name": "Durian"
     },
     {
-        "name": "Guava",
-        "color": "#FF4500"
+        "name": "Guava"
     },
     {
-        "name": "Honeydew Melon",
-        "color": "#F0FFF0"
+        "name": "Honeydew Melon"
     },
     {
-        "name": "Ice Cream Bean",
-        "color": "#75C60B"
+        "name": "Ice Cream Bean"
     },
     {
-        "name": "Jackfruit",
-        "color": "#FFD700"
+        "name": "Jackfruit"
     },
     {
-        "name": "Kaffir Lime",
-        "color": "#228B22"
+        "name": "Kaffir Lime"
     },
     {
-        "name": "Lychee",
-        "color": "#D8515A"
+        "name": "Lychee"
     },
     {
-        "name": "Mangosteen",
-        "color": "#D8515A"
+        "name": "Mangosteen"
     },
     {
-        "name": "Nectarine",
-        "color": "#FFA500"
+        "name": "Nectarine"
     },
     {
-        "name": "Orange",
-        "color": "#FFA500"
+        "name": "Orange"
     },
     {
-        "name": "Papaya",
-        "color": "#FF4500"
+        "name": "Papaya"
     },
     {
-        "name": "Quince",
-        "color": "#FFD700"
+        "name": "Quince"
     },
     {
-        "name": "Rambutan",
-        "color": "#DB3E35"
+        "name": "Rambutan"
     },
     {
-        "name": "Sapodilla",
-        "color": "#BA8D5E"
+        "name": "Sapodilla"
     },
     {
-        "name": "Tamarind",
-        "color": "#8B4513"
+        "name": "Tamarind"
     },
     {
-        "name": "Uvaria Rufa",
-        "color": "#DA0D65"
+        "name": "Uvaria Rufa"
     },
     {
-        "name": "Velvet Tamarind",
-        "color": "#F5DEB3"
+        "name": "Velvet Tamarind"
     },
     {
-        "name": "Wood Apple",
-        "color": "#F5DEB3"
+        "name": "Wood Apple"
     },
     {
-        "name": "Xigua",
-        "color": "#FFD700"
+        "name": "Xigua"
     },
     {
-        "name": "Youngberry",
-        "color": "#180F0F"
+        "name": "Youngberry"
     },
     {
-        "name": "Zucchini",
-        "color": "#228B22"
+        "name": "Zucchini"
     }
 ]

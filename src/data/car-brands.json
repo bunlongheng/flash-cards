@@ -1,106 +1,80 @@
 [
     {
-        "name": "Audi",
-        "color": "#000000"
+        "name": "Audi"
     },
     {
-        "name": "BMW",
-        "color": "#0000FF"
+        "name": "BMW"
     },
     {
-        "name": "Chevrolet",
-        "color": "#FF4500"
+        "name": "Chevrolet"
     },
     {
-        "name": "Dodge",
-        "color": "#FFD700"
+        "name": "Dodge"
     },
     {
-        "name": "Elon",
-        "color": "#7FFF00"
+        "name": "Elon"
     },
     {
-        "name": "Ferrari",
-        "color": "#FF0000"
+        "name": "Ferrari"
     },
     {
-        "name": "GMC",
-        "color": "#2E8B57"
+        "name": "GMC"
     },
     {
-        "name": "Honda",
-        "color": "#9400D3"
+        "name": "Honda"
     },
     {
-        "name": "Infiniti",
-        "color": "#B22222"
+        "name": "Infiniti"
     },
     {
-        "name": "Jaguar",
-        "color": "#006400"
+        "name": "Jaguar"
     },
     {
-        "name": "Kia",
-        "color": "#FFA500"
+        "name": "Kia"
     },
     {
-        "name": "Lamborghini",
-        "color": "#8B4513"
+        "name": "Lamborghini"
     },
     {
-        "name": "Maserati",
-        "color": "#4682B4"
+        "name": "Maserati"
     },
     {
-        "name": "Nissan",
-        "color": "#6A5ACD"
+        "name": "Nissan"
     },
     {
-        "name": "Opel",
-        "color": "#DAA520"
+        "name": "Opel"
     },
     {
-        "name": "Porsche",
-        "color": "#FF4500"
+        "name": "Porsche"
     },
     {
-        "name": "Qoros",
-        "color": "#000000"
+        "name": "Qoros"
     },
     {
-        "name": "Renault",
-        "color": "#C0C0C0"
+        "name": "Renault"
     },
     {
-        "name": "Subaru",
-        "color": "#A52A2A"
+        "name": "Subaru"
     },
     {
-        "name": "Tesla",
-        "color": "#FF69B4"
+        "name": "Tesla"
     },
     {
-        "name": "Urus",
-        "color": "#32CD32"
+        "name": "Urus"
     },
     {
-        "name": "Volkswagen",
-        "color": "#8B0000"
+        "name": "Volkswagen"
     },
     {
-        "name": "Wuling",
-        "color": "#0000FF"
+        "name": "Wuling"
     },
     {
-        "name": "Xpeng",
-        "color": "#d8dde6"
+        "name": "Xpeng"
     },
     {
-        "name": "Yamaha",
-        "color": "#4B0082"
+        "name": "Yamaha"
     },
     {
-        "name": "Zotye",
-        "color": "#ADD8E6"
+        "name": "Zotye"
     }
 ]

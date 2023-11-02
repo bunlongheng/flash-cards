@@ -1,158 +1,119 @@
 [
     {
-        "name": "Red",
-        "color": "#FF0000"
+        "name": "Red"
     },
     {
-        "name": "Green",
-        "color": "#008000"
+        "name": "Green"
     },
     {
-        "name": "Blue",
-        "color": "#0000FF"
+        "name": "Blue"
     },
     {
-        "name": "Yellow",
-        "color": "#FFFF00"
+        "name": "Yellow"
     },
     {
-        "name": "Orange",
-        "color": "#FFA500"
+        "name": "Orange"
     },
     {
-        "name": "Purple",
-        "color": "#800080"
+        "name": "Purple"
     },
     {
-        "name": "Pink",
-        "color": "#FF1493"
+        "name": "Pink"
     },
     {
-        "name": "Brown",
-        "color": "#A52A2A"
+        "name": "Brown"
     },
     {
-        "name": "Gray",
-        "color": "#808080"
+        "name": "Gray"
     },
     {
-        "name": "Cyan",
-        "color": "#00FFFF"
+        "name": "Cyan"
     },
     {
-        "name": "Magenta",
-        "color": "#FF00FF"
+        "name": "Magenta"
     },
     {
-        "name": "Lime",
-        "color": "#00FF00"
+        "name": "Lime"
     },
     {
-        "name": "Teal",
-        "color": "#008080"
+        "name": "Teal"
     },
     {
-        "name": "Maroon",
-        "color": "#800000"
+        "name": "Maroon"
     },
     {
-        "name": "Olive",
-        "color": "#808000"
+        "name": "Olive"
     },
     {
-        "name": "Navy",
-        "color": "#000080"
+        "name": "Navy"
     },
     {
-        "name": "Silver",
-        "color": "#C0C0C0"
+        "name": "Silver"
     },
     {
-        "name": "Gold",
-        "color": "#FFD700"
+        "name": "Gold"
     },
     {
-        "name": "Violet",
-        "color": "#EE82EE"
+        "name": "Violet"
     },
     {
-        "name": "Turquoise",
-        "color": "#40E0D0"
+        "name": "Turquoise"
     },
     {
-        "name": "Indigo",
-        "color": "#4B0082"
+        "name": "Indigo"
     },
     {
-        "name": "Lavender",
-        "color": "#E6E6FA"
+        "name": "Lavender"
     },
     {
-        "name": "Slate Gray",
-        "color": "#708090"
+        "name": "Slate Gray"
     },
     {
-        "name": "Salmon",
-        "color": "#FA8072"
+        "name": "Salmon"
     },
     {
-        "name": "Sky Blue",
-        "color": "#87CEEB"
+        "name": "Sky Blue"
     },
     {
-        "name": "Lemon Chiffon",
-        "color": "#FFFACD"
+        "name": "Lemon Chiffon"
     },
     {
-        "name": "Forest Green",
-        "color": "#228B22"
+        "name": "Forest Green"
     },
     {
-        "name": "Tomato",
-        "color": "#FF6347"
+        "name": "Tomato"
     },
     {
-        "name": "Chocolate",
-        "color": "#D2691E"
+        "name": "Chocolate"
     },
     {
-        "name": "Orchid",
-        "color": "#DA70D6"
+        "name": "Orchid"
     },
     {
-        "name": "Coral",
-        "color": "#FF6F61"
+        "name": "Coral"
     },
     {
-        "name": "Midnight Blue",
-        "color": "#191970"
+        "name": "Midnight Blue"
     },
     {
-        "name": "Linen",
-        "color": "#FAF0E6"
+        "name": "Linen"
     },
     {
-        "name": "Steel Blue",
-        "color": "#4682B4"
+        "name": "Steel Blue"
     },
     {
-        "name": "Crimson",
-        "color": "#DC143C"
+        "name": "Crimson"
     },
     {
-        "name": "Thistle",
-        "color": "#D8BFD8"
+        "name": "Thistle"
     },
     {
-        "name": "Slate Blue",
-        "color": "#6A5ACD"
+        "name": "Slate Blue"
     },
     {
-        "name": "Sea Green",
-        "color": "#2E8B57"
+        "name": "Sea Green"
     },
     {
-        "name": "Olive Drab",
-        "color": "#6B8E23"
+        "name": "Olive Drab"
     }
 ]

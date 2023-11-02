@@ -1,6 +1,18 @@
 [
-	{ "name": "Spring", "color": "#00FF00", "hint": "Blooming flowers and warmer weather" },
-	{ "name": "Summer", "color": "#FFFF00", "hint": "Hot and sunny days" },
-	{ "name": "Autumn", "color": "#FFA500", "hint": "Falling leaves and cooler temperatures" },
-	{ "name": "Winter", "color": "#0000FF", "hint": "Cold weather and snow" }
+    {
+        "name": "Spring",
+        "hint": "Blooming flowers and warmer weather"
+    },
+    {
+        "name": "Summer",
+        "hint": "Hot and sunny days"
+    },
+    {
+        "name": "Autumn",
+        "hint": "Falling leaves and cooler temperatures"
+    },
+    {
+        "name": "Winter",
+        "hint": "Cold weather and snow"
+    }
 ]

@@ -1,9 +1,30 @@
 [
-	{ "name": "Sunday", "color": "#FF0000", "hint": "First day of the week" },
-	{ "name": "Monday", "color": "#FFA500", "hint": "Start of the workweek" },
-	{ "name": "Tuesday", "color": "#FFFF00", "hint": "Named after Norse god Tyr" },
-	{ "name": "Wednesday", "color": "#00FF00", "hint": "Named after Norse god Odin" },
-	{ "name": "Thursday", "color": "#0000FF", "hint": "Named after Norse god Thor" },
-	{ "name": "Friday", "color": "#FF00FF", "hint": "End of the workweek" },
-	{ "name": "Saturday", "color": "#00FFFF", "hint": "Weekend day" }
+    {
+        "name": "Sunday",
+        "hint": "First day of the week"
+    },
+    {
+        "name": "Monday",
+        "hint": "Start of the workweek"
+    },
+    {
+        "name": "Tuesday",
+        "hint": "Named after Norse god Tyr"
+    },
+    {
+        "name": "Wednesday",
+        "hint": "Named after Norse god Odin"
+    },
+    {
+        "name": "Thursday",
+        "hint": "Named after Norse god Thor"
+    },
+    {
+        "name": "Friday",
+        "hint": "End of the workweek"
+    },
+    {
+        "name": "Saturday",
+        "hint": "Weekend day"
+    }
 ]

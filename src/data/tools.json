@@ -1,106 +1,80 @@
 [
     {
-        "name": "Adjustable Wrench",
-        "color": "#FFA07A"
+        "name": "Adjustable Wrench"
     },
     {
-        "name": "Bolt Cutter",
-        "color": "#F0E68C"
+        "name": "Bolt Cutter"
     },
     {
-        "name": "Claw Hammer",
-        "color": "#B22222"
+        "name": "Claw Hammer"
     },
     {
-        "name": "Drill",
-        "color": "#20B2AA"
+        "name": "Drill"
     },
     {
-        "name": "End Nippers",
-        "color": "#4682B4"
+        "name": "End Nippers"
     },
     {
-        "name": "Folding Knife",
-        "color": "#32CD32"
+        "name": "Folding Knife"
     },
     {
-        "name": "Glue Gun",
-        "color": "#FF4500"
+        "name": "Glue Gun"
     },
     {
-        "name": "Hacksaw",
-        "color": "#696969"
+        "name": "Hacksaw"
     },
     {
-        "name": "Impact Driver",
-        "color": "#B8860B"
+        "name": "Impact Driver"
     },
     {
-        "name": "Jack Plane",
-        "color": "#9932CC"
+        "name": "Jack Plane"
     },
     {
-        "name": "Knee Kicker",
-        "color": "#FFD700"
+        "name": "Knee Kicker"
     },
     {
-        "name": "Level",
-        "color": "#00FF00"
+        "name": "Level"
     },
     {
-        "name": "Mallet",
-        "color": "#8B008B"
+        "name": "Mallet"
     },
     {
-        "name": "Nail Gun",
-        "color": "#556B2F"
+        "name": "Nail Gun"
     },
     {
-        "name": "Oil Filter Wrench",
-        "color": "#FFDAB9"
+        "name": "Oil Filter Wrench"
     },
     {
-        "name": "Pipe Wrench",
-        "color": "#FF69B4"
+        "name": "Pipe Wrench"
     },
     {
-        "name": "Quick Clamp",
-        "color": "#4B0082"
+        "name": "Quick Clamp"
     },
     {
-        "name": "Rivet Gun",
-        "color": "#FF4500"
+        "name": "Rivet Gun"
     },
     {
-        "name": "Screwdriver",
-        "color": "#2E8B57"
+        "name": "Screwdriver"
     },
     {
-        "name": "Tape Measure",
-        "color": "#DAA520"
+        "name": "Tape Measure"
     },
     {
-        "name": "Utility Knife",
-        "color": "#FF6347"
+        "name": "Utility Knife"
     },
     {
-        "name": "Vise",
-        "color": "#40E0D0"
+        "name": "Vise"
     },
     {
-        "name": "Wire Stripper",
-        "color": "#ADFF2F"
+        "name": "Wire Stripper"
     },
     {
-        "name": "X-Acto Knife",
-        "color": "#FFB6C1"
+        "name": "X-Acto Knife"
     },
     {
-        "name": "Yardstick",
-        "color": "#DB7093"
+        "name": "Yardstick"
     },
     {
-        "name": "Zinc Coated Nails",
-        "color": "#EE82EE"
+        "name": "Zinc Coated Nails"
     }
 ]

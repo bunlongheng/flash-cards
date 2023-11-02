@@ -1,106 +1,80 @@
 [
     {
-        "name": "Antelope",
-        "color": "#F08080"
+        "name": "Antelope"
     },
     {
-        "name": "Buffalo",
-        "color": "#8B4513"
+        "name": "Buffalo"
     },
     {
-        "name": "Cheetah",
-        "color": "#FFD700"
+        "name": "Cheetah"
     },
     {
-        "name": "Dolphin",
-        "color": "#87CEEB"
+        "name": "Dolphin"
     },
     {
-        "name": "Elephant",
-        "color": "#A0522D"
+        "name": "Elephant"
     },
     {
-        "name": "Flamingo",
-        "color": "#FF1493"
+        "name": "Flamingo"
     },
     {
-        "name": "Giraffe",
-        "color": "#FF4500"
+        "name": "Giraffe"
     },
     {
-        "name": "Hippopotamus",
-        "color": "#008080"
+        "name": "Hippopotamus"
     },
     {
-        "name": "Iguana",
-        "color": "#228B22"
+        "name": "Iguana"
     },
     {
-        "name": "Jaguar",
-        "color": "#B22222"
+        "name": "Jaguar"
     },
     {
-        "name": "Kangaroo",
-        "color": "#DAA520"
+        "name": "Kangaroo"
     },
     {
-        "name": "Lion",
-        "color": "#FF8C00"
+        "name": "Lion"
     },
     {
-        "name": "Monkey",
-        "color": "#FF69B4"
+        "name": "Monkey"
     },
     {
-        "name": "Nile Crocodile",
-        "color": "#556B2F"
+        "name": "Nile Crocodile"
     },
     {
-        "name": "Ostrich",
-        "color": "#FF6347"
+        "name": "Ostrich"
     },
     {
-        "name": "Panda",
-        "color": "#32CD32"
+        "name": "Panda"
     },
     {
-        "name": "Quokka",
-        "color": "#FFD700"
+        "name": "Quokka"
     },
     {
-        "name": "Rhinoceros",
-        "color": "#CD853F"
+        "name": "Rhinoceros"
     },
     {
-        "name": "Sloth",
-        "color": "#A9A9A9"
+        "name": "Sloth"
     },
     {
-        "name": "Tiger",
-        "color": "#FF4500"
+        "name": "Tiger"
     },
     {
-        "name": "Uakari",
-        "color": "#FF69B4"
+        "name": "Uakari"
     },
     {
-        "name": "Vulture",
-        "color": "#000000"
+        "name": "Vulture"
     },
     {
-        "name": "Walrus",
-        "color": "#8B4513"
+        "name": "Walrus"
     },
     {
-        "name": "X-ray Tetra",
-        "color": "#FFD700"
+        "name": "X-ray Tetra"
     },
     {
-        "name": "Yak",
-        "color": "#A0522D"
+        "name": "Yak"
     },
     {
-        "name": "Zebra",
-        "color": "#A9A9A9"
+        "name": "Zebra"
     }
 ]

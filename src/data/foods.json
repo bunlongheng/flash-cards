@@ -1,132 +1,106 @@
 [
     {
         "name": "Avocado Toast",
-        "color": "#006400",
         "hint": "A popular breakfast dish made with mashed avocado spread on toast, often topped with various ingredients like eggs, tomatoes, or spices."
     },
     {
         "name": "Burger",
-        "color": "#FF5733",
         "hint": "A delicious sandwich made with a patty of ground meat, typically beef, and various toppings."
     },
     {
         "name": "Curry",
-        "color": "#FFD700",
         "hint": "A variety of dishes from different cultures, typically consisting of a spiced sauce and ingredients like meat, vegetables, or legumes."
     },
     {
         "name": "Dim Sum",
-        "color": "#FF4500",
         "hint": "A Chinese meal of small plates, often served with tea, containing a variety of dumplings, buns, and other savory items."
     },
     {
         "name": "Egg Roll",
-        "color": "#FFFF00",
         "hint": "A Chinese appetizer consisting of a rolled-up pastry filled with ingredients like cabbage, pork, and shrimp, then deep-fried."
     },
     {
         "name": "Falafel",
-        "color": "#800000",
         "hint": "A Middle Eastern dish made from ground chickpeas or fava beans, often served in a pita with tahini sauce."
     },
     {
         "name": "Gyoza",
-        "color": "#FFA500",
         "hint": "Japanese dumplings typically filled with ground meat and vegetables, then pan-fried or steamed."
     },
     {
         "name": "Hamburger",
-        "color": "#FF5733",
         "hint": "A classic sandwich made with a beef patty, typically served in a bun with various toppings."
     },
     {
         "name": "Inarizushi",
-        "color": "#800080",
         "hint": "A type of sushi from Japan consisting of vinegared rice packed in a pocket of seasoned, marinated tofu."
     },
     {
         "name": "Jiaozi",
-        "color": "#FFD700",
         "hint": "Chinese dumplings filled with meat, seafood, or vegetables, often served steamed or boiled."
     },
     {
         "name": "Koy Teav",
-        "color": "#A0522D",
         "hint": "A Cambodian noodle soup made with rice noodles and often served with pork or beef."
     },
     {
         "name": "Laksa",
-        "color": "#FF6347",
         "hint": "A spicy noodle soup with origins in Southeast Asia, often containing coconut milk, shrimp, and other ingredients."
     },
     {
         "name": "Maki Roll",
-        "color": "#87CEEB",
         "hint": "A type of sushi roll, typically containing rice, fish, and vegetables, wrapped in seaweed and sliced into bite-sized pieces."
     },
     {
         "name": "Noodle",
-        "color": "#FF5733",
         "hint": "Long, thin strips of dough often boiled or stir-fried and used in various dishes."
     },
     {
         "name": "Okonomiyaki",
-        "color": "#FF4500",
         "hint": "A Japanese savory pancake, often made with a batter of flour, eggs, shredded cabbage, and various toppings."
     },
     {
         "name": "Pad Thai",
-        "color": "#FFD700",
         "hint": "A popular Thai stir-fried noodle dish often made with shrimp or chicken, and flavored with tamarind and peanuts."
     },
     {
         "name": "Quesadilla",
-        "color": "#FFD700",
         "hint": "A Mexican dish consisting of a tortilla filled with cheese and often other ingredients, folded in half and cooked until the cheese is melted."
     },
     {
         "name": "Ramen",
-        "color": "#FF4500",
         "hint": "A Japanese noodle soup dish with Chinese origins, typically served in a meat or fish-based broth."
     },
     {
         "name": "Sushi",
-        "color": "#87CEEB",
         "hint": "A Japanese dish consisting of vinegared rice combined with various ingredients, often seafood and vegetables."
     },
     {
         "name": "Taco",
-        "color": "#FF6347",
         "hint": "A Mexican dish consisting of a folded or rolled tortilla filled with various ingredients, often including seasoned meat, cheese, and vegetables."
     },
     {
         "name": "Udon",
-        "color": "#FF5733",
         "hint": "A type of thick wheat noodle commonly used in Japanese cuisine."
     },
     {
         "name": "Vindaloo",
-        "color": "#8B0000",
         "hint": "A spicy Indian curry dish typically made with meat, often pork, and flavored with vinegar and spices."
     },
     {
         "name": "Wonton Soup",
-        "color": "#FFFF00",
         "hint": "A Chinese soup featuring wontons, which are small dumplings filled with meat or seafood, in a flavorful broth."
     },
     {
         "name": "Xiaolongbao",
-        "color": "#FF4500",
         "hint": "A type of Chinese steamed bun filled with meat or soup, often enjoyed as a dim sum dish."
     },
     {
         "name": "Yogurt",
-        "color": "#87CEEB",
         "hint": "A dairy product made by fermenting milk with bacterial cultures, often flavored and sweetened."
     },
     {
         "name": "Ziti",
-        "color": "#FF5733",
         "hint": "A type of pasta that is shaped like long, narrow tubes, often used in Italian dishes."
     }
 ]

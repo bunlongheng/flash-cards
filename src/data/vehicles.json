@@ -1,102 +1,77 @@
 [
     {
-        "name": "Airplane",
-        "color": "#FF0000"
+        "name": "Airplane"
     },
     {
-        "name": "Bicycle",
-        "color": "#FFD700"
+        "name": "Bicycle"
     },
     {
-        "name": "Car",
-        "color": "#DAA520"
+        "name": "Car"
     },
     {
-        "name": "Drone",
-        "color": "#8B4513"
+        "name": "Drone"
     },
     {
-        "name": "Electric Scooter",
-        "color": "#228B22"
+        "name": "Electric Scooter"
     },
     {
-        "name": "Ferry",
-        "color": "#FF4500"
+        "name": "Ferry"
     },
     {
-        "name": "Golf Cart",
-        "color": "#696969"
+        "name": "Golf Cart"
     },
     {
-        "name": "Hoverboard",
-        "color": "#00FFFF"
+        "name": "Hoverboard"
     },
     {
-        "name": "Jet Ski",
-        "color": "#FF69B4"
+        "name": "Jet Ski"
     },
     {
-        "name": "Kayak",
-        "color": "#2E8B57"
+        "name": "Kayak"
     },
     {
-        "name": "Limousine",
-        "color": "#000000"
+        "name": "Limousine"
     },
     {
-        "name": "Motorcycle",
-        "color": "#A0522D"
+        "name": "Motorcycle"
     },
     {
-        "name": "Narrowboat",
-        "color": "#6495ED"
+        "name": "Narrowboat"
     },
     {
-        "name": "Ox Cart",
-        "color": "#008080"
+        "name": "Ox Cart"
     },
     {
-        "name": "Pickup Truck",
-        "color": "#00008B"
+        "name": "Pickup Truck"
     },
     {
-        "name": "Quad Bike",
-        "color": "#BC8F8F"
+        "name": "Quad Bike"
     },
     {
-        "name": "Rickshaw",
-        "color": "#FF6347"
+        "name": "Rickshaw"
     },
     {
-        "name": "Scooter",
-        "color": "#5F9EA0"
+        "name": "Scooter"
     },
     {
-        "name": "Train",
-        "color": "#556B2F"
+        "name": "Train"
     },
     {
-        "name": "Unicycle",
-        "color": "#8A2BE2"
+        "name": "Unicycle"
     },
     {
-        "name": "Van",
-        "color": "#FFDEAD"
+        "name": "Van"
     },
     {
-        "name": "Wagon",
-        "color": "#CD5C5C"
+        "name": "Wagon"
     },
     {
-        "name": "Xebec",
-        "color": "#F0E68C"
+        "name": "Xebec"
     },
     {
-        "name": "Yacht",
-        "color": "#ADD8E6"
+        "name": "Yacht"
     },
     {
-        "name": "Zeppelin",
-        "color": "#B0E0E6"
+        "name": "Zeppelin"
     }
 ]

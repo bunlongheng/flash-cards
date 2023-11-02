@@ -1,98 +1,74 @@
 [
     {
-        "name": "Ant",
-        "color": "#FF0000"
+        "name": "Ant"
     },
     {
-        "name": "Bee",
-        "color": "#FFFF00"
+        "name": "Bee"
     },
     {
-        "name": "Cicada",
-        "color": "#008080"
+        "name": "Cicada"
     },
     {
-        "name": "Dragonfly",
-        "color": "#00FF00"
+        "name": "Dragonfly"
     },
     {
-        "name": "Earwig",
-        "color": "#000000"
+        "name": "Earwig"
     },
     {
-        "name": "Firefly",
-        "color": "#FFD700"
+        "name": "Firefly"
     },
     {
-        "name": "Grasshopper",
-        "color": "#008000"
+        "name": "Grasshopper"
     },
     {
-        "name": "Hornet",
-        "color": "#FFA500"
+        "name": "Hornet"
     },
     {
-        "name": "Ladybug",
-        "color": "#FF1493"
+        "name": "Ladybug"
     },
     {
-        "name": "Mantis",
-        "color": "#800080"
+        "name": "Mantis"
     },
     {
-        "name": "Mosquito",
-        "color": "#0000FF"
+        "name": "Mosquito"
     },
     {
-        "name": "Nymph",
-        "color": "#6B8E23"
+        "name": "Nymph"
     },
     {
-        "name": "Owl Butterfly",
-        "color": "#483D8B"
+        "name": "Owl Butterfly"
     },
     {
-        "name": "Praying Mantis",
-        "color": "#2E8B57"
+        "name": "Praying Mantis"
     },
     {
-        "name": "Queen Bee",
-        "color": "#800000"
+        "name": "Queen Bee"
     },
     {
-        "name": "Roach",
-        "color": "#B22222"
+        "name": "Roach"
     },
     {
-        "name": "Scorpion",
-        "color": "#A0522D"
+        "name": "Scorpion"
     },
     {
-        "name": "Termite",
-        "color": "#8B4513"
+        "name": "Termite"
     },
     {
-        "name": "Ulysses Butterfly",
-        "color": "#1E90FF"
+        "name": "Ulysses Butterfly"
     },
     {
-        "name": "Viceroy Butterfly",
-        "color": "#228B22"
+        "name": "Viceroy Butterfly"
     },
     {
-        "name": "Wasp",
-        "color": "#FF4500"
+        "name": "Wasp"
     },
     {
-        "name": "Xerces Blue Butterfly",
-        "color": "#4682B4"
+        "name": "Xerces Blue Butterfly"
     },
     {
-        "name": "Yellow Jacket",
-        "color": "#FFFF99"
+        "name": "Yellow Jacket"
     },
     {
-        "name": "Zebra Longwing Butterfly",
-        "color": "#000080"
+        "name": "Zebra Longwing Butterfly"
     }
 ]

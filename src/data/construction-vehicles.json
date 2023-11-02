@@ -1,106 +1,80 @@
 [
     {
-        "name": "Articulated Truck",
-        "color": "#FFA07A"
+        "name": "Articulated Truck"
     },
     {
-        "name": "Backhoe Loader",
-        "color": "#F0E68C"
+        "name": "Backhoe Loader"
     },
     {
-        "name": "Cement Mixer",
-        "color": "#B22222"
+        "name": "Cement Mixer"
     },
     {
-        "name": "Dozer",
-        "color": "#20B2AA"
+        "name": "Dozer"
     },
     {
-        "name": "Excavator",
-        "color": "#4682B4"
+        "name": "Excavator"
     },
     {
-        "name": "Forklift",
-        "color": "#32CD32"
+        "name": "Forklift"
     },
     {
-        "name": "Grader",
-        "color": "#FF4500"
+        "name": "Grader"
     },
     {
-        "name": "Hydraulic Hammer",
-        "color": "#696969"
+        "name": "Hydraulic Hammer"
     },
     {
-        "name": "Impact Roller",
-        "color": "#B8860B"
+        "name": "Impact Roller"
     },
     {
-        "name": "Jaw Crusher",
-        "color": "#9932CC"
+        "name": "Jaw Crusher"
     },
     {
-        "name": "Knuckleboom Loader",
-        "color": "#FFD700"
+        "name": "Knuckleboom Loader"
     },
     {
-        "name": "Load Haul Dump",
-        "color": "#00FF00"
+        "name": "Load Haul Dump"
     },
     {
-        "name": "Milling Machine",
-        "color": "#8B008B"
+        "name": "Milling Machine"
     },
     {
-        "name": "Nail Gun",
-        "color": "#556B2F"
+        "name": "Nail Gun"
     },
     {
-        "name": "Off-Highway Truck",
-        "color": "#FFDAB9"
+        "name": "Off-Highway Truck"
     },
     {
-        "name": "Paver",
-        "color": "#FF69B4"
+        "name": "Paver"
     },
     {
-        "name": "Quick Coupler",
-        "color": "#4B0082"
+        "name": "Quick Coupler"
     },
     {
-        "name": "Rough Terrain Crane",
-        "color": "#FF4500"
+        "name": "Rough Terrain Crane"
     },
     {
-        "name": "Skid Steer Loader",
-        "color": "#2E8B57"
+        "name": "Skid Steer Loader"
     },
     {
-        "name": "Trencher",
-        "color": "#DAA520"
+        "name": "Trencher"
     },
     {
-        "name": "Utility Vehicle",
-        "color": "#FF6347"
+        "name": "Utility Vehicle"
     },
     {
-        "name": "Vibratory Roller",
-        "color": "#40E0D0"
+        "name": "Vibratory Roller"
     },
     {
-        "name": "Wheel Loader",
-        "color": "#ADFF2F"
+        "name": "Wheel Loader"
     },
     {
-        "name": "Xtreme Manufacturing Lift",
-        "color": "#FFB6C1"
+        "name": "Xtreme Manufacturing Lift"
     },
     {
-        "name": "Yard Truck",
-        "color": "#DB7093"
+        "name": "Yard Truck"
     },
     {
-        "name": "Zoom Boom",
-        "color": "#EE82EE"
+        "name": "Zoom Boom"
     }
 ]

@@ -1,14 +1,50 @@
 [
-	{ "name": "January", "color": "#FF0000", "hint": "Start of the new year" },
-	{ "name": "February", "color": "#FFA500", "hint": "Valentine's Day" },
-	{ "name": "March", "color": "#FFFF00", "hint": "Spring season begins" },
-	{ "name": "April", "color": "#00FF00", "hint": "April Fools' Day" },
-	{ "name": "May", "color": "#0000FF", "hint": "Mother's Day" },
-	{ "name": "June", "color": "#FF00FF", "hint": "Father's Day" },
-	{ "name": "July", "color": "#00FFFF", "hint": "Independence Day" },
-	{ "name": "August", "color": "#800080", "hint": "Back-to-school season" },
-	{ "name": "September", "color": "#FF1493", "hint": "Labor Day" },
-	{ "name": "October", "color": "#228B22", "hint": "Halloween" },
-	{ "name": "November", "color": "#FFD700", "hint": "Thanksgiving" },
-	{ "name": "December", "color": "#008080", "hint": "Christmas" }
+    {
+        "name": "January",
+        "hint": "Start of the new year"
+    },
+    {
+        "name": "February",
+        "hint": "Valentine's Day"
+    },
+    {
+        "name": "March",
+        "hint": "Spring season begins"
+    },
+    {
+        "name": "April",
+        "hint": "April Fools' Day"
+    },
+    {
+        "name": "May",
+        "hint": "Mother's Day"
+    },
+    {
+        "name": "June",
+        "hint": "Father's Day"
+    },
+    {
+        "name": "July",
+        "hint": "Independence Day"
+    },
+    {
+        "name": "August",
+        "hint": "Back-to-school season"
+    },
+    {
+        "name": "September",
+        "hint": "Labor Day"
+    },
+    {
+        "name": "October",
+        "hint": "Halloween"
+    },
+    {
+        "name": "November",
+        "hint": "Thanksgiving"
+    },
+    {
+        "name": "December",
+        "hint": "Christmas"
+    }
 ]

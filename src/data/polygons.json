@@ -1,42 +1,34 @@
 [
-	{
-		"name": "Triangle",
-		"sides": 3,
-		"color": "#FF0000"
-	},
-	{
-		"name": "Quadrilateral",
-		"sides": 4,
-		"color": "#00FF00"
-	},
-	{
-		"name": "Pentagon",
-		"sides": 5,
-		"color": "#0000FF"
-	},
-	{
-		"name": "Hexagon",
-		"sides": 6,
-		"color": "#FFFF00"
-	},
-	{
-		"name": "Heptagon",
-		"sides": 7,
-		"color": "#FF00FF"
-	},
-	{
-		"name": "Octagon",
-		"sides": 8,
-		"color": "#00FFFF"
-	},
-	{
-		"name": "Nonagon",
-		"sides": 9,
-		"color": "#FF4500"
-	},
-	{
-		"name": "Decagon",
-		"sides": 10,
-		"color": "#800080"
-	}
+    {
+        "name": "Triangle",
+        "sides": 3
+    },
+    {
+        "name": "Quadrilateral",
+        "sides": 4
+    },
+    {
+        "name": "Pentagon",
+        "sides": 5
+    },
+    {
+        "name": "Hexagon",
+        "sides": 6
+    },
+    {
+        "name": "Heptagon",
+        "sides": 7
+    },
+    {
+        "name": "Octagon",
+        "sides": 8
+    },
+    {
+        "name": "Nonagon",
+        "sides": 9
+    },
+    {
+        "name": "Decagon",
+        "sides": 10
+    }
 ]
