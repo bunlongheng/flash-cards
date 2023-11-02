@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Categories from "./Categories";
 import Category from "./Category";
+import Settings from "./Settings";
 
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -17,6 +18,8 @@ const App = () => {
                 {typesArray.map(type => (
                     <Route key={type} path={`/${type}`} element={<Category type={type} />} />
                 ))}
+
+                <Route path="/settings" element={<Settings />} />
             </Routes>
         </Router>
     );

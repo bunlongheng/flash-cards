@@ -77,14 +77,6 @@
     pointer-events: none;
 } */
 
-/* .thumbnail::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.9);
-    pointer-events: none;
-} */
-
 @keyframes shake {
     0% {
         transform: translateX(0);

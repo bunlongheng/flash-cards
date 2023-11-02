@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { getHueColor } from "./utility/colorUtils.js";
 import { playAudio } from "./utility/audioUtils.js";
 import { getPageName, goHome } from "./utility/pageUtils.js";
-//import { getImage } from "./utility/imageUtils.js";
+import { getImage } from "./utility/imageUtils.js";
 
 import "./Category.css";
 
@@ -13,6 +13,7 @@ const Category = ({ type }) => {
     const [clickedItems, setClickedItems] = useState([]);
     const [slideText, setSlideText] = useState("");
     const [clickCounts, setClickCounts] = useState({});
+    const bgImage = localStorage.getItem("bgImage") === "true";
 
     useEffect(() => {
         const jsonData = require(`./data/${type}.json`);
@@ -113,7 +114,7 @@ const Category = ({ type }) => {
                         onClick={() => handleClick(item)}
                         style={{
                             backgroundColor: item.color,
-                            //backgroundImage: `url(${getImage(item)})`,
+                            backgroundImage: bgImage ? `url(${getImage(item)})` : "none",
                             backgroundSize: "cover",
                         }}
                     >
