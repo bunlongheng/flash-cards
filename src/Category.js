@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { getRandomColor } from "./utility/colorUtils.js";
+import { getHueColor } from "./utility/colorUtils.js";
 import { playAudio } from "./utility/audioUtils.js";
 import { getPageName, goHome } from "./utility/pageUtils.js";
 //import { getImage } from "./utility/imageUtils.js";
@@ -17,13 +17,14 @@ const Category = ({ type }) => {
     useEffect(() => {
         const jsonData = require(`./data/${type}.json`);
 
-        jsonData.forEach(item => {
+        const updatedData = jsonData.map((item, index) => {
             if (!item.color) {
-                item.color = getRandomColor();
+                item.color = getHueColor(index, jsonData.length);
             }
+            return item;
         });
 
-        setData(jsonData);
+        setData(updatedData);
     }, [type]);
 
     useEffect(() => {
