@@ -1,14 +1,10 @@
 export function playAudio(clickedItemsLength, dataLength, goHomeCallback) {
     if (clickedItemsLength > 0 && dataLength === clickedItemsLength) {
         const crow = new Audio("/sounds/crowd2.mp3");
-        crow.onloadeddata = () => {
-            crow.play();
-        };
+        crow.play();
 
         const done = new Audio("/sounds/done.mp3");
-        done.onloadeddata = () => {
-            done.play();
-        };
+        done.play();
 
         setTimeout(goHomeCallback, 5000);
     }
