@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { Link } from "react-router-dom";
+import Settings from "./Settings"; // Import your Settings component
 
 import "./Categories.css";
 
@@ -11,6 +12,11 @@ const Categories = () => {
     const transportationTypesArray = transportationTypesString.split(",");
 
     const [randomItem, setRandomItem] = useState("");
+    const [isModalVisible, setIsModalVisible] = useState(false);
+
+    const toggleSettings = () => {
+        setIsModalVisible(!isModalVisible);
+    };
 
     const getRandomItem = useCallback(() => {
         const randomIndex = Math.floor(Math.random() * transportationTypesArray.length);
@@ -28,6 +34,10 @@ const Categories = () => {
 
     return (
         <div className="categories-page bg-dark text-light">
+            <div className="three-dots-button" onClick={toggleSettings}>
+                &#8942;
+            </div>
+
             <div className="sliding-text">
                 <span className="background-text">👋🏽 Hi! Norden!</span>
                 &nbsp;----&nbsp;
@@ -46,6 +56,9 @@ const Categories = () => {
                     ))}
                 </div>
             </div>
+
+            {/* Settings modal */}
+            {isModalVisible && <Settings onClose={toggleSettings} />}
         </div>
     );
 };
