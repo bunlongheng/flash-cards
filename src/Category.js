@@ -117,7 +117,7 @@ const Category = ({ type }) => {
                             backgroundSize: "cover",
                         }}
                     >
-                        <div className="name-initial">{item.name.charAt(0)}</div>
+                        <div className="initial">{item.name.charAt(0)}</div>
                         <div className={`thumbnail-details`}>
                             <h6>{item.name}</h6>
                         </div>

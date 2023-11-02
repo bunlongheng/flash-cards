@@ -38,7 +38,7 @@
     color: #000000;
 }
 
-.name-initial {
+.initial {
     font-size: 5em;
 }
 
@@ -52,7 +52,7 @@
     text-align: center;
     text-overflow: ellipsis;
     white-space: nowrap;
-    max-width: 100px;
+    min-width: 100px;
 }
 
 .thumbnail-details h6 {
@@ -63,7 +63,27 @@
     animation: shake 0.5s 1;
     background-color: rgba(0, 0, 0, 0.5);
     border: solid 2px black;
+    opacity: 1;
 }
+
+/* .thumbnail::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0) 5%, rgba(0, 0, 0, 0.5) 100%);
+    pointer-events: none;
+} */
+
+/* .thumbnail::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.9);
+    pointer-events: none;
+} */
 
 @keyframes shake {
     0% {
@@ -166,7 +186,7 @@
         font-size: 12px;
     }
 
-    .name-initial {
+    .initial {
         font-size: 2em;
     }
 
@@ -177,4 +197,34 @@
 }
 
 /* ===================================================================================== */
-/* 📲 📞 PHONE */
+/* 📲 📞 iPhone 5s */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    .thumbnails-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .thumbnail {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        width: 100%;
+        border-radius: 0;
+        padding: 0 15px;
+    }
+
+    .thumbnail-details {
+        font-weight: bold;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .initial {
+        font-size: 5em;
+    }
+}
