@@ -140,7 +140,8 @@
     height: 200px;
 }
 
-/* PHONE */
+/* ===================================================================================== */
+/* 📲 📞 PHONE */
 @media (max-width: 767px) {
     .thumbnails-container {
         display: flex;
@@ -162,11 +163,11 @@
 
     .thumbnail-details h6 {
         font-weight: bold;
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .name-initial {
-        font-size: 1em;
+        font-size: 2em;
     }
 
     .thumbnail img {
@@ -174,3 +175,6 @@
         height: auto;
     }
 }
+
+/* ===================================================================================== */
+/* 📲 📞 PHONE */
