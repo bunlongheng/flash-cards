@@ -162,7 +162,7 @@
 
 /* ===================================================================================== */
 /* 📲 📞 PHONE */
-@media (max-width: 767px) {
+@media only screen and (min-device-width: 380px) and (max-device-width: 767px) {
     .thumbnails-container {
         display: flex;
         flex-wrap: wrap;
@@ -183,11 +183,11 @@
 
     .thumbnail-details h6 {
         font-weight: bold;
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .initial {
-        font-size: 2em;
+        font-size: 3em;
     }
 
     .thumbnail img {
@@ -199,7 +199,7 @@
 /* ===================================================================================== */
 /* 📲 📞 iPhone 5s */
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 200px) and (max-device-width: 380px) {
     .thumbnails-container {
         display: flex;
         flex-wrap: wrap;
