@@ -1,140 +1,44 @@
 [
-    {
-        "name": "Happy"
-    },
-    {
-        "name": "Sad"
-    },
-    {
-        "name": "Funny"
-    },
-    {
-        "name": "Cute"
-    },
-    {
-        "name": "Brave"
-    },
-    {
-        "name": "Smart"
-    },
-    {
-        "name": "Kind"
-    },
-    {
-        "name": "Silly"
-    },
-    {
-        "name": "Loud"
-    },
-    {
-        "name": "Quiet"
-    },
-    {
-        "name": "Big"
-    },
-    {
-        "name": "Small"
-    },
-    {
-        "name": "Fast"
-    },
-    {
-        "name": "Slow"
-    },
-    {
-        "name": "Strong"
-    },
-    {
-        "name": "Weak"
-    },
-    {
-        "name": "Tall"
-    },
-    {
-        "name": "Short"
-    },
-    {
-        "name": "Happy"
-    },
-    {
-        "name": "Sad"
-    },
-    {
-        "name": "Funny"
-    },
-    {
-        "name": "Cute"
-    },
-    {
-        "name": "Brave"
-    },
-    {
-        "name": "Smart"
-    },
-    {
-        "name": "Kind"
-    },
-    {
-        "name": "Silly"
-    },
-    {
-        "name": "Loud"
-    },
-    {
-        "name": "Quiet"
-    },
-    {
-        "name": "Big"
-    },
-    {
-        "name": "Small"
-    },
-    {
-        "name": "Fast"
-    },
-    {
-        "name": "Slow"
-    },
-    {
-        "name": "Strong"
-    },
-    {
-        "name": "Weak"
-    },
-    {
-        "name": "Tall"
-    },
-    {
-        "name": "Short"
-    },
-    {
-        "name": "Sweet"
-    },
-    {
-        "name": "Sour"
-    },
-    {
-        "name": "Hot"
-    },
-    {
-        "name": "Cold"
-    },
-    {
-        "name": "Bright"
-    },
-    {
-        "name": "Dark"
-    },
-    {
-        "name": "Colorful"
-    },
-    {
-        "name": "Plain"
-    },
-    {
-        "name": "Bumpy"
-    },
-    {
-        "name": "Smooth"
-    }
+    { "name": "Run" },
+    { "name": "Jump" },
+    { "name": "Play" },
+    { "name": "Eat" },
+    { "name": "Sleep" },
+    { "name": "Drink" },
+    { "name": "Sing" },
+    { "name": "Dance" },
+    { "name": "Talk" },
+    { "name": "Laugh" },
+    { "name": "Read" },
+    { "name": "Write" },
+    { "name": "Draw" },
+    { "name": "Swim" },
+    { "name": "Climb" },
+    { "name": "Build" },
+    { "name": "Hide" },
+    { "name": "Fly" },
+    { "name": "Share" },
+    { "name": "Help" },
+    { "name": "Bounce" },
+    { "name": "Skip" },
+    { "name": "Explore" },
+    { "name": "Imagine" },
+    { "name": "Create" },
+    { "name": "Discover" },
+    { "name": "Swing" },
+    { "name": "Slide" },
+    { "name": "Catch" },
+    { "name": "Throw" },
+    { "name": "Kick" },
+    { "name": "Crawl" },
+    { "name": "Roll" },
+    { "name": "Hug" },
+    { "name": "Smile" },
+    { "name": "Paint" },
+    { "name": "Solve" },
+    { "name": "Count" },
+    { "name": "Listen" },
+    { "name": "Learn" },
+    { "name": "Think" },
+    { "name": "Dream" }
 ]
