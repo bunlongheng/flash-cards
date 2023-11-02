@@ -34,8 +34,8 @@ const Categories = () => {
 
     return (
         <div className="categories-page bg-dark text-light">
-            <div className="three-dots-button" onClick={toggleSettings}>
-                &#8942;
+            <div className={`three-dots-button ${isModalVisible ? "button-active" : ""}`} onClick={toggleSettings}>
+                {isModalVisible ? "X" : "\u22EE"}
             </div>
 
             <div className="sliding-text">
@@ -43,6 +43,8 @@ const Categories = () => {
                 &nbsp;----&nbsp;
                 <img src={`/images/transportations/${randomItem}.png`} alt={randomItem} height={30} />
             </div>
+
+            {isModalVisible && <Settings onClose={toggleSettings} />}
 
             <div className="container">
                 <div className="d-flex flex-wrap justify-content-center mt-4">
@@ -56,9 +58,6 @@ const Categories = () => {
                     ))}
                 </div>
             </div>
-
-            {/* Settings modal */}
-            {isModalVisible && <Settings onClose={toggleSettings} />}
         </div>
     );
 };
