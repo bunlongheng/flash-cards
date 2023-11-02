@@ -37,6 +37,10 @@ const Category = ({ type }) => {
         const thumbnailId = item.name.replace(/\s+/g, "-").toLowerCase();
         const clickedThumbnail = document.getElementById(`${thumbnailId}`);
 
+        const audio = new Audio("/sounds/1.mp3");
+        audio.volume = 0.1;
+        audio.play();
+
         setClickedItemName(item.name);
 
         // Update clickCounts for this item

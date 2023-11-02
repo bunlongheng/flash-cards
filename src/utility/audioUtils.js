@@ -13,9 +13,6 @@ export function playAudio(clickedItemsLength, dataLength, goHomeCallback) {
     if (milestones.includes(clickedItemsLength)) {
         let audioSrc = "";
         switch (clickedItemsLength) {
-            case 1:
-                audioSrc = "/sounds/1.mp3";
-                break;
             case 5:
                 audioSrc = "/sounds/2.mp3";
                 break;
