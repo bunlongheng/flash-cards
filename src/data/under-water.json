@@ -1,114 +1,86 @@
 [
     {
-        "name": "Anemone",
-        "description": "A sea creature often found in coral reefs, known for its vibrant colors and stinging tentacles."
+        "name": "Anemone"
     },
     {
-        "name": "Barnacle",
-        "description": "A small, shelled crustacean that attaches itself to rocks and ships' hulls."
+        "name": "Barnacle"
     },
     {
-        "name": "Clam",
-        "description": "A bivalve mollusk with a hard shell, often found buried in the sand."
+        "name": "Clam"
     },
     {
-        "name": "Dolphin",
-        "description": "A highly intelligent marine mammal known for its playful behavior and communication skills."
+        "name": "Dolphin"
     },
     {
-        "name": "Eel",
-        "description": "A long, snake-like fish that inhabits both freshwater and saltwater environments."
+        "name": "Eel"
     },
     {
-        "name": "Fish",
-        "description": "A diverse group of aquatic animals with gills and fins, found in various aquatic habitats."
+        "name": "Fish"
     },
     {
-        "name": "Gull",
-        "description": "A seabird often seen near coastlines and beaches, known for its distinctive call."
+        "name": "Gull"
     },
     {
-        "name": "Hermit Crab",
-        "description": "A crustacean that uses empty shells as protection for its soft abdomen."
+        "name": "Hermit Crab"
     },
     {
-        "name": "Jellyfish",
-        "description": "A translucent, gelatinous creature with tentacles and a drifting lifestyle in the ocean."
+        "name": "Jellyfish"
     },
     {
-        "name": "Kelp",
-        "description": "A type of large brown algae that forms underwater forests and provides habitat for marine life."
+        "name": "Kelp"
     },
     {
-        "name": "Lobster",
-        "description": "A crustacean with a hard exoskeleton and powerful claws, often used as seafood."
+        "name": "Lobster"
     },
     {
-        "name": "Manatee",
-        "description": "A large, slow-moving marine mammal, also known as a sea cow."
+        "name": "Manatee"
     },
     {
-        "name": "Nudibranch",
-        "description": "A colorful and often small sea slug found in tropical oceans."
+        "name": "Nudibranch"
     },
     {
-        "name": "Octopus",
-        "description": "A highly intelligent cephalopod mollusk with eight arms and a beak-like mouth."
+        "name": "Octopus"
     },
     {
-        "name": "Penguin",
-        "description": "A flightless bird adapted to life in the sea, often found in polar regions."
+        "name": "Penguin"
     },
     {
-        "name": "Quahog",
-        "description": "A type of edible clam with a hard shell, commonly used in seafood dishes."
+        "name": "Quahog"
     },
     {
-        "name": "Ray",
-        "description": "A flat-bodied fish with a cartilaginous skeleton, often found on the ocean floor."
+        "name": "Ray"
     },
     {
-        "name": "Sea Turtle",
-        "description": "A marine reptile known for its distinctive flippers and nesting habits on beaches."
+        "name": "Sea Turtle"
     },
     {
-        "name": "Seahorse",
-        "description": "A small fish with a distinctive upright posture and a curling tail."
+        "name": "Seahorse"
     },
     {
-        "name": "Shark",
-        "description": "A large, predatory fish with sharp teeth and a streamlined body."
+        "name": "Shark"
     },
     {
-        "name": "Starfish",
-        "description": "A marine invertebrate with radial symmetry and tube feet, often found in tide pools."
+        "name": "Starfish"
     },
     {
-        "name": "Tuna",
-        "description": "A fast-swimming, predatory fish often sought after for its meat."
+        "name": "Tuna"
     },
     {
-        "name": "Urchin",
-        "description": "A spiny marine creature often found on rocks and reefs."
+        "name": "Urchin"
     },
     {
-        "name": "Venus Flytrap",
-        "description": "A carnivorous plant that captures insects with its hinged leaves, often found in boggy areas near the coast."
+        "name": "Venus Flytrap"
     },
     {
-        "name": "Whale",
-        "description": "A large marine mammal, some of which are the largest animals on Earth."
+        "name": "Whale"
     },
     {
-        "name": "X-ray Tetra",
-        "description": "A small, transparent fish with a distinctive stripe, often kept in aquariums."
+        "name": "X-ray Tetra"
     },
     {
-        "name": "Yellow Tang",
-        "description": "A brightly colored fish found in coral reefs, known for its vibrant yellow coloration."
+        "name": "Yellow Tang"
     },
     {
-        "name": "Zebra Shark",
-        "description": "A species of carpet shark with a pattern of dark spots, resembling a zebra."
+        "name": "Zebra Shark"
     }
 ]

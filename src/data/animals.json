@@ -1,106 +1,80 @@
 [
     {
-        "name": "Alligator",
-        "description": "A large reptile known for its long snout and sharp teeth, often found in freshwater habitats."
+        "name": "Alligator"
     },
     {
-        "name": "Bear",
-        "description": "A large, omnivorous mammal with a heavy build and thick fur."
+        "name": "Bear"
     },
     {
-        "name": "Cheetah",
-        "description": "A fast-running big cat known for its distinctive black spots."
+        "name": "Cheetah"
     },
     {
-        "name": "Dolphin",
-        "description": "A highly intelligent marine mammal known for its playful behavior."
+        "name": "Dolphin"
     },
     {
-        "name": "Elephant",
-        "description": "A large herbivorous mammal known for its long trunk and tusks."
+        "name": "Elephant"
     },
     {
-        "name": "Fox",
-        "description": "A small to medium-sized carnivorous mammal with a bushy tail."
+        "name": "Fox"
     },
     {
-        "name": "Giraffe",
-        "description": "A tall herbivorous mammal with a long neck and distinctive spotted coat."
+        "name": "Giraffe"
     },
     {
-        "name": "Hippopotamus",
-        "description": "A large, mostly herbivorous mammal known for its large mouth and teeth."
+        "name": "Hippopotamus"
     },
     {
-        "name": "Iguana",
-        "description": "A reptile known for its long tail and often vibrant colors."
+        "name": "Iguana"
     },
     {
-        "name": "Jaguar",
-        "description": "A big cat known for its powerful build and distinctive rosette spots."
+        "name": "Jaguar"
     },
     {
-        "name": "Kangaroo",
-        "description": "A marsupial with strong hind legs, known for hopping and carrying young in a pouch."
+        "name": "Kangaroo"
     },
     {
-        "name": "Lion",
-        "description": "A large carnivorous big cat known for its majestic mane (in males)."
+        "name": "Lion"
     },
     {
-        "name": "Moose",
-        "description": "A large herbivorous mammal with broad, palmate antlers."
+        "name": "Moose"
     },
     {
-        "name": "Nightingale",
-        "description": "A small, songbird known for its melodious nocturnal singing."
+        "name": "Nightingale"
     },
     {
-        "name": "Ostrich",
-        "description": "A large, flightless bird known for its long legs and speed on land."
+        "name": "Ostrich"
     },
     {
-        "name": "Penguin",
-        "description": "A flightless bird found in cold regions, known for its waddling gait."
+        "name": "Penguin"
     },
     {
-        "name": "Quokka",
-        "description": "A small marsupial known for its friendly and smiling appearance."
+        "name": "Quokka"
     },
     {
-        "name": "Raccoon",
-        "description": "A medium-sized omnivorous mammal known for its mask-like face."
+        "name": "Raccoon"
     },
     {
-        "name": "Sloth",
-        "description": "A slow-moving, arboreal mammal known for its laid-back lifestyle."
+        "name": "Sloth"
     },
     {
-        "name": "Tiger",
-        "description": "A large, carnivorous big cat known for its striking orange coat with black stripes."
+        "name": "Tiger"
     },
     {
-        "name": "Uakari",
-        "description": "A small, red-faced monkey found in South America."
+        "name": "Uakari"
     },
     {
-        "name": "Vulture",
-        "description": "A scavenging bird known for its bald head and powerful beak."
+        "name": "Vulture"
     },
     {
-        "name": "Walrus",
-        "description": "A large marine mammal known for its long tusks and blubber."
+        "name": "Walrus"
     },
     {
-        "name": "X-ray Tetra",
-        "description": "A small, translucent fish known for its see-through appearance."
+        "name": "X-ray Tetra"
     },
     {
-        "name": "Yak",
-        "description": "A large, domesticated mammal known for its long, shaggy hair."
+        "name": "Yak"
     },
     {
-        "name": "Zebra",
-        "description": "A large herbivorous mammal known for its black and white striped coat."
+        "name": "Zebra"
     }
 ]
