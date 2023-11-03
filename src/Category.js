@@ -63,7 +63,7 @@ const Category = ({ type }) => {
 
             switch (clickedItems.length + 1) {
                 case 1:
-                    setSlideText(<img src={`/images/fly/1.png`} width={30} />);
+                    setSlideText(<img src={`/images/fly/1.png`} alt="superman" width={30} />);
                     break;
                 case 5:
                     setSlideText("🪄");
