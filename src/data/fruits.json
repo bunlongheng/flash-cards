@@ -1,98 +1,89 @@
 [
     {
-        "name": "Apple",
-        "hint": "A round fruit with red or green skin and crisp, sweet flesh."
+        "name": "Apple"
     },
     {
-        "name": "Banana",
-        "hint": "A curved, yellow fruit with a sweet and creamy taste."
+        "name": "Apricot"
     },
     {
-        "name": "Cherry",
-        "hint": "A small, round fruit with red or black skin and a sweet-tart flavor."
+        "name": "Avocado"
     },
     {
-        "name": "Date",
-        "hint": "A sweet and chewy fruit with a wrinkled skin, often dried."
+        "name": "Banana"
     },
     {
-        "name": "Elderberry",
-        "hint": "Small, dark purple berries often used in jams and syrups."
+        "name": "Cantaloupe"
     },
     {
-        "name": "Fig",
-        "hint": "A sweet and seedy fruit with a unique, teardrop shape."
+        "name": "Date"
     },
     {
-        "name": "Grape",
-        "hint": "Small, juicy fruits often used to make wine or eaten as snacks."
+        "name": "Elderberry"
     },
     {
-        "name": "Honeydew Melon",
-        "hint": "A pale green, sweet melon with green flesh and seeds in the center."
+        "name": "Fig"
     },
     {
-        "name": "Kiwi",
-        "hint": "A small, green fruit with tiny black seeds and tangy-sweet flesh."
+        "name": "Grape"
     },
     {
-        "name": "Lemon",
-        "hint": "A bright yellow citrus fruit known for its tart flavor."
+        "name": "Honeydew Melon"
     },
     {
-        "name": "Mango",
-        "hint": "A tropical fruit with orange flesh and a sweet, juicy taste."
+        "name": "Kiwi"
     },
     {
-        "name": "Nectarine",
-        "hint": "A smooth-skinned, peach-like fruit with sweet, juicy flesh."
+        "name": "Lemon"
     },
     {
-        "name": "Orange",
-        "hint": "A round citrus fruit with orange skin and sweet-tart pulp."
+        "name": "Mango"
     },
     {
-        "name": "Papaya",
-        "hint": "A tropical fruit with orange flesh and black seeds in the center."
+        "name": "Nectarine"
     },
     {
-        "name": "Quince",
-        "hint": "A fragrant fruit with golden-yellow skin and tart flesh."
+        "name": "Orange"
     },
     {
-        "name": "Raspberry",
-        "hint": "Small, red or black berries with a sweet-tart flavor."
+        "name": "Papaya"
     },
     {
-        "name": "Strawberry",
-        "hint": "Small, red berries with a sweet and juicy taste."
+        "name": "Pear"
     },
     {
-        "name": "Tangerine",
-        "hint": "A small citrus fruit similar to an orange, with a sweet flavor."
+        "name": "Peach"
     },
     {
-        "name": "Ugli Fruit",
-        "hint": "A Jamaican fruit with rough, greenish-yellow skin and sweet-tart flesh."
+        "name": "Plum"
     },
     {
-        "name": "Vanilla Bean",
-        "hint": "The seed pod of a tropical orchid, used to flavor various dishes."
+        "name": "Quince"
     },
     {
-        "name": "Watermelon",
-        "hint": "A large, juicy fruit with sweet, pink or red flesh and black seeds."
+        "name": "Raspberry"
     },
     {
-        "name": "Xigua",
-        "hint": "A juicy, sweet fruit often enjoyed in China and other Asian countries."
+        "name": "Strawberry"
     },
     {
-        "name": "Yellow Passion Fruit",
-        "hint": "A tropical fruit with yellow skin and aromatic, sweet-tart pulp."
+        "name": "Tangerine"
     },
     {
-        "name": "Zucchini (Yes, it's technically a fruit!)",
-        "hint": "A summer squash often used in savory dishes and for making zoodles."
+        "name": "Ugli Fruit"
+    },
+    {
+        "name": "Vanilla Bean"
+    },
+    {
+        "name": "Watermelon"
+    },
+    {
+        "name": "Xigua"
+    },
+    {
+        "name": "Yellow Passion Fruit"
+    },
+    {
+        "name": "Zucchini (Yes, it's technically a fruit!)"
     }
 ]

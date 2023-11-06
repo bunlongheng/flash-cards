@@ -3,10 +3,31 @@
         "name": "Asian Pear"
     },
     {
-        "name": "Banana"
+        "name": "Ambarella"
+    },
+    {
+        "name": "Babaco"
+    },
+    {
+        "name": "Bread Fruit"
+    },
+    {
+        "name": "Burmese Grape"
+    },
+    {
+        "name": "Bilimbi"
     },
     {
         "name": "Custard Apple"
+    },
+    {
+        "name": "Cempadak"
+    },
+    {
+        "name": "Canistel"
+    },
+    {
+        "name": "Cashew Apple"
     },
     {
         "name": "Dragon Fruit"
@@ -15,10 +36,16 @@
         "name": "Egg Fruit"
     },
     {
+        "name": "Ferroniella Lucida"
+    },
+    {
         "name": "Durian"
     },
     {
         "name": "Guava"
+    },
+    {
+        "name": "Grapefruit"
     },
     {
         "name": "Honeydew Melon"
@@ -27,7 +54,16 @@
         "name": "Ice Cream Bean"
     },
     {
+        "name": "Jambolan Plum"
+    },
+    {
         "name": "Jackfruit"
+    },
+    {
+        "name": "Jujube Plum"
+    },
+    {
+        "name": "June Plum"
     },
     {
         "name": "Kaffir Lime"
@@ -36,16 +72,37 @@
         "name": "Lychee"
     },
     {
+        "name": "Longan"
+    },
+    {
+        "name": "Lotus"
+    },
+    {
         "name": "Mangosteen"
     },
     {
-        "name": "Nectarine"
+        "name": "Manila Tamarind"
+    },
+    {
+        "name": "Noni"
+    },
+    {
+        "name": "Otaheite Gooseberry"
     },
     {
         "name": "Orange"
     },
     {
-        "name": "Papaya"
+        "name": "Persimmon"
+    },
+    {
+        "name": "Pomegranate"
+    },
+    {
+        "name": "Planchonella Obovata"
+    },
+    {
+        "name": "Passion Fruit"
     },
     {
         "name": "Quince"
@@ -54,10 +111,25 @@
         "name": "Rambutan"
     },
     {
+        "name": "Rose Apple"
+    },
+    {
         "name": "Sapodilla"
     },
     {
+        "name": "Santol"
+    },
+    {
+        "name": "Soursop"
+    },
+    {
+        "name": "Star Gooseberry"
+    },
+    {
         "name": "Tamarind"
+    },
+    {
+        "name": "Tomatillo"
     },
     {
         "name": "Uvaria Rufa"
@@ -66,15 +138,21 @@
         "name": "Velvet Tamarind"
     },
     {
+        "name": "Voacanga"
+    },
+    {
         "name": "Wood Apple"
     },
     {
-        "name": "Xigua"
+        "name": "Wax Apple"
     },
     {
-        "name": "Youngberry"
+        "name": "Ximenia"
     },
     {
-        "name": "Zucchini"
+        "name": "Yellow Passion Fruit"
+    },
+    {
+        "name": "Ziziphus"
     }
 ]
