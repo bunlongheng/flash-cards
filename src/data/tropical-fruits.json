@@ -1,33 +1,12 @@
 [
     {
-        "name": "Asian Pear"
-    },
-    {
         "name": "Ambarella"
-    },
-    {
-        "name": "Babaco"
-    },
-    {
-        "name": "Bread Fruit"
     },
     {
         "name": "Burmese Grape"
     },
     {
-        "name": "Bilimbi"
-    },
-    {
-        "name": "Custard Apple"
-    },
-    {
         "name": "Cempadak"
-    },
-    {
-        "name": "Canistel"
-    },
-    {
-        "name": "Cashew Apple"
     },
     {
         "name": "Dragon Fruit"
@@ -45,9 +24,6 @@
         "name": "Guava"
     },
     {
-        "name": "Grapefruit"
-    },
-    {
         "name": "Honeydew Melon"
     },
     {
@@ -57,49 +33,19 @@
         "name": "Jambolan Plum"
     },
     {
-        "name": "Jackfruit"
-    },
-    {
-        "name": "Jujube Plum"
-    },
-    {
-        "name": "June Plum"
-    },
-    {
         "name": "Kaffir Lime"
-    },
-    {
-        "name": "Lychee"
     },
     {
         "name": "Longan"
     },
     {
-        "name": "Lotus"
-    },
-    {
         "name": "Mangosteen"
-    },
-    {
-        "name": "Manila Tamarind"
     },
     {
         "name": "Noni"
     },
     {
         "name": "Otaheite Gooseberry"
-    },
-    {
-        "name": "Orange"
-    },
-    {
-        "name": "Persimmon"
-    },
-    {
-        "name": "Pomegranate"
-    },
-    {
-        "name": "Planchonella Obovata"
     },
     {
         "name": "Passion Fruit"
@@ -111,25 +57,10 @@
         "name": "Rambutan"
     },
     {
-        "name": "Rose Apple"
-    },
-    {
         "name": "Sapodilla"
     },
     {
-        "name": "Santol"
-    },
-    {
-        "name": "Soursop"
-    },
-    {
-        "name": "Star Gooseberry"
-    },
-    {
         "name": "Tamarind"
-    },
-    {
-        "name": "Tomatillo"
     },
     {
         "name": "Uvaria Rufa"
@@ -138,13 +69,7 @@
         "name": "Velvet Tamarind"
     },
     {
-        "name": "Voacanga"
-    },
-    {
         "name": "Wood Apple"
-    },
-    {
-        "name": "Wax Apple"
     },
     {
         "name": "Ximenia"
