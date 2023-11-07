@@ -64,6 +64,8 @@ const Category = ({ type }) => {
             switch (clickedItems.length + 1) {
                 case 1:
                     setSlideText(<img src={`/images/fly/1.png`} alt="superman" width={30} />);
+                    const audio = new Audio("/sounds/flying.mp3");
+                    audio.play();
                     break;
                 case 5:
                     setSlideText("🪄");
