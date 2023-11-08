@@ -9,6 +9,9 @@
         "name": "Caps Lock"
     },
     {
+        "name": "Command"
+    },
+    {
         "name": "Delete"
     },
     {
@@ -27,57 +30,39 @@
         "name": "Home"
     },
     {
+        "name": "End"
+    },
+    {
         "name": "Insert"
     },
     {
-        "name": "J"
+        "name": "Option"
     },
     {
-        "name": "K"
+        "name": "Page Up"
     },
     {
-        "name": "L"
+        "name": "Page Down"
     },
     {
-        "name": "M"
+        "name": "Return"
     },
     {
-        "name": "N"
+        "name": "Shift"
     },
     {
-        "name": "O"
+        "name": "Space"
     },
     {
-        "name": "P"
+        "name": "Up"
     },
     {
-        "name": "Q"
+        "name": "Down"
     },
     {
-        "name": "R"
+        "name": "Left"
     },
     {
-        "name": "S"
-    },
-    {
-        "name": "T"
-    },
-    {
-        "name": "U"
-    },
-    {
-        "name": "V"
-    },
-    {
-        "name": "W"
-    },
-    {
-        "name": "X"
-    },
-    {
-        "name": "Y"
-    },
-    {
-        "name": "Z"
+        "name": "Right"
     }
 ]
