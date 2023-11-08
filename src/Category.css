@@ -128,7 +128,7 @@
     left: 0;
     height: 100%;
     color: white;
-    animation: slideUp 15s linear;
+    animation: slideUp 4s linear;
     background-color: transparent;
     transform-origin: left top;
     font-size: 10em;

@@ -12,7 +12,7 @@ const Category = ({ type }) => {
     const [clickedItemName, setClickedItemName] = useState("");
     const [clickedItems, setClickedItems] = useState([]);
     const [slideText, setSlideText] = useState("");
-    const [clickCounts, setClickCounts] = useState({});
+
     const bgImage = localStorage.getItem("bgImage") === "true";
 
     useEffect(() => {
@@ -43,16 +43,10 @@ const Category = ({ type }) => {
 
         setClickedItemName(item.name);
 
-        // Update clickCounts for this item
-        setClickCounts(prevClickCounts => ({
-            ...prevClickCounts,
-            [item.id]: (prevClickCounts[item.id] || 0) + 1,
-        }));
-
-        if (clickCounts > 4) {
-            window.open(`https://www.google.com/images?q=${encodeURIComponent(clickedItemName)}`, "_blank");
-            setClickCounts(prev => ({ ...prev, [item]: 0 }));
-        }
+        const getRandomImage = () => {
+            const randomIndex = Math.floor(Math.random() * 5) + 1; // Generates a random number between 1 and 15
+            return `/images/fly/${randomIndex}.png`;
+        };
 
         if (!clickedThumbnail.classList.contains("disabled")) {
             speechSynthesis.speak(new SpeechSynthesisUtterance(item.name));
@@ -63,24 +57,28 @@ const Category = ({ type }) => {
 
             switch (clickedItems.length + 1) {
                 case 1:
-                    setSlideText(<img src={`/images/fly/1.png`} alt="superman" width={30} />);
-                    const audio = new Audio("/sounds/flying.mp3");
-                    audio.play();
+                    setSlideText(<img src={`/images/fly/superman.png`} alt="superman" width={40} />);
+                    new Audio("/sounds/flying.mp3").play();
                     break;
                 case 5:
-                    setSlideText("🪄");
+                    setSlideText(<img src={getRandomImage()} alt="superman" width={40} />);
+                    new Audio("/sounds/flying.mp3").play();
                     break;
                 case 10:
-                    setSlideText("🎁");
+                    setSlideText(<img src={getRandomImage()} alt="superman" width={40} />);
+                    new Audio("/sounds/flying.mp3").play();
                     break;
                 case 15:
-                    setSlideText("✨");
+                    setSlideText(<img src={getRandomImage()} alt="superman" width={40} />);
+                    new Audio("/sounds/flying.mp3").play();
                     break;
                 case 20:
-                    setSlideText("⭐️");
+                    setSlideText(<img src={getRandomImage()} alt="superman" width={40} />);
+                    new Audio("/sounds/flying.mp3").play();
                     break;
                 case 25:
-                    setSlideText("🎖️");
+                    setSlideText(<img src={getRandomImage()} alt="superman" width={40} />);
+                    new Audio("/sounds/flying.mp3").play();
                     break;
                 default:
                     setSlideText("");
