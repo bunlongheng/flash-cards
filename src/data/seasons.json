@@ -1,18 +1,14 @@
 [
     {
-        "name": "Spring",
-        "hint": "Blooming flowers and warmer weather"
+        "name": "Spring"
     },
     {
-        "name": "Summer",
-        "hint": "Hot and sunny days"
+        "name": "Summer"
     },
     {
-        "name": "Autumn",
-        "hint": "Falling leaves and cooler temperatures"
+        "name": "Autumn"
     },
     {
-        "name": "Winter",
-        "hint": "Cold weather and snow"
+        "name": "Winter"
     }
 ]

@@ -1,162 +1,122 @@
 [
     {
-        "name": "Tent",
-        "hint": "A portable shelter used for camping and outdoor sleeping."
+        "name": "Tent"
     },
     {
-        "name": "Sleeping Bag",
-        "hint": "A insulated bag for sleeping in while camping."
+        "name": "Sleeping Bag"
     },
     {
-        "name": "Campfire Grill",
-        "hint": "A grill used for cooking food over a campfire."
+        "name": "Campfire Grill"
     },
     {
-        "name": "Flashlight",
-        "hint": "A portable light source for illuminating the campsite at night."
+        "name": "Flashlight"
     },
     {
-        "name": "Backpack",
-        "hint": "A bag for carrying camping gear, food, and supplies."
+        "name": "Backpack"
     },
     {
-        "name": "Camp Chair",
-        "hint": "A portable chair for sitting around the campsite."
+        "name": "Camp Chair"
     },
     {
-        "name": "Camping Stove",
-        "hint": "A portable stove for cooking meals while camping."
+        "name": "Camping Stove"
     },
     {
-        "name": "Cooler",
-        "hint": "An insulated container for keeping food and drinks cold."
+        "name": "Cooler"
     },
     {
-        "name": "Hiking Boots",
-        "hint": "Sturdy boots designed for hiking and outdoor activities."
+        "name": "Hiking Boots"
     },
     {
-        "name": "Pocket Knife",
-        "hint": "A multi-purpose folding knife for various camping tasks."
+        "name": "Pocket Knife"
     },
     {
-        "name": "Water Bottle",
-        "hint": "A container for carrying and drinking water while hiking."
+        "name": "Water Bottle"
     },
     {
-        "name": "Camp Axe",
-        "hint": "A small axe used for chopping wood for the campfire."
+        "name": "Camp Axe"
     },
     {
-        "name": "Camping Pot Set",
-        "hint": "A set of pots and pans for cooking meals in the wilderness."
+        "name": "Camping Pot Set"
     },
     {
-        "name": "First Aid Kit",
-        "hint": "A kit containing medical supplies for treating minor injuries."
+        "name": "First Aid Kit"
     },
     {
-        "name": "Compass",
-        "hint": "A navigational tool for finding directions in the wilderness."
+        "name": "Compass"
     },
     {
-        "name": "Insect Repellent",
-        "hint": "A substance to deter insects and bugs while camping."
+        "name": "Insect Repellent"
     },
     {
-        "name": "Camp Tarp",
-        "hint": "A waterproof tarp used for shelter and ground protection."
+        "name": "Camp Tarp"
     },
     {
-        "name": "Camping Table",
-        "hint": "A portable table for cooking and dining at the campsite."
+        "name": "Camping Table"
     },
     {
-        "name": "Camp Mugs",
-        "hint": "Mugs for drinking hot beverages around the campfire."
+        "name": "Camp Mugs"
     },
     {
-        "name": "Headlamp",
-        "hint": "A hands-free flashlight worn on the head for nighttime activities."
+        "name": "Headlamp"
     },
     {
-        "name": "Camp Hammock",
-        "hint": "A portable hammock for relaxing and sleeping in the outdoors."
+        "name": "Camp Hammock"
     },
     {
-        "name": "Camp Utensil Set",
-        "hint": "A set of utensils for eating meals while camping."
+        "name": "Camp Utensil Set"
     },
     {
-        "name": "Campfire Starter Kit",
-        "hint": "Materials for easily starting a campfire, such as firewood and kindling."
+        "name": "Campfire Starter Kit"
     },
     {
-        "name": "Tent Pegs",
-        "hint": "Metal or plastic pegs used to secure the tent to the ground."
+        "name": "Tent Pegs"
     },
     {
-        "name": "Camping Pillow",
-        "hint": "A compact pillow for sleeping comfortably in a sleeping bag."
+        "name": "Camping Pillow"
     },
     {
-        "name": "Folding Shovel",
-        "hint": "A compact shovel for digging and various campsite tasks."
+        "name": "Folding Shovel"
     },
     {
-        "name": "Campfire Tripod",
-        "hint": "A tripod for suspending a pot or pan over the campfire."
+        "name": "Campfire Tripod"
     },
     {
-        "name": "Solar Charger",
-        "hint": "A device for charging electronic devices using solar energy."
+        "name": "Solar Charger"
     },
     {
-        "name": "Camp Broom",
-        "hint": "A small broom for keeping the campsite clean and free of debris."
+        "name": "Camp Broom"
     },
     {
-        "name": "Camp Shower",
-        "hint": "A portable bag for heating and dispensing water for showers."
+        "name": "Camp Shower"
     },
     {
-        "name": "Camp Griddle",
-        "hint": "A flat cooking surface for preparing pancakes and other foods."
+        "name": "Camp Griddle"
     },
     {
-        "name": "Camp Tableware",
-        "hint": "Dishes, bowls, and utensils for serving meals while camping."
+        "name": "Camp Tableware"
     },
     {
-        "name": "Survival Whistle",
-        "hint": "A whistle with various survival features for emergencies."
+        "name": "Survival Whistle"
     },
     {
-        "name": "Campfire Gloves",
-        "hint": "Heat-resistant gloves for handling hot cookware and campfire logs."
+        "name": "Campfire Gloves"
     },
     {
-        "name": "Camp Cot",
-        "hint": "A portable folding bed for elevated sleeping in the tent."
+        "name": "Camp Cot"
     },
     {
-        "name": "Camp Lantern",
-        "hint": "A portable light source for illuminating the campsite."
+        "name": "Camp Lantern"
     },
     {
-        "name": "Bear Canister",
-        "hint": "A container for safely storing food to prevent bear encounters."
+        "name": "Bear Canister"
     },
     {
-        "name": "Water Purifier",
-        "hint": "A device for purifying natural water sources for drinking."
+        "name": "Water Purifier"
     },
     {
-        "name": "Campfire Roasting Sticks",
-        "hint": "Sticks used for roasting marshmallows and other campfire treats."
+        "name": "Campfire Roasting Sticks"
     },
     {
-        "name": "Camp Cookware Set",
-        "hint": "A set of pots, pans, and utensils for campsite cooking."
+        "name": "Camp Cookware Set"
     }
 ]

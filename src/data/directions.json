@@ -1,34 +1,26 @@
 [
     {
-        "name": "North",
-        "abbreviation": "N"
+        "name": "North"
     },
     {
-        "name": "North-East",
-        "abbreviation": "NE"
+        "name": "North-East"
     },
     {
-        "name": "East",
-        "abbreviation": "E"
+        "name": "East"
     },
     {
-        "name": "South-East",
-        "abbreviation": "SE"
+        "name": "South-East"
     },
     {
-        "name": "South",
-        "abbreviation": "S"
+        "name": "South"
     },
     {
-        "name": "South-West",
-        "abbreviation": "SW"
+        "name": "South-West"
     },
     {
-        "name": "West",
-        "abbreviation": "W"
+        "name": "West"
     },
     {
-        "name": "North-West",
-        "abbreviation": "NW"
+        "name": "North-West"
     }
 ]

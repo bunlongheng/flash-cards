@@ -1,110 +1,83 @@
 [
     {
-        "name": "Cow",
-        "hint": "A large domesticated bovine animal, often raised for milk and meat."
+        "name": "Cow"
     },
     {
-        "name": "Duck",
-        "hint": "A waterfowl with webbed feet, known for its quacking sound."
+        "name": "Duck"
     },
     {
-        "name": "Goat",
-        "hint": "A small domesticated ruminant mammal, raised for milk and meat."
+        "name": "Goat"
     },
     {
-        "name": "Horse",
-        "hint": "A strong and fast-running domesticated animal, often used for transportation."
+        "name": "Horse"
     },
     {
-        "name": "Lamb",
-        "hint": "A young sheep, known for its tender meat."
+        "name": "Lamb"
     },
     {
-        "name": "Pig",
-        "hint": "A domesticated omnivorous mammal, raised for its pork."
+        "name": "Pig"
     },
     {
-        "name": "Rabbit",
-        "hint": "A small burrowing mammal known for its long ears and hopping gait."
+        "name": "Rabbit"
     },
     {
-        "name": "Sheep",
-        "hint": "A domesticated ruminant mammal raised for its wool and meat."
+        "name": "Sheep"
     },
     {
-        "name": "Turkey",
-        "hint": "A large bird raised for its meat, especially during Thanksgiving."
+        "name": "Turkey"
     },
     {
-        "name": "Alpaca",
-        "hint": "A domesticated South American camelid known for its soft fleece."
+        "name": "Alpaca"
     },
     {
-        "name": "Bull",
-        "hint": "An adult male of the domesticated cattle, often used for breeding."
+        "name": "Bull"
     },
     {
-        "name": "Chicken",
-        "hint": "A domesticated bird raised for its meat and eggs."
+        "name": "Chicken"
     },
     {
-        "name": "Donkey",
-        "hint": "A domesticated equine animal known for its braying sound."
+        "name": "Donkey"
     },
     {
-        "name": "Emu",
-        "hint": "A large flightless bird native to Australia."
+        "name": "Emu"
     },
     {
-        "name": "Gander",
-        "hint": "A male goose, known for its distinctive honking."
+        "name": "Gander"
     },
     {
-        "name": "Hen",
-        "hint": "A female chicken, typically used for laying eggs."
+        "name": "Hen"
     },
     {
-        "name": "Iguana",
-        "hint": "A reptile with scales and a long tail, not typically a farm animal."
+        "name": "Iguana"
     },
     {
-        "name": "Jackrabbit",
-        "hint": "A large hare known for its long ears and powerful hind legs."
+        "name": "Jackrabbit"
     },
     {
-        "name": "Kangaroo",
-        "hint": "A marsupial known for its powerful hind legs and hopping."
+        "name": "Kangaroo"
     },
     {
-        "name": "Llama",
-        "hint": "A domesticated South American camelid often used as a pack animal."
+        "name": "Llama"
     },
     {
-        "name": "Mule",
-        "hint": "A hybrid offspring of a male donkey and a female horse."
+        "name": "Mule"
     },
     {
-        "name": "Nanny Goat",
-        "hint": "A female goat, often raised for milk production."
+        "name": "Nanny Goat"
     },
     {
-        "name": "Ostrich",
-        "hint": "A large flightless bird known for its long neck and legs."
+        "name": "Ostrich"
     },
     {
-        "name": "Pony",
-        "hint": "A small horse breed, often favored by children."
+        "name": "Pony"
     },
     {
-        "name": "Rooster",
-        "hint": "A male chicken known for its crowing at dawn."
+        "name": "Rooster"
     },
     {
-        "name": "Sheepdog",
-        "hint": "A breed of dog known for herding and guarding sheep."
+        "name": "Sheepdog"
     },
     {
-        "name": "Turkey Vulture",
-        "hint": "A large bird known for scavenging and feeding on carrion."
+        "name": "Turkey Vulture"
     }
 ]

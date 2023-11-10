@@ -1,50 +1,38 @@
 [
     {
-        "name": "January",
-        "hint": "Start of the new year"
+        "name": "January"
     },
     {
-        "name": "February",
-        "hint": "Valentine's Day"
+        "name": "February"
     },
     {
-        "name": "March",
-        "hint": "Spring season begins"
+        "name": "March"
     },
     {
-        "name": "April",
-        "hint": "April Fools' Day"
+        "name": "April"
     },
     {
-        "name": "May",
-        "hint": "Mother's Day"
+        "name": "May"
     },
     {
-        "name": "June",
-        "hint": "Father's Day"
+        "name": "June"
     },
     {
-        "name": "July",
-        "hint": "Independence Day"
+        "name": "July"
     },
     {
-        "name": "August",
-        "hint": "Back-to-school season"
+        "name": "August"
     },
     {
-        "name": "September",
-        "hint": "Labor Day"
+        "name": "September"
     },
     {
-        "name": "October",
-        "hint": "Halloween"
+        "name": "October"
     },
     {
-        "name": "November",
-        "hint": "Thanksgiving"
+        "name": "November"
     },
     {
-        "name": "December",
-        "hint": "Christmas"
+        "name": "December"
     }
 ]
