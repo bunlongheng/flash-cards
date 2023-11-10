@@ -18,6 +18,9 @@
         "name": "Digger"
     },
     {
+        "name": "Dump Truck"
+    },
+    {
         "name": "Excavator"
     },
     {
@@ -25,6 +28,9 @@
     },
     {
         "name": "Grader"
+    },
+    {
+        "name": "Knuckle Boom Loader"
     },
     {
         "name": "Hydraulic Hammer"

@@ -117,12 +117,12 @@ const Category = ({ type }) => {
                         className="thumbnail"
                         onClick={() => handleClick(item)}
                         style={{
-                            backgroundColor: item.color,
-                            backgroundImage: bgImage ? `url(${getImage(item)})` : "none",
+                            backgroundColor: bgImage ? "white" : item.color,
+                            backgroundImage: bgImage ? `url(${getImage(item, type)})` : "none",
                             backgroundSize: "cover",
                         }}
                     >
-                        <div className="initial">{item.name.charAt(0).toUpperCase()}</div>
+                        <div className="initial">{bgImage ? "" : item.name.charAt(0).toUpperCase()}</div>
 
                         <div className={`thumbnail-details`}>
                             <h6>{item.name}</h6>
