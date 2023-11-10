@@ -1,106 +1,80 @@
 [
     {
-        "name": "Arugula",
-        "hint": "A leafy green vegetable with a peppery flavor, often used in salads."
+        "name": "Arugula"
     },
     {
-        "name": "Broccoli",
-        "hint": "A green vegetable with a tree-like appearance and a mild, earthy taste."
+        "name": "Broccoli"
     },
     {
-        "name": "Carrot",
-        "hint": "A root vegetable with an orange color and a crunchy texture."
+        "name": "Carrot"
     },
     {
-        "name": "Daikon",
-        "hint": "A mild-flavored, white radish often used in Asian cuisine."
+        "name": "Daikon"
     },
     {
-        "name": "Eggplant",
-        "hint": "A purple or black-skinned vegetable with a mild, creamy flesh."
+        "name": "Eggplant"
     },
     {
-        "name": "Fennel",
-        "hint": "A bulbous vegetable with a licorice-like flavor, often used in salads."
+        "name": "Fennel"
     },
     {
-        "name": "Garlic",
-        "hint": "A pungent bulb used for flavoring various dishes and sauces."
+        "name": "Garlic"
     },
     {
-        "name": "Horseradish",
-        "hint": "A pungent root vegetable often used as a condiment or seasoning."
+        "name": "Horseradish"
     },
     {
-        "name": "Iceberg Lettuce",
-        "hint": "A type of lettuce with crispy, pale green leaves, often used in salads."
+        "name": "Iceberg Lettuce"
     },
     {
-        "name": "Jalape\u00f1o Pepper",
-        "hint": "A spicy green chili pepper often used in Mexican cuisine."
+        "name": "Jalape\u00f1o Pepper"
     },
     {
-        "name": "Kale",
-        "hint": "A leafy green vegetable known for its nutrient density and earthy flavor."
+        "name": "Kale"
     },
     {
-        "name": "Leek",
-        "hint": "A mild-flavored, onion-like vegetable often used in soups and stews."
+        "name": "Leek"
     },
     {
-        "name": "Mushroom",
-        "hint": "A fungi with various shapes and flavors, used in a wide range of dishes."
+        "name": "Mushroom"
     },
     {
-        "name": "Napa Cabbage",
-        "hint": "A type of Chinese cabbage with crisp, pale green leaves."
+        "name": "Napa Cabbage"
     },
     {
-        "name": "Olive",
-        "hint": "A small fruit used for making olive oil and as a snack or ingredient."
+        "name": "Olive"
     },
     {
-        "name": "Pea",
-        "hint": "A small, round green vegetable often used in salads and side dishes."
+        "name": "Pea"
     },
     {
-        "name": "Quinoa",
-        "hint": "A grain-like seed known for its high protein content and nutty flavor."
+        "name": "Quinoa"
     },
     {
-        "name": "Radish",
-        "hint": "A crisp, peppery root vegetable often used in salads and garnishes."
+        "name": "Radish"
     },
     {
-        "name": "Spinach",
-        "hint": "A dark green leafy vegetable rich in iron and commonly used in salads."
+        "name": "Spinach"
     },
     {
-        "name": "Tomato",
-        "hint": "A red or yellow fruit often used as a vegetable in cooking."
+        "name": "Tomato"
     },
     {
-        "name": "Urad Bean",
-        "hint": "A type of bean used in Indian cuisine, especially in dals and curries."
+        "name": "Urad Bean"
     },
     {
-        "name": "Vidalia Onion",
-        "hint": "A sweet, mild onion variety often used in salads and for grilling."
+        "name": "Vidalia Onion"
     },
     {
-        "name": "Watercress",
-        "hint": "A peppery, aquatic plant often used in salads and as a garnish."
+        "name": "Watercress"
     },
     {
-        "name": "Xigua (Watermelon)",
-        "hint": "A juicy, sweet fruit often enjoyed in the summertime."
+        "name": "Xigua (Watermelon)"
     },
     {
-        "name": "Yellow Squash",
-        "hint": "A summer squash with yellow skin and a mild, slightly sweet flavor."
+        "name": "Yellow Squash"
     },
     {
-        "name": "Zucchini",
-        "hint": "A summer squash often used in savory dishes and for making zoodles."
+        "name": "Zucchini"
     }
 ]
