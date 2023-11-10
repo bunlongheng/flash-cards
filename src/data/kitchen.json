@@ -3,7 +3,13 @@
         "name": "Apron"
     },
     {
+        "name": "Baking Sheet"
+    },
+    {
         "name": "Blender"
+    },
+    {
+        "name": "Can Opener"
     },
     {
         "name": "Coffee Maker"
@@ -12,70 +18,10 @@
         "name": "Dish Rack"
     },
     {
-        "name": "Egg Beater"
-    },
-    {
-        "name": "Frying Pan"
-    },
-    {
-        "name": "Garlic Press"
-    },
-    {
-        "name": "Grater"
-    },
-    {
-        "name": "Knife Set"
-    },
-    {
-        "name": "Ladle"
-    },
-    {
-        "name": "Measuring Cup"
-    },
-    {
-        "name": "Napkin Holder"
-    },
-    {
-        "name": "Oven Mitt"
-    },
-    {
-        "name": "Peeler"
-    },
-    {
-        "name": "Quiche Dish"
-    },
-    {
-        "name": "Rolling Pin"
-    },
-    {
-        "name": "Salt Shaker"
-    },
-    {
-        "name": "Teapot"
-    },
-    {
-        "name": "Utensil Holder"
-    },
-    {
-        "name": "Vegetable Peeler"
-    },
-    {
-        "name": "Wine Opener"
-    },
-    {
-        "name": "Yogurt Maker"
-    },
-    {
-        "name": "Zester"
-    },
-    {
-        "name": "Baking Sheet"
-    },
-    {
-        "name": "Can Opener"
-    },
-    {
         "name": "Dish Soap Dispenser"
+    },
+    {
+        "name": "Egg Beater"
     },
     {
         "name": "Egg Timer"
@@ -84,7 +30,16 @@
         "name": "Food Processor"
     },
     {
+        "name": "Frying Pan"
+    },
+    {
+        "name": "Garlic Press"
+    },
+    {
         "name": "Glass Tumbler"
+    },
+    {
+        "name": "Grater"
     },
     {
         "name": "Herb Grinder"
@@ -96,36 +51,81 @@
         "name": "Juicer"
     },
     {
+        "name": "Knife Set"
+    },
+    {
         "name": "Knife Sharpener"
+    },
+    {
+        "name": "Ladle"
     },
     {
         "name": "Lemon Squeezer"
     },
     {
+        "name": "Measuring Cup"
+    },
+    {
         "name": "Microwave Oven"
+    },
+    {
+        "name": "Napkin Holder"
     },
     {
         "name": "Noodle Strainer"
     },
     {
+        "name": "Oven Mitt"
+    },
+    {
         "name": "Oven Thermometer"
+    },
+    {
+        "name": "Peeler"
     },
     {
         "name": "Pizza Cutter"
     },
     {
+        "name": "Quiche Dish"
+    },
+    {
         "name": "Rice Cooker"
+    },
+    {
+        "name": "Rolling Pin"
     },
     {
         "name": "Salad Spinner"
     },
     {
+        "name": "Salt Shaker"
+    },
+    {
+        "name": "Teapot"
+    },
+    {
         "name": "Toaster"
+    },
+    {
+        "name": "Utensil Holder"
+    },
+    {
+        "name": "Vegetable Peeler"
     },
     {
         "name": "Vegetable Steamer"
     },
     {
         "name": "Whisk"
+    },
+    {
+        "name": "Wine Opener"
+    },
+    {
+        "name": "Yogurt Maker"
+    },
+    {
+        "name": "Zester"
     }
 ]

@@ -1,15 +1,21 @@
 [
     {
-        "name": "Articulated Truck"
+        "name": "Backhoe"
     },
     {
-        "name": "Backhoe Loader"
+        "name": "Bulldozer"
     },
     {
-        "name": "Cement Mixer"
+        "name": "Concrete Mixer"
     },
     {
-        "name": "Dozer"
+        "name": "Crane"
+    },
+    {
+        "name": "Demolition"
+    },
+    {
+        "name": "Digger"
     },
     {
         "name": "Excavator"
@@ -24,57 +30,18 @@
         "name": "Hydraulic Hammer"
     },
     {
-        "name": "Impact Roller"
-    },
-    {
-        "name": "Jaw Crusher"
-    },
-    {
-        "name": "Knuckleboom Loader"
-    },
-    {
-        "name": "Load Haul Dump"
-    },
-    {
-        "name": "Milling Machine"
-    },
-    {
-        "name": "Nail Gun"
-    },
-    {
-        "name": "Off-Highway Truck"
-    },
-    {
         "name": "Paver"
     },
     {
-        "name": "Quick Coupler"
+        "name": "Scissor Lift"
     },
     {
-        "name": "Rough Terrain Crane"
-    },
-    {
-        "name": "Skid Steer Loader"
+        "name": "Tractor"
     },
     {
         "name": "Trencher"
     },
     {
-        "name": "Utility Vehicle"
-    },
-    {
-        "name": "Vibratory Roller"
-    },
-    {
         "name": "Wheel Loader"
-    },
-    {
-        "name": "Xtreme Manufacturing Lift"
-    },
-    {
-        "name": "Yard Truck"
-    },
-    {
-        "name": "Zoom Boom"
     }
 ]

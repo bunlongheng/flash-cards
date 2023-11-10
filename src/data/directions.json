@@ -1,26 +1,26 @@
 [
     {
+        "name": "East"
+    },
+    {
         "name": "North"
     },
     {
         "name": "North-East"
     },
     {
-        "name": "East"
-    },
-    {
-        "name": "South-East"
+        "name": "North-West"
     },
     {
         "name": "South"
+    },
+    {
+        "name": "South-East"
     },
     {
         "name": "South-West"
     },
     {
         "name": "West"
-    },
-    {
-        "name": "North-West"
     }
 ]

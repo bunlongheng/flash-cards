@@ -1,21 +1,15 @@
 [
     {
-        "name": "Happy"
-    },
-    {
-        "name": "Sad"
+        "name": "Amused"
     },
     {
         "name": "Angry"
     },
     {
-        "name": "Surprised"
+        "name": "Anxious"
     },
     {
-        "name": "Excited"
-    },
-    {
-        "name": "Scared"
+        "name": "Bored"
     },
     {
         "name": "Calm"
@@ -24,54 +18,60 @@
         "name": "Confused"
     },
     {
-        "name": "Bored"
-    },
-    {
-        "name": "Anxious"
-    },
-    {
-        "name": "Proud"
-    },
-    {
-        "name": "Shy"
-    },
-    {
-        "name": "Embarrassed"
-    },
-    {
         "name": "Content"
-    },
-    {
-        "name": "Frustrated"
-    },
-    {
-        "name": "Amused"
-    },
-    {
-        "name": "Joyful"
     },
     {
         "name": "Disappointed"
     },
     {
-        "name": "Relieved"
-    },
-    {
-        "name": "Grateful"
-    },
-    {
-        "name": "Loved"
-    },
-    {
-        "name": "Lonely"
-    },
-    {
-        "name": "Hopeful"
+        "name": "Embarrassed"
     },
     {
         "name": "Envious"
     },
     {
+        "name": "Excited"
+    },
+    {
+        "name": "Frustrated"
+    },
+    {
+        "name": "Grateful"
+    },
+    {
         "name": "Guilt"
+    },
+    {
+        "name": "Happy"
+    },
+    {
+        "name": "Hopeful"
+    },
+    {
+        "name": "Joyful"
+    },
+    {
+        "name": "Lonely"
+    },
+    {
+        "name": "Loved"
+    },
+    {
+        "name": "Proud"
+    },
+    {
+        "name": "Relieved"
+    },
+    {
+        "name": "Sad"
+    },
+    {
+        "name": "Scared"
+    },
+    {
+        "name": "Shy"
+    },
+    {
+        "name": "Surprised"
     }
 ]

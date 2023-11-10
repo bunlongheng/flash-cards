@@ -1,119 +1,119 @@
 [
     {
-        "name": "Bath Towel"
-    },
-    {
-        "name": "Toothbrush"
-    },
-    {
-        "name": "Shampoo"
-    },
-    {
-        "name": "Soap Dispenser"
-    },
-    {
-        "name": "Shower Curtain"
-    },
-    {
-        "name": "Toilet Paper"
-    },
-    {
-        "name": "Razor"
-    },
-    {
-        "name": "Bathroom Mat"
-    },
-    {
-        "name": "Faucet"
-    },
-    {
-        "name": "Towel Rack"
-    },
-    {
-        "name": "Mirror"
-    },
-    {
-        "name": "Hair Dryer"
-    },
-    {
-        "name": "Toilet Brush"
-    },
-    {
-        "name": "Cotton Swabs"
-    },
-    {
-        "name": "Shower Head"
-    },
-    {
-        "name": "Tissue Box"
-    },
-    {
-        "name": "Sink"
-    },
-    {
-        "name": "Mouthwash"
-    },
-    {
-        "name": "Toilet Seat"
-    },
-    {
-        "name": "Cabinet"
-    },
-    {
-        "name": "Towel Hook"
+        "name": "Bath Mat"
     },
     {
         "name": "Bath Sponge"
     },
     {
-        "name": "Plunger"
-    },
-    {
-        "name": "Hand Sanitizer"
-    },
-    {
-        "name": "Tumbler"
+        "name": "Bath Towel"
     },
     {
         "name": "Bathrobe"
     },
     {
-        "name": "Scale"
+        "name": "Bathroom Mat"
     },
     {
-        "name": "Shower Caddy"
+        "name": "Cabinet"
     },
     {
         "name": "Candles"
     },
     {
-        "name": "Towel Ring"
+        "name": "Cotton Balls"
+    },
+    {
+        "name": "Cotton Swabs"
     },
     {
         "name": "Electric Toothbrush"
     },
     {
-        "name": "Tissue Dispenser"
+        "name": "Faucet"
+    },
+    {
+        "name": "Hair Dryer"
     },
     {
         "name": "Hairbrush"
     },
     {
-        "name": "Towel Warmer"
+        "name": "Hand Sanitizer"
     },
     {
-        "name": "Toilet Paper Holder"
+        "name": "Mirror"
+    },
+    {
+        "name": "Mouthwash"
+    },
+    {
+        "name": "Plunger"
+    },
+    {
+        "name": "Razor"
+    },
+    {
+        "name": "Scale"
+    },
+    {
+        "name": "Shampoo"
+    },
+    {
+        "name": "Shower Caddy"
+    },
+    {
+        "name": "Shower Curtain"
+    },
+    {
+        "name": "Shower Head"
     },
     {
         "name": "Shower Radio"
     },
     {
-        "name": "Bath Mat"
+        "name": "Sink"
+    },
+    {
+        "name": "Soap Dispenser"
+    },
+    {
+        "name": "Tissue Box"
+    },
+    {
+        "name": "Tissue Dispenser"
+    },
+    {
+        "name": "Toilet Brush"
+    },
+    {
+        "name": "Toilet Paper"
+    },
+    {
+        "name": "Toilet Paper Holder"
+    },
+    {
+        "name": "Toilet Seat"
+    },
+    {
+        "name": "Toothbrush"
+    },
+    {
+        "name": "Towel Hook"
+    },
+    {
+        "name": "Towel Rack"
+    },
+    {
+        "name": "Towel Ring"
     },
     {
         "name": "Towel Stand"
     },
     {
-        "name": "Cotton Balls"
+        "name": "Towel Warmer"
+    },
+    {
+        "name": "Tumbler"
     }
 ]

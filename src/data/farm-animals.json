@@ -1,32 +1,5 @@
 [
     {
-        "name": "Cow"
-    },
-    {
-        "name": "Duck"
-    },
-    {
-        "name": "Goat"
-    },
-    {
-        "name": "Horse"
-    },
-    {
-        "name": "Lamb"
-    },
-    {
-        "name": "Pig"
-    },
-    {
-        "name": "Rabbit"
-    },
-    {
-        "name": "Sheep"
-    },
-    {
-        "name": "Turkey"
-    },
-    {
         "name": "Alpaca"
     },
     {
@@ -36,7 +9,13 @@
         "name": "Chicken"
     },
     {
+        "name": "Cow"
+    },
+    {
         "name": "Donkey"
+    },
+    {
+        "name": "Duck"
     },
     {
         "name": "Emu"
@@ -45,7 +24,13 @@
         "name": "Gander"
     },
     {
+        "name": "Goat"
+    },
+    {
         "name": "Hen"
+    },
+    {
+        "name": "Horse"
     },
     {
         "name": "Iguana"
@@ -55,6 +40,9 @@
     },
     {
         "name": "Kangaroo"
+    },
+    {
+        "name": "Lamb"
     },
     {
         "name": "Llama"
@@ -69,13 +57,25 @@
         "name": "Ostrich"
     },
     {
+        "name": "Pig"
+    },
+    {
         "name": "Pony"
+    },
+    {
+        "name": "Rabbit"
     },
     {
         "name": "Rooster"
     },
     {
+        "name": "Sheep"
+    },
+    {
         "name": "Sheepdog"
+    },
+    {
+        "name": "Turkey"
     },
     {
         "name": "Turkey Vulture"

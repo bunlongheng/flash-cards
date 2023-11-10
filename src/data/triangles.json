@@ -1,5 +1,9 @@
 [
     {
+        "name": "Acute triangle",
+        "Hint": "has all angles less than 90 degrees."
+    },
+    {
         "name": "Equilateral triangle",
         "Hint": "has three equal sides."
     },
@@ -8,19 +12,15 @@
         "Hint": "has two equal sides."
     },
     {
-        "name": "Scalene triangle",
-        "Hint": "has no equal sides."
+        "name": "Obtuse triangle",
+        "Hint": "has one angle greater than 90 degrees."
     },
     {
         "name": "Right triangle",
         "Hint": "has one 90-degree angle."
     },
     {
-        "name": "Obtuse triangle",
-        "Hint": "has one angle greater than 90 degrees."
-    },
-    {
-        "name": "Acute triangle",
-        "Hint": "has all angles less than 90 degrees."
+        "name": "Scalene triangle",
+        "Hint": "has no equal sides."
     }
 ]

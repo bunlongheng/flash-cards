@@ -1,26 +1,26 @@
 [
     {
-        "name": "Triangle"
-    },
-    {
-        "name": "Quadrilateral"
-    },
-    {
-        "name": "Pentagon"
-    },
-    {
-        "name": "Hexagon"
+        "name": "Decagon"
     },
     {
         "name": "Heptagon"
     },
     {
-        "name": "Octagon"
+        "name": "Hexagon"
     },
     {
         "name": "Nonagon"
     },
     {
-        "name": "Decagon"
+        "name": "Octagon"
+    },
+    {
+        "name": "Pentagon"
+    },
+    {
+        "name": "Quadrilateral"
+    },
+    {
+        "name": "Triangle"
     }
 ]

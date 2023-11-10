@@ -1,57 +1,48 @@
 [
     {
-        "name": "Pickup Truck"
+        "name": "Armored Truck"
     },
     {
-        "name": "Semi-Trailer Truck"
+        "name": "Box Truck"
     },
     {
-        "name": "Moving Truck"
-    },
-    {
-        "name": "Flatbed Truck"
-    },
-    {
-        "name": "Dump Truck"
-    },
-    {
-        "name": "Garbage Truck"
-    },
-    {
-        "name": "Recycle Truck"
-    },
-    {
-        "name": "Tanker Truck"
-    },
-    {
-        "name": "Electric Truck"
-    },
-    {
-        "name": "Tow Truck"
-    },
-    {
-        "name": "Snow Plow Truck"
-    },
-    {
-        "name": "Propane Truck"
-    },
-    {
-        "name": "Fire Truck"
+        "name": "Car Hauler Truck"
     },
     {
         "name": "Concrete Mixer Truck"
     },
     {
+        "name": "Crane Truck"
+    },
+    {
         "name": "Delivery Truck"
     },
     {
-        "name": "Utility Truck"
+        "name": "Dump Truck"
     },
     {
-        "name": "Overlanding Truck"
+        "name": "Electric Truck"
     },
     {
-        "name": "Crane Truck"
+        "name": "Fire Truck"
+    },
+    {
+        "name": "Flatbed Truck"
+    },
+    {
+        "name": "Food Truck"
+    },
+    {
+        "name": "Garbage Truck"
+    },
+    {
+        "name": "Heavy Duty Truck"
+    },
+    {
+        "name": "Ice Cream Truck"
+    },
+    {
+        "name": "Livestock Truck"
     },
     {
         "name": "Logging Truck"
@@ -60,30 +51,39 @@
         "name": "Mail Truck"
     },
     {
-        "name": "Refrigerated Truck"
-    },
-    {
-        "name": "Armored Truck"
-    },
-    {
-        "name": "Box Truck"
-    },
-    {
-        "name": "Food Truck"
-    },
-    {
-        "name": "Car Hauler Truck"
-    },
-    {
-        "name": "Livestock Truck"
-    },
-    {
-        "name": "Heavy Duty Truck"
-    },
-    {
         "name": "Monster Truck"
     },
     {
-        "name": "Ice Cream Truck"
+        "name": "Moving Truck"
+    },
+    {
+        "name": "Overlanding Truck"
+    },
+    {
+        "name": "Pickup Truck"
+    },
+    {
+        "name": "Propane Truck"
+    },
+    {
+        "name": "Recycle Truck"
+    },
+    {
+        "name": "Refrigerated Truck"
+    },
+    {
+        "name": "Semi-Trailer Truck"
+    },
+    {
+        "name": "Snow Plow Truck"
+    },
+    {
+        "name": "Tanker Truck"
+    },
+    {
+        "name": "Tow Truck"
+    },
+    {
+        "name": "Utility Truck"
     }
 ]

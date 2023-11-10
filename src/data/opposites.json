@@ -1,74 +1,74 @@
 [
     {
-        "name": "Happy / Sad"
-    },
-    {
-        "name": "Funny / Serious"
-    },
-    {
-        "name": "Cute / Ugly"
-    },
-    {
-        "name": "Brave / Scared"
-    },
-    {
-        "name": "Smart / Dumb"
-    },
-    {
-        "name": "Kind / Mean"
-    },
-    {
-        "name": "Silly / Serious"
-    },
-    {
-        "name": "Loud / Quiet"
+        "name": "Beautiful / Ugly"
     },
     {
         "name": "Big / Small"
     },
     {
-        "name": "Fast / Slow"
+        "name": "Big / Tiny"
     },
     {
-        "name": "Strong / Weak"
-    },
-    {
-        "name": "Tall / Short"
-    },
-    {
-        "name": "Sweet / Sour"
-    },
-    {
-        "name": "Hot / Cold"
+        "name": "Brave / Scared"
     },
     {
         "name": "Bright / Dark"
     },
     {
-        "name": "Colorful / Plain"
-    },
-    {
         "name": "Bumpy / Smooth"
-    },
-    {
-        "name": "Young / Old"
     },
     {
         "name": "Clean / Dirty"
     },
     {
+        "name": "Colorful / Plain"
+    },
+    {
+        "name": "Cute / Ugly"
+    },
+    {
+        "name": "Fast / Slow"
+    },
+    {
+        "name": "Funny / Serious"
+    },
+    {
         "name": "Good / Bad"
     },
     {
-        "name": "Beautiful / Ugly"
-    },
-    {
-        "name": "Big / Tiny"
+        "name": "Happy / Sad"
     },
     {
         "name": "Hard / Soft"
     },
     {
+        "name": "Hot / Cold"
+    },
+    {
+        "name": "Kind / Mean"
+    },
+    {
+        "name": "Loud / Quiet"
+    },
+    {
+        "name": "Silly / Serious"
+    },
+    {
         "name": "Simple / Complex"
+    },
+    {
+        "name": "Smart / Dumb"
+    },
+    {
+        "name": "Strong / Weak"
+    },
+    {
+        "name": "Sweet / Sour"
+    },
+    {
+        "name": "Tall / Short"
+    },
+    {
+        "name": "Young / Old"
     }
 ]

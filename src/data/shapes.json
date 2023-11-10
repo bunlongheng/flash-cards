@@ -3,46 +3,7 @@
         "name": "Circle"
     },
     {
-        "name": "Heart"
-    },
-    {
-        "name": "Oval"
-    },
-    {
-        "name": "Semi Circle"
-    },
-    {
         "name": "Cone"
-    },
-    {
-        "name": "Triangle"
-    },
-    {
-        "name": "Square"
-    },
-    {
-        "name": "Rectangle"
-    },
-    {
-        "name": "Rhombus"
-    },
-    {
-        "name": "Trapezoid"
-    },
-    {
-        "name": "Pentagon"
-    },
-    {
-        "name": "Sphere"
-    },
-    {
-        "name": "Cylinder"
-    },
-    {
-        "name": "Hexagon"
-    },
-    {
-        "name": "Triangular Prism"
     },
     {
         "name": "Cube"
@@ -51,21 +12,60 @@
         "name": "Cuboid"
     },
     {
+        "name": "Cylinder"
+    },
+    {
+        "name": "Decagon"
+    },
+    {
+        "name": "Heart"
+    },
+    {
         "name": "Heptagon"
     },
     {
-        "name": "Octagon"
+        "name": "Hexagon"
     },
     {
         "name": "Hexagonal Prism"
     },
     {
-        "name": "Decagon"
+        "name": "Octagon"
+    },
+    {
+        "name": "Oval"
+    },
+    {
+        "name": "Pentagon"
     },
     {
         "name": "Pentagonal Prism"
     },
     {
         "name": "Pyramid"
+    },
+    {
+        "name": "Rectangle"
+    },
+    {
+        "name": "Rhombus"
+    },
+    {
+        "name": "Semi Circle"
+    },
+    {
+        "name": "Sphere"
+    },
+    {
+        "name": "Square"
+    },
+    {
+        "name": "Trapezoid"
+    },
+    {
+        "name": "Triangle"
+    },
+    {
+        "name": "Triangular Prism"
     }
 ]

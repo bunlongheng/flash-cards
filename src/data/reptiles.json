@@ -1,33 +1,6 @@
 [
     {
-        "name": "Snake"
-    },
-    {
-        "name": "Lizard"
-    },
-    {
-        "name": "Turtle"
-    },
-    {
-        "name": "Crocodile"
-    },
-    {
         "name": "Alligator"
-    },
-    {
-        "name": "Gecko"
-    },
-    {
-        "name": "Iguana"
-    },
-    {
-        "name": "Chameleon"
-    },
-    {
-        "name": "Komodo Dragon"
-    },
-    {
-        "name": "Gila Monster"
     },
     {
         "name": "Anaconda"
@@ -36,30 +9,57 @@
         "name": "Boa Constrictor"
     },
     {
-        "name": "Monitor Lizard"
-    },
-    {
-        "name": "Rattlesnake"
+        "name": "Chameleon"
     },
     {
         "name": "Cobra"
     },
     {
-        "name": "Horned Toad"
-    },
-    {
-        "name": "Tegu"
-    },
-    {
-        "name": "Sea Turtle"
-    },
-    {
-        "name": "Salamander"
+        "name": "Crocodile"
     },
     {
         "name": "Frog"
     },
     {
+        "name": "Gecko"
+    },
+    {
+        "name": "Gila Monster"
+    },
+    {
+        "name": "Horned Toad"
+    },
+    {
+        "name": "Iguana"
+    },
+    {
+        "name": "Komodo Dragon"
+    },
+    {
+        "name": "Lizard"
+    },
+    {
+        "name": "Monitor Lizard"
+    },
+    {
         "name": "Newt"
+    },
+    {
+        "name": "Rattlesnake"
+    },
+    {
+        "name": "Salamander"
+    },
+    {
+        "name": "Sea Turtle"
+    },
+    {
+        "name": "Snake"
+    },
+    {
+        "name": "Tegu"
+    },
+    {
+        "name": "Turtle"
     }
 ]

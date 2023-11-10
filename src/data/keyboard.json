@@ -12,40 +12,49 @@
         "name": "Command"
     },
     {
-        "name": "Delete"
-    },
-    {
-        "name": "Enter"
-    },
-    {
-        "name": "Function (Fn)"
-    },
-    {
         "name": "Ctrl"
     },
     {
-        "name": "Escape (Esc)"
+        "name": "Delete"
     },
     {
-        "name": "Home"
+        "name": "Down"
     },
     {
         "name": "End"
     },
     {
+        "name": "Enter"
+    },
+    {
+        "name": "Escape (Esc)"
+    },
+    {
+        "name": "Function (Fn)"
+    },
+    {
+        "name": "Home"
+    },
+    {
         "name": "Insert"
+    },
+    {
+        "name": "Left"
     },
     {
         "name": "Option"
     },
     {
-        "name": "Page Up"
-    },
-    {
         "name": "Page Down"
     },
     {
+        "name": "Page Up"
+    },
+    {
         "name": "Return"
+    },
+    {
+        "name": "Right"
     },
     {
         "name": "Shift"
@@ -55,14 +64,5 @@
     },
     {
         "name": "Up"
-    },
-    {
-        "name": "Down"
-    },
-    {
-        "name": "Left"
-    },
-    {
-        "name": "Right"
     }
 ]

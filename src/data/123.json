@@ -1,77 +1,32 @@
 [
     {
-        "name": "One"
+        "name": "0"
     },
     {
-        "name": "Two"
+        "name": "1"
     },
     {
-        "name": "Three"
+        "name": "2"
     },
     {
-        "name": "Four"
+        "name": "3"
     },
     {
-        "name": "Five"
+        "name": "4"
     },
     {
-        "name": "Six"
+        "name": "5"
     },
     {
-        "name": "Seven"
+        "name": "6"
     },
     {
-        "name": "Eight"
+        "name": "7"
     },
     {
-        "name": "Nine"
+        "name": "8"
     },
     {
-        "name": "Ten"
-    },
-    {
-        "name": "Eleven"
-    },
-    {
-        "name": "Twelve"
-    },
-    {
-        "name": "Thirteen"
-    },
-    {
-        "name": "Fourteen"
-    },
-    {
-        "name": "Fifteen"
-    },
-    {
-        "name": "Sixteen"
-    },
-    {
-        "name": "Seventeen"
-    },
-    {
-        "name": "Eighteen"
-    },
-    {
-        "name": "Nineteen"
-    },
-    {
-        "name": "Twenty"
-    },
-    {
-        "name": "Twenty-one"
-    },
-    {
-        "name": "Twenty-two"
-    },
-    {
-        "name": "Twenty-three"
-    },
-    {
-        "name": "Twenty-four"
-    },
-    {
-        "name": "Twenty-five"
+        "name": "9"
     }
 ]

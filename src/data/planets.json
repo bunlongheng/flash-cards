@@ -1,18 +1,18 @@
 [
     {
-        "name": "Mercury"
-    },
-    {
-        "name": "Venus"
-    },
-    {
         "name": "Earth"
+    },
+    {
+        "name": "Jupiter"
     },
     {
         "name": "Mars"
     },
     {
-        "name": "Jupiter"
+        "name": "Mercury"
+    },
+    {
+        "name": "Neptune"
     },
     {
         "name": "Saturn"
@@ -21,6 +21,6 @@
         "name": "Uranus"
     },
     {
-        "name": "Neptune"
+        "name": "Venus"
     }
 ]

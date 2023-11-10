@@ -1,122 +1,122 @@
 [
     {
-        "name": "Tent"
-    },
-    {
-        "name": "Sleeping Bag"
-    },
-    {
-        "name": "Campfire Grill"
-    },
-    {
-        "name": "Flashlight"
-    },
-    {
         "name": "Backpack"
-    },
-    {
-        "name": "Camp Chair"
-    },
-    {
-        "name": "Camping Stove"
-    },
-    {
-        "name": "Cooler"
-    },
-    {
-        "name": "Hiking Boots"
-    },
-    {
-        "name": "Pocket Knife"
-    },
-    {
-        "name": "Water Bottle"
-    },
-    {
-        "name": "Camp Axe"
-    },
-    {
-        "name": "Camping Pot Set"
-    },
-    {
-        "name": "First Aid Kit"
-    },
-    {
-        "name": "Compass"
-    },
-    {
-        "name": "Insect Repellent"
-    },
-    {
-        "name": "Camp Tarp"
-    },
-    {
-        "name": "Camping Table"
-    },
-    {
-        "name": "Camp Mugs"
-    },
-    {
-        "name": "Headlamp"
-    },
-    {
-        "name": "Camp Hammock"
-    },
-    {
-        "name": "Camp Utensil Set"
-    },
-    {
-        "name": "Campfire Starter Kit"
-    },
-    {
-        "name": "Tent Pegs"
-    },
-    {
-        "name": "Camping Pillow"
-    },
-    {
-        "name": "Folding Shovel"
-    },
-    {
-        "name": "Campfire Tripod"
-    },
-    {
-        "name": "Solar Charger"
-    },
-    {
-        "name": "Camp Broom"
-    },
-    {
-        "name": "Camp Shower"
-    },
-    {
-        "name": "Camp Griddle"
-    },
-    {
-        "name": "Camp Tableware"
-    },
-    {
-        "name": "Survival Whistle"
-    },
-    {
-        "name": "Campfire Gloves"
-    },
-    {
-        "name": "Camp Cot"
-    },
-    {
-        "name": "Camp Lantern"
     },
     {
         "name": "Bear Canister"
     },
     {
-        "name": "Water Purifier"
+        "name": "Camp Axe"
+    },
+    {
+        "name": "Camp Broom"
+    },
+    {
+        "name": "Camp Chair"
+    },
+    {
+        "name": "Camp Cookware Set"
+    },
+    {
+        "name": "Camp Cot"
+    },
+    {
+        "name": "Camp Griddle"
+    },
+    {
+        "name": "Camp Hammock"
+    },
+    {
+        "name": "Camp Lantern"
+    },
+    {
+        "name": "Camp Mugs"
+    },
+    {
+        "name": "Camp Shower"
+    },
+    {
+        "name": "Camp Tableware"
+    },
+    {
+        "name": "Camp Tarp"
+    },
+    {
+        "name": "Camp Utensil Set"
+    },
+    {
+        "name": "Campfire Gloves"
+    },
+    {
+        "name": "Campfire Grill"
     },
     {
         "name": "Campfire Roasting Sticks"
     },
     {
-        "name": "Camp Cookware Set"
+        "name": "Campfire Starter Kit"
+    },
+    {
+        "name": "Campfire Tripod"
+    },
+    {
+        "name": "Camping Pillow"
+    },
+    {
+        "name": "Camping Pot Set"
+    },
+    {
+        "name": "Camping Stove"
+    },
+    {
+        "name": "Camping Table"
+    },
+    {
+        "name": "Compass"
+    },
+    {
+        "name": "Cooler"
+    },
+    {
+        "name": "First Aid Kit"
+    },
+    {
+        "name": "Flashlight"
+    },
+    {
+        "name": "Folding Shovel"
+    },
+    {
+        "name": "Headlamp"
+    },
+    {
+        "name": "Hiking Boots"
+    },
+    {
+        "name": "Insect Repellent"
+    },
+    {
+        "name": "Pocket Knife"
+    },
+    {
+        "name": "Sleeping Bag"
+    },
+    {
+        "name": "Solar Charger"
+    },
+    {
+        "name": "Survival Whistle"
+    },
+    {
+        "name": "Tent"
+    },
+    {
+        "name": "Tent Pegs"
+    },
+    {
+        "name": "Water Bottle"
+    },
+    {
+        "name": "Water Purifier"
     }
 ]

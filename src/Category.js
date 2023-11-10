@@ -123,6 +123,7 @@ const Category = ({ type }) => {
                         }}
                     >
                         <div className="initial">{item.name.charAt(0).toUpperCase()}</div>
+
                         <div className={`thumbnail-details`}>
                             <h6>{item.name}</h6>
                         </div>
