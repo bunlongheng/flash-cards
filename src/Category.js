@@ -61,23 +61,23 @@ const Category = ({ type }) => {
                     new Audio("/sounds/flying.mp3").play();
                     break;
                 case 5:
-                    setSlideText(<img src={getRandomImage()} alt="superman" width={40} />);
+                    setSlideText(<img src={getRandomImage()} alt="aircraft" width={40} />);
                     new Audio("/sounds/flying.mp3").play();
                     break;
                 case 10:
-                    setSlideText(<img src={getRandomImage()} alt="superman" width={40} />);
+                    setSlideText(<img src={getRandomImage()} alt="aircraft" width={40} />);
                     new Audio("/sounds/flying.mp3").play();
                     break;
                 case 15:
-                    setSlideText(<img src={getRandomImage()} alt="superman" width={40} />);
+                    setSlideText(<img src={getRandomImage()} alt="aircraft" width={40} />);
                     new Audio("/sounds/flying.mp3").play();
                     break;
                 case 20:
-                    setSlideText(<img src={getRandomImage()} alt="superman" width={40} />);
+                    setSlideText(<img src={getRandomImage()} alt="aircraft" width={40} />);
                     new Audio("/sounds/flying.mp3").play();
                     break;
                 case 25:
-                    setSlideText(<img src={getRandomImage()} alt="superman" width={40} />);
+                    setSlideText(<img src={getRandomImage()} alt="aircraft" width={40} />);
                     new Audio("/sounds/flying.mp3").play();
                     break;
                 default:
@@ -122,7 +122,7 @@ const Category = ({ type }) => {
                             backgroundSize: "cover",
                         }}
                     >
-                        <div className="initial">{item.name.charAt(0)}</div>
+                        <div className="initial">{item.name.charAt(0).toUpperCase()}</div>
                         <div className={`thumbnail-details`}>
                             <h6>{item.name}</h6>
                         </div>
