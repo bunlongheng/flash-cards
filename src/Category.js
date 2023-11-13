@@ -44,7 +44,7 @@ const Category = ({ type }) => {
         setClickedItemName(item.name);
 
         const getRandomImage = () => {
-            const randomIndex = Math.floor(Math.random() * 5) + 1; // Generates a random number between 1 and 15
+            const randomIndex = Math.floor(Math.random() * 5) + 1;
             return `/images/fly/${randomIndex}.png`;
         };
 
@@ -61,23 +61,23 @@ const Category = ({ type }) => {
                     new Audio("/sounds/flying.mp3").play();
                     break;
                 case 5:
-                    setSlideText(<img src={getRandomImage()} alt="aircraft" width={40} />);
+                    setSlideText(<img src={getRandomImage()} alt="air" width={40} />);
                     new Audio("/sounds/flying.mp3").play();
                     break;
                 case 10:
-                    setSlideText(<img src={getRandomImage()} alt="aircraft" width={40} />);
+                    setSlideText(<img src={getRandomImage()} alt="air" width={40} />);
                     new Audio("/sounds/flying.mp3").play();
                     break;
                 case 15:
-                    setSlideText(<img src={getRandomImage()} alt="aircraft" width={40} />);
+                    setSlideText(<img src={getRandomImage()} alt="air" width={40} />);
                     new Audio("/sounds/flying.mp3").play();
                     break;
                 case 20:
-                    setSlideText(<img src={getRandomImage()} alt="aircraft" width={40} />);
+                    setSlideText(<img src={getRandomImage()} alt="air" width={40} />);
                     new Audio("/sounds/flying.mp3").play();
                     break;
                 case 25:
-                    setSlideText(<img src={getRandomImage()} alt="aircraft" width={40} />);
+                    setSlideText(<img src={getRandomImage()} alt="air" width={40} />);
                     new Audio("/sounds/flying.mp3").play();
                     break;
                 default:
