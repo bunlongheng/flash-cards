@@ -13,7 +13,7 @@ const Category = ({ type }) => {
     const [clickedItems, setClickedItems] = useState([]);
     const [slideText, setSlideText] = useState("");
 
-    const displayMode = parseInt(localStorage.getItem("displayMode")) || 2;
+    const bgImage = localStorage.getItem("bgImage") === "true";
 
     useEffect(() => {
         const jsonData = require(`./data/${type}.json`);
@@ -112,24 +112,17 @@ const Category = ({ type }) => {
             <div className={`thumbnails-container`}>
                 {data.map((item, index) => (
                     <div
-                        //displayMode = 1 load backgroundImage only
-                        //displayMode = 2 not load backgroundImage && the image
-                        //displayMode = 3 not backgroundImage, only load the image
-                        //displayMode is localStorage values, they could  be: 1,2,3
-
                         key={index}
                         id={`${item.name.replace(/\s+/g, "-").toLowerCase()}`}
                         className="thumbnail"
                         onClick={() => handleClick(item)}
                         style={{
-                            backgroundColor: displayMode == 2 ? "white" : item.color,
-                            backgroundImage: displayMode == 1 ? `url(${getImage(item, type)})` : "none",
+                            backgroundColor: bgImage ? "white" : item.color,
+                            backgroundImage: bgImage ? `url(${getImage(item, type)})` : "none",
                             backgroundSize: "cover",
                         }}
                     >
-                        <div className="initial">{displayMode == 1 ? "" : item.name.charAt(0).toUpperCase()}</div>
-
-                        {displayMode !== 3 && <img src={getImage(item, type)} alt="achievement" className="achievement" style={{ width: "30%" }} />}
+                        <div className="initial">{bgImage ? "" : item.name.charAt(0).toUpperCase()}</div>
 
                         <div className={`thumbnail-details`}>
                             <h6>{item.name}</h6>
