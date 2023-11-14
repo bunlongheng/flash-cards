@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { getHueColor } from "./utility/colorUtils.js";
 import { playAudio } from "./utility/audioUtils.js";
 import { getPageName, goHome } from "./utility/pageUtils.js";
-import { getImage } from "./utility/imageUtils.js";
+import { getImage, getImageWidth } from "./utility/imageUtils.js";
 
 import "./Category.css";
 
@@ -118,11 +118,12 @@ const Category = ({ type }) => {
                         onClick={() => handleClick(item)}
                         style={{
                             backgroundColor: bgImage ? "white" : item.color,
-                            backgroundImage: bgImage ? `url(${getImage(item, type)})` : "none",
                             backgroundSize: "cover",
                         }}
                     >
                         <div className="initial">{bgImage ? "" : item.name.charAt(0).toUpperCase()}</div>
+
+                        <img src={getImage(item, type)} alt="img" style={{ width: getImageWidth(item, type) }}></img>
 
                         <div className={`thumbnail-details`}>
                             <h6>{item.name}</h6>

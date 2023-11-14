@@ -30,7 +30,7 @@
     transition: background-color 0.3s;
     background-color: rgba(0, 0, 0, 0.2);
     border: 1px solid black;
-    color: white;
+    color: black;
     position: relative;
     overflow: hidden;
 }
@@ -41,16 +41,15 @@
 }
 
 .thumbnail.disabled {
-    opacity: 0.4;
+    opacity: 0.2;
     border: 1px solid black;
     background-color: #ffffff40 !important;
-    color: #000000;
+    color: #ffffff40;
 }
 
 .thumbnail img {
     width: 90%;
     height: auto;
-    border-radius: 5px;
 }
 
 .thumbnail-details {
