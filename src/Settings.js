@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Settings.css"; // Import a CSS file for styling
+import "./Settings.css";
 
 const Settings = () => {
     const [bgImage, setBgImage] = useState(() => {

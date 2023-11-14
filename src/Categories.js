@@ -34,11 +34,7 @@ const Categories = () => {
 
     return (
         <div className="categories-page bg-dark text-light">
-            <div className={`three-dots-button ${isModalVisible ? "button-active" : ""}`} onClick={toggleSettings}>
-                {isModalVisible ? "X" : "\u22EE"}
-            </div>
-
-            <div className="sliding-text">
+            <div className="sliding-text" onClick={toggleSettings}>
                 <span className="background-text">👋🏽 Hi! Norden!</span>
                 &nbsp;----&nbsp;
                 <img src={`/images/transportations/${randomItem}.png`} alt={randomItem} height={30} />
