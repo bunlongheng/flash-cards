@@ -12,6 +12,8 @@ const Category = ({ type }) => {
     const [clickedItemName, setClickedItemName] = useState("");
     const [clickedItems, setClickedItems] = useState([]);
     const [slideText, setSlideText] = useState("");
+    const [displayText, setDisplayText] = useState("");
+    const [displayTextKey, setDisplayTextKey] = useState(0);
 
     const bgImage = localStorage.getItem("bgImage") === "true";
 
@@ -34,6 +36,7 @@ const Category = ({ type }) => {
 
     const handleClick = item => {
         setSlideText("");
+
         const thumbnailId = item.name.replace(/\s+/g, "-").toLowerCase();
         const clickedThumbnail = document.getElementById(`${thumbnailId}`);
 
@@ -84,6 +87,9 @@ const Category = ({ type }) => {
                     setSlideText("");
                     break;
             }
+
+            setDisplayText(item.name);
+            setDisplayTextKey(prevKey => prevKey + 1);
         }
     };
 
@@ -135,6 +141,12 @@ const Category = ({ type }) => {
             {slideText && (
                 <div className="slide-up">
                     <p>{slideText}</p>
+                </div>
+            )}
+
+            {displayText && (
+                <div key={displayTextKey} className="display-text">
+                    <p>{displayText}</p>
                 </div>
             )}
 
