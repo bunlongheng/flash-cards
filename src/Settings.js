@@ -22,7 +22,7 @@ const Settings = () => {
                     <input type="checkbox" checked={bgImage} onChange={handleBgImageChange} />
                     <span className="slider"></span>
                 </label>
-                <span className="switch-label">Load Background Image</span>
+                <span className="switch-label">Image</span>
             </div>
         </div>
     );
