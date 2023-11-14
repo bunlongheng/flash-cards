@@ -159,6 +159,8 @@
     background-color: transparent;
     font-size: 10em;
     opacity: 1;
+    z-index: 10; /* Adjust this as needed */
+    pointer-events: none; /* Ignore mouse events */
 }
 
 @keyframes explode {
