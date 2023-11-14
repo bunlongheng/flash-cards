@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Kiddosy";
-    src: url("/public/fonts/kiddosy/Kiddosy\ Regular.ttf") format("opentype");
+    src: url("/public/fonts/fankids/FanKids.otf") format("opentype"), url("/public/fonts/fankids/FanKids.ttf") format("truetype");
 }
 
 .three-dots-button {

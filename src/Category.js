@@ -123,7 +123,7 @@ const Category = ({ type }) => {
                     >
                         <div className="initial">{bgImage ? "" : item.name.charAt(0).toUpperCase()}</div>
 
-                        <img src={getImage(item, type)} alt="img" style={{ width: getImageWidth(type), height: getImageHeight(type) }}></img>
+                        {bgImage ? <img src={getImage(item, type)} alt="img" style={{ width: getImageWidth(type), height: getImageHeight(type) }} /> : null}
 
                         <div className={`thumbnail-details`}>
                             <h6>{item.name}</h6>
