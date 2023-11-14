@@ -28,8 +28,8 @@
 .thumbnail {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center vertically */
-    align-items: center; /* Center horizontally */
+    justify-content: center;
+    align-items: center;
     width: 300px;
     height: 300px;
     transition: background-color 0.3s;
@@ -47,10 +47,21 @@
 }
 
 .thumbnail.disabled {
-    opacity: 0.2;
+    opacity: 0.7;
     border: 1px solid black;
     background-color: #ffffff80 !important;
     color: #ffffff;
+}
+
+.thumbnail.disabled::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.6) 5%, rgba(0, 0, 0, 0.9) 100%);
+    pointer-events: none;
 }
 
 .thumbnail img {
