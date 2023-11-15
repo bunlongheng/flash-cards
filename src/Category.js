@@ -101,23 +101,23 @@ const Category = ({ type }) => {
                 </Link>
                 <span onClick={() => goHome()} className="breadcrumb-divider">
                     {" "}
-                    &nbsp; / &nbsp;
+                    &nbsp; &nbsp; &nbsp; / &nbsp; &nbsp; &nbsp; &nbsp;
                 </span>
 
                 <span onClick={() => goHome()} className="current-page">
                     <img src={`/images/types/${type}.png`} alt="Icon" className="icon" width="20" /> {getPageName(type)}
                 </span>
 
-                <span className="count">
+                <span className="float-right">
                     ({clickedItems.length}/{data.length})
                 </span>
-
-                <span className="float-right selected">
-                    <a href={`https://www.google.com/images?q=${encodeURIComponent(clickedItemName)}`} target="_blank" rel="noopener noreferrer">
-                        "{clickedItemName}"
-                    </a>
-                </span>
             </nav>
+
+            <div className="float-left selected">
+                <a href={`https://www.google.com/images?q=${encodeURIComponent(clickedItemName)}`} target="_blank" rel="noopener noreferrer">
+                    "{clickedItemName}"
+                </a>
+            </div>
 
             <div className={`thumbnails-container`}>
                 {data.map((item, index) => (

@@ -111,6 +111,11 @@
     float: right;
 }
 
+.selected {
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
 .selected a {
     text-decoration: none;
     color: white;
