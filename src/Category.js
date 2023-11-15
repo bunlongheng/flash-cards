@@ -106,7 +106,6 @@ const Category = ({ type }) => {
 
                 <span onClick={() => goHome()} className="current-page">
                     <img src={`/images/types/${type}.png`} alt="Icon" className="icon" width="20" /> {getPageName(type)}
-                    &nbsp; / &nbsp;
                 </span>
 
                 <span className="count">
