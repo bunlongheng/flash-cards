@@ -101,11 +101,16 @@ const Category = ({ type }) => {
                 </Link>
                 <span onClick={() => goHome()} className="breadcrumb-divider">
                     {" "}
-                    &nbsp; &nbsp; &nbsp; / &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; / &nbsp; &nbsp;
                 </span>
 
                 <span onClick={() => goHome()} className="current-page">
                     <img src={`/images/types/${type}.png`} alt="Icon" className="icon" width="20" /> {getPageName(type)}
+                    &nbsp; &nbsp; / &nbsp; &nbsp;
+                </span>
+
+                <span className="count">
+                    ({clickedItems.length}/{data.length})
                 </span>
 
                 <span className="float-right selected">

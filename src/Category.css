@@ -3,14 +3,6 @@
     src: url("/public/fonts/fankids/FanKids.otf") format("opentype"), url("/public/fonts/fankids/FanKids.ttf") format("truetype");
 }
 
-.three-dots-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-    transition: all 3s ease;
-}
-
 .category-page {
     background: black;
     background-size: cover;
@@ -24,6 +16,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    margin-bottom: 40px;
 }
 
 .thumbnail {
