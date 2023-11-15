@@ -4,7 +4,6 @@ import Categories from "./Categories";
 import Category from "./Category";
 import Settings from "./Settings";
 
-import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const typesString = process.env.REACT_APP_CATEGORIES || "";
