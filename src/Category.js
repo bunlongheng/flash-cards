@@ -109,7 +109,7 @@ const Category = ({ type }) => {
                 </span>
 
                 <span className="float-right">
-                    ({clickedItems.length}/{data.length})
+                    {clickedItems.length}/{data.length}
                 </span>
             </nav>
 
