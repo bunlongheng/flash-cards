@@ -107,17 +107,16 @@ const Category = ({ type }) => {
                 <span onClick={() => goHome()} className="current-page">
                     <img src={`/images/types/${type}.png`} alt="Icon" className="icon" width="20" /> {getPageName(type)}
                 </span>
+                <span className="selected float-right">
+                    <a href={`https://www.google.com/images?q=${encodeURIComponent(clickedItemName)}`} target="_blank" rel="noopener noreferrer">
+                        "{clickedItemName}"
+                    </a>
+                </span>
 
-                <span className="float-right">
+                <span className="count float-right">
                     {clickedItems.length}/{data.length}
                 </span>
             </nav>
-
-            <div className="float-left selected">
-                <a href={`https://www.google.com/images?q=${encodeURIComponent(clickedItemName)}`} target="_blank" rel="noopener noreferrer">
-                    "{clickedItemName}"
-                </a>
-            </div>
 
             <div className={`thumbnails-container`}>
                 {data.map((item, index) => (
