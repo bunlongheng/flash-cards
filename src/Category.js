@@ -101,7 +101,7 @@ const Category = ({ type }) => {
                 </Link>
                 <span onClick={() => goHome()} className="breadcrumb-divider">
                     {" "}
-                    &nbsp; &nbsp; &nbsp; / &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp;&nbsp;/&nbsp;&nbsp;
                 </span>
 
                 <span onClick={() => goHome()} className="current-page">
