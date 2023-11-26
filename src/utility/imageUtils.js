@@ -14,7 +14,7 @@ export const getImage = (item, type) => {
 export const getImageWidth = type => {
     const localImageTypes = ["planets", "shapes", "polygons", "triangles", "construction-vehicles"];
     if (localImageTypes.includes(type)) {
-        return `30%`;
+        return `50%`;
     }
     return `100%`;
 };

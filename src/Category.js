@@ -15,7 +15,8 @@ const Category = ({ type }) => {
     const [displayText, setDisplayText] = useState("");
     const [displayTextKey, setDisplayTextKey] = useState(0);
 
-    const bgImage = localStorage.getItem("bgImage") === "true";
+    // const bgImage = localStorage.getItem("bgImage") === "true";
+    const bgImage = false;
 
     useEffect(() => {
         const jsonData = require(`./data/${type}.json`);
