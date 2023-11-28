@@ -14,9 +14,8 @@ const Category = ({ type }) => {
     const [slideText, setSlideText] = useState("");
     const [displayText, setDisplayText] = useState("");
     const [displayTextKey, setDisplayTextKey] = useState(0);
-
-    // const bgImage = localStorage.getItem("bgImage") === "true";
-    const bgImage = false;
+    const [clickCount, setClickCount] = useState(0);
+    const [bgImage, setBgImage] = useState(false);
 
     useEffect(() => {
         const jsonData = require(`./data/${type}.json`);
@@ -29,11 +28,25 @@ const Category = ({ type }) => {
         });
 
         setData(updatedData);
+
+        const initialBgImageValue = localStorage.getItem("bgImage") === "true";
+        setBgImage(initialBgImageValue);
     }, [type]);
 
     useEffect(() => {
         playAudio(clickedItems.length, data.length, goHome);
     }, [clickedItems.length, data.length]);
+
+    const toggleImage = () => {
+        setClickCount(prevCount => prevCount + 1);
+        console.log("Click Count:", clickCount);
+        if (clickCount === 2) {
+            const currentV = localStorage.getItem("bgImage") === "true";
+            const newV = !currentV;
+            localStorage.setItem("bgImage", newV.toString());
+            window.location.reload();
+        }
+    };
 
     const handleClick = item => {
         setSlideText("");
@@ -105,7 +118,7 @@ const Category = ({ type }) => {
                     &nbsp;&nbsp;/&nbsp;&nbsp;
                 </span>
 
-                <span onClick={() => goHome()} className="current-page">
+                <span onClick={() => toggleImage()} className="current-page">
                     <img src={`/images/types/${type}.png`} alt="Icon" className="icon" width="20" /> {getPageName(type)}
                 </span>
                 <span className="selected float-right">
