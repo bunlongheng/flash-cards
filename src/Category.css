@@ -89,11 +89,11 @@
 }
 
 .shake2 {
-    animation: shake 0.5s 4;
+    animation: shake 0.5s 8;
 }
 
 .shake3 {
-    animation: shake 0.5s 10;
+    animation: shake 0.5s 32;
 }
 
 @keyframes shake {

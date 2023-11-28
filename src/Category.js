@@ -139,12 +139,12 @@ const Category = ({ type }) => {
                 </span>
 
                 {showCelebration && (
-                    <div className="celebration-container">
-                        <img className="celebration" src="/images/gif/4.gif" alt="Celebration" width="100" height="100" />
+                    <div className="achievement-container">
+                        <img className="achievement" src="/images/gif/5.gif" alt="Celebration" />
                     </div>
                 )}
 
-                <span className="selected float-right">
+                <span className={`selected float-right`}>
                     <a href={`https://www.google.com/images?q=${encodeURIComponent(clickedItemName)}`} target="_blank" rel="noopener noreferrer">
                         "{clickedItemName}"
                     </a>
