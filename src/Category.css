@@ -24,8 +24,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
     transition: background-color 0.3s;
     background-color: rgba(0, 0, 0, 0.2);
     border: 1px solid black;
@@ -212,15 +212,15 @@
 /* 📲 📞 IPAD */
 @media only screen and (min-device-width: 380px) and (max-device-width: 767px) {
     .thumbnail {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
 }
 
 @media only screen and (min-device-width: 1025px) and (max-device-width: 1366px) and (orientation: landscape) {
     .thumbnail {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
 }
 
