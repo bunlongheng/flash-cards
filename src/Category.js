@@ -17,6 +17,7 @@ const Category = ({ type }) => {
     const [clickCount, setClickCount] = useState(0);
     const [bgImage, setBgImage] = useState(false);
     const [shakeClass, setShakeClass] = useState("");
+    const [showCelebration, setShowCelebration] = useState(false);
 
     useEffect(() => {
         const jsonData = require(`./data/${type}.json`);
@@ -48,11 +49,19 @@ const Category = ({ type }) => {
         }
 
         console.log("Click Count:", clickCount);
+
         if (clickCount === 2) {
+            setShowCelebration(true);
+
             const currentV = localStorage.getItem("bgImage") === "true";
             const newV = !currentV;
             localStorage.setItem("bgImage", newV.toString());
-            window.location.reload();
+            // setShowCelebration(true);
+
+            setTimeout(() => {
+                setShowCelebration(false);
+                window.location.reload();
+            }, 3000);
         }
     };
 
@@ -129,6 +138,13 @@ const Category = ({ type }) => {
                 <span onClick={() => toggleImage()} className={`current-page ${shakeClass}`}>
                     <img src={`/images/types/${type}.png`} alt="Icon" className={`icon ${shakeClass}`} width="20" /> {getPageName(type)}
                 </span>
+
+                {showCelebration && (
+                    <div className="celebration-container">
+                        <img src="/images/gif/4.gif" alt="Celebration" width="40" height="40" />
+                    </div>
+                )}
+
                 <span className="selected float-right">
                     <a href={`https://www.google.com/images?q=${encodeURIComponent(clickedItemName)}`} target="_blank" rel="noopener noreferrer">
                         "{clickedItemName}"
