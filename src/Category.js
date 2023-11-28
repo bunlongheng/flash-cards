@@ -56,12 +56,11 @@ const Category = ({ type }) => {
             const currentV = localStorage.getItem("bgImage") === "true";
             const newV = !currentV;
             localStorage.setItem("bgImage", newV.toString());
-            // setShowCelebration(true);
 
             setTimeout(() => {
                 setShowCelebration(false);
                 window.location.reload();
-            }, 3000);
+            }, 2000);
         }
     };
 
@@ -141,7 +140,7 @@ const Category = ({ type }) => {
 
                 {showCelebration && (
                     <div className="celebration-container">
-                        <img src="/images/gif/4.gif" alt="Celebration" width="40" height="40" />
+                        <img className="celebration" src="/images/gif/4.gif" alt="Celebration" width="100" height="100" />
                     </div>
                 )}
 
