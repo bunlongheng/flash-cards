@@ -16,6 +16,7 @@ const Category = ({ type }) => {
     const [displayTextKey, setDisplayTextKey] = useState(0);
     const [clickCount, setClickCount] = useState(0);
     const [bgImage, setBgImage] = useState(false);
+    const [shakeClass, setShakeClass] = useState("");
 
     useEffect(() => {
         const jsonData = require(`./data/${type}.json`);
@@ -39,6 +40,13 @@ const Category = ({ type }) => {
 
     const toggleImage = () => {
         setClickCount(prevCount => prevCount + 1);
+
+        if (clickCount <= 3) {
+            setShakeClass(`shake${clickCount + 1}`);
+        } else {
+            setShakeClass("");
+        }
+
         console.log("Click Count:", clickCount);
         if (clickCount === 2) {
             const currentV = localStorage.getItem("bgImage") === "true";
@@ -118,8 +126,8 @@ const Category = ({ type }) => {
                     &nbsp;&nbsp;/&nbsp;&nbsp;
                 </span>
 
-                <span onClick={() => toggleImage()} className="current-page">
-                    <img src={`/images/types/${type}.png`} alt="Icon" className="icon" width="20" /> {getPageName(type)}
+                <span onClick={() => toggleImage()} className={`current-page ${shakeClass}`}>
+                    <img src={`/images/types/${type}.png`} alt="Icon" className={`icon ${shakeClass}`} width="20" /> {getPageName(type)}
                 </span>
                 <span className="selected float-right">
                     <a href={`https://www.google.com/images?q=${encodeURIComponent(clickedItemName)}`} target="_blank" rel="noopener noreferrer">

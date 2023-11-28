@@ -84,6 +84,18 @@
     opacity: 1;
 }
 
+.shake1 {
+    animation: shake 0.5s 1;
+}
+
+.shake2 {
+    animation: shake 0.5s 4;
+}
+
+.shake3 {
+    animation: shake 0.5s 10;
+}
+
 @keyframes shake {
     0% {
         transform: translateX(0);
@@ -109,11 +121,6 @@
 
 .float-right {
     float: right;
-}
-
-.selected {
-    /* padding-left: 40px; */
-    /* padding-bottom: 40px; */
 }
 
 .selected a {
