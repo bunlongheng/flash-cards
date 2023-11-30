@@ -3,19 +3,16 @@
         "name": "Alligator"
     },
     {
-        "name": "Anaconda"
-    },
-    {
         "name": "Boa Constrictor"
     },
     {
         "name": "Chameleon"
     },
     {
-        "name": "Cobra"
+        "name": "Dart Frog"
     },
     {
-        "name": "Crocodile"
+        "name": "Electric Eel"
     },
     {
         "name": "Frog"
@@ -24,13 +21,13 @@
         "name": "Gecko"
     },
     {
-        "name": "Gila Monster"
-    },
-    {
         "name": "Horned Toad"
     },
     {
         "name": "Iguana"
+    },
+    {
+        "name": "Jacky Dragon"
     },
     {
         "name": "Komodo Dragon"
@@ -45,13 +42,13 @@
         "name": "Newt"
     },
     {
+        "name": "Python"
+    },
+    {
+        "name": "Quokka"
+    },
+    {
         "name": "Rattlesnake"
-    },
-    {
-        "name": "Salamander"
-    },
-    {
-        "name": "Sea Turtle"
     },
     {
         "name": "Snake"
@@ -60,6 +57,21 @@
         "name": "Tegu"
     },
     {
-        "name": "Turtle"
+        "name": "Uromastyx"
+    },
+    {
+        "name": "Viper"
+    },
+    {
+        "name": "Wallaby"
+    },
+    {
+        "name": "Xenopus (a type of aquatic frog, though not a reptile, it is often included in herpetology)"
+    },
+    {
+        "name": "Yellow-bellied Sea Snake"
+    },
+    {
+        "name": "Zebra-Tailed Lizard"
     }
 ]
