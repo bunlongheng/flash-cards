@@ -1,9 +1,9 @@
 [
     {
-        "name": "Airplane"
+        "name": "Army Plane"
     },
     {
-        "name": "Blimp"
+        "name": "Biplane"
     },
     {
         "name": "Cargo Plane"
@@ -12,21 +12,69 @@
         "name": "Drone"
     },
     {
+        "name": "Emergency Helicoper"
+    },
+    {
+        "name": "F-22 Raptor"
+    },
+    {
         "name": "Glider"
-    },
-    {
-        "name": "Gliders"
-    },
-    {
-        "name": "Helicopter"
     },
     {
         "name": "Hot Air Balloon"
     },
     {
+        "name": "Interceptor"
+    },
+    {
         "name": "Jet Fighter"
     },
     {
+        "name": "Kawasaki C-1"
+    },
+    {
+        "name": "Light Aircraft"
+    },
+    {
+        "name": "Monoplane"
+    },
+    {
+        "name": "Night Bomber"
+    },
+    {
+        "name": "OV-10 Bronco"
+    },
+    {
+        "name": "Private Jet"
+    },
+    {
+        "name": "Quadcopter"
+    },
+    {
+        "name": "Reconnaissance Aircraft"
+    },
+    {
         "name": "Seaplane"
+    },
+    {
+        "name": "Triplane"
+    },
+    {
+        "name": "Utility Transport Aircraft"
+    },
+    {
+        "name": "V-22 Osprey Plane"
+    },
+    {
+        "name": "Water Bombers Plane"
+    },
+    {
+        "name": "X-plane(15,31,43,47B,27,37,59,2)"
+    },
+    {
+        "name": "YF-17 Cobra"
+    },
+    {
+        "name": "Zeppelin"
     }
 ]
