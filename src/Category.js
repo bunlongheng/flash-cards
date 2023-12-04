@@ -172,7 +172,7 @@ const Category = ({ type }) => {
                 </div>
             )}
 
-            <span className={`selected float-left bottom-left`}>
+            <span className={`selected bottom-left`}>
                 <a href={`https://www.google.com/images?q=${encodeURIComponent(clickedItemName)}`} target="_blank" rel="noopener noreferrer">
                     "{clickedItemName}"
                 </a>
@@ -182,7 +182,7 @@ const Category = ({ type }) => {
             {/*   length    */}
             {/************* */}
 
-            <span className="count float-right">
+            <span className="bottom-right">
                 {clickedItems.length}/{data.length}
             </span>
 
