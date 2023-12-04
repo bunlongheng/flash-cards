@@ -137,22 +137,6 @@ const Category = ({ type }) => {
                 <span onClick={() => toggleImage()} className={`current-page ${shakeClass}`}>
                     <img src={`/images/types/${type}.png`} alt="Icon" className={`icon ${shakeClass}`} width="20" /> {getPageName(type)}
                 </span>
-
-                {showCelebration && (
-                    <div className="achievement-container">
-                        <img className="achievement" src="/images/gif/5.gif" alt="Celebration" />
-                    </div>
-                )}
-
-                <span className={`selected float-right`}>
-                    <a href={`https://www.google.com/images?q=${encodeURIComponent(clickedItemName)}`} target="_blank" rel="noopener noreferrer">
-                        "{clickedItemName}"
-                    </a>
-                </span>
-
-                <span className="count float-right">
-                    {clickedItems.length}/{data.length}
-                </span>
             </nav>
 
             <div className={`thumbnails-container`}>
@@ -178,18 +162,49 @@ const Category = ({ type }) => {
                 ))}
             </div>
 
+            {/**************** */}
+            {/*   slideText    */}
+            {/**************** */}
+
             {slideText && (
                 <div className="slide-up">
                     <p>{slideText}</p>
                 </div>
             )}
 
+            <span className={`selected float-left bottom-left`}>
+                <a href={`https://www.google.com/images?q=${encodeURIComponent(clickedItemName)}`} target="_blank" rel="noopener noreferrer">
+                    "{clickedItemName}"
+                </a>
+            </span>
+
+            {/************* */}
+            {/*   length    */}
+            {/************* */}
+
+            <span className="count float-right">
+                {clickedItems.length}/{data.length}
+            </span>
+
+            {/************* */}
+            {/* displayText */}
+            {/************* */}
+
             {displayText && (
                 <div key={displayTextKey} className="display-text">
-                    <p>{displayText}</p>
+                    {/* <p>{displayText}</p> */}
                 </div>
             )}
 
+            {/************* */}
+            {/* achievement */}
+            {/************* */}
+
+            {showCelebration && (
+                <div className="achievement-container">
+                    <img className="achievement" src="/images/gif/5.gif" alt="Celebration" />
+                </div>
+            )}
             {data.length === clickedItems.length && (
                 <div className="achievement-container">
                     <img src="/images/1.gif" alt="achievement" className="achievement" />
