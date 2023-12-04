@@ -8,7 +8,7 @@
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-    font-family: "Kiddosy", sans-serif;
+    /* font-family: "Kiddosy", sans-serif; */
 }
 
 .thumbnails-container {
@@ -16,7 +16,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 
 .thumbnail {
@@ -24,14 +24,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 175px;
-    height: 175px;
+    width: 200px;
+    height: 200px;
     transition: background-color 0.3s;
     background-color: rgba(0, 0, 0, 0.2);
     border: 1px solid black;
     color: black;
     position: relative;
     overflow: hidden;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .thumbnail:hover::before {
@@ -154,7 +157,7 @@
     }
 }
 
-.display-text {
+/* .display-text {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -163,7 +166,6 @@
     animation: explode 5s linear forwards;
     background-color: transparent;
     font-size: 3em;
-    opacity: 1;
     z-index: 100;
     pointer-events: none;
     white-space: nowrap;
@@ -174,7 +176,7 @@
 @keyframes explode {
     0% {
         transform: translate(-50%, -50%) scale(1);
-        opacity: 1;
+        opacity: 0.3;
     }
     50% {
         transform: translate(-50%, -50%) scale(2);
@@ -183,7 +185,7 @@
         transform: translate(-50%, -50%) scale(2);
         opacity: 0;
     }
-}
+} */
 
 .count {
     position: fixed;
@@ -211,8 +213,8 @@
 }
 
 .achievement {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
 }
 
 /* ===================================================================================== */
