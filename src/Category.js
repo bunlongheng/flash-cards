@@ -39,6 +39,23 @@ const Category = ({ type }) => {
         playAudio(clickedItems.length, data.length, goHome);
     }, [clickedItems.length, data.length]);
 
+    useEffect(() => {
+        const handleKeyDown = event => {
+            if (event.key >= "a" && event.key <= "z") {
+                const itemToClick = data.find(item => item.name.charAt(0).toLowerCase() === event.key);
+                if (itemToClick) {
+                    document.getElementById(`${itemToClick.name.replace(/\s+/g, "-").toLowerCase()}`).click();
+                }
+            }
+        };
+
+        window.addEventListener("keydown", handleKeyDown);
+
+        return () => {
+            window.removeEventListener("keydown", handleKeyDown);
+        };
+    }, [data]);
+
     const toggleImage = () => {
         setClickCount(prevCount => prevCount + 1);
 
