@@ -9,25 +9,13 @@
         "name": "Chicken"
     },
     {
-        "name": "Cow"
-    },
-    {
-        "name": "Donkey"
-    },
-    {
         "name": "Duck"
     },
     {
         "name": "Emu"
     },
     {
-        "name": "Gander"
-    },
-    {
         "name": "Goat"
-    },
-    {
-        "name": "Hen"
     },
     {
         "name": "Horse"
@@ -45,9 +33,6 @@
         "name": "Lamb"
     },
     {
-        "name": "Llama"
-    },
-    {
         "name": "Mule"
     },
     {
@@ -60,24 +45,12 @@
         "name": "Pig"
     },
     {
-        "name": "Pony"
-    },
-    {
-        "name": "Rabbit"
-    },
-    {
         "name": "Rooster"
     },
     {
         "name": "Sheep"
     },
     {
-        "name": "Sheepdog"
-    },
-    {
         "name": "Turkey"
-    },
-    {
-        "name": "Turkey Vulture"
     }
 ]
