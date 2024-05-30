@@ -25,3 +25,15 @@ Give me top 20 - reptail in these format .json
 	{
 		"name": "Lizzard",
 	}, ...
+
+
+
+Give me all characters - super wings in these format .json
+
+[
+	{
+		"name": "Jett",
+	},
+	{
+		"name": "Dizzy",
+	}, ...
