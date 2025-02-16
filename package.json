@@ -20,7 +20,7 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"analyze": "webpack --profile --json > stats.json",
+		"analyze": "webpack --config analyze/webpack.full.js && npx webpack-bundle-analyzer analyze/stats-full.json",
 		"analyze:full": "webpack --config analyze/webpack.full.js && npx webpack-bundle-analyzer analyze/stats-full.json",
 		"analyze:src": "webpack --config analyze/webpack.src-only.js && npx webpack-bundle-analyzer analyze/stats-src.json"
 	},
