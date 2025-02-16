@@ -63,11 +63,10 @@ index.css
 index.js
 note.txt
 reportWebVitals.js
-tmp.txt
 utility
     audioUtils.js
     colorUtils.js
     imageUtils.js
     pageUtils.js
 
-3 directories, 68 files
+3 directories, 67 files
