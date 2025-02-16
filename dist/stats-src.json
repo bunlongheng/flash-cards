@@ -1,8 +1,8 @@
 {
   "hash": "00df1cd460e9e29b54f6",
   "version": "5.98.0",
-  "time": 493,
-  "builtAt": 1739719750576,
+  "time": 481,
+  "builtAt": 1739719794516,
   "publicPath": "auto",
   "outputPath": "/Users/bheng/Sites/flash-cards/dist",
   "assetsByChunkName": {
@@ -15,9 +15,9 @@
       "type": "asset",
       "name": "vendors-node_modules_bootstrap_dist_css_bootstrap_min_css-node_modules_react-dom_client_js-no-ae6878.0b2c78800b86894bea1c.js",
       "size": 1453837,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "immutable": true,
         "contenthash": "0b2c78800b86894bea1c",
@@ -41,9 +41,9 @@
       "type": "asset",
       "name": "main.006ad9c20a40da9912d1.js",
       "size": 99290,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "immutable": true,
         "contenthash": "006ad9c20a40da9912d1",
@@ -67,9 +67,9 @@
       "type": "asset",
       "name": "vendors-node_modules_web-vitals_dist_web-vitals_js.d51c23c3b8bc3f2a1bde.js",
       "size": 5933,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "immutable": true,
         "contenthash": "d51c23c3b8bc3f2a1bde",

@@ -22,7 +22,7 @@
 		"eject": "react-scripts eject",
 		"analyze": "webpack --profile --json > stats.json",
 		"analyze:full": "webpack --config webpack.full.js && npx webpack-bundle-analyzer stats-full.json",
-  		"analyze:src": "webpack --config webpack.src-only.js && npx webpack-bundle-analyzer stats-src.json"
+		"analyze:src": "webpack --config webpack.src-only.js && npx webpack-bundle-analyzer stats-src.json"
 	},
 	"eslintConfig": {
 		"extends": [
@@ -43,6 +43,7 @@
 		]
 	},
 	"devDependencies": {
+		"madge": "^8.0.0",
 		"nodemon": "^2.0.22",
 		"webpack": "^5.98.0",
 		"webpack-bundle-analyzer": "^4.10.2",
