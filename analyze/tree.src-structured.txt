@@ -1,0 +1,71 @@
+src/
+├── App.js
+├── Categories.css
+├── Categories.js
+├── Category.css
+├── Category.js
+├── Settings.css
+├── Settings.js
+├── data
+│   ├── 10s.json
+│   ├── 123.json
+│   ├── ABC.json
+│   ├── activities.json
+│   ├── adjectives.json
+│   ├── aircrafts.json
+│   ├── animals.json
+│   ├── balls.json
+│   ├── bathroom.json
+│   ├── birds.json
+│   ├── body-parts.json
+│   ├── buses.json
+│   ├── camping.json
+│   ├── chemicals.json
+│   ├── colors.json
+│   ├── construction-vehicles.json
+│   ├── days-of-week.json
+│   ├── desserts.json
+│   ├── dinosaurs.json
+│   ├── directions.json
+│   ├── emotions.json
+│   ├── farm-animals.json
+│   ├── foods.json
+│   ├── fruits.json
+│   ├── galaxy.json
+│   ├── gogo-dinos.json
+│   ├── insects.json
+│   ├── keyboard.json
+│   ├── kitchen.json
+│   ├── months.json
+│   ├── moons.json
+│   ├── opposites.json
+│   ├── paw-patrols.json
+│   ├── planets.json
+│   ├── polygons.json
+│   ├── reptiles.json
+│   ├── safari-animals.json
+│   ├── seasons.json
+│   ├── shapes.json
+│   ├── solar-system.json
+│   ├── stars.json
+│   ├── super-wings.json
+│   ├── tayo-buses.json
+│   ├── tools.json
+│   ├── triangles.json
+│   ├── tropical-fruits.json
+│   ├── trucks.json
+│   ├── under-water.json
+│   ├── usa-capitals.json
+│   ├── usa-states.json
+│   ├── vegetables.json
+│   └── vehicles.json
+├── index.css
+├── index.js
+├── reportWebVitals.js
+└── utility
+    ├── audioUtils.js
+    ├── colorUtils.js
+    ├── imageUtils.js
+    └── pageUtils.js
+
+3 directories, 66 files
