@@ -21,8 +21,8 @@
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"analyze": "webpack --profile --json > stats.json",
-		"analyze:full": "webpack --config webpack.full.js && npx webpack-bundle-analyzer stats-full.json",
-		"analyze:src": "webpack --config webpack.src-only.js && npx webpack-bundle-analyzer stats-src.json"
+		"analyze:full": "webpack --config analyze/webpack.full.js && npx webpack-bundle-analyzer analyze/stats-full.json",
+		"analyze:src": "webpack --config analyze/webpack.src-only.js && npx webpack-bundle-analyzer analyze/stats-src.json"
 	},
 	"eslintConfig": {
 		"extends": [
