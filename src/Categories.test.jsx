@@ -1,16 +1,16 @@
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import Categories from "./Categories";
 
 describe("Categories", () => {
-    const ORIGINAL = process.env;
-
     beforeEach(() => {
-        process.env = { ...ORIGINAL, REACT_APP_CATEGORIES: "shapes,planets", REACT_APP_TRANSPORTATION_TYPES: "train" };
+        vi.stubEnv("REACT_APP_CATEGORIES", "shapes,planets");
+        vi.stubEnv("REACT_APP_TRANSPORTATION_TYPES", "train");
     });
 
-    afterAll(() => {
-        process.env = ORIGINAL;
+    afterEach(() => {
+        vi.unstubAllEnvs();
     });
 
     it("renders one tile per configured category", () => {

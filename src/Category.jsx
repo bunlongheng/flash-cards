@@ -7,6 +7,9 @@ import { getImage, getImageWidth, getImageHeight } from "./utility/imageUtils.js
 
 import "./Category.css";
 
+// Vite is ESM, so category datasets are loaded via glob instead of require().
+const dataModules = import.meta.glob("./data/*.json", { eager: true, import: "default" });
+
 const Category = ({ type }) => {
     const [data, setData] = useState([]);
     const [status, setStatus] = useState("loading");
@@ -19,10 +22,8 @@ const Category = ({ type }) => {
     const [showCelebration, setShowCelebration] = useState(false);
 
     useEffect(() => {
-        let jsonData;
-        try {
-            jsonData = require(`./data/${type}.json`);
-        } catch {
+        const jsonData = dataModules[`./data/${type}.json`];
+        if (!jsonData) {
             setData([]);
             setStatus("error");
             return;

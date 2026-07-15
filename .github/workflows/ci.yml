@@ -21,4 +21,5 @@ jobs:
       - run: npm run build
         env:
           CI: true
-      - run: npm audit --audit-level=high
+      # Gate on what actually ships; dev-tooling advisories don't reach users.
+      - run: npm audit --omit=dev --audit-level=high

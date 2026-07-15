@@ -9,7 +9,7 @@ const Categories = () => {
     const categories = getCategories();
     const transportationTypesArray = getTransportationTypes();
 
-    const greeting = process.env.REACT_APP_GREETING || "Hi!";
+    const greeting = import.meta.env.REACT_APP_GREETING || "Hi!";
 
     const [randomItem, setRandomItem] = useState("");
     const [isModalVisible, setIsModalVisible] = useState(false);
@@ -53,7 +53,7 @@ const Categories = () => {
                     {categories.map((category, index) => (
                         <Link key={index} to={`/${category}`} className="link-style text-decoration-none text-light m-2" onClick={() => speak(category)}>
                             <div className="thumbnail-style border border-secondary rounded p-3">
-                                <img src={`${process.env.PUBLIC_URL}/images/types/${category}.png`} alt={category} className="image-style" />
+                                <img src={`/images/types/${category}.png`} alt={category} className="image-style" />
                             </div>
                             <div className="c-name mt-2">{category}</div>
                         </Link>

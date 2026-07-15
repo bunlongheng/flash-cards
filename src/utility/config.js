@@ -6,6 +6,6 @@ const parseList = value =>
         .map(s => s.trim())
         .filter(Boolean);
 
-export const getCategories = () => parseList(process.env.REACT_APP_CATEGORIES);
+export const getCategories = () => parseList(import.meta.env.REACT_APP_CATEGORIES);
 
-export const getTransportationTypes = () => parseList(process.env.REACT_APP_TRANSPORTATION_TYPES);
+export const getTransportationTypes = () => parseList(import.meta.env.REACT_APP_TRANSPORTATION_TYPES);
