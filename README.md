@@ -1,68 +1,63 @@
-# 🃏 Flash Cards
+# Flash Cards
 
-A web application for interactive learning with flashcards. 📚✨
+A static React single-page app for interactive picture-flashcard learning. Browse a
+grid of categories (animals, shapes, planets, vehicles, and 48 more), open one, and tap
+each card to hear its name spoken aloud, with sound effects, animations, and a progress
+counter that celebrates when every card is cleared. Built for young kids.
 
-## 🚀 Getting Started
+## Tech stack
 
-Welcome to Flash Cards! This project is designed to help you enhance your learning experience through interactive flashcards. Whether you're studying for exams, learning new languages, or exploring new topics, Flash Cards has got you covered.
+- React 18 + React Router 6 (client-side routing, one route per category)
+- Create React App (react-scripts) build tooling
+- Bootstrap 5 + plain CSS for styling
+- Category data as static JSON files under `src/data/`
+- Web Speech API (`speechSynthesis`) for spoken labels
 
-To get started with Flash Cards on your local machine, follow the instructions below.
+There is no backend or server - the app is fully static and can be hosted on any CDN.
+
+## Getting started
 
 ### Prerequisites
 
-Before you begin, ensure that you have the following installed:
+- Node.js 18+
+- npm 9+
 
--   Node.js (version X.X.X)
--   npm (version X.X.X)
+### Install and run
 
-### Installation
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://bitbucket.org/bunlongheng/flash-cards.git
-    ```
-
-2. Install the project dependencies:
-
+```bash
+git clone https://github.com/bunlongheng/flash-cards.git
 cd flash-cards
 npm install
+cp .env.example .env   # then fill in the values (see below)
+npm start              # http://localhost:3000
+```
 
-Install the project dependencies:
+## Environment variables
 
-cd flash-cards
-npm install
-Set up environment variables:
+Copy `.env.example` to `.env` and set:
 
-Create a .env file based on the provided .env.example file.
-Fill in the required values in the .env file to configure your environment.
-Start the development server:
+| Variable | Required | Purpose |
+|----------|----------|---------|
+| `REACT_APP_CATEGORIES` | yes | Comma-separated category slugs; one route + home tile per slug. Each slug must have a matching `src/data/<slug>.json`. |
+| `REACT_APP_TRANSPORTATION_TYPES` | yes | Comma-separated slugs for the random transportation banner on the home screen. |
+| `ANALYZE` | no | Set to `true` to enable the webpack bundle analyzer. |
 
-npm start
-Open the application in your browser:
+## Usage
 
-Local: http://localhost:3000
+1. The home screen shows a grid of category tiles.
+2. Click a tile to open that category's flashcards.
+3. Click a card to hear its name spoken and mark it done; clear them all for a celebration.
+4. Press any letter `a`-`z` to jump to the first card starting with that letter.
 
-📖 Usage
-Once you have the application up and running, access it in your browser at http://localhost:3000. You'll be presented with a collection of flashcards covering various topics.
+## Scripts
 
-Click on a flashcard to reveal the content.
-Use the navigation buttons to move between flashcards.
-Test your knowledge and have fun learning!
-🛠️ Built With
-Flash Cards is built using the following technologies:
+| Command | Description |
+|---------|-------------|
+| `npm start` | Run the dev server on port 3000 |
+| `npm run build` | Production build to `build/` |
+| `npm test` | Run the test suite |
+| `npm run analyze` | Build and open the bundle analyzer |
 
-React - JavaScript library for building user interfaces
-React Router - Declarative routing for React
-CSS - Styling the components
-Node.js - JavaScript runtime
-Express - Web application framework for Node.js
-JSON - Data storage format
-📄 License
-This project is licensed under the MIT License.
+## License
 
-Start your interactive learning journey with Flash Cards today! Explore the world of knowledge, master new subjects, and excel in your studies. Let's unlock the power of flashcards together! 💪🔓
-
-For more details and to contribute to the project, visit the Flash Cards repository.
-
-Please copy and paste this markdown into your `README.md` file.
+MIT
