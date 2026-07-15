@@ -43,6 +43,11 @@
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    padding: 0;
+    font-family: inherit;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 .thumbnail:hover::before {
@@ -128,6 +133,25 @@
 .breadcrumbs {
     padding: 40px;
     color: white;
+}
+
+/* Breadcrumb triggers are native <button>s; strip the default button chrome. */
+.breadcrumb-divider,
+.current-page {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.thumbnail:focus-visible,
+.breadcrumb-divider:focus-visible,
+.current-page:focus-visible,
+.home-link:focus-visible {
+    outline: 3px solid #ffd400;
+    outline-offset: 2px;
 }
 
 .float-right {

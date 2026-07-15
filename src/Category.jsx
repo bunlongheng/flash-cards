@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef, useCallback } from "react";
 import { Link } from "react-router-dom";
 import { getHueColor } from "./utility/colorUtils.js";
 import { playAudio } from "./utility/audioUtils.js";
 import { getPageName, goHome } from "./utility/pageUtils.js";
-import { getImage, getImageWidth, getImageHeight } from "./utility/imageUtils.js";
+import Thumbnail from "./Thumbnail.jsx";
 
 import "./Category.css";
 
@@ -47,12 +47,48 @@ const Category = ({ type }) => {
         playAudio(clickedItems.length, data.length, goHome);
     }, [clickedItems.length, data.length]);
 
+    // Keep a live ref of clicked items so handleSelect can stay a stable
+    // callback (needed for Thumbnail's React.memo) while still reading current state.
+    const clickedRef = useRef([]);
+    useEffect(() => {
+        clickedRef.current = clickedItems;
+    }, [clickedItems]);
+
+    const handleSelect = useCallback(item => {
+        const thumbnailId = item.name.replace(/\s+/g, "-").toLowerCase();
+        if (clickedRef.current.includes(thumbnailId)) return;
+
+        setSlideText("");
+        setClickedItemName(item.name);
+
+        const audio = new Audio("/sounds/1.mp3");
+        audio.volume = 0.1;
+        audio.play();
+
+        const getRandomImage = () => `/images/fly/${Math.floor(Math.random() * 5) + 1}.png`;
+
+        speechSynthesis.speak(new SpeechSynthesisUtterance(item.name));
+
+        const milestone = clickedRef.current.length + 1;
+        if (milestone === 1) {
+            setSlideText(<img src={`/images/fly/superman.png`} alt="superman" width={40} />);
+            new Audio("/sounds/flying.mp3").play();
+        } else if ([5, 10, 15, 20, 25].includes(milestone)) {
+            setSlideText(<img src={getRandomImage()} alt="air" width={40} />);
+            new Audio("/sounds/flying.mp3").play();
+        } else {
+            setSlideText("");
+        }
+
+        setClickedItems(prev => (prev.includes(thumbnailId) ? prev : [...prev, thumbnailId]));
+    }, []);
+
     useEffect(() => {
         const handleKeyDown = event => {
             if (event.key >= "a" && event.key <= "z") {
                 const itemToClick = data.find(item => item.name.charAt(0).toLowerCase() === event.key);
                 if (itemToClick) {
-                    handleClick(itemToClick);
+                    handleSelect(itemToClick);
                 }
             }
         };
@@ -62,8 +98,7 @@ const Category = ({ type }) => {
         return () => {
             window.removeEventListener("keydown", handleKeyDown);
         };
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [data, clickedItems]);
+    }, [data, handleSelect]);
 
     const toggleImage = () => {
         setClickCount(prevCount => prevCount + 1);
@@ -85,63 +120,20 @@ const Category = ({ type }) => {
         }
     };
 
-    const handleClick = item => {
-        const thumbnailId = item.name.replace(/\s+/g, "-").toLowerCase();
-        if (clickedItems.includes(thumbnailId)) return;
-
-        setSlideText("");
-        setClickedItemName(item.name);
-
-        const audio = new Audio("/sounds/1.mp3");
-        audio.volume = 0.1;
-        audio.play();
-
-        const getRandomImage = () => {
-            const randomIndex = Math.floor(Math.random() * 5) + 1;
-            return `/images/fly/${randomIndex}.png`;
-        };
-
-        speechSynthesis.speak(new SpeechSynthesisUtterance(item.name));
-        setClickedItems(prev => [...prev, thumbnailId]);
-
-        const milestone = clickedItems.length + 1;
-        if (milestone === 1) {
-            setSlideText(<img src={`/images/fly/superman.png`} alt="superman" width={40} />);
-            new Audio("/sounds/flying.mp3").play();
-        } else if ([5, 10, 15, 20, 25].includes(milestone)) {
-            setSlideText(<img src={getRandomImage()} alt="air" width={40} />);
-            new Audio("/sounds/flying.mp3").play();
-        } else {
-            setSlideText("");
-        }
-    };
-
     return (
         <div className="category-page" style={{ overflowX: "hidden" }}>
             <nav className="breadcrumbs">
                 <Link to="/" className="home-link">
                     Go Home
                 </Link>
-                <span
-                    onClick={() => goHome()}
-                    onKeyDown={e => (e.key === "Enter" || e.key === " ") && goHome()}
-                    role="button"
-                    tabIndex={0}
-                    className="breadcrumb-divider"
-                >
+                <button type="button" onClick={() => goHome()} className="breadcrumb-divider">
                     {" "}
                     &nbsp;&nbsp;/&nbsp;&nbsp;
-                </span>
+                </button>
 
-                <span
-                    onClick={() => toggleImage()}
-                    onKeyDown={e => (e.key === "Enter" || e.key === " ") && toggleImage()}
-                    role="button"
-                    tabIndex={0}
-                    className={`current-page ${shakeClass}`}
-                >
+                <button type="button" onClick={() => toggleImage()} className={`current-page ${shakeClass}`}>
                     <img src={`/images/types/${type}.png`} alt="Icon" className={`icon ${shakeClass}`} width="20" /> {getPageName(type)}
-                </span>
+                </button>
             </nav>
 
             {status === "loading" && <div className="state-msg">Loading...</div>}
@@ -149,45 +141,16 @@ const Category = ({ type }) => {
             {status === "ready" && data.length === 0 && <div className="state-msg">No cards here yet.</div>}
 
             <div className={`thumbnails-container`}>
-                {data.map((item, index) => {
-                    const thumbnailId = item.name.replace(/\s+/g, "-").toLowerCase();
-                    const done = clickedItems.includes(thumbnailId);
-                    return (
-                        <div
-                            key={index}
-                            id={thumbnailId}
-                            className={`thumbnail${done ? " disabled" : ""}`}
-                            role="button"
-                            tabIndex={0}
-                            onClick={() => handleClick(item)}
-                            onKeyDown={e => {
-                                if (e.key === "Enter" || e.key === " ") {
-                                    e.preventDefault();
-                                    handleClick(item);
-                                }
-                            }}
-                            style={{
-                                backgroundColor: bgImage ? "white" : item.color,
-                                backgroundSize: "cover",
-                            }}
-                        >
-                            <div className="initial">{bgImage ? "" : item.name.charAt(0).toUpperCase()}</div>
-
-                            {bgImage ? (
-                                <img
-                                    src={getImage(item, type)}
-                                    alt={item.name}
-                                    loading="lazy"
-                                    style={{ width: getImageWidth(type), height: getImageHeight(type) }}
-                                />
-                            ) : null}
-
-                            <div className={`thumbnail-details`}>
-                                <h6>{item.name}</h6>
-                            </div>
-                        </div>
-                    );
-                })}
+                {data.map((item, index) => (
+                    <Thumbnail
+                        key={index}
+                        item={item}
+                        type={type}
+                        bgImage={bgImage}
+                        done={clickedItems.includes(item.name.replace(/\s+/g, "-").toLowerCase())}
+                        onSelect={handleSelect}
+                    />
+                ))}
             </div>
 
             {/**************** */}
