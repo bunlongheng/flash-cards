@@ -11,7 +11,7 @@ export const getImage = (item, type) => {
 };
 
 // eslint-disable-next-line
-export const getImageWidth = type => {
+export const getImageWidth = (type) => {
     const localImageTypes = ["planets", "shapes", "polygons", "triangles", "construction-vehicles"];
     if (localImageTypes.includes(type)) {
         return `50%`;
@@ -19,7 +19,7 @@ export const getImageWidth = type => {
     return `100%`;
 };
 
-export const getImageHeight = type => {
+export const getImageHeight = (type) => {
     const localImageTypes = ["planets", "shapes", "polygons", "triangles", "construction-vehicles"];
     if (localImageTypes.includes(type)) {
         return `auto`;

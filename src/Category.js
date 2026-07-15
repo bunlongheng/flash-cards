@@ -12,15 +12,19 @@ const Category = ({ type }) => {
     const [clickedItemName, setClickedItemName] = useState("");
     const [clickedItems, setClickedItems] = useState([]);
     const [slideText, setSlideText] = useState("");
-    const [displayText, setDisplayText] = useState("");
-    const [displayTextKey, setDisplayTextKey] = useState(0);
     const [clickCount, setClickCount] = useState(0);
     const [bgImage, setBgImage] = useState(false);
     const [shakeClass, setShakeClass] = useState("");
     const [showCelebration, setShowCelebration] = useState(false);
 
     useEffect(() => {
-        const jsonData = require(`./data/${type}.json`);
+        let jsonData;
+        try {
+            jsonData = require(`./data/${type}.json`);
+        } catch {
+            setData([]);
+            return;
+        }
 
         const updatedData = jsonData.map((item, index) => {
             if (!item.color) {
@@ -65,8 +69,6 @@ const Category = ({ type }) => {
             setShakeClass("");
         }
 
-        console.log("Click Count:", clickCount);
-
         if (clickCount === 2) {
             setShowCelebration(true);
 
@@ -103,40 +105,17 @@ const Category = ({ type }) => {
             clickedThumbnail.classList.add("disabled");
 
             setClickedItems(prev => [...prev, thumbnailId]);
-            console.log(clickedItems);
 
-            switch (clickedItems.length + 1) {
-                case 1:
-                    setSlideText(<img src={`/images/fly/superman.png`} alt="superman" width={40} />);
-                    new Audio("/sounds/flying.mp3").play();
-                    break;
-                case 5:
-                    setSlideText(<img src={getRandomImage()} alt="air" width={40} />);
-                    new Audio("/sounds/flying.mp3").play();
-                    break;
-                case 10:
-                    setSlideText(<img src={getRandomImage()} alt="air" width={40} />);
-                    new Audio("/sounds/flying.mp3").play();
-                    break;
-                case 15:
-                    setSlideText(<img src={getRandomImage()} alt="air" width={40} />);
-                    new Audio("/sounds/flying.mp3").play();
-                    break;
-                case 20:
-                    setSlideText(<img src={getRandomImage()} alt="air" width={40} />);
-                    new Audio("/sounds/flying.mp3").play();
-                    break;
-                case 25:
-                    setSlideText(<img src={getRandomImage()} alt="air" width={40} />);
-                    new Audio("/sounds/flying.mp3").play();
-                    break;
-                default:
-                    setSlideText("");
-                    break;
+            const milestone = clickedItems.length + 1;
+            if (milestone === 1) {
+                setSlideText(<img src={`/images/fly/superman.png`} alt="superman" width={40} />);
+                new Audio("/sounds/flying.mp3").play();
+            } else if ([5, 10, 15, 20, 25].includes(milestone)) {
+                setSlideText(<img src={getRandomImage()} alt="air" width={40} />);
+                new Audio("/sounds/flying.mp3").play();
+            } else {
+                setSlideText("");
             }
-
-            setDisplayText(item.name);
-            setDisplayTextKey(prevKey => prevKey + 1);
         }
     };
 
@@ -202,16 +181,6 @@ const Category = ({ type }) => {
             <span className="bottom-right">
                 {clickedItems.length}/{data.length}
             </span>
-
-            {/************* */}
-            {/* displayText */}
-            {/************* */}
-
-            {displayText && (
-                <div key={displayTextKey} className="display-text">
-                    {/* <p>{displayText}</p> */}
-                </div>
-            )}
 
             {/************* */}
             {/* achievement */}
