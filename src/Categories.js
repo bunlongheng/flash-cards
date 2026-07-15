@@ -1,15 +1,13 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { Link } from "react-router-dom";
 import Settings from "./Settings"; // Import your Settings component
+import { getCategories, getTransportationTypes } from "./utility/config.js";
 
 import "./Categories.css";
 
 const Categories = () => {
-    const categoriesStr = process.env.REACT_APP_CATEGORIES || "";
-    const categories = categoriesStr.split(",");
-
-    const transportationTypesString = process.env.REACT_APP_TRANSPORTATION_TYPES || "";
-    const transportationTypesArray = transportationTypesString.split(",");
+    const categories = getCategories();
+    const transportationTypesArray = getTransportationTypes();
 
     const greeting = process.env.REACT_APP_GREETING || "Hi!";
 

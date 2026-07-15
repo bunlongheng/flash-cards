@@ -3,11 +3,11 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Categories from "./Categories";
 import Category from "./Category";
 import Settings from "./Settings";
+import { getCategories } from "./utility/config.js";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const typesString = process.env.REACT_APP_CATEGORIES || "";
-const typesArray = typesString.split(",");
+const typesArray = getCategories();
 
 const App = () => {
     return (
