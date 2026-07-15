@@ -2,6 +2,10 @@
 	"name": "flash-cards",
 	"version": "0.1.0",
 	"private": true,
+	"engines": {
+		"node": ">=18",
+		"npm": ">=9"
+	},
 	"dependencies": {
 		"@mui/icons-material": "^5.11.16",
 		"@testing-library/jest-dom": "^5.16.5",
