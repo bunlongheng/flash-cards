@@ -15,7 +15,7 @@ jobs:
           node-version: 18
           cache: npm
       - run: npm ci
-      - run: npm test
+      - run: npm run test:coverage
         env:
           CI: true
       - run: npm run build
