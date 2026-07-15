@@ -8,7 +8,7 @@ counter that celebrates when every card is cleared. Built for young kids.
 ## Tech stack
 
 - React 18 + React Router 6 (client-side routing, one route per category)
-- Create React App (react-scripts) build tooling
+- Vite build tooling; Vitest + React Testing Library for tests
 - Bootstrap 5 + plain CSS for styling
 - Category data as static JSON files under `src/data/`
 - Web Speech API (`speechSynthesis`) for spoken labels
@@ -53,10 +53,10 @@ Copy `.env.example` to `.env` and set:
 
 | Command | Description |
 |---------|-------------|
-| `npm start` | Run the dev server on port 3000 |
+| `npm start` | Run the Vite dev server on port 3000 |
 | `npm run build` | Production build to `build/` |
-| `npm test` | Run the test suite |
-| `npm run analyze` | Build and open the bundle analyzer |
+| `npm run preview` | Serve the production build locally |
+| `npm test` | Run the Vitest suite |
 
 ## License
 
