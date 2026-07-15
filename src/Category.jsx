@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
+import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import { getHueColor } from "./utility/colorUtils.js";
 import { playAudio } from "./utility/audioUtils.js";
@@ -193,6 +194,10 @@ const Category = ({ type }) => {
             )}
         </div>
     );
+};
+
+Category.propTypes = {
+    type: PropTypes.string.isRequired,
 };
 
 export default Category;

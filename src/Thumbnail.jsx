@@ -1,9 +1,10 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { getImage, getImageWidth, getImageHeight } from "./utility/imageUtils.js";
 
 // One flashcard tile. A native <button> gives focus + Enter/Space for free, and
 // React.memo means clicking one card does not re-render every sibling tile.
-const Thumbnail = React.memo(({ item, type, bgImage, done, onSelect }) => {
+const Thumbnail = React.memo(function Thumbnail({ item, type, bgImage, done, onSelect }) {
     const id = item.name.replace(/\s+/g, "-").toLowerCase();
     return (
         <button
@@ -30,5 +31,13 @@ const Thumbnail = React.memo(({ item, type, bgImage, done, onSelect }) => {
         </button>
     );
 });
+
+Thumbnail.propTypes = {
+    item: PropTypes.shape({ name: PropTypes.string.isRequired, color: PropTypes.string }).isRequired,
+    type: PropTypes.string.isRequired,
+    bgImage: PropTypes.bool,
+    done: PropTypes.bool,
+    onSelect: PropTypes.func.isRequired,
+};
 
 export default Thumbnail;
