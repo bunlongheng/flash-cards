@@ -3,6 +3,14 @@
     src: url("/public/fonts/fankids/FanKids.otf") format("opentype"), url("/public/fonts/fankids/FanKids.ttf") format("truetype");
 }
 
+.state-msg {
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 20px;
+    opacity: 0.85;
+}
+
 .category-page {
     background: black;
     background-size: cover;

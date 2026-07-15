@@ -11,6 +11,8 @@ const Categories = () => {
     const transportationTypesString = process.env.REACT_APP_TRANSPORTATION_TYPES || "";
     const transportationTypesArray = transportationTypesString.split(",");
 
+    const greeting = process.env.REACT_APP_GREETING || "Hi!";
+
     const [randomItem, setRandomItem] = useState("");
     const [isModalVisible, setIsModalVisible] = useState(false);
 
@@ -34,8 +36,14 @@ const Categories = () => {
 
     return (
         <div className="categories-page bg-dark text-light">
-            <div className="sliding-text" onClick={toggleSettings}>
-                <span className="background-text">👋🏽 Hi! Norden!</span>
+            <div
+                className="sliding-text"
+                onClick={toggleSettings}
+                onKeyDown={e => (e.key === "Enter" || e.key === " ") && toggleSettings()}
+                role="button"
+                tabIndex={0}
+            >
+                <span className="background-text">👋🏽 {greeting}</span>
                 &nbsp;----&nbsp;
                 <img src={`/images/transportations/${randomItem}.png`} alt={randomItem} height={30} />
             </div>

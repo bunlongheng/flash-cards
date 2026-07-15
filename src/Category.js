@@ -9,6 +9,7 @@ import "./Category.css";
 
 const Category = ({ type }) => {
     const [data, setData] = useState([]);
+    const [status, setStatus] = useState("loading");
     const [clickedItemName, setClickedItemName] = useState("");
     const [clickedItems, setClickedItems] = useState([]);
     const [slideText, setSlideText] = useState("");
@@ -23,6 +24,7 @@ const Category = ({ type }) => {
             jsonData = require(`./data/${type}.json`);
         } catch {
             setData([]);
+            setStatus("error");
             return;
         }
 
@@ -34,6 +36,7 @@ const Category = ({ type }) => {
         });
 
         setData(updatedData);
+        setStatus("ready");
 
         const initialBgImageValue = localStorage.getItem("bgImage") === "true";
         setBgImage(initialBgImageValue);
@@ -72,14 +75,11 @@ const Category = ({ type }) => {
         if (clickCount === 2) {
             setShowCelebration(true);
 
-            const currentV = localStorage.getItem("bgImage") === "true";
-            const newV = !currentV;
+            const newV = !bgImage;
             localStorage.setItem("bgImage", newV.toString());
+            setBgImage(newV);
 
-            setTimeout(() => {
-                setShowCelebration(false);
-                window.location.reload();
-            }, 2000);
+            setTimeout(() => setShowCelebration(false), 2000);
         }
     };
 
@@ -125,15 +125,31 @@ const Category = ({ type }) => {
                 <Link to="/" className="home-link">
                     Go Home
                 </Link>
-                <span onClick={() => goHome()} className="breadcrumb-divider">
+                <span
+                    onClick={() => goHome()}
+                    onKeyDown={e => (e.key === "Enter" || e.key === " ") && goHome()}
+                    role="button"
+                    tabIndex={0}
+                    className="breadcrumb-divider"
+                >
                     {" "}
                     &nbsp;&nbsp;/&nbsp;&nbsp;
                 </span>
 
-                <span onClick={() => toggleImage()} className={`current-page ${shakeClass}`}>
+                <span
+                    onClick={() => toggleImage()}
+                    onKeyDown={e => (e.key === "Enter" || e.key === " ") && toggleImage()}
+                    role="button"
+                    tabIndex={0}
+                    className={`current-page ${shakeClass}`}
+                >
                     <img src={`/images/types/${type}.png`} alt="Icon" className={`icon ${shakeClass}`} width="20" /> {getPageName(type)}
                 </span>
             </nav>
+
+            {status === "loading" && <div className="state-msg">Loading...</div>}
+            {status === "error" && <div className="state-msg">Sorry, we could not find that category.</div>}
+            {status === "ready" && data.length === 0 && <div className="state-msg">No cards here yet.</div>}
 
             <div className={`thumbnails-container`}>
                 {data.map((item, index) => (
@@ -141,7 +157,15 @@ const Category = ({ type }) => {
                         key={index}
                         id={`${item.name.replace(/\s+/g, "-").toLowerCase()}`}
                         className="thumbnail"
+                        role="button"
+                        tabIndex={0}
                         onClick={() => handleClick(item)}
+                        onKeyDown={e => {
+                            if (e.key === "Enter" || e.key === " ") {
+                                e.preventDefault();
+                                handleClick(item);
+                            }
+                        }}
                         style={{
                             backgroundColor: bgImage ? "white" : item.color,
                             backgroundSize: "cover",
@@ -191,7 +215,7 @@ const Category = ({ type }) => {
                     <img className="achievement" src="/images/gif/5.gif" alt="Celebration" />
                 </div>
             )}
-            {data.length === clickedItems.length && (
+            {data.length > 0 && data.length === clickedItems.length && (
                 <div className="achievement-container">
                     <img src="/images/1.gif" alt="achievement" className="achievement" />
                 </div>
