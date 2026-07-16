@@ -7,7 +7,7 @@ describe("imageUtils", () => {
     });
 
     it("returns a Picsum url for non-local types", () => {
-        expect(getImage({ name: "Dog" }, "animals")).toBe("https://picsum.photos/seed/Dog/300/300");
+        expect(getImage({ name: "Happy" }, "unknown-type")).toBe("https://picsum.photos/seed/Happy/300/300");
     });
 
     it("sizes local vs remote types", () => {
