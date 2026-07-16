@@ -23,7 +23,7 @@ A static React app for picture-flashcard learning: browse a grid of categories, 
 
 ## Features
 
-- Browse a grid of 52 picture-flashcard categories (animals, shapes, planets, vehicles, and more), driven entirely by config.
+- Browse a grid of 48 picture-flashcard categories (animals, shapes, planets, vehicles, and more), driven entirely by config.
 - Tap a card to hear its name spoken aloud via the Web Speech API, with a click sound and a spoken label.
 - Progress counter (`x/y`) that tracks how many cards are cleared, with milestone flying-image animations at 1, 5, 10, 15, 20, and 25.
 - Completion celebration that plays when every card is cleared, then returns home automatically.
@@ -86,7 +86,7 @@ git clone https://github.com/bunlongheng/flash-cards.git
 cd flash-cards
 npm install
 cp .env.example .env   # then fill in the values (see Configuration)
-npm start              # http://localhost:3000
+npm start              # http://localhost:3015
 ```
 
 ## Configuration
@@ -98,7 +98,6 @@ Copy `.env.example` to `.env` and set:
 | `REACT_APP_CATEGORIES` | yes | Comma-separated category slugs; one route + home tile per slug. Each must have a matching `src/data/<slug>.json`. |
 | `REACT_APP_TRANSPORTATION_TYPES` | yes | Comma-separated slugs for the random transportation banner on the home screen. |
 | `REACT_APP_GREETING` | no | Greeting shown on the home screen (defaults to `Hi!`). |
-| `ANALYZE` | no | Set to `true` to enable the webpack bundle analyzer. |
 
 ## Project layout
 

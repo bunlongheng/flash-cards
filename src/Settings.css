@@ -55,3 +55,39 @@ input:checked + .slider {
 input:checked + .slider:before {
     transform: translateX(20px);
 }
+
+/* Modal presentation (only when Settings is opened with onClose). */
+.settings-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.settings-panel {
+    position: relative;
+    background: #fff;
+    color: #222;
+    padding: 28px 32px;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.settings-close {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    border: none;
+    background: none;
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+    color: #666;
+}
+
+.settings-close:hover {
+    color: #000;
+}

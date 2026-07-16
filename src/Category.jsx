@@ -1,17 +1,21 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { getHueColor } from "./utility/colorUtils.js";
 import { playAudio } from "./utility/audioUtils.js";
-import { getPageName, goHome } from "./utility/pageUtils.js";
+import { getPageName } from "./utility/pageUtils.js";
 import Thumbnail from "./Thumbnail.jsx";
 
 import "./Category.css";
 
-// Vite is ESM, so category datasets are loaded via glob instead of require().
-const dataModules = import.meta.glob("./data/*.json", { eager: true, import: "default" });
+// Lazy glob: each category dataset is its own chunk, loaded only when its route opens.
+const dataModules = import.meta.glob("./data/*.json", { import: "default" });
 
 const Category = ({ type }) => {
+    const navigate = useNavigate();
+    // Client-side home nav (keeps the SPA warm) instead of a full document reload.
+    const goHome = useCallback(() => navigate("/"), [navigate]);
+
     const [data, setData] = useState([]);
     const [status, setStatus] = useState("loading");
     const [clickedItemName, setClickedItemName] = useState("");
@@ -23,30 +27,35 @@ const Category = ({ type }) => {
     const [showCelebration, setShowCelebration] = useState(false);
 
     useEffect(() => {
-        const jsonData = dataModules[`./data/${type}.json`];
-        if (!jsonData) {
+        const loadData = dataModules[`./data/${type}.json`];
+        if (!loadData) {
             setData([]);
             setStatus("error");
             return;
         }
 
-        const updatedData = jsonData.map((item, index) => {
-            if (!item.color) {
-                item.color = getHueColor(index, jsonData.length);
-            }
-            return item;
+        let active = true;
+        setStatus("loading");
+        loadData().then(jsonData => {
+            if (!active) return;
+            // Derive into new objects - never mutate the cached JSON module (shared state).
+            const updatedData = jsonData.map((item, index) => ({
+                ...item,
+                color: item.color || getHueColor(index, jsonData.length),
+            }));
+            setData(updatedData);
+            setStatus("ready");
+            setBgImage(localStorage.getItem("bgImage") === "true");
         });
 
-        setData(updatedData);
-        setStatus("ready");
-
-        const initialBgImageValue = localStorage.getItem("bgImage") === "true";
-        setBgImage(initialBgImageValue);
+        return () => {
+            active = false;
+        };
     }, [type]);
 
     useEffect(() => {
         playAudio(clickedItems.length, data.length, goHome);
-    }, [clickedItems.length, data.length]);
+    }, [clickedItems.length, data.length, goHome]);
 
     // Keep a live ref of clicked items so handleSelect can stay a stable
     // callback (needed for Thumbnail's React.memo) while still reading current state.

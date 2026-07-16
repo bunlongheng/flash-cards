@@ -1,3 +1,4 @@
+// Turn a category slug ("under-water") into a display title ("Under Water").
 export function getPageName(type) {
     if (type && type.includes("-")) {
         return type
@@ -7,8 +8,4 @@ export function getPageName(type) {
     } else if (type) {
         return type.charAt(0).toUpperCase() + type.slice(1);
     }
-}
-
-export function goHome() {
-    window.location.href = "/";
 }
