@@ -2,7 +2,7 @@ import os
 import json
 
 # Directory containing JSON files
-d = '/Users/hengb01/Sites/flash-cards/src/data'
+d = 'src/data'
 
 # Function to count objects in a JSON file
 def count_objects(fp):

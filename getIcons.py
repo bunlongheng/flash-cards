@@ -1,7 +1,7 @@
 import json
 import webbrowser
 
-json_file_path = "/Users/hengb01/Sites/flash-cards/src/data/construction-vehicles.json"
+json_file_path = "src/data/construction-vehicles.json"
 
 with open(json_file_path, "r") as json_file:
     json_data = json.load(json_file)

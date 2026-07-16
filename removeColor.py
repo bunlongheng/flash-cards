@@ -2,7 +2,7 @@ import os
 import json
 
 # Define your directory path
-directory = '/Users/hengb01/Sites/flash-cards/src/data'
+directory = 'src/data'
 
 # Loop through all files in the directory
 for filename in os.listdir(directory):

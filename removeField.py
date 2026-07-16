@@ -1,7 +1,7 @@
 import os
 import json
 
-directory = '/Users/hengb01/Sites/flash-cards/src/data'
+directory = 'src/data'
 
 for filename in os.listdir(directory):
     if filename.endswith('.json'):

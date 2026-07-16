@@ -22,8 +22,8 @@ with open(env_file, "a") as file:
 
 print("\n\n\n\n")
 print("\033[42;1;97mDone\033[0m: .env updated!")
-print("\033[46;1;97mAdd icon for new type(s)\033[0m: /Users/hengb01/Sites/flash-cards/public/images/types")
+print("\033[46;1;97mAdd icon for new type(s)\033[0m: public/images/types")
 print("\n\n\n\n")
 
 
-os.system("open /Users/hengb01/Sites/flash-cards/public/images/types")
+os.system("open public/images/types")
