@@ -67,8 +67,18 @@ input:checked + .slider:before {
     z-index: 1000;
 }
 
+.settings-backdrop {
+    position: absolute;
+    inset: 0;
+    border: none;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
 .settings-panel {
     position: relative;
+    z-index: 1;
     background: #fff;
     color: #222;
     padding: 28px 32px;

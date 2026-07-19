@@ -1,6 +1,8 @@
 @font-face {
     font-family: "Kiddosy";
-    src: url("/public/fonts/fankids/FanKids.otf") format("opentype"), url("/public/fonts/fankids/FanKids.ttf") format("truetype");
+    src:
+        url("/public/fonts/fankids/FanKids.otf") format("opentype"),
+        url("/public/fonts/fankids/FanKids.ttf") format("truetype");
 }
 
 .state-msg {

@@ -19,12 +19,18 @@ describe("Settings", () => {
         expect(localStorage.getItem("bgImage")).toBe("true");
     });
 
-    it("renders a dismissable modal when given onClose", () => {
+    it("renders a dismissable modal (close button and Escape) when given onClose", () => {
         const onClose = vi.fn();
         render(<Settings onClose={onClose} />);
 
-        fireEvent.click(screen.getByLabelText(/close settings/i));
+        expect(screen.getByRole("dialog")).toBeInTheDocument();
+        // the close button (the visible x) is the last "close settings" control
+        const closers = screen.getAllByLabelText(/close settings/i);
+        fireEvent.click(closers[closers.length - 1]);
+        expect(onClose).toHaveBeenCalledTimes(1);
 
-        expect(onClose).toHaveBeenCalledOnce();
+        // Escape also closes
+        fireEvent.keyDown(window, { key: "Escape" });
+        expect(onClose).toHaveBeenCalledTimes(2);
     });
 });

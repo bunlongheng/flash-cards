@@ -1,56 +1,61 @@
 {
-	"name": "flash-cards",
-	"version": "0.1.0",
-	"private": true,
-	"type": "module",
-	"engines": {
-		"node": ">=18",
-		"npm": ">=9"
-	},
-	"dependencies": {
-		"bootstrap": "^5.2.3",
-		"prop-types": "^15.8.1",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
-		"react-router-dom": "^6.15.0"
-	},
-	"scripts": {
-		"start": "vite",
-		"dev": "vite",
-		"build": "vite build",
-		"preview": "vite preview",
-		"lint": "eslint \"src/**/*.{js,jsx}\"",
-		"test": "vitest run",
-		"test:coverage": "vitest run --coverage",
-		"test:e2e": "playwright test"
-	},
-	"browserslist": {
-		"production": [
-			">0.2%",
-			"not dead",
-			"not op_mini all"
-		],
-		"development": [
-			"last 1 chrome version",
-			"last 1 firefox version",
-			"last 1 safari version"
-		]
-	},
-	"devDependencies": {
-		"@eslint/js": "^9.39.5",
-		"@playwright/test": "^1.61.1",
-		"@testing-library/dom": "^10.4.0",
-		"@testing-library/jest-dom": "^6.4.0",
-		"@testing-library/react": "^16.0.0",
-		"@testing-library/user-event": "^14.5.0",
-		"@vitejs/plugin-react": "^4.3.3",
-		"@vitest/coverage-v8": "^2.1.9",
-		"eslint": "^9.39.5",
-		"eslint-plugin-react": "^7.37.5",
-		"eslint-plugin-react-hooks": "^5.2.0",
-		"globals": "^17.7.0",
-		"jsdom": "^25.0.1",
-		"vite": "^5.4.10",
-		"vitest": "^2.1.4"
-	}
+    "name": "flash-cards",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "engines": {
+        "node": ">=18",
+        "npm": ">=9"
+    },
+    "dependencies": {
+        "bootstrap": "^5.2.3",
+        "prop-types": "^15.8.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.15.0"
+    },
+    "scripts": {
+        "start": "vite",
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "lint": "eslint \"src/**/*.{js,jsx}\"",
+        "test": "vitest run",
+        "test:coverage": "vitest run --coverage",
+        "test:e2e": "playwright test",
+        "format": "prettier --write .",
+        "format:check": "prettier --check ."
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.39.5",
+        "@playwright/test": "^1.61.1",
+        "@testing-library/dom": "^10.4.0",
+        "@testing-library/jest-dom": "^6.4.0",
+        "@testing-library/react": "^16.0.0",
+        "@testing-library/user-event": "^14.5.0",
+        "@vitejs/plugin-react": "^4.3.3",
+        "@vitest/coverage-v8": "^2.1.9",
+        "eslint": "^9.39.5",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-plugin-jsx-a11y": "^6.10.2",
+        "eslint-plugin-react": "^7.37.5",
+        "eslint-plugin-react-hooks": "^5.2.0",
+        "globals": "^17.7.0",
+        "jsdom": "^25.0.1",
+        "prettier": "^3.9.5",
+        "vite": "^5.4.10",
+        "vitest": "^2.1.4"
+    }
 }

@@ -18,7 +18,7 @@ describe("playAudio", () => {
                     plays.push(this.src);
                     return Promise.resolve();
                 }
-            }
+            },
         );
     });
 

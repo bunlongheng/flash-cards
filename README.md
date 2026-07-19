@@ -7,7 +7,7 @@ A static React app for picture-flashcard learning: browse a grid of categories, 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![React](https://img.shields.io/badge/React-18-149eca?logo=react)
 ![Vite](https://img.shields.io/badge/Vite-5-646cff?logo=vite)
-![Vitest](https://img.shields.io/badge/tests-16%20passing-6da35f?logo=vitest)
+![Vitest](https://img.shields.io/badge/tests-27%20passing-6da35f?logo=vitest)
 ![Vulnerabilities](https://img.shields.io/badge/prod%20vulns-0-6da35f)
 
 ## Contents
@@ -34,7 +34,7 @@ A static React app for picture-flashcard learning: browse a grid of categories, 
 
 ## Architecture
 
-Flash Cards is a single-page React app built with Vite. Routing generates one route per configured category, each category is a static JSON dataset loaded at build time via `import.meta.glob`, and all interaction state lives in React - there is no server.
+Flash Cards is a single-page React app built with Vite. Routing generates one route per configured category, each category's static JSON dataset is lazy-loaded per route via `import.meta.glob` (its own chunk), and all interaction state lives in React - there is no server.
 
 ```mermaid
 flowchart LR
@@ -49,7 +49,7 @@ flowchart LR
         Config["utility/config.js<br/>env list parser"]
     end
 
-    Data[("src/data/*.json<br/>52 category datasets")]
+    Data[("src/data/*.json<br/>48 category datasets")]
     Env[[".env<br/>REACT_APP_* config"]]
 
     User --> Router
@@ -63,21 +63,22 @@ flowchart LR
 
 Three layers, one direction of flow:
 
-| Layer | Files | Role |
-|-------|-------|------|
-| Routing | `App.jsx` | Builds one `<Route>` per configured category slug |
-| Screens | `Categories.jsx`, `Category.jsx`, `Settings.jsx` | Home grid, flashcard detail with progress/celebration, settings modal |
-| Component | `Thumbnail.jsx` | One memoized flashcard tile rendered as a native `<button>` |
-| Helpers | `utility/config.js`, `utility/*` | Hardened env-list parser plus pure color/audio/page/image helpers |
-| Data | `src/data/*.json` | 52 static category datasets, glob-loaded |
+| Layer     | Files                                            | Role                                                                  |
+| --------- | ------------------------------------------------ | --------------------------------------------------------------------- |
+| Routing   | `App.jsx`                                        | Builds one `<Route>` per configured category slug                     |
+| Screens   | `Categories.jsx`, `Category.jsx`, `Settings.jsx` | Home grid, flashcard detail with progress/celebration, settings modal |
+| Component | `Thumbnail.jsx`                                  | One memoized flashcard tile rendered as a native `<button>`           |
+| Helpers   | `utility/config.js`, `utility/*`                 | Hardened env-list parser plus pure color/audio/page/image helpers     |
+| Data      | `src/data/*.json`                                | 48 static category datasets, glob-loaded                              |
 
 ## Tech stack
 
 - React 18 + React Router 6 (client-side routing)
-- Vite 5 build tooling; Vitest + React Testing Library for tests
-- Bootstrap 5 + plain CSS for styling
+- Vite 5 build tooling; Vitest + React Testing Library (unit/component) and Playwright (e2e)
+- ESLint (react-hooks + jsx-a11y) and Prettier, both gated in CI
+- Bootstrap 5 + plain CSS for styling; images served as WebP
 - Web Speech API (`speechSynthesis`) for spoken labels
-- Deployed as a static build (Vercel), CI via GitHub Actions
+- Deployed as a static build (Vercel) with security + long-cache headers; CI via GitHub Actions
 
 ## Quick start
 
@@ -93,11 +94,11 @@ npm start              # http://localhost:3015
 
 Copy `.env.example` to `.env` and set:
 
-| Env var | Required | Purpose |
-|---------|----------|---------|
-| `REACT_APP_CATEGORIES` | yes | Comma-separated category slugs; one route + home tile per slug. Each must have a matching `src/data/<slug>.json`. |
-| `REACT_APP_TRANSPORTATION_TYPES` | yes | Comma-separated slugs for the random transportation banner on the home screen. |
-| `REACT_APP_GREETING` | no | Greeting shown on the home screen (defaults to `Hi!`). |
+| Env var                          | Required | Purpose                                                                                                           |
+| -------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------- |
+| `REACT_APP_CATEGORIES`           | yes      | Comma-separated category slugs; one route + home tile per slug. Each must have a matching `src/data/<slug>.json`. |
+| `REACT_APP_TRANSPORTATION_TYPES` | yes      | Comma-separated slugs for the random transportation banner on the home screen.                                    |
+| `REACT_APP_GREETING`             | no       | Greeting shown on the home screen (defaults to `Hi!`).                                                            |
 
 ## Project layout
 
@@ -105,15 +106,18 @@ Copy `.env.example` to `.env` and set:
 flash-cards/
   index.html            # Vite entry
   vite.config.js        # Vite + Vitest config (coverage gate)
-  vercel.json           # SPA rewrites + build output dir
+  vercel.json           # SPA rewrites + security & long-cache headers
+  eslint.config.js      # ESLint flat config (react-hooks + jsx-a11y)
+  playwright.config.js  # e2e config (runs against the dev server)
   src/
-    App.jsx             # Router: one route per category
+    App.jsx             # Router (wrapped in an ErrorBoundary): one route per category
+    ErrorBoundary.jsx   # Friendly fallback for render errors
     Categories.jsx      # Home grid + Settings modal
     Category.jsx        # Flashcard view: click/speak/progress/celebration
     Thumbnail.jsx       # Memoized native-button card tile
     Settings.jsx        # Background-image toggle
     utility/            # config (env parser), color, audio, page, image helpers
-    data/               # 52 category datasets (*.json)
+    data/               # 48 category datasets (*.json)
     *.test.{js,jsx}     # Vitest + React Testing Library suites
   public/               # images, sounds, fonts, icons
   NOTES.md              # how to add a new category
@@ -122,8 +126,11 @@ flash-cards/
 ## Testing
 
 ```bash
-npm test               # run the Vitest suite (16 tests, 8 suites)
-npm run test:coverage  # run with the coverage gate (70% floor)
+npm run lint           # ESLint (react-hooks + jsx-a11y)
+npm run format:check   # Prettier formatting check
+npm test               # Vitest suite (27 tests, 11 suites)
+npm run test:coverage  # with the coverage gate (85% statements/lines)
+npm run test:e2e       # Playwright end-to-end smoke of the core flow
 ```
 
 ## License

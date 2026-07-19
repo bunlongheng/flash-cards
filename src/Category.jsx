@@ -174,7 +174,11 @@ const Category = ({ type }) => {
             )}
 
             <span className={`selected bottom-left`}>
-                <a href={`https://www.google.com/images?q=${encodeURIComponent(clickedItemName)}`} target="_blank" rel="noopener noreferrer">
+                <a
+                    href={`https://www.google.com/images?q=${encodeURIComponent(clickedItemName)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     "{clickedItemName}"
                 </a>
             </span>

@@ -17,7 +17,7 @@ describe("Categories", () => {
         render(
             <MemoryRouter>
                 <Categories />
-            </MemoryRouter>
+            </MemoryRouter>,
         );
         expect(screen.getByText("shapes")).toBeInTheDocument();
         expect(screen.getByText("planets")).toBeInTheDocument();

@@ -18,6 +18,14 @@ const Settings = ({ onClose }) => {
         localStorage.setItem("bgImage", bgImage.toString());
     }, [bgImage]);
 
+    // Escape closes the modal (only when used as one).
+    useEffect(() => {
+        if (!onClose) return undefined;
+        const onKey = e => e.key === "Escape" && onClose();
+        window.addEventListener("keydown", onKey);
+        return () => window.removeEventListener("keydown", onKey);
+    }, [onClose]);
+
     const panel = (
         <div className="settings-panel">
             {onClose && (
@@ -25,21 +33,24 @@ const Settings = ({ onClose }) => {
                     &times;
                 </button>
             )}
-            <div className="switch-container">
-                <label className="switch">
+            {/* The label wraps both the control and its text, so it has an accessible name. */}
+            <label className="switch-container">
+                <span className="switch">
                     <input type="checkbox" checked={bgImage} onChange={handleBgImageChange} />
                     <span className="slider"></span>
-                </label>
+                </span>
                 <span className="switch-label">Image</span>
-            </div>
+            </label>
         </div>
     );
 
     if (!onClose) return panel;
 
     return (
-        <div className="settings-overlay" role="dialog" aria-modal="true" onClick={onClose}>
-            <div onClick={e => e.stopPropagation()}>{panel}</div>
+        <div className="settings-overlay" role="dialog" aria-modal="true" aria-label="Settings">
+            {/* Real <button> backdrop: click or keyboard closes, with no a11y gaps. */}
+            <button type="button" className="settings-backdrop" aria-label="Close settings" onClick={onClose} />
+            {panel}
         </div>
     );
 };

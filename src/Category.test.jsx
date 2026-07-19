@@ -6,7 +6,7 @@ const renderCategory = type =>
     render(
         <MemoryRouter>
             <Category type={type} />
-        </MemoryRouter>
+        </MemoryRouter>,
     );
 
 describe("Category", () => {
