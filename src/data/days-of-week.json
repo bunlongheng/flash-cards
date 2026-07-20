@@ -1,23 +1,23 @@
 [
     {
-        "name": "Friday"
-    },
-    {
-        "name": "Monday"
-    },
-    {
-        "name": "Saturday"
-    },
-    {
         "name": "Sunday"
     },
     {
-        "name": "Thursday"
+        "name": "Monday"
     },
     {
         "name": "Tuesday"
     },
     {
         "name": "Wednesday"
+    },
+    {
+        "name": "Thursday"
+    },
+    {
+        "name": "Friday"
+    },
+    {
+        "name": "Saturday"
     }
 ]
