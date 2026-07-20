@@ -1,0 +1,10 @@
+/* Kids app: tap-only. No text selection, no long-press callout (which is where iOS
+   surfaces "Copy / Search Google"), and no tap-highlight flash - anywhere in the app. */
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+}

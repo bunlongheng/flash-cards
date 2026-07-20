@@ -173,15 +173,8 @@ const Category = ({ type }) => {
                 </div>
             )}
 
-            <span className={`selected bottom-left`}>
-                <a
-                    href={`https://www.google.com/images?q=${encodeURIComponent(clickedItemName)}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    "{clickedItemName}"
-                </a>
-            </span>
+            {/* Just the last-tapped name as plain text - no link out of the app. */}
+            <span className={`selected bottom-left`}>{clickedItemName && `"${clickedItemName}"`}</span>
 
             {/************* */}
             {/*   length    */}
