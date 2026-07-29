@@ -1,9 +1,57 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import { VitePWA } from "vite-plugin-pwa";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    plugins: [react()],
+    plugins: [
+        react(),
+        VitePWA({
+            registerType: "autoUpdate",
+            includeAssets: ["favicon.ico", "apple-touch-icon.png", "icon.png", "icon-192.png"],
+            manifest: {
+                name: "Flash Cards",
+                short_name: "Flash Cards",
+                description: "Flash Cards - interactive picture-flashcard learning for kids.",
+                theme_color: "#000000",
+                background_color: "#d8dde6",
+                display: "standalone",
+                start_url: "/",
+                icons: [
+                    { src: "/icon-192.png", sizes: "192x192", type: "image/png" },
+                    { src: "/icon.png", sizes: "512x512", type: "image/png" },
+                ],
+            },
+            workbox: {
+                // The 1200+ flashcard images under /images live outside the precache -
+                // they're cached on first view via the runtimeCaching rule below instead
+                // of bloating the initial install with ~40MB of assets.
+                globPatterns: ["**/*.{js,css,html,png,jpg,jpeg,svg,webp,ico,woff2}"],
+                globIgnores: ["images/**"],
+                maximumFileSizeToCacheInBytes: 6000000,
+                runtimeCaching: [
+                    {
+                        urlPattern: ({ url }) => url.pathname.startsWith("/images/"),
+                        handler: "CacheFirst",
+                        options: {
+                            cacheName: "flashcard-images",
+                            expiration: { maxEntries: 1500, maxAgeSeconds: 60 * 60 * 24 * 365 },
+                            cacheableResponse: { statuses: [0, 200] },
+                        },
+                    },
+                    {
+                        urlPattern: ({ url }) => url.origin === "https://picsum.photos",
+                        handler: "CacheFirst",
+                        options: {
+                            cacheName: "picsum-images",
+                            expiration: { maxEntries: 200, maxAgeSeconds: 60 * 60 * 24 * 365 },
+                            cacheableResponse: { statuses: [0, 200] },
+                        },
+                    },
+                ],
+            },
+        }),
+    ],
     // Keep the CRA-style REACT_APP_ prefix so existing .env vars are exposed
     // to the client via import.meta.env without renaming anything.
     envPrefix: ["VITE_", "REACT_APP_"],
