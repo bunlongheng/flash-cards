@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import { Link } from "react-router-dom";
 import Settings from "./Settings"; // Import your Settings component
 import { getCategories, getTransportationTypes } from "./utility/config.js";
+import { toImageSlug } from "./utility/imageUtils.js";
 
 import "./Categories.css";
 
@@ -58,7 +59,7 @@ const Categories = () => {
                             onClick={() => speak(category)}
                         >
                             <div className="thumbnail-style border border-secondary rounded p-3">
-                                <img src={`/images/types/${category}.png`} alt={category} className="image-style" />
+                                <img src={`/images/types/${toImageSlug(category)}.png`} alt={category} className="image-style" />
                             </div>
                             <div className="c-name mt-2">{category}</div>
                         </Link>
