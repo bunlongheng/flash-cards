@@ -104,10 +104,13 @@
 
 .initial {
     font-size: 6em;
+    line-height: 1;
 }
 
 .thumbnail-details h6 {
     font-size: 1em;
+    margin: 0;
+    line-height: 1.2;
 }
 
 .thumbnail:hover {
