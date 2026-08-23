@@ -6,7 +6,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 100vh; /* fallback */
+    min-height: 100dvh; /* matches visible area on iOS - no tiny scroll behind toolbar */
 }
 
 .link-container {

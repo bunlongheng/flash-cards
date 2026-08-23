@@ -17,7 +17,8 @@
     background: black;
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    min-height: 100vh; /* fallback */
+    min-height: 100dvh; /* matches visible area on iOS - no tiny scroll behind toolbar */
     /* font-family: "Kiddosy", sans-serif; */
 }
 

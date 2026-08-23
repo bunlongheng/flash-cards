@@ -168,13 +168,23 @@ const Category = ({ type }) => {
             {/**************** */}
 
             {slideText && (
-                <div className="slide-up">
+                <div className="slide-up" onAnimationEnd={() => setSlideText("")}>
                     <p>{slideText}</p>
                 </div>
             )}
 
-            {/* Just the last-tapped name as plain text - no link out of the app. */}
-            <span className={`selected bottom-left`}>{clickedItemName && `"${clickedItemName}"`}</span>
+            {/* Tap the last-tapped name to open Google Images (SafeSearch on) so kids can see it. */}
+            <span className={`selected bottom-left`}>
+                {clickedItemName && (
+                    <a
+                        href={`https://www.google.com/search?tbm=isch&safe=active&q=${encodeURIComponent(clickedItemName)}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        &quot;{clickedItemName}&quot;
+                    </a>
+                )}
+            </span>
 
             {/************* */}
             {/*   length    */}

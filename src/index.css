@@ -8,3 +8,10 @@
     -webkit-touch-callout: none;
     -webkit-tap-highlight-color: transparent;
 }
+
+/* Kill the default 8px body margin - otherwise a 100vh page is 16px too tall
+   and shows a tiny scroll even when content fits (worst on iPad Safari). */
+html,
+body {
+    margin: 0;
+}
