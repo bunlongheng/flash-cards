@@ -1,3 +1,13 @@
+<div align="center">
+  <img src="docs/icon.png" alt="Flash Cards" width="96" height="96" />
+  <h1>Flash Cards</h1>
+  <p><em>Picture-flashcard app for young kids: tap a card to hear its name across 48 categories</em></p>
+  <p><a href="https://norden-flashcards.vercel.app">Live</a> &middot; <a href="https://github.com/bunlongheng/flash-cards">Repo</a> &middot; <a href="https://bunlongheng.com/projects?name=flash-cards">Portfolio</a></p>
+  <img src="docs/social-preview.png" alt="Flash Cards - preview" width="820" />
+</div>
+
+---
+
 # Flash Cards
 
 A static React app for picture-flashcard learning: browse a grid of categories, open one, and tap each card to hear its name spoken aloud, with sound effects, animations, and a progress counter that celebrates when every card is cleared. Built for young kids.
