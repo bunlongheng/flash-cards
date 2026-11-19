@@ -15,3 +15,10 @@ html,
 body {
     margin: 0;
 }
+
+/* iOS paints the safe areas (status pill side, top bar) with the page background.
+   Dark, so they no longer show as white strips beside the dark app. */
+html,
+body {
+    background: #000;
+}
