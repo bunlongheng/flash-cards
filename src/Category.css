@@ -367,3 +367,42 @@
         font-size: 5em;
     }
 }
+
+/* ===================================================================================== */
+/* Every size: keep the last row clear of the fixed name/counter chips, and the chips
+   clear of the home indicator and side insets. */
+.thumbnails-container {
+    padding-bottom: calc(60px + env(safe-area-inset-bottom));
+}
+
+.bottom-left {
+    bottom: calc(10px + env(safe-area-inset-bottom));
+    left: calc(10px + env(safe-area-inset-left));
+}
+
+.bottom-right {
+    bottom: calc(10px + env(safe-area-inset-bottom));
+    right: calc(10px + env(safe-area-inset-right));
+}
+
+.achievement {
+    max-width: 90vw;
+    max-height: 90vw;
+}
+
+/* Phone widths (front screen): 40px breadcrumb padding wastes a row of cards. */
+@media (max-width: 767px) {
+    .breadcrumbs {
+        padding: 24px calc(20px + env(safe-area-inset-left));
+    }
+}
+
+/* Foldable open screen (html[data-device="duo"], set by /device.js): ~15% bigger tap targets. */
+html[data-device="duo"] .thumbnail {
+    width: 138px;
+    height: 138px;
+}
+
+html[data-device="duo"] .thumbnail-details h6 {
+    font-size: 12px;
+}

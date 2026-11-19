@@ -88,3 +88,19 @@
     border: 1px solid white;
     padding: 0 20px;
 }
+
+/* Foldable open screen (html[data-device="duo"], set by /device.js): use the full width
+   (Bootstrap caps .container at 540px here) and make the tiles ~15% bigger. */
+html[data-device="duo"] .categories-page .container {
+    max-width: none;
+    padding-bottom: env(safe-area-inset-bottom);
+}
+
+html[data-device="duo"] .thumbnail-style {
+    width: 115px;
+    height: 115px;
+}
+
+html[data-device="duo"] .c-name {
+    max-width: 115px;
+}
